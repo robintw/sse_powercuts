@@ -1,8 +1,29 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1607722234000)/",
+  "TimestampUtc": "/Date(1607723419000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "BH23 Area",
+      "Reference": "GU4476",
+      "LoggedAtUtc": "/Date(1607722500000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1607734800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.73765968547994,
+        "Longitude": -1.7578646500760742,
+        "DisplayText": "50.73765968547994, -1.7578646500760742"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GU4476'",
+      "AffectedAreas": [
+        "BH23 3AA",
+        "BH23 3BQ"
+      ],
+      "DepotCode": "31",
+      "IsDepot": false
+    },
     {
       "Title": "GU27 Area",
       "Reference": "GU4934",
@@ -77,33 +98,6 @@
         "GL54 3HL"
       ],
       "DepotCode": "55",
-      "IsDepot": false
-    },
-    {
-      "Title": "W4 Area",
-      "Reference": "GU4864",
-      "LoggedAtUtc": "/Date(1607702880000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1607731140000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.49354839740507,
-        "Longitude": -0.2607669759437032,
-        "DisplayText": "51.493548397405071, -0.26076697594370318"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GU4864'",
-      "AffectedAreas": [
-        "W4 1NT",
-        "W4 1NU",
-        "W4 1NX",
-        "W4 1NY",
-        "W4 1PA",
-        "W4 1RX",
-        "W4 5TZ",
-        "W4 5UN"
-      ],
-      "DepotCode": "34",
       "IsDepot": false
     }
   ]
