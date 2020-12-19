@@ -1,8 +1,32 @@
 {
-  "Message": "3 reported faults",
-  "TimestampUtc": "/Date(1608339930000)/",
+  "Message": "4 reported faults",
+  "TimestampUtc": "/Date(1608343248000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "DT10 Area",
+      "Reference": "GU8999",
+      "LoggedAtUtc": "/Date(1608342000000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1608343200000)/",
+      "FaultType": "HV",
+      "Location": {
+        "Latitude": 50.90213235681282,
+        "Longitude": -2.3334857051800024,
+        "DisplayText": "50.902132356812821, -2.3334857051800024"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GU8999'",
+      "AffectedAreas": [
+        "DT10 2AF",
+        "DT10 2AG",
+        "DT10 2AJ",
+        "DT10 2AL",
+        "DT10 2DW"
+      ],
+      "DepotCode": "56",
+      "IsDepot": false
+    },
     {
       "Title": "DT3 Area",
       "Reference": "GU8861",
@@ -48,7 +72,7 @@
       "IsDepot": false
     },
     {
-      "Title": "SO42 Area",
+      "Title": "SO41 & SO42 Areas",
       "Reference": "GU8881",
       "LoggedAtUtc": "/Date(1608316680000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
