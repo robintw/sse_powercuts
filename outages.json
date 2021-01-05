@@ -1,8 +1,30 @@
 {
   "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1609825240000)/",
+  "TimestampUtc": "/Date(1609826443000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "RG10 Area",
+      "Reference": "GV8756",
+      "LoggedAtUtc": "/Date(1609823880000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1609828200000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1609835400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.47601898438309,
+        "Longitude": -0.880991633725584,
+        "DisplayText": "51.476018984383089, -0.880991633725584"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GV8756'",
+      "AffectedAreas": [
+        "RG10 9QE",
+        "RG10 9QF",
+        "RG10 9QW"
+      ],
+      "DepotCode": "49",
+      "IsDepot": false
+    },
     {
       "Title": "SN3 Area",
       "Reference": "GV8748",
@@ -26,30 +48,6 @@
         "SN3 4QF"
       ],
       "DepotCode": "55",
-      "IsDepot": false
-    },
-    {
-      "Title": "PO33 Area",
-      "Reference": "GV8692",
-      "LoggedAtUtc": "/Date(1609797360000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1609826400000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.72638442374408,
-        "Longitude": -1.2217308459143228,
-        "DisplayText": "50.726384423744079, -1.2217308459143228"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GV8692'",
-      "AffectedAreas": [
-        "PO33 4AB",
-        "PO33 4LE",
-        "PO33 4LF",
-        "PO33 4LG",
-        "PO33 4PB"
-      ],
-      "DepotCode": "37",
       "IsDepot": false
     }
   ]
