@@ -1,8 +1,31 @@
 {
   "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1609998035000)/",
+  "TimestampUtc": "/Date(1609999529000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "SN5 Area",
+      "Reference": "GV9960",
+      "LoggedAtUtc": "/Date(1609997820000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1610004600000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1610011800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.55173300244629,
+        "Longitude": -1.840770855542913,
+        "DisplayText": "51.551733002446291, -1.840770855542913"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GV9960'",
+      "AffectedAreas": [
+        "SN5 8RA",
+        "SN5 8RB",
+        "SN5 8RE",
+        "SN5 8RR"
+      ],
+      "DepotCode": "55",
+      "IsDepot": false
+    },
     {
       "Title": "AB16 Area",
       "Reference": "GV9946",
@@ -25,34 +48,6 @@
         "AB16 6YF"
       ],
       "DepotCode": "24",
-      "IsDepot": false
-    },
-    {
-      "Title": "BH10 Area",
-      "Reference": "GV9732",
-      "LoggedAtUtc": "/Date(1609965900000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1610006400000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.74738013495025,
-        "Longitude": -1.9082994633179906,
-        "DisplayText": "50.747380134950248, -1.9082994633179906"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GV9732'",
-      "AffectedAreas": [
-        "BH10 4AD",
-        "BH10 4AF",
-        "BH10 4AH",
-        "BH10 4AJ",
-        "BH10 4AL",
-        "BH10 4AQ",
-        "BH10 4BF",
-        "BH10 4BY",
-        "BH10 4JD"
-      ],
-      "DepotCode": "31",
       "IsDepot": false
     }
   ]
