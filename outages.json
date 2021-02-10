@@ -1,8 +1,28 @@
 {
-  "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1612935918000)/",
+  "Message": "4 reported faults",
+  "TimestampUtc": "/Date(1612938341000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "GU27 Area",
+      "Reference": "GY2349",
+      "LoggedAtUtc": "/Date(1612937400000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1612944000000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1612949400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.08919864021866,
+        "Longitude": -0.7342259668434171,
+        "DisplayText": "51.089198640218662, -0.73422596684341712"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GY2349'",
+      "AffectedAreas": [
+        "GU27 1NF"
+      ],
+      "DepotCode": "44",
+      "IsDepot": false
+    },
     {
       "Title": "RG4 Area",
       "Reference": "GY2233",
@@ -33,8 +53,8 @@
       "Reference": "GY2150",
       "LoggedAtUtc": "/Date(1612898820000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1612899900000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1612940400000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1612944000000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 51.59489002783431,
@@ -48,6 +68,29 @@
         "RG9 6HA"
       ],
       "DepotCode": "47",
+      "IsDepot": false
+    },
+    {
+      "Title": "TW20 Area",
+      "Reference": "GY2242",
+      "LoggedAtUtc": "/Date(1612849740000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1612958400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.4283875759324,
+        "Longitude": -0.5802841149986023,
+        "DisplayText": "51.4283875759324, -0.58028411499860233"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GY2242'",
+      "AffectedAreas": [
+        "TW20 0PA",
+        "TW20 0PD",
+        "TW20 0PR",
+        "TW20 0PT"
+      ],
+      "DepotCode": "32",
       "IsDepot": false
     }
   ]
