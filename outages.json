@@ -1,10 +1,31 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1613715943000)/",
+  "TimestampUtc": "/Date(1613717462000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
     {
-      "Title": "DT1 & DT2 Areas",
+      "Title": "PO12 Area",
+      "Reference": "GY8467",
+      "LoggedAtUtc": "/Date(1613716320000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1613728800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.8067644897052,
+        "Longitude": -1.142580761507901,
+        "DisplayText": "50.8067644897052, -1.1425807615079011"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GY8467'",
+      "AffectedAreas": [
+        "PO12 4QU",
+        "PO12 4QX"
+      ],
+      "DepotCode": "46",
+      "IsDepot": false
+    },
+    {
+      "Title": "DT2 & DT1 Areas",
       "Reference": "GY8434",
       "LoggedAtUtc": "/Date(1613702880000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -76,28 +97,6 @@
         "OX5 3JN"
       ],
       "DepotCode": "42",
-      "IsDepot": false
-    },
-    {
-      "Title": "SO53 Area",
-      "Reference": "GY8334",
-      "LoggedAtUtc": "/Date(1613676660000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1613718000000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.9687803951269,
-        "Longitude": -1.3844129225968205,
-        "DisplayText": "50.9687803951269, -1.3844129225968205"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'GY8334'",
-      "AffectedAreas": [
-        "SO53 3BX",
-        "SO53 3EQ",
-        "SO53 3ER"
-      ],
-      "DepotCode": "54",
       "IsDepot": false
     }
   ]
