@@ -1,8 +1,31 @@
 {
   "Message": "6 reported faults",
-  "TimestampUtc": "/Date(1616974254000)/",
+  "TimestampUtc": "/Date(1616975455000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "PO2 Area",
+      "Reference": "HA8695",
+      "LoggedAtUtc": "/Date(1616974140000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1616978700000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1616985900000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.809186478537335,
+        "Longitude": -1.084955528382425,
+        "DisplayText": "50.809186478537335, -1.084955528382425"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HA8695'",
+      "AffectedAreas": [
+        "PO2 7BS",
+        "PO2 7HE",
+        "PO2 7LH",
+        "PO2 7SL"
+      ],
+      "DepotCode": "46",
+      "IsDepot": false
+    },
     {
       "Title": "RG42 Area",
       "Reference": "HA8478",
@@ -289,27 +312,6 @@
         "PH18 5TY"
       ],
       "DepotCode": "70",
-      "IsDepot": false
-    },
-    {
-      "Title": "HS6 Area",
-      "Reference": "HA8611",
-      "LoggedAtUtc": "/Date(1616942160000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1616943000000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1616977800000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 57.550943967763054,
-        "Longitude": -7.241197720870502,
-        "DisplayText": "57.550943967763054, -7.2411977208705016"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HA8611'",
-      "AffectedAreas": [
-        "HS6 5EU",
-        "HS6 5EX"
-      ],
-      "DepotCode": "52",
       "IsDepot": false
     }
   ]
