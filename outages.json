@@ -1,49 +1,52 @@
 {
   "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1617083416000)/",
+  "TimestampUtc": "/Date(1617084620000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "PH7 Area",
+      "Reference": "198910",
+      "LoggedAtUtc": "/Date(1617084000000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1617087600000)/",
+      "FaultType": "PSI",
+      "Location": {
+        "Latitude": 56.3680753520734,
+        "Longitude": -3.8455714252609496,
+        "DisplayText": "56.3680753520734, -3.8455714252609496"
+      },
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '198910'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "AffectedAreas": [
+        "PH7 3SB"
+      ],
+      "DepotCode": "70",
+      "IsDepot": false
+    },
     {
       "Title": "SP5 Area",
       "Reference": "HA9347",
       "LoggedAtUtc": "/Date(1617078540000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1617082200000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1617092100000)/",
-      "FaultType": "LV",
+      "FaultType": "HV",
       "Location": {
-        "Latitude": 51.0827785687559,
-        "Longitude": -1.6996498134567322,
-        "DisplayText": "51.0827785687559, -1.6996498134567322"
+        "Latitude": 51.08258848942153,
+        "Longitude": -1.6991656533766555,
+        "DisplayText": "51.082588489421532, -1.6991656533766555"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HA9347'",
       "AffectedAreas": [
+        "SP5 1DL",
         "SP5 1DP",
-        "SP5 1DS"
+        "SP5 1DQ",
+        "SP5 1DR",
+        "SP5 1DS",
+        "SP5 1ER",
+        "SP5 1EU"
       ],
       "DepotCode": "51",
-      "IsDepot": false
-    },
-    {
-      "Title": "IV36 Area",
-      "Reference": "HA9346",
-      "LoggedAtUtc": "/Date(1617076560000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1617078600000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1617087600000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 57.60480996958199,
-        "Longitude": -3.6108490466836205,
-        "DisplayText": "57.604809969581993, -3.6108490466836205"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HA9346'",
-      "AffectedAreas": [
-        "IV36 0DG",
-        "IV36 1DG",
-        "IV36 1FG"
-      ],
-      "DepotCode": "24",
       "IsDepot": false
     }
   ]
