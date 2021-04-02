@@ -1,8 +1,29 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1617405099000)/",
+  "TimestampUtc": "/Date(1617406262000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "UB5 Area",
+      "Reference": "HB1421",
+      "LoggedAtUtc": "/Date(1617405120000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1617409800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1617417000000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.54506338615389,
+        "Longitude": -0.37538913659091067,
+        "DisplayText": "51.545063386153892, -0.37538913659091067"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB1421'",
+      "AffectedAreas": [
+        "UB5 5BP",
+        "UB5 5BS"
+      ],
+      "DepotCode": "34",
+      "IsDepot": false
+    },
     {
       "Title": "BH10 Area",
       "Reference": "HB1398",
@@ -22,38 +43,6 @@
         "BH10 4BW"
       ],
       "DepotCode": "31",
-      "IsDepot": false
-    },
-    {
-      "Title": "RG25 Area",
-      "Reference": "HB1374",
-      "LoggedAtUtc": "/Date(1617387240000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1617408000000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.23676252778665,
-        "Longitude": -1.245597551827516,
-        "DisplayText": "51.236762527786652, -1.245597551827516"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB1374'",
-      "AffectedAreas": [
-        "RG25 2HG",
-        "RG25 3AB",
-        "RG25 3AD",
-        "RG25 3ND",
-        "RG25 3NE",
-        "RG25 3NF",
-        "RG25 3NG",
-        "RG25 3NH",
-        "RG25 3NQ",
-        "RG25 3NX",
-        "RG25 3NZ",
-        "RG25 3PB",
-        "RG25 3TG"
-      ],
-      "DepotCode": "30",
       "IsDepot": false
     },
     {
@@ -80,7 +69,7 @@
       "IsDepot": false
     },
     {
-      "Title": "RG9 Area",
+      "Title": "HP14 & RG9 Areas",
       "Reference": "HB1303",
       "LoggedAtUtc": "/Date(1617369720000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
