@@ -1,10 +1,35 @@
 {
-  "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1617760216000)/",
+  "Message": "3 reported faults",
+  "TimestampUtc": "/Date(1617762608000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
     {
-      "Title": "AB45 Area",
+      "Title": "SL5 Area",
+      "Reference": "HB3263",
+      "LoggedAtUtc": "/Date(1617760500000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1617764400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1617771600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.41341479750647,
+        "Longitude": -0.6938883930417289,
+        "DisplayText": "51.413414797506469, -0.69388839304172889"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB3263'",
+      "AffectedAreas": [
+        "SL5 8EN",
+        "SL5 8TA",
+        "SL5 8TB",
+        "SL5 8TL",
+        "SL5 8TN",
+        "SL5 8TW"
+      ],
+      "DepotCode": "32",
+      "IsDepot": false
+    },
+    {
+      "Title": "AB43 & AB45 Areas",
       "Reference": "HB3258",
       "LoggedAtUtc": "/Date(1617755640000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
