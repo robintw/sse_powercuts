@@ -1,8 +1,33 @@
 {
   "Message": "3 reported faults",
-  "TimestampUtc": "/Date(1617950114000)/",
+  "TimestampUtc": "/Date(1617951312000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "SO50 Area",
+      "Reference": "HB4396",
+      "LoggedAtUtc": "/Date(1617942960000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1617980400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.94982739261305,
+        "Longitude": -1.297299219288233,
+        "DisplayText": "50.949827392613052, -1.2972992192882331"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB4396'",
+      "AffectedAreas": [
+        "SO50 7DQ",
+        "SO50 7DU",
+        "SO50 7FJ",
+        "SO50 7PA",
+        "SO50 7PB",
+        "SO50 7PF"
+      ],
+      "DepotCode": "40",
+      "IsDepot": false
+    },
     {
       "Title": "RG45 Area",
       "Reference": "HB4387",
@@ -51,26 +76,6 @@
         "IV3 8HW"
       ],
       "DepotCode": "41",
-      "IsDepot": false
-    },
-    {
-      "Title": "OX2 Area",
-      "Reference": "198948",
-      "LoggedAtUtc": "/Date(1617692400000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1617951600000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 51.76137141433421,
-        "Longitude": -1.2627094339597884,
-        "DisplayText": "51.761371414334207, -1.2627094339597884"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '198948'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "OX2 6HG"
-      ],
-      "DepotCode": "43",
       "IsDepot": false
     }
   ]
