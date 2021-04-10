@@ -6,3 +6,6 @@ SSE displays data on their webpage at https://www.ssen.co.uk/Powertrack/, which 
 API: https://www.ssen.co.uk/Sse_Components/Views/Controls/FormControls/PowerTrackHandler.ashx.
 
 Very much inspired by (and almost an exact copy of): https://simonwillison.net/2020/Oct/9/git-scraping/
+
+by Robin Wilson
+
