@@ -1,8 +1,29 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1618622115000)/",
+  "TimestampUtc": "/Date(1618623917000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "IV2 Area",
+      "Reference": "HB8040",
+      "LoggedAtUtc": "/Date(1618622580000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1618634700000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 57.452084616491646,
+        "Longitude": -4.226341637394299,
+        "DisplayText": "57.452084616491646, -4.2263416373942988"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB8040'",
+      "AffectedAreas": [
+        "IV2 4RY",
+        "IV2 4RZ"
+      ],
+      "DepotCode": "41",
+      "IsDepot": false
+    },
     {
       "Title": "SN3 Area",
       "Reference": "HB8019",
@@ -76,28 +97,6 @@
         "IV36 1PB"
       ],
       "DepotCode": "24",
-      "IsDepot": false
-    },
-    {
-      "Title": "PH15 Area",
-      "Reference": "HB7884",
-      "LoggedAtUtc": "/Date(1618584540000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1618588800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1618623000000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 56.59527730972547,
-        "Longitude": -3.991991898663935,
-        "DisplayText": "56.595277309725468, -3.9919918986639349"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HB7884'",
-      "AffectedAreas": [
-        "PH15 2HJ",
-        "PH15 2LS",
-        "PH15 2NT"
-      ],
-      "DepotCode": "70",
       "IsDepot": false
     }
   ]
