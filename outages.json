@@ -1,10 +1,35 @@
 {
-  "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1619140523000)/",
+  "Message": "3 reported faults",
+  "TimestampUtc": "/Date(1619142618000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
     {
-      "Title": "SP11 Area",
+      "Title": "RG31 Area",
+      "Reference": "HC0815",
+      "LoggedAtUtc": "/Date(1619135880000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1619175600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.44198456528995,
+        "Longitude": -1.0314774923623955,
+        "DisplayText": "51.44198456528995, -1.0314774923623955"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC0815'",
+      "AffectedAreas": [
+        "RG31 7PG",
+        "RG31 7PH",
+        "RG31 7PQ",
+        "RG31 7RY",
+        "RG31 7YP",
+        "RG31 7YW"
+      ],
+      "DepotCode": "49",
+      "IsDepot": false
+    },
+    {
+      "Title": "RG28 & SP11 Areas",
       "Reference": "HC0800",
       "LoggedAtUtc": "/Date(1619119800000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -31,7 +56,7 @@
     {
       "Title": "SN5 Area",
       "Reference": "HC0744",
-      "LoggedAtUtc": "/Date(1619112600000)/",
+      "LoggedAtUtc": "/Date(1619114280000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1619143200000)/",
