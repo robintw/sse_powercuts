@@ -1,8 +1,31 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1619377829000)/",
+  "TimestampUtc": "/Date(1619379029000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "KW10 Area",
+      "Reference": "HC1921",
+      "LoggedAtUtc": "/Date(1619377860000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1619384400000)/",
+      "FaultType": "HV",
+      "Location": {
+        "Latitude": 57.98839597258116,
+        "Longitude": -3.9576535088221516,
+        "DisplayText": "57.988395972581159, -3.9576535088221516"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC1921'",
+      "AffectedAreas": [
+        "KW10 6SE",
+        "KW10 6SF",
+        "KW10 6SH",
+        "KW10 6SQ"
+      ],
+      "DepotCode": "41",
+      "IsDepot": false
+    },
     {
       "Title": "ZE1 Area",
       "Reference": "HC1904",
@@ -79,32 +102,6 @@
         "SP5 3QR"
       ],
       "DepotCode": "51",
-      "IsDepot": false
-    },
-    {
-      "Title": "KW10 Area",
-      "Reference": "HC1900",
-      "LoggedAtUtc": "/Date(1619371440000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1619377200000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1619384400000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 57.98536806969339,
-        "Longitude": -3.9506547041431297,
-        "DisplayText": "57.985368069693394, -3.9506547041431297"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC1900'",
-      "AffectedAreas": [
-        "KW10 6RP",
-        "KW10 6RR",
-        "KW10 6SE",
-        "KW10 6SF",
-        "KW10 6SH",
-        "KW10 6SQ",
-        "KW9 6NL"
-      ],
-      "DepotCode": "41",
       "IsDepot": false
     }
   ]
