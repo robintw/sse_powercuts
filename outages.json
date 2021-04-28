@@ -1,8 +1,32 @@
 {
   "Message": "5 reported faults",
-  "TimestampUtc": "/Date(1619569221000)/",
+  "TimestampUtc": "/Date(1619570709000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "BA20 Area",
+      "Reference": "HC2938",
+      "LoggedAtUtc": "/Date(1619565720000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1619581200000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.932043549450775,
+        "Longitude": -2.660394567406395,
+        "DisplayText": "50.932043549450775, -2.6603945674063949"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC2938'",
+      "AffectedAreas": [
+        "BA20 2PL",
+        "BA20 2SA",
+        "BA20 2SE",
+        "BA20 2SF",
+        "BA20 2SR"
+      ],
+      "DepotCode": "56",
+      "IsDepot": false
+    },
     {
       "Title": "HP12 Area",
       "Reference": "HC2932",
@@ -115,27 +139,6 @@
         "DD11 4XE"
       ],
       "DepotCode": "70",
-      "IsDepot": false
-    },
-    {
-      "Title": "SO21 Area",
-      "Reference": "HC2801",
-      "LoggedAtUtc": "/Date(1619537520000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1619575200000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.08702278928995,
-        "Longitude": -1.2410534044917525,
-        "DisplayText": "51.087022789289954, -1.2410534044917525"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC2801'",
-      "AffectedAreas": [
-        "SO21 1DB",
-        "SO21 1DD"
-      ],
-      "DepotCode": "40",
       "IsDepot": false
     }
   ]
