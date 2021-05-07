@@ -1,8 +1,30 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1620365418000)/",
+  "TimestampUtc": "/Date(1620366614000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "SN3 Area",
+      "Reference": "HC8440",
+      "LoggedAtUtc": "/Date(1620364680000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1620377100000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.57618647522354,
+        "Longitude": -1.7553450709840326,
+        "DisplayText": "51.576186475223537, -1.7553450709840326"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC8440'",
+      "AffectedAreas": [
+        "SN3 4PG",
+        "SN3 4QD",
+        "SN3 4WT"
+      ],
+      "DepotCode": "55",
+      "IsDepot": false
+    },
     {
       "Title": "PH32 Area",
       "Reference": "199447",
@@ -72,31 +94,6 @@
         "BH21 7PY"
       ],
       "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "DD8 Area",
-      "Reference": "HC8339",
-      "LoggedAtUtc": "/Date(1620321900000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1620367200000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 56.65574792874083,
-        "Longitude": -2.872484579561641,
-        "DisplayText": "56.65574792874083, -2.8724845795616409"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC8339'",
-      "AffectedAreas": [
-        "DD8 3BP",
-        "DD8 3BT",
-        "DD8 3EL",
-        "DD8 3EN",
-        "DD8 3NG",
-        "DD8 3NH"
-      ],
-      "DepotCode": "70",
       "IsDepot": false
     }
   ]
