@@ -1,15 +1,39 @@
 {
   "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1620431719000)/",
+  "TimestampUtc": "/Date(1620436532000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "W5 Area",
+      "Reference": "HC8859",
+      "LoggedAtUtc": "/Date(1620434160000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1620444600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.510359219638886,
+        "Longitude": -0.28916479713670973,
+        "DisplayText": "51.510359219638886, -0.28916479713670973"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC8859'",
+      "AffectedAreas": [
+        "W5 3LD",
+        "W5 3LL",
+        "W5 3LS",
+        "W5 3PA",
+        "W5 3PH"
+      ],
+      "DepotCode": "34",
+      "IsDepot": false
+    },
     {
       "Title": "PH23 Area",
       "Reference": "HC8858",
       "LoggedAtUtc": "/Date(1620425820000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1620435600000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1620442800000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 57.28990390377765,
@@ -21,30 +45,6 @@
         "PH23 3NA"
       ],
       "DepotCode": "41",
-      "IsDepot": false
-    },
-    {
-      "Title": "GU9 Area",
-      "Reference": "HC8860",
-      "LoggedAtUtc": "/Date(1620424980000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1620437400000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.21823237080686,
-        "Longitude": -0.7956552075411888,
-        "DisplayText": "51.218232370806859, -0.79565520754118879"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC8860'",
-      "AffectedAreas": [
-        "GU9 7JP",
-        "GU9 7JR",
-        "GU9 7JY",
-        "GU9 7JZ",
-        "GU9 7LA"
-      ],
-      "DepotCode": "29",
       "IsDepot": false
     }
   ]
