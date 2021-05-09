@@ -1,6 +1,28 @@
 {
-  "Message": "No reported faults",
-  "TimestampUtc": "/Date(1620528927000)/",
+  "Message": "1 reported fault",
+  "TimestampUtc": "/Date(1620531027000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
-  "Faults": []
+  "Faults": [
+    {
+      "Title": "HP12 Area",
+      "Reference": "HC9469",
+      "LoggedAtUtc": "/Date(1620529080000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1620531900000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1620541800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.61621149283151,
+        "Longitude": -0.7705784739908956,
+        "DisplayText": "51.616211492831511, -0.77057847399089563"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HC9469'",
+      "AffectedAreas": [
+        "HP12 4FG",
+        "HP12 4TY"
+      ],
+      "DepotCode": "47",
+      "IsDepot": false
+    }
+  ]
 }
