@@ -1,8 +1,32 @@
 {
   "Message": "2 reported faults",
-  "TimestampUtc": "/Date(1620702318000)/",
+  "TimestampUtc": "/Date(1620704719000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "RG14 & RG20 Areas",
+      "Reference": "HE0982",
+      "LoggedAtUtc": "/Date(1620703920000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1620707400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1620714600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.37960303566368,
+        "Longitude": -1.3728425856637616,
+        "DisplayText": "51.379603035663678, -1.3728425856637616"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HE0982'",
+      "AffectedAreas": [
+        "RG14 6RP",
+        "RG20 0JU",
+        "RG20 0JX",
+        "RG20 0JY",
+        "RG20 0LA"
+      ],
+      "DepotCode": "39",
+      "IsDepot": false
+    },
     {
       "Title": "BH19 Area",
       "Reference": "HE0879",
@@ -31,33 +55,6 @@
         "BH19 2RG"
       ],
       "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "RG9 Area",
-      "Reference": "HE0854",
-      "LoggedAtUtc": "/Date(1620682320000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1620702000000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.582886281480334,
-        "Longitude": -1.0207928793793148,
-        "DisplayText": "51.582886281480334, -1.0207928793793148"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HE0854'",
-      "AffectedAreas": [
-        "RG9 5RT",
-        "RG9 5RU",
-        "RG9 5RX",
-        "RG9 5RY",
-        "RG9 5SH",
-        "RG9 5SJ",
-        "RG9 5TX",
-        "RG9 5TY"
-      ],
-      "DepotCode": "47",
       "IsDepot": false
     }
   ]
