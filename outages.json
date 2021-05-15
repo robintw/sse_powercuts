@@ -1,8 +1,34 @@
 {
   "Message": "8 reported faults",
-  "TimestampUtc": "/Date(1621071016000)/",
+  "TimestampUtc": "/Date(1621072524000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "OX12 Area",
+      "Reference": "HE6688",
+      "LoggedAtUtc": "/Date(1621070700000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1621081800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.608235463833005,
+        "Longitude": -1.4299013450559497,
+        "DisplayText": "51.608235463833005, -1.4299013450559497"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HE6688'",
+      "AffectedAreas": [
+        "OX12 0DE",
+        "OX12 0NE",
+        "OX12 0NY",
+        "OX12 0PY",
+        "OX12 0PZ",
+        "OX12 0QJ",
+        "OX12 0QZ"
+      ],
+      "DepotCode": "43",
+      "IsDepot": false
+    },
     {
       "Title": "GL7 Area",
       "Reference": "HE6657",
@@ -35,50 +61,6 @@
         "GL7 1YH",
         "GL7 1YN",
         "GL7 1YU"
-      ],
-      "DepotCode": "55",
-      "IsDepot": false
-    },
-    {
-      "Title": "GL7 Area",
-      "Reference": "HE6636",
-      "LoggedAtUtc": "/Date(1621069740000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1621081800000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.716180469574475,
-        "Longitude": -1.930285790031467,
-        "DisplayText": "51.716180469574475, -1.9302857900314669"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HE6636'",
-      "AffectedAreas": [
-        "GL7 1RZ",
-        "GL7 5DS",
-        "GL7 5DT",
-        "GL7 5DX",
-        "GL7 5EZ",
-        "GL7 5FB",
-        "GL7 5HA",
-        "GL7 5HB",
-        "GL7 5HF",
-        "GL7 5PN",
-        "GL7 5PP",
-        "GL7 5PR",
-        "GL7 5PS",
-        "GL7 5PU",
-        "GL7 5RH",
-        "GL7 5RJ",
-        "GL7 5RN",
-        "GL7 5RP",
-        "GL7 5RR",
-        "GL7 5RW",
-        "GL7 5RX",
-        "GL7 5SG",
-        "GL7 5XA",
-        "GL7 6ET",
-        "GL7 6GE"
       ],
       "DepotCode": "55",
       "IsDepot": false
@@ -179,7 +161,7 @@
       "IsDepot": false
     },
     {
-      "Title": "DD5 Area",
+      "Title": "DD4 & DD5 Areas",
       "Reference": "HE6585",
       "LoggedAtUtc": "/Date(1621061400000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
