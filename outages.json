@@ -1,8 +1,28 @@
 {
-  "Message": "7 reported faults",
-  "TimestampUtc": "/Date(1621457405000)/",
+  "Message": "6 reported faults",
+  "TimestampUtc": "/Date(1621459509000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "RG4 Area",
+      "Reference": "HF1068",
+      "LoggedAtUtc": "/Date(1621456380000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1621461600000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1621468800000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.500889957659844,
+        "Longitude": -0.9610907886226977,
+        "DisplayText": "51.500889957659844, -0.9610907886226977"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HF1068'",
+      "AffectedAreas": [
+        "RG4 9NR"
+      ],
+      "DepotCode": "47",
+      "IsDepot": false
+    },
     {
       "Title": "PA28 Area",
       "Reference": "HF1065",
@@ -28,15 +48,15 @@
     {
       "Title": "DD3 & DD1 Areas",
       "Reference": "HF1058",
-      "LoggedAtUtc": "/Date(1621453920000)/",
+      "LoggedAtUtc": "/Date(1621453740000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1621465140000)/",
       "FaultType": "HV",
       "Location": {
-        "Latitude": 56.46579059926126,
-        "Longitude": -2.9720592815356843,
-        "DisplayText": "56.465790599261261, -2.9720592815356843"
+        "Latitude": 56.46585008375468,
+        "Longitude": -2.971346677127883,
+        "DisplayText": "56.465850083754681, -2.9713466771278831"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HF1058'",
       "AffectedAreas": [
@@ -93,8 +113,11 @@
         "DD3 7UN",
         "DD3 8LE",
         "DD4 6AF",
+        "DD4 6AT",
+        "DD4 6AY",
         "DD4 6BY",
-        "DD4 6DL"
+        "DD4 6DL",
+        "DD4 6QH"
       ],
       "DepotCode": "70",
       "IsDepot": false
@@ -120,29 +143,6 @@
         "SO23 7NP"
       ],
       "DepotCode": "40",
-      "IsDepot": false
-    },
-    {
-      "Title": "AB45 & AB56 Areas",
-      "Reference": "HF0915",
-      "LoggedAtUtc": "/Date(1621440180000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1621458000000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 57.669366196405804,
-        "Longitude": -2.762415856775953,
-        "DisplayText": "57.669366196405804, -2.7624158567759531"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HF0915'",
-      "AffectedAreas": [
-        "AB45 2UJ",
-        "AB45 2UN",
-        "AB56 4TJ",
-        "AB56 4TN"
-      ],
-      "DepotCode": "24",
       "IsDepot": false
     },
     {
@@ -185,35 +185,6 @@
         "SN3 5JF"
       ],
       "DepotCode": "55",
-      "IsDepot": false
-    },
-    {
-      "Title": "GU8 Area",
-      "Reference": "HF0826",
-      "LoggedAtUtc": "/Date(1621419120000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1621459800000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.14391936137326,
-        "Longitude": -0.6742744756731263,
-        "DisplayText": "51.143919361373257, -0.67427447567312626"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HF0826'",
-      "AffectedAreas": [
-        "GU8 5PT",
-        "GU8 5PU",
-        "GU8 5PX",
-        "GU8 5UJ",
-        "GU8 5UL",
-        "GU8 5UN",
-        "GU8 5UW",
-        "GU8 6AR",
-        "GU8 6BW",
-        "GU8 6NW"
-      ],
-      "DepotCode": "44",
       "IsDepot": false
     }
   ]
