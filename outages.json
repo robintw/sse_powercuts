@@ -1,10 +1,32 @@
 {
   "Message": "12 reported faults",
-  "TimestampUtc": "/Date(1624801831000)/",
+  "TimestampUtc": "/Date(1624803331000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
     {
-      "Title": "DT3 Area",
+      "Title": "SN2 Area",
+      "Reference": "HJ9418",
+      "LoggedAtUtc": "/Date(1624802040000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1624805400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1624813200000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.58670976220759,
+        "Longitude": -1.8222171491742998,
+        "DisplayText": "51.58670976220759, -1.8222171491742998"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HJ9418'",
+      "AffectedAreas": [
+        "SN2 2RF",
+        "SN2 2RG",
+        "SN2 2RH"
+      ],
+      "DepotCode": "55",
+      "IsDepot": false
+    },
+    {
+      "Title": "DT4 & DT3 Areas",
       "Reference": "HJ9366",
       "LoggedAtUtc": "/Date(1624799940000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -111,33 +133,12 @@
       "IsDepot": false
     },
     {
-      "Title": "SP2 Area",
-      "Reference": "HJ9333",
-      "LoggedAtUtc": "/Date(1624796160000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1624800000000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1624806900000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.0840457303577,
-        "Longitude": -1.85518519635486,
-        "DisplayText": "51.0840457303577, -1.85518519635486"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HJ9333'",
-      "AffectedAreas": [
-        "SP2 0BT",
-        "SP2 0BX"
-      ],
-      "DepotCode": "51",
-      "IsDepot": false
-    },
-    {
       "Title": "PO20 Area",
       "Reference": "HJ9318",
       "LoggedAtUtc": "/Date(1624794060000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(1624796100000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1624804200000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1624813200000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 50.77564166719058,
