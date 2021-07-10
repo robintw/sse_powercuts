@@ -1,8 +1,29 @@
 {
   "Message": "10 reported faults",
-  "TimestampUtc": "/Date(1625923515000)/",
+  "TimestampUtc": "/Date(1625924115000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "IV5 Area",
+      "Reference": "HM6276",
+      "LoggedAtUtc": "/Date(1625923140000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1625927400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1625934600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 57.46254523459601,
+        "Longitude": -4.410426240217094,
+        "DisplayText": "57.462545234596007, -4.4104262402170944"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM6276'",
+      "AffectedAreas": [
+        "IV5 7PP",
+        "IV5 7PQ"
+      ],
+      "DepotCode": "41",
+      "IsDepot": false
+    },
     {
       "Title": "PH1 Area",
       "Reference": "HM6255",
@@ -137,31 +158,6 @@
       "IsDepot": false
     },
     {
-      "Title": "OX3 Area",
-      "Reference": "HM5701",
-      "LoggedAtUtc": "/Date(1625905200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1625927400000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.76296823738225,
-        "Longitude": -1.1976233250389134,
-        "DisplayText": "51.762968237382253, -1.1976233250389134"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM5701'",
-      "AffectedAreas": [
-        "OX3 8DJ",
-        "OX3 8LB",
-        "OX3 9EL",
-        "OX3 9ER",
-        "OX3 9ES",
-        "OX3 9HJ"
-      ],
-      "DepotCode": "42",
-      "IsDepot": false
-    },
-    {
       "Title": "PH3 Area",
       "Reference": "HM6033",
       "LoggedAtUtc": "/Date(1625904960000)/",
@@ -204,7 +200,7 @@
       "IsDepot": false
     },
     {
-      "Title": "PH1 & AB30 Areas",
+      "Title": "AB30 & PH1 Areas",
       "Reference": "200913",
       "LoggedAtUtc": "/Date(1625904000000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
