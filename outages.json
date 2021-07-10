@@ -1,15 +1,61 @@
 {
-  "Message": "5 reported faults",
-  "TimestampUtc": "/Date(1625952015000)/",
+  "Message": "6 reported faults",
+  "TimestampUtc": "/Date(1625952915000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "ZE2 Area",
+      "Reference": "HM6529",
+      "LoggedAtUtc": "/Date(1625952480000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1625963400000)/",
+      "FaultType": "HV",
+      "Location": {
+        "Latitude": 60.42290590354931,
+        "Longitude": -0.7580990486064398,
+        "DisplayText": "60.422905903549307, -0.75809904860643984"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM6529'",
+      "AffectedAreas": [
+        "ZE2",
+        "ZE2 9AR",
+        "ZE2 9AS",
+        "ZE2 9AT"
+      ],
+      "DepotCode": "50",
+      "IsDepot": false
+    },
+    {
+      "Title": "SN14 Area",
+      "Reference": "HM6515",
+      "LoggedAtUtc": "/Date(1625951340000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1625957100000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1625963400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.46092112011782,
+        "Longitude": -2.136174931562769,
+        "DisplayText": "51.460921120117817, -2.1361749315627692"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM6515'",
+      "AffectedAreas": [
+        "SN14 0JN",
+        "SN14 0LP",
+        "SN14 0LR",
+        "SN14 0LW"
+      ],
+      "DepotCode": "38",
+      "IsDepot": false
+    },
     {
       "Title": "W7 Area",
       "Reference": "HM6504",
       "LoggedAtUtc": "/Date(1625949960000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(1625953500000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1625961300000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1625961600000)/",
       "FaultType": "LV",
       "Location": {
         "Latitude": 51.526758848509196,
@@ -25,7 +71,7 @@
       "IsDepot": false
     },
     {
-      "Title": "OX2 Area",
+      "Title": "OX44 & OX2 Areas",
       "Reference": "HM6489",
       "LoggedAtUtc": "/Date(1625949360000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -95,29 +141,6 @@
         "RG22 4NU"
       ],
       "DepotCode": "30",
-      "IsDepot": false
-    },
-    {
-      "Title": "SN14 Area",
-      "Reference": "HM6515",
-      "LoggedAtUtc": "/Date(1625885280000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1625962200000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.46092112011782,
-        "Longitude": -2.136174931562769,
-        "DisplayText": "51.460921120117817, -2.1361749315627692"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM6515'",
-      "AffectedAreas": [
-        "SN14 0JN",
-        "SN14 0LP",
-        "SN14 0LR",
-        "SN14 0LW"
-      ],
-      "DepotCode": "38",
       "IsDepot": false
     }
   ]
