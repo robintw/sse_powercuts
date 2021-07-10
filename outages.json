@@ -1,14 +1,38 @@
 {
   "Message": "4 reported faults",
-  "TimestampUtc": "/Date(1625945419000)/",
+  "TimestampUtc": "/Date(1625946615000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "SO19 Area",
+      "Reference": "HM5574",
+      "LoggedAtUtc": "/Date(1625942580000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1625949000000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.900061756449816,
+        "Longitude": -1.3762464503697576,
+        "DisplayText": "50.900061756449816, -1.3762464503697576"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM5574'",
+      "AffectedAreas": [
+        "SO19 2HN",
+        "SO19 2HP",
+        "SO19 2QW",
+        "SO19 7DD",
+        "SO19 7GQ"
+      ],
+      "DepotCode": "54",
+      "IsDepot": false
+    },
     {
       "Title": "W4 Area",
       "Reference": "HM6407",
       "LoggedAtUtc": "/Date(1625936520000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1625941800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1625949000000)/",
       "FaultType": "LV",
       "Location": {
@@ -78,30 +102,6 @@
         "RG22 4NU"
       ],
       "DepotCode": "30",
-      "IsDepot": false
-    },
-    {
-      "Title": "SO19 Area",
-      "Reference": "HM5574",
-      "LoggedAtUtc": "/Date(1625856180000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1625949000000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.900061756449816,
-        "Longitude": -1.3762464503697576,
-        "DisplayText": "50.900061756449816, -1.3762464503697576"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM5574'",
-      "AffectedAreas": [
-        "SO19 2HN",
-        "SO19 2HP",
-        "SO19 2QW",
-        "SO19 7DD",
-        "SO19 7GQ"
-      ],
-      "DepotCode": "54",
       "IsDepot": false
     }
   ]
