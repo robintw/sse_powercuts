@@ -1,15 +1,36 @@
 {
-  "Message": "27 reported faults",
-  "TimestampUtc": "/Date(1626118212000)/",
+  "Message": "26 reported faults",
+  "TimestampUtc": "/Date(1626119414000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "SO45 Area",
+      "Reference": "HM9140",
+      "LoggedAtUtc": "/Date(1626118320000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626130740000)/",
+      "FaultType": "HV",
+      "Location": {
+        "Latitude": 50.858094379836935,
+        "Longitude": -1.3900051466395646,
+        "DisplayText": "50.858094379836935, -1.3900051466395647"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9140'",
+      "AffectedAreas": [
+        "SO45 3NB",
+        "SO45 3NE"
+      ],
+      "DepotCode": "40",
+      "IsDepot": false
+    },
     {
       "Title": "PO16 Area",
       "Reference": "HM9122",
       "LoggedAtUtc": "/Date(1626117360000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626128100000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626129000000)/",
       "FaultType": "LV",
       "Location": {
         "Latitude": 50.840319901955624,
@@ -31,7 +52,7 @@
     {
       "Title": "W13 Area",
       "Reference": "HM9117",
-      "LoggedAtUtc": "/Date(1626116940000)/",
+      "LoggedAtUtc": "/Date(1626116640000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(1626120000000)/",
       "EstimatedRestorationTimeUtc": "/Date(1626127200000)/",
@@ -201,31 +222,6 @@
       "IsDepot": false
     },
     {
-      "Title": "W7 Area",
-      "Reference": "HM8892",
-      "LoggedAtUtc": "/Date(1626108900000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626120000000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.50274937106895,
-        "Longitude": -0.3365077064630328,
-        "DisplayText": "51.502749371068951, -0.3365077064630328"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM8892'",
-      "AffectedAreas": [
-        "W7",
-        "W7 2EP",
-        "W7 2LJ",
-        "W7 2LP",
-        "W7 2LU",
-        "W7 2QA"
-      ],
-      "DepotCode": "34",
-      "IsDepot": false
-    },
-    {
       "Title": "SO32 Area",
       "Reference": "HM8887",
       "LoggedAtUtc": "/Date(1626108720000)/",
@@ -247,26 +243,6 @@
         "SO32 2TB"
       ],
       "DepotCode": "54",
-      "IsDepot": false
-    },
-    {
-      "Title": "PH6 Area",
-      "Reference": "HM9115",
-      "LoggedAtUtc": "/Date(1626108060000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626121800000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 56.413523152954056,
-        "Longitude": -4.031453290077695,
-        "DisplayText": "56.413523152954056, -4.0314532900776952"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9115'",
-      "AffectedAreas": [
-        "PH6 2LY"
-      ],
-      "DepotCode": "70",
       "IsDepot": false
     },
     {
@@ -552,7 +528,7 @@
       "IsDepot": false
     },
     {
-      "Title": "BH16 Area",
+      "Title": "BH15 & BH16 Areas",
       "Reference": "HM8111",
       "LoggedAtUtc": "/Date(1626073740000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -583,21 +559,32 @@
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1626127200000)/",
-      "FaultType": "LV",
+      "FaultType": "HV",
       "Location": {
-        "Latitude": 51.49240636526992,
-        "Longitude": -0.3112142495293823,
-        "DisplayText": "51.492406365269922, -0.31121424952938231"
+        "Latitude": 51.49334376754075,
+        "Longitude": -0.3113668796839869,
+        "DisplayText": "51.49334376754075, -0.31136687968398691"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9014'",
       "AffectedAreas": [
+        "TW8 9LA",
         "TW8 9LZ",
         "TW8 9NH",
         "TW8 9NQ",
+        "TW8 9NR",
+        "W5 4BB",
+        "W5 4BH",
         "W5 4BJ",
         "W5 4BP",
         "W5 4BS",
-        "W5 4BT"
+        "W5 4BT",
+        "W5 4BW",
+        "W5 4DA",
+        "W5 4DD",
+        "W5 4DH",
+        "W5 4DJ",
+        "W5 4DL",
+        "W5 4XP"
       ],
       "DepotCode": "34",
       "IsDepot": false
