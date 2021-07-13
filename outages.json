@@ -1,8 +1,33 @@
 {
-  "Message": "42 reported faults",
-  "TimestampUtc": "/Date(1626177010000)/",
+  "Message": "37 reported faults",
+  "TimestampUtc": "/Date(1626180009000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "RG6 Area",
+      "Reference": "HN0388",
+      "LoggedAtUtc": "/Date(1626177300000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1626181800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626189600000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.4343556569653,
+        "Longitude": -0.9130836598856668,
+        "DisplayText": "51.4343556569653, -0.91308365988566675"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HN0388'",
+      "AffectedAreas": [
+        "RG6 7AH",
+        "RG6 7LN",
+        "RG6 7LR",
+        "RG6 7LS",
+        "RG6 7LT",
+        "RG6 7LW"
+      ],
+      "DepotCode": "49",
+      "IsDepot": false
+    },
     {
       "Title": "RG7 Area",
       "Reference": "201150",
@@ -84,24 +109,70 @@
       "IsDepot": false
     },
     {
-      "Title": "BH1 Area",
+      "Title": "BH1 & BH8 Areas",
       "Reference": "HN0223",
       "LoggedAtUtc": "/Date(1626171780000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1626182700000)/",
-      "FaultType": "LV",
+      "FaultType": "HV",
       "Location": {
-        "Latitude": 50.72794302387049,
-        "Longitude": -1.8591598818745867,
-        "DisplayText": "50.727943023870488, -1.8591598818745867"
+        "Latitude": 50.72830074126469,
+        "Longitude": -1.8816579020330613,
+        "DisplayText": "50.72830074126469, -1.8816579020330613"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HN0223'",
       "AffectedAreas": [
+        "BH1 3RQ",
+        "BH1 4RR",
+        "BH1 4RT",
+        "BH1 4RW",
+        "BH1 4SB",
+        "BH1 4SD",
+        "BH1 4SF",
+        "BH1 4SG",
         "BH1 4SH",
-        "BH1 4SJ"
+        "BH1 4SJ",
+        "BH1 4SL",
+        "BH4 9LX",
+        "BH8 8AS",
+        "BH8 8AT",
+        "BH8 8AX",
+        "BH8 8AY",
+        "BH8 8AZ",
+        "BH8 8BY",
+        "BH8 8DA",
+        "BH8 8DD",
+        "BH8 8DE",
+        "BH8 8DG",
+        "BH8 8EG",
+        "BH8 8GT",
+        "BH8 8LR",
+        "BH8 8LS",
+        "DT1 1UB"
       ],
       "DepotCode": "31",
+      "IsDepot": false
+    },
+    {
+      "Title": "SO14 Area",
+      "Reference": "HN0226",
+      "LoggedAtUtc": "/Date(1626171720000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1626176400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626188700000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 50.896863658408094,
+        "Longitude": -1.3939354777093353,
+        "DisplayText": "50.896863658408094, -1.3939354777093354"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HN0226'",
+      "AffectedAreas": [
+        "SO14 3AB",
+        "SO14 3FJ"
+      ],
+      "DepotCode": "54",
       "IsDepot": false
     },
     {
@@ -109,8 +180,8 @@
       "Reference": "HN0217",
       "LoggedAtUtc": "/Date(1626170340000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1626178500000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626184800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
       "FaultType": "LV",
       "Location": {
         "Latitude": 50.91684869582844,
@@ -122,85 +193,6 @@
         "RH20 1PR"
       ],
       "DepotCode": "44",
-      "IsDepot": false
-    },
-    {
-      "Title": "W13 Area",
-      "Reference": "HN0306",
-      "LoggedAtUtc": "/Date(1626169740000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626186600000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.50831929957697,
-        "Longitude": -0.3128451157001008,
-        "DisplayText": "51.508319299576968, -0.31284511570010082"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HN0306'",
-      "AffectedAreas": [
-        "W13 0SU",
-        "W13 9BP",
-        "W13 9DA",
-        "W13 9HP",
-        "W13 9HW",
-        "W13 9NG",
-        "W4 1BJ"
-      ],
-      "DepotCode": "34",
-      "IsDepot": false
-    },
-    {
-      "Title": "SL5 Area",
-      "Reference": "HN0155",
-      "LoggedAtUtc": "/Date(1626169200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626180300000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.42183176866658,
-        "Longitude": -0.6882838677111381,
-        "DisplayText": "51.421831768666578, -0.68828386771113814"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HN0155'",
-      "AffectedAreas": [
-        "SL5 8JU",
-        "SL5 8JX",
-        "SL5 8JY",
-        "SL5 8JZ",
-        "SL5 8LA",
-        "SL5 8LB",
-        "SL5 8LU",
-        "SL5 8PD",
-        "SL5 8PW",
-        "SL5 8QR"
-      ],
-      "DepotCode": "32",
-      "IsDepot": false
-    },
-    {
-      "Title": "BH12 Area",
-      "Reference": "HM9153",
-      "LoggedAtUtc": "/Date(1626169200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.73544554129278,
-        "Longitude": -1.932709863135635,
-        "DisplayText": "50.735445541292783, -1.932709863135635"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9153'",
-      "AffectedAreas": [
-        "BH12 2HB",
-        "BH12 2LB",
-        "BH12 2LE",
-        "BH12 2LF",
-        "BH12 2LQ"
-      ],
-      "DepotCode": "45",
       "IsDepot": false
     },
     {
@@ -280,29 +272,6 @@
       "IsDepot": false
     },
     {
-      "Title": "DD2 Area",
-      "Reference": "201084",
-      "LoggedAtUtc": "/Date(1626166800000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626181200000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 56.48017842026373,
-        "Longitude": -3.089588539753236,
-        "DisplayText": "56.480178420263726, -3.0895885397532359"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201084'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "DD2 5HJ",
-        "DD2 5NE",
-        "DD2 5NG",
-        "DD2 5NJ"
-      ],
-      "DepotCode": "70",
-      "IsDepot": false
-    },
-    {
       "Title": "PA28 Area",
       "Reference": "201072",
       "LoggedAtUtc": "/Date(1626165000000)/",
@@ -379,73 +348,6 @@
       "IsDepot": false
     },
     {
-      "Title": "AB42 Area",
-      "Reference": "200697",
-      "LoggedAtUtc": "/Date(1626163200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626184800000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 57.54048910454423,
-        "Longitude": -1.9405365392461003,
-        "DisplayText": "57.540489104544228, -1.9405365392461003"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200697'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "AB42 4UA",
-        "AB42 4UB",
-        "AB42 4UD",
-        "AB42 4UL",
-        "AB42 4UN",
-        "AB42 4UP"
-      ],
-      "DepotCode": "24",
-      "IsDepot": false
-    },
-    {
-      "Title": "BH20 Area",
-      "Reference": "199955",
-      "LoggedAtUtc": "/Date(1626163200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 50.69276723142429,
-        "Longitude": -2.210002562898567,
-        "DisplayText": "50.692767231424291, -2.2100025628985671"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '199955'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "BH20 6HH",
-        "BH20 6HJ",
-        "BH20 6HS"
-      ],
-      "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "BH20 Area",
-      "Reference": "201178",
-      "LoggedAtUtc": "/Date(1626163200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 50.63293651025679,
-        "Longitude": -2.0232071505018303,
-        "DisplayText": "50.632936510256791, -2.0232071505018303"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201178'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "BH20 5JD"
-      ],
-      "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
       "Title": "SL3 Area",
       "Reference": "200960",
       "LoggedAtUtc": "/Date(1626163200000)/",
@@ -470,6 +372,26 @@
       "IsDepot": false
     },
     {
+      "Title": "BH20 Area",
+      "Reference": "201178",
+      "LoggedAtUtc": "/Date(1626163200000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
+      "FaultType": "PSI",
+      "Location": {
+        "Latitude": 50.63293651025679,
+        "Longitude": -2.0232071505018303,
+        "DisplayText": "50.632936510256791, -2.0232071505018303"
+      },
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201178'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "AffectedAreas": [
+        "BH20 5JD"
+      ],
+      "DepotCode": "45",
+      "IsDepot": false
+    },
+    {
       "Title": "PH32 Area",
       "Reference": "201234",
       "LoggedAtUtc": "/Date(1626163200000)/",
@@ -490,27 +412,28 @@
       "IsDepot": false
     },
     {
-      "Title": "PH10 Area",
-      "Reference": "200755",
+      "Title": "AB42 Area",
+      "Reference": "200697",
       "LoggedAtUtc": "/Date(1626163200000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626184800000)/",
       "FaultType": "PSI",
       "Location": {
-        "Latitude": 56.65287310986995,
-        "Longitude": -3.397689051401286,
-        "DisplayText": "56.652873109869951, -3.3976890514012861"
+        "Latitude": 57.54048910454423,
+        "Longitude": -1.9405365392461003,
+        "DisplayText": "57.540489104544228, -1.9405365392461003"
       },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200755'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200697'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "AffectedAreas": [
-        "PH10 7JJ",
-        "PH10 7JL",
-        "PH10 7JN",
-        "PH10 7JP",
-        "PH10 7JW"
+        "AB42 4UA",
+        "AB42 4UB",
+        "AB42 4UD",
+        "AB42 4UL",
+        "AB42 4UN",
+        "AB42 4UP"
       ],
-      "DepotCode": "70",
+      "DepotCode": "24",
       "IsDepot": false
     },
     {
@@ -589,23 +512,23 @@
       "IsDepot": false
     },
     {
-      "Title": "BH24 Area",
-      "Reference": "200569",
+      "Title": "BH20 Area",
+      "Reference": "199955",
       "LoggedAtUtc": "/Date(1626163200000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626181200000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
       "FaultType": "PSI",
       "Location": {
-        "Latitude": 50.82069975266303,
-        "Longitude": -1.8504348744319778,
-        "DisplayText": "50.820699752663032, -1.8504348744319779"
+        "Latitude": 50.69276723142429,
+        "Longitude": -2.210002562898567,
+        "DisplayText": "50.692767231424291, -2.2100025628985671"
       },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200569'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '199955'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "AffectedAreas": [
-        "BH24 2SB",
-        "BH24 2SD",
-        "BH24 2SE"
+        "BH20 6HH",
+        "BH20 6HJ",
+        "BH20 6HS"
       ],
       "DepotCode": "45",
       "IsDepot": false
@@ -631,26 +554,6 @@
       "IsDepot": false
     },
     {
-      "Title": "SO40 Area",
-      "Reference": "200555",
-      "LoggedAtUtc": "/Date(1626163200000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626177600000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 50.91161745323231,
-        "Longitude": -1.4933681865577586,
-        "DisplayText": "50.91161745323231, -1.4933681865577586"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200555'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "SO40 9ED"
-      ],
-      "DepotCode": "40",
-      "IsDepot": false
-    },
-    {
       "Title": "SL5 Area",
       "Reference": "201008",
       "LoggedAtUtc": "/Date(1626161400000)/",
@@ -659,26 +562,20 @@
       "EstimatedRestorationTimeUtc": "/Date(1626190200000)/",
       "FaultType": "PSI",
       "Location": {
-        "Latitude": 51.41681729678101,
-        "Longitude": -0.6966244540244424,
-        "DisplayText": "51.416817296781012, -0.6966244540244424"
+        "Latitude": 51.41645576933348,
+        "Longitude": -0.697267485825614,
+        "DisplayText": "51.416455769333481, -0.697267485825614"
       },
       "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201008'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "AffectedAreas": [
-        "SL5 8EU",
         "SL5 8HA",
         "SL5 8HB",
         "SL5 8HD",
         "SL5 8HE",
         "SL5 8HF",
-        "SL5 8HP",
         "SL5 8HS",
         "SL5 8HT",
-        "SL5 8JJ",
-        "SL5 8JL",
-        "SL5 8JN",
-        "SL5 8NP",
-        "SL5 8NR"
+        "SL5 8JN"
       ],
       "DepotCode": "49",
       "IsDepot": false
@@ -730,27 +627,27 @@
       "IsDepot": false
     },
     {
-      "Title": "RG7 Area",
-      "Reference": "200701",
-      "LoggedAtUtc": "/Date(1626159600000)/",
+      "Title": "UB2 Area",
+      "Reference": "HM9907",
+      "LoggedAtUtc": "/Date(1626159720000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
-      "FaultType": "PSI",
+      "FaultType": "LV",
       "Location": {
-        "Latitude": 51.384456474855426,
-        "Longitude": -0.9654245355236328,
-        "DisplayText": "51.384456474855426, -0.96542453552363283"
+        "Latitude": 51.49974037593469,
+        "Longitude": -0.3843489622574839,
+        "DisplayText": "51.499740375934692, -0.38434896225748388"
       },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200701'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9907'",
       "AffectedAreas": [
-        "RG7 1PX"
+        "UB2 5PA"
       ],
-      "DepotCode": "49",
+      "DepotCode": "34",
       "IsDepot": false
     },
     {
-      "Title": "IV1 & IV2 Areas",
+      "Title": "IV2 Area",
       "Reference": "200982",
       "LoggedAtUtc": "/Date(1626159600000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -773,26 +670,6 @@
     },
     {
       "Title": "SN4 Area",
-      "Reference": "201090",
-      "LoggedAtUtc": "/Date(1626159600000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626192000000)/",
-      "FaultType": "PSI",
-      "Location": {
-        "Latitude": 51.507813655927436,
-        "Longitude": -1.7073123576435136,
-        "DisplayText": "51.507813655927436, -1.7073123576435136"
-      },
-      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201090'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "AffectedAreas": [
-        "SN4 0HJ"
-      ],
-      "DepotCode": "55",
-      "IsDepot": false
-    },
-    {
-      "Title": "SN4 Area",
       "Reference": "201197",
       "LoggedAtUtc": "/Date(1626159600000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -805,6 +682,46 @@
         "DisplayText": "51.507813655927436, -1.7073123576435136"
       },
       "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201197'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "AffectedAreas": [
+        "SN4 0HJ"
+      ],
+      "DepotCode": "55",
+      "IsDepot": false
+    },
+    {
+      "Title": "RG7 Area",
+      "Reference": "200701",
+      "LoggedAtUtc": "/Date(1626159600000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626188400000)/",
+      "FaultType": "PSI",
+      "Location": {
+        "Latitude": 51.384456474855426,
+        "Longitude": -0.9654245355236328,
+        "DisplayText": "51.384456474855426, -0.96542453552363283"
+      },
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '200701'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "AffectedAreas": [
+        "RG7 1PX"
+      ],
+      "DepotCode": "49",
+      "IsDepot": false
+    },
+    {
+      "Title": "SN4 Area",
+      "Reference": "201090",
+      "LoggedAtUtc": "/Date(1626159600000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626192000000)/",
+      "FaultType": "PSI",
+      "Location": {
+        "Latitude": 51.507813655927436,
+        "Longitude": -1.7073123576435136,
+        "DisplayText": "51.507813655927436, -1.7073123576435136"
+      },
+      "Message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '201090'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "AffectedAreas": [
         "SN4 0HJ"
       ],
@@ -910,7 +827,7 @@
       "LoggedAtUtc": "/Date(1626149460000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626177600000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1626184800000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 51.402388912714855,
@@ -1010,29 +927,6 @@
         "UB7 7RL"
       ],
       "DepotCode": "36",
-      "IsDepot": false
-    },
-    {
-      "Title": "BH23 Area",
-      "Reference": "HM9018",
-      "LoggedAtUtc": "/Date(1626113400000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1626181200000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 50.745773242284336,
-        "Longitude": -1.7077762619040624,
-        "DisplayText": "50.745773242284336, -1.7077762619040624"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HM9018'",
-      "AffectedAreas": [
-        "BH23 5AS",
-        "BH23 5AU",
-        "BH23 5NL",
-        "BH23 5NS"
-      ],
-      "DepotCode": "31",
       "IsDepot": false
     }
   ]
