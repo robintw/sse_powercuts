@@ -1,14 +1,34 @@
 {
-  "Message": "12 reported faults",
-  "TimestampUtc": "/Date(1627149011000)/",
+  "Message": "11 reported faults",
+  "TimestampUtc": "/Date(1627151111000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "FK17 Area",
+      "Reference": "HP6405",
+      "LoggedAtUtc": "/Date(1627149360000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1627160400000)/",
+      "FaultType": "HV",
+      "Location": {
+        "Latitude": 56.21087472816024,
+        "Longitude": -4.1728955427624665,
+        "DisplayText": "56.210874728160242, -4.1728955427624665"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HP6405'",
+      "AffectedAreas": [
+        "FK17 8JL"
+      ],
+      "DepotCode": "70",
+      "IsDepot": false
+    },
     {
       "Title": "RG18 Area",
       "Reference": "HP6391",
       "LoggedAtUtc": "/Date(1627147560000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1627150200000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1627158600000)/",
       "FaultType": "LV",
       "Location": {
@@ -169,31 +189,6 @@
       "IsDepot": false
     },
     {
-      "Title": "DT8 & DT2 Areas",
-      "Reference": "HP6042",
-      "LoggedAtUtc": "/Date(1627123500000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1627153200000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 50.83670395563138,
-        "Longitude": -2.7154262566509,
-        "DisplayText": "50.836703955631378, -2.7154262566509"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HP6042'",
-      "AffectedAreas": [
-        "DT2 0NP",
-        "DT2 0NR",
-        "DT2 0PD",
-        "DT8 3LG",
-        "DT8 3SG",
-        "DT8 3SQ"
-      ],
-      "DepotCode": "56",
-      "IsDepot": false
-    },
-    {
       "Title": "GU12 Area",
       "Reference": "HP5798",
       "LoggedAtUtc": "/Date(1627114920000)/",
@@ -238,66 +233,6 @@
         "DT4 8UF"
       ],
       "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "RG25 Area",
-      "Reference": "HP5735",
-      "LoggedAtUtc": "/Date(1627111440000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1627153200000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.2188276075128,
-        "Longitude": -1.0246972482199717,
-        "DisplayText": "51.2188276075128, -1.0246972482199717"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HP5735'",
-      "AffectedAreas": [
-        "GU34 1HP",
-        "GU34 5SY",
-        "RG25",
-        "RG25 2FD",
-        "RG25 2FF",
-        "RG25 2HE",
-        "RG25 2HQ",
-        "RG25 2LA",
-        "RG25 2LB",
-        "RG25 2LE",
-        "RG25 2LF",
-        "RG25 2LX",
-        "RG25 2LY",
-        "RG25 2LZ",
-        "RG25 2NB",
-        "RG25 2NR",
-        "RG25 2NT",
-        "RG25 2NU",
-        "RG25 2NX",
-        "RG25 2NY",
-        "RG25 2NZ",
-        "RG25 2PA",
-        "RG25 2PB",
-        "RG25 2PD",
-        "RG25 2PE",
-        "RG25 2PF",
-        "RG25 2PG",
-        "RG25 2PH",
-        "RG25 2PN",
-        "RG25 2PX",
-        "RG25 2PY",
-        "RG25 2RA",
-        "RG25 2RB",
-        "RG25 2RD",
-        "RG25 2RE",
-        "RG25 2RF",
-        "RG25 2RG",
-        "RG25 2RJ",
-        "RG25 2RQ",
-        "RG25 2RY",
-        "RG25 2SG"
-      ],
-      "DepotCode": "30",
       "IsDepot": false
     },
     {
