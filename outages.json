@@ -1,10 +1,33 @@
 {
-  "Message": "11 reported faults",
-  "TimestampUtc": "/Date(1627341612000)/",
+  "Message": "12 reported faults",
+  "TimestampUtc": "/Date(1627342512000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
     {
-      "Title": "SO32 & SO21 Areas",
+      "Title": "HP13 Area",
+      "Reference": "HQ0150",
+      "LoggedAtUtc": "/Date(1627342320000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1627353300000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.6257983851771,
+        "Longitude": -0.7202469590464137,
+        "DisplayText": "51.6257983851771, -0.72024695904641367"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HQ0150'",
+      "AffectedAreas": [
+        "HP13 7UA",
+        "HP13 7UB",
+        "HP13 7UE",
+        "HP13 7UH"
+      ],
+      "DepotCode": "47",
+      "IsDepot": false
+    },
+    {
+      "Title": "SO24 & SO21 Areas",
       "Reference": "HQ0124",
       "LoggedAtUtc": "/Date(1627339020000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -79,17 +102,14 @@
       "EstimatedRestorationTimeUtc": "/Date(1627347600000)/",
       "FaultType": "HV",
       "Location": {
-        "Latitude": 56.73151055650891,
-        "Longitude": -2.8477617167541127,
-        "DisplayText": "56.731510556508908, -2.8477617167541127"
+        "Latitude": 56.73876475346755,
+        "Longitude": -2.8471567586388864,
+        "DisplayText": "56.738764753467549, -2.8471567586388864"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HQ0116'",
       "AffectedAreas": [
         "DD8 3FF",
-        "DD8 3PZ",
-        "DD8 3QA",
         "DD8 3QL",
-        "DD8 3QS",
         "DD8 3QT",
         "DD8 3QU",
         "DD8 3QW",
@@ -97,13 +117,9 @@
         "DD8 3RA",
         "DD8 3RD",
         "DD8 3RE",
-        "DD8 3SH",
-        "DD8 3SJ",
-        "DD8 3SN",
         "DD8 3SY",
         "DD9 6SB",
         "DD9 6SD",
-        "DD9 6SE",
         "DD9 7RS"
       ],
       "DepotCode": "70",
