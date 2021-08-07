@@ -1,14 +1,43 @@
 {
   "Message": "9 reported faults",
-  "TimestampUtc": "/Date(1628369409000)/",
+  "TimestampUtc": "/Date(1628371209000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "W13 & W5 Areas",
+      "Reference": "HR5757",
+      "LoggedAtUtc": "/Date(1628368260000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(1628371800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1628381700000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.52541269632405,
+        "Longitude": -0.3171579424093141,
+        "DisplayText": "51.525412696324047, -0.31715794240931411"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HR5757'",
+      "AffectedAreas": [
+        "W13 8DB",
+        "W13 8DD",
+        "W13 8DE",
+        "W13 8DF",
+        "W5 1BU",
+        "W5 1BZ",
+        "W5 1RH",
+        "W5 1RL",
+        "W5 1RR",
+        "W5 1RU"
+      ],
+      "DepotCode": "34",
+      "IsDepot": false
+    },
     {
       "Title": "SN5 Area",
       "Reference": "HR5742",
       "LoggedAtUtc": "/Date(1628365680000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(1628373600000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
       "EstimatedRestorationTimeUtc": "/Date(1628379000000)/",
       "FaultType": "LV",
       "Location": {
@@ -24,7 +53,7 @@
       "IsDepot": false
     },
     {
-      "Title": "BH1 Area",
+      "Title": "BH7 & BH1 Areas",
       "Reference": "HR5657",
       "LoggedAtUtc": "/Date(1628359980000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
@@ -96,7 +125,7 @@
       "LoggedAtUtc": "/Date(1628350080000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1628377140000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1628391600000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 57.70477039435236,
@@ -128,7 +157,7 @@
       "LoggedAtUtc": "/Date(1628349420000)/",
       "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
       "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1628380800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1628463540000)/",
       "FaultType": "HV",
       "Location": {
         "Latitude": 57.7038714172299,
@@ -152,9 +181,9 @@
       "EstimatedRestorationTimeUtc": "/Date(1628373600000)/",
       "FaultType": "HV",
       "Location": {
-        "Latitude": 50.95505751746372,
-        "Longitude": -1.1395423428376883,
-        "DisplayText": "50.955057517463722, -1.1395423428376883"
+        "Latitude": 50.95353004622055,
+        "Longitude": -1.1397129104532207,
+        "DisplayText": "50.95353004622055, -1.1397129104532207"
       },
       "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HR5692'",
       "AffectedAreas": [
@@ -162,10 +191,7 @@
         "SO32 2JN",
         "SO32 3AH",
         "SO32 3AN",
-        "SO32 3AR",
         "SO32 3NT",
-        "SO32 3NY",
-        "SO32 3NZ",
         "SO32 3PA",
         "SO32 3PB",
         "SO32 3PD",
@@ -176,9 +202,7 @@
         "SO32 3PU",
         "SO32 3PW",
         "SO32 3QG",
-        "SO32 3QJ",
         "SO32 3QL",
-        "SO32 3QN",
         "SO32 3QP",
         "SO32 3QQ",
         "SO32 3QR",
@@ -188,7 +212,6 @@
         "SO32 3QW",
         "SO32 3QX",
         "SO32 3QY",
-        "SO32 3QZ",
         "SO32 3RB",
         "SO32 3RD",
         "SO32 3RF"
@@ -215,28 +238,6 @@
         "DT3 4AY"
       ],
       "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "GU27 Area",
-      "Reference": "HR5048",
-      "LoggedAtUtc": "/Date(1628316300000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1628370000000)/",
-      "FaultType": "HV",
-      "Location": {
-        "Latitude": 51.104968668686126,
-        "Longitude": -0.7076560404852652,
-        "DisplayText": "51.104968668686126, -0.7076560404852652"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HR5048'",
-      "AffectedAreas": [
-        "GU27 1AA",
-        "GU27 1AJ",
-        "GU27 1AL"
-      ],
-      "DepotCode": "44",
       "IsDepot": false
     }
   ]
