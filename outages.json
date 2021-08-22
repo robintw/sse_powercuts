@@ -1,8 +1,30 @@
 {
   "Message": "5 reported faults",
-  "TimestampUtc": "/Date(1629674445000)/",
+  "TimestampUtc": "/Date(1629675099000)/",
   "Uri": "http://api.sse.com/powerdistribution/network/v3/api/faults/",
   "Faults": [
+    {
+      "Title": "HP14 Area",
+      "Reference": "HT5545",
+      "LoggedAtUtc": "/Date(1598138100000)/",
+      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
+      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
+      "EstimatedRestorationTimeUtc": "/Date(1629689400000)/",
+      "FaultType": "LV",
+      "Location": {
+        "Latitude": 51.64878710019335,
+        "Longitude": -0.8475756285901336,
+        "DisplayText": "51.648787100193353, -0.84757562859013358"
+      },
+      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HT5545'",
+      "AffectedAreas": [
+        "HP11 1BB",
+        "HP14 3RN",
+        "HP14 3RU"
+      ],
+      "DepotCode": "47",
+      "IsDepot": false
+    },
     {
       "Title": "SO18 Area",
       "Reference": "HT5776",
@@ -101,28 +123,6 @@
         "DT3 5SB"
       ],
       "DepotCode": "45",
-      "IsDepot": false
-    },
-    {
-      "Title": "HP11 & HP14 Areas",
-      "Reference": "HT5545",
-      "LoggedAtUtc": "/Date(1629648960000)/",
-      "EstimatedFaultUpdateTimeUtc": "/Date(-62135596800000)/",
-      "EstimatedArrivalOnSiteUtc": "/Date(-62135596800000)/",
-      "EstimatedRestorationTimeUtc": "/Date(1629687600000)/",
-      "FaultType": "LV",
-      "Location": {
-        "Latitude": 51.64878710019335,
-        "Longitude": -0.8475756285901336,
-        "DisplayText": "51.648787100193353, -0.84757562859013358"
-      },
-      "Message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'HT5545'",
-      "AffectedAreas": [
-        "HP11 1BB",
-        "HP14 3RN",
-        "HP14 3RU"
-      ],
-      "DepotCode": "47",
       "IsDepot": false
     }
   ]
