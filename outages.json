@@ -2,82 +2,6 @@
   "Faults": [
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-09T06:53:00.000+0000",
-      "latitude": 51.10707587400515,
-      "estimatedRestoration": "2021-12-09T18:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF5150'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF5150",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 51.10585,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.8254
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.10707587400515,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.8234607306602042
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.1083,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.82155
-            }
-          ],
-          "subCodes": [
-            "SP4 6AH",
-            "SP4 6AQ"
-          ],
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JF5150",
-      "engineerOnSiteTime": "2021-12-09T10:30:00.000+0000",
-      "name": "SP4 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "SP4 6AH",
-        "SP4 6AQ"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          [
-            [
-              -1.8254,
-              51.10585
-            ],
-            [
-              -1.8234607306602042,
-              51.10707587400515
-            ],
-            [
-              -1.82155,
-              51.1083
-            ],
-            [
-              -1.8254,
-              51.10585
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "03a3d9ee-3398-483a-8bc8-e9bf3a146293",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.8234607306602042,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2021-12-09T12:43:00.000+0000",
       "latitude": 51.107739626168225,
       "estimatedRestoration": "2021-12-09T23:59:00.000+0000",
@@ -485,6 +409,7 @@
         }
       ],
       "reference": "JF5399",
+      "engineerOnSiteTime": "2021-12-09T18:00:00.000+0000",
       "name": "DT1 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -853,10 +778,46 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2021-12-09T19:00:00.000+0000",
       "UUID": "0f33e427-2f39-4440-9446-161783afb724",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.8622542244371134,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2021-12-09T18:02:00.000+0000",
+      "latitude": 57.50561437921388,
+      "estimatedRestoration": "2021-12-09T21:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF5459'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF5459",
+      "reference": "JF5459",
+      "name": "AB42 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB42 1RU",
+        "AB42 1RX",
+        "AB42 1RY",
+        "AB42 2AG",
+        "AB42 2AH",
+        "AB42 2AJ",
+        "AB42 2AL"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.7919030630417727,
+          57.50561437921388
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2021-12-09T19:00:00.000+0000",
+      "UUID": "0145ec13-cdf6-496f-83fa-74d2339ebd3b",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.7919030630417727,
       "resolved": false
     }
   ]
