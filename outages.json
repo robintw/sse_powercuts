@@ -313,6 +313,96 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2021-12-09T03:38:00.000+0000",
+      "latitude": 51.531881386464256,
+      "estimatedRestoration": "2021-12-09T12:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF4891'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF4891",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.53039,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.91074
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.53294,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.9092
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.53192,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.90761
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.53039,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.91074
+            }
+          ],
+          "subCodes": [
+            "RG9 1SL",
+            "RG9 1SP",
+            "RG9 1SR",
+            "RG9 1SW",
+            "RG9 1TE",
+            "RG9 1XR"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JF4891",
+      "engineerOnSiteTime": "2021-12-09T04:45:00.000+0000",
+      "name": "RG9 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG9 1SL",
+        "RG9 1SP",
+        "RG9 1SR",
+        "RG9 1SW",
+        "RG9 1TE",
+        "RG9 1XR"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.91074,
+              51.53039
+            ],
+            [
+              -0.9092,
+              51.53294
+            ],
+            [
+              -0.90761,
+              51.53192
+            ],
+            [
+              -0.91074,
+              51.53039
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "cd8b8170-afd1-450f-837c-05220ba10d11",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9092204745366735,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2021-12-08T19:56:00.000+0000",
       "latitude": 57.41942754472555,
       "estimatedRestoration": "2021-12-09T12:00:00.000+0000",
@@ -320,7 +410,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF4860",
       "reference": "JF4860",
-      "name": "AB42 & AB41 Areas",
+      "name": "AB41 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8JN",
@@ -344,7 +434,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2021-12-09T03:38:00.000+0000",
-      "latitude": 56.544130430517846,
+      "latitude": 56.54675362972954,
       "estimatedRestoration": "2021-12-09T07:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF4880'",
       "type": "HV",
@@ -353,25 +443,20 @@
       "name": "PH13 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "PH13 9EJ",
-        "PH13 9ER",
-        "PH13 9ES",
-        "PH13 9HA",
-        "PH13 9HB",
-        "PH13 9JD"
+        "PH13 9HA"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.253544855119779,
-          56.544130430517846
+          -3.2365367436238994,
+          56.54675362972954
         ],
         "type": "Point"
       },
       "UUID": "dc0e56dc-ac8d-467c-ad5c-a71cbdc22336",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.253544855119779,
+      "longitude": -3.2365367436238994,
       "resolved": false
     }
   ]
