@@ -629,30 +629,164 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-14T19:00:00.000+0000",
-      "latitude": 55.76442320524454,
-      "estimatedRestoration": "2021-12-14T20:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '204119'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/204119",
-      "reference": "204119",
-      "name": "PA44 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2021-12-14T19:33:00.000+0000",
+      "latitude": 50.76538612251468,
+      "estimatedRestoration": "2021-12-14T23:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF8236'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF8236",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.76644,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91307
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76496,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91234
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76469,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.9121
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76437,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91175
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76559,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91089
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76616,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91125
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.76644,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.91307
+            }
+          ],
+          "subCodes": [
+            "BH11 9EN",
+            "BH11 9ES",
+            "BH11 9ET",
+            "BH11 9EU",
+            "BH11 9EW",
+            "BH11 9EX"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JF8236",
+      "name": "BH11 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "PA44 7PZ"
+        "BH11 9EN",
+        "BH11 9ES",
+        "BH11 9ET",
+        "BH11 9EU",
+        "BH11 9EW",
+        "BH11 9EX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -6.207470885901353,
-          55.76442320524454
+          [
+            [
+              -1.91307,
+              50.76644
+            ],
+            [
+              -1.91234,
+              50.76496
+            ],
+            [
+              -1.9121,
+              50.76469
+            ],
+            [
+              -1.91175,
+              50.76437
+            ],
+            [
+              -1.91089,
+              50.76559
+            ],
+            [
+              -1.91125,
+              50.76616
+            ],
+            [
+              -1.91307,
+              50.76644
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2021-12-14T20:45:00.000+0000",
+      "UUID": "fbf5ed02-5899-49a5-9a81-44603d0fd378",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.911894297009315,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2021-12-14T20:00:00.000+0000",
+      "latitude": 51.42628605851917,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF8239'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF8239",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.42449,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69293
+            }
+          ],
+          "name": "SN8 2LY",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JF8239",
+      "name": "SN8 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN8 2LY"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.6927452409592454,
+          51.42628605851917
         ],
         "type": "Point"
       },
-      "UUID": "4a440006-763a-4002-ae19-8976e38c62c8",
+      "UUID": "170157e5-0886-4e7a-95aa-ddafee841ebf",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -6.207470885901353,
+      "longitude": -1.6927452409592454,
       "resolved": false
     },
     {
@@ -682,6 +816,34 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -6.192304475128816,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2021-12-14T20:16:00.000+0000",
+      "latitude": 57.50605337373899,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF8241'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF8241",
+      "reference": "JF8241",
+      "name": "AB53 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB53 8ED",
+        "AB53 8ES"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.407361756068181,
+          57.50605337373899
+        ],
+        "type": "Point"
+      },
+      "UUID": "a036b701-b576-433d-9e97-837470977b93",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.407361756068181,
       "resolved": false
     }
   ]
