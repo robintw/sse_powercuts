@@ -626,7 +626,7 @@
         }
       ],
       "reference": "204156",
-      "name": "RG26 Area",
+      "name": "RG7 & RG26 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG26 3EB",
@@ -3101,6 +3101,94 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.9762742584679185,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2021-12-16T11:06:00.000+0000",
+      "latitude": 51.52747087321674,
+      "estimatedRestoration": "2021-12-16T13:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JF8990'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JF8990",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.5265,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47571
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.5285,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47432
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.5272,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47141
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.5265,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47571
+            }
+          ],
+          "subCodes": [
+            "UB8 3NA",
+            "UB8 3NB",
+            "UB8 3ND",
+            "UB8 3RU",
+            "UB8 3RX"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JF8990",
+      "name": "UB8 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "UB8 3NA",
+        "UB8 3NB",
+        "UB8 3ND",
+        "UB8 3RU",
+        "UB8 3RX"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.47571,
+              51.5265
+            ],
+            [
+              -0.47432,
+              51.5285
+            ],
+            [
+              -0.47141,
+              51.5272
+            ],
+            [
+              -0.47571,
+              51.5265
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2021-12-16T09:30:00.000+0000",
+      "UUID": "6128241a-8e6d-4dfa-ae1c-04be4d503309",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.47421750025926523,
       "resolved": false
     },
     {
