@@ -78,9 +78,9 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-24T13:50:00.000+0000",
+      "loggedAt": "2021-12-24T13:48:00.000+0000",
       "latitude": 50.787990699010884,
-      "estimatedRestoration": "2021-12-24T17:30:00.000+0000",
+      "estimatedRestoration": "2021-12-24T20:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG2600'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG2600",
@@ -128,6 +128,7 @@
         }
       ],
       "reference": "JG2600",
+      "engineerOnSiteTime": "2021-12-24T14:38:00.000+0000",
       "name": "BH21 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -174,7 +175,7 @@
       "py/object": "Fault",
       "loggedAt": "2021-12-24T14:25:00.000+0000",
       "latitude": 51.575324934919635,
-      "estimatedRestoration": "2021-12-24T17:40:00.000+0000",
+      "estimatedRestoration": "2021-12-24T18:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG2511'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG2511",
@@ -234,7 +235,7 @@
       ],
       "reference": "JG2511",
       "engineerOnSiteTime": "2021-12-24T10:40:00.000+0000",
-      "name": "SN1 & SN3 Areas",
+      "name": "SN3 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SN1 3JJ",
@@ -287,7 +288,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2021-12-24T09:47:00.000+0000",
-      "latitude": 50.943700514821174,
+      "latitude": 50.94393475529291,
       "estimatedRestoration": "2021-12-24T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG2518'",
       "type": "LV",
@@ -304,15 +305,9 @@
             },
             {
               "py/object": "Point",
-              "latitude": 50.94399,
+              "latitude": 50.9451,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.38003
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.94455,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.37921
+              "longitude": -1.3798
             },
             {
               "py/object": "Point",
@@ -335,6 +330,7 @@
           ],
           "subCodes": [
             "SO16 2NX",
+            "SO16 2NY",
             "SO16 2NZ",
             "SO16 2PA",
             "SO16 3DH",
@@ -349,6 +345,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO16 2NX",
+        "SO16 2NY",
         "SO16 2NZ",
         "SO16 2PA",
         "SO16 3DH",
@@ -363,12 +360,8 @@
               50.94344
             ],
             [
-              -1.38003,
-              50.94399
-            ],
-            [
-              -1.37921,
-              50.94455
+              -1.3798,
+              50.9451
             ],
             [
               -1.37882,
@@ -389,7 +382,7 @@
       "UUID": "3fa8a949-3e55-4fa2-b8a1-1dbf2011bd93",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3793067671967494,
+      "longitude": -1.3793890521940277,
       "resolved": false
     },
     {
@@ -412,6 +405,15 @@
             }
           ],
           "name": "SO16 7JG",
+          "subCodes": [
+            "SO16 7JF",
+            "SO16 7JG",
+            "SO16 7JH",
+            "SO16 7NP",
+            "SO16 7NS",
+            "SO16 7PZ",
+            "SO16 7QJ"
+          ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
       ],
