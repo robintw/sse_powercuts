@@ -2,42 +2,78 @@
   "Faults": [
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-24T10:34:00.000+0000",
-      "latitude": 56.279433540422545,
-      "estimatedRestoration": "2021-12-24T14:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG2531'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG2531",
-      "reference": "JG2531",
-      "name": "FK15 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2021-12-24T13:47:00.000+0000",
+      "latitude": 50.784694998753984,
+      "estimatedRestoration": "2021-12-24T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG2597'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG2597",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.78754,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54512
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.784694998753984,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.5430413919900012
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.78182,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54098
+            }
+          ],
+          "subCodes": [
+            "SO41 5PB",
+            "SO41 5QF"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JG2597",
+      "name": "SO41 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "FK15",
-        "FK15 9LA",
-        "FK15 9LB",
-        "FK15 9LF",
-        "FK15 9LG",
-        "FK15 9LH",
-        "FK15 9LJ",
-        "FK15 9LL",
-        "FK15 9LN",
-        "FK15 9LQ",
-        "FK15 9QA",
-        "FK15 9RA",
-        "PH4 1RG"
+        "SO41 5PB",
+        "SO41 5QF"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.873944065934766,
-          56.279433540422545
+          [
+            [
+              -1.54512,
+              50.78754
+            ],
+            [
+              -1.5430413919900012,
+              50.784694998753984
+            ],
+            [
+              -1.54098,
+              50.78182
+            ],
+            [
+              -1.54512,
+              50.78754
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "581ea316-19da-47b3-b396-59af09966fcc",
+      "estimatedArrivalOnSiteTime": "2021-12-24T16:00:00.000+0000",
+      "UUID": "f4d6fd57-9d7a-42fa-b43e-f07ad73b49f3",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.873944065934766,
+      "longitude": -1.5430413919900012,
       "resolved": false
     }
   ]
