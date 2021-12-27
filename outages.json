@@ -216,7 +216,7 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-27T12:04:00.000+0000",
+      "loggedAt": "2021-12-27T14:30:00.000+0000",
       "latitude": 51.24158189961412,
       "estimatedRestoration": "2021-12-27T19:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG4341'",
@@ -664,10 +664,10 @@
     {
       "py/object": "Fault",
       "loggedAt": "2021-12-27T15:18:00.000+0000",
-      "latitude": 50.81370992385746,
+      "latitude": 50.81422124434181,
       "estimatedRestoration": "2021-12-27T23:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG4462'",
-      "type": "LV",
+      "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG4462",
       "Areas": [
         {
@@ -675,9 +675,15 @@
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 50.8136,
+              "latitude": 50.81834,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.07816
+              "longitude": -1.21432
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.812,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.08842
             },
             {
               "py/object": "Point",
@@ -705,24 +711,37 @@
             },
             {
               "py/object": "Point",
-              "latitude": 50.81474,
+              "latitude": 50.81554,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.07436
+              "longitude": -1.07142
             },
             {
               "py/object": "Point",
-              "latitude": 50.81471,
+              "latitude": 50.81556,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.07466
+              "longitude": -1.07342
             },
             {
               "py/object": "Point",
-              "latitude": 50.8136,
+              "latitude": 50.81552,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.07816
+              "longitude": -1.07572
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.81422124434181,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.0825150809443285
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.81834,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.21432
             }
           ],
           "subCodes": [
+            "PO14 2NZ",
             "PO2 0AB",
             "PO2 0AD",
             "PO2 0AG",
@@ -730,10 +749,17 @@
             "PO2 0AQ",
             "PO2 0DH",
             "PO2 0DJ",
+            "PO2 0DN",
+            "PO2 0DP",
+            "PO2 0ER",
+            "PO2 0ES",
+            "PO2 0ET",
+            "PO2 7HN",
             "PO2 7HW",
             "PO2 7HZ",
             "PO2 7JA",
-            "PO2 7JB"
+            "PO2 7JB",
+            "PO2 8SP"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
@@ -743,6 +769,7 @@
       "name": "PO2 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "PO14 2NZ",
         "PO2 0AB",
         "PO2 0AD",
         "PO2 0AG",
@@ -750,18 +777,29 @@
         "PO2 0AQ",
         "PO2 0DH",
         "PO2 0DJ",
+        "PO2 0DN",
+        "PO2 0DP",
+        "PO2 0ER",
+        "PO2 0ES",
+        "PO2 0ET",
+        "PO2 7HN",
         "PO2 7HW",
         "PO2 7HZ",
         "PO2 7JA",
-        "PO2 7JB"
+        "PO2 7JB",
+        "PO2 8SP"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -1.07816,
-              50.8136
+              -1.21432,
+              50.81834
+            ],
+            [
+              -1.08842,
+              50.812
             ],
             [
               -1.07622,
@@ -780,16 +818,24 @@
               50.81396
             ],
             [
-              -1.07436,
-              50.81474
+              -1.07142,
+              50.81554
             ],
             [
-              -1.07466,
-              50.81471
+              -1.07342,
+              50.81556
             ],
             [
-              -1.07816,
-              50.8136
+              -1.07572,
+              50.81552
+            ],
+            [
+              -1.0825150809443285,
+              50.81422124434181
+            ],
+            [
+              -1.21432,
+              50.81834
             ]
           ]
         ],
@@ -802,7 +848,7 @@
       "evChargersAffected": [
         "e9c18d3b-1e90-4c51-aa7b-d930a10cb252"
       ],
-      "longitude": -1.0747039949927797,
+      "longitude": -1.0825150809443285,
       "resolved": false
     },
     {
