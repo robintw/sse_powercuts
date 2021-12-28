@@ -192,7 +192,7 @@
         }
       ],
       "reference": "JG4529",
-      "name": "PO40 Area",
+      "name": "PO41 & PO40 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO40 9TA",
@@ -251,6 +251,91 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.4922323254187668,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2021-12-28T02:14:00.000+0000",
+      "latitude": 51.488551230130206,
+      "estimatedRestoration": "2021-12-28T06:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG4602'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG4602",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.488,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.36832
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.48761,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.36772
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.488551230130206,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.34673271291631896
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.488,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.36832
+            }
+          ],
+          "subCodes": [
+            "TW5 0UX",
+            "TW5 0UY",
+            "TW5 0UZ"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JG4602",
+      "name": "TW5 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "TW5 0UX",
+        "TW5 0UY",
+        "TW5 0UZ",
+        "W4 3AS"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.36832,
+              51.488
+            ],
+            [
+              -0.36772,
+              51.48761
+            ],
+            [
+              -0.34673271291631896,
+              51.488551230130206
+            ],
+            [
+              -0.36832,
+              51.488
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2021-12-28T03:45:00.000+0000",
+      "UUID": "2f0f0cdd-758e-4de2-8fe4-a415b2c6b79a",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.34673271291631896,
       "resolved": false
     }
   ]
