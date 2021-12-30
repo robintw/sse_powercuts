@@ -320,36 +320,45 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2021-12-30T06:09:00.000+0000",
-      "latitude": 57.646392567797555,
-      "estimatedRestoration": "2021-12-30T10:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG5761'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG5761",
-      "reference": "JG5761",
-      "name": "IV30 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2021-12-30T09:00:00.000+0000",
+      "latitude": 51.573511618440094,
+      "estimatedRestoration": "2021-12-30T14:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '204036'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/204036",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.57305,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.8107
+            }
+          ],
+          "name": "SN2 2PN",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "204036",
+      "name": "SN2 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "IV30 1JG",
-        "IV30 1JH",
-        "IV30 1JL",
-        "IV30 1JR",
-        "IV30 1JS",
-        "IV30 1NG",
-        "IV30 1NQ"
+        "SN2 2PN"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.3170350161015434,
-          57.646392567797555
+          -1.8114320846826748,
+          51.573511618440094
         ],
         "type": "Point"
       },
-      "UUID": "f9c9f7c3-780f-4b4d-b7b8-8a6e68c8f717",
+      "UUID": "d316eac1-047e-4aa8-a493-99b8248bfc41",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.3170350161015434,
+      "longitude": -1.8114320846826748,
       "resolved": false
     },
     {
@@ -417,7 +426,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG5803",
       "reference": "JG5803",
-      "name": "KY4 & KY13 Areas",
+      "name": "KY13 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "KY12 9HL",
