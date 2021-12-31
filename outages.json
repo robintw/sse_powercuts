@@ -287,6 +287,101 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2021-12-31T13:47:00.000+0000",
+      "latitude": 50.69350900276008,
+      "estimatedRestoration": "2021-12-31T17:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG6497'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG6497",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.69215,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.3063
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.69337,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.30455
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.69486,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.3034
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.6938,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.30465
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.69215,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.3063
+            }
+          ],
+          "subCodes": [
+            "PO30 1DP",
+            "PO30 1DR",
+            "PO30 1DS",
+            "PO30 1DT"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JG6497",
+      "name": "PO30 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO30 1DP",
+        "PO30 1DR",
+        "PO30 1DS",
+        "PO30 1DT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -1.3063,
+              50.69215
+            ],
+            [
+              -1.30455,
+              50.69337
+            ],
+            [
+              -1.3034,
+              50.69486
+            ],
+            [
+              -1.30465,
+              50.6938
+            ],
+            [
+              -1.3063,
+              50.69215
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "5d1e7964-616d-4f9b-a771-d6d0d293eea5",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3046456580326573,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "Messages": [
         {
           "py/object": "Message",
@@ -366,35 +461,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.0932505875432,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2021-12-31T12:05:00.000+0000",
-      "latitude": 56.25826306794291,
-      "estimatedRestoration": "2021-12-31T16:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG6451'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG6451",
-      "reference": "JG6451",
-      "name": "PA34 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "PA34 4XF"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -5.477683598794971,
-          56.25826306794291
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2021-12-31T13:30:00.000+0000",
-      "UUID": "4f1bb05d-47c8-489b-99a3-bb656078a956",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.477683598794971,
       "resolved": false
     }
   ]
