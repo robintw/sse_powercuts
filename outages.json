@@ -86,33 +86,84 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-01-02T21:20:00.000+0000",
-      "latitude": 56.47743717179312,
-      "estimatedRestoration": "2022-01-03T00:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG7162'",
+      "loggedAt": "2022-01-02T22:49:00.000+0000",
+      "latitude": 50.88771708408261,
+      "estimatedRestoration": "2022-01-03T02:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JG7166'",
       "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG7162",
-      "reference": "JG7162",
-      "name": "DD3 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JG7166",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.88739,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35394
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.88798,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35352
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.88771708408261,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.353479775790562
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.88739,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35394
+            }
+          ],
+          "subCodes": [
+            "SO19 9QS",
+            "SO19 9QT"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JG7166",
+      "name": "SO19 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "DD3 7NU",
-        "DD3 7PA",
-        "DD3 7SW",
-        "DD3 7SX"
+        "SO19 9QS",
+        "SO19 9QT"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.9659604230040024,
-          56.47743717179312
+          [
+            [
+              -1.35394,
+              50.88739
+            ],
+            [
+              -1.35352,
+              50.88798
+            ],
+            [
+              -1.353479775790562,
+              50.88771708408261
+            ],
+            [
+              -1.35394,
+              50.88739
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "2f60a510-e5e5-4d5f-9b63-68f0140b2445",
+      "estimatedArrivalOnSiteTime": "2022-01-02T23:59:00.000+0000",
+      "UUID": "2cd70fc3-c3fc-468d-8f21-82c9caf8a328",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.9659604230040024,
+      "longitude": -1.353479775790562,
       "resolved": false
     }
   ]
