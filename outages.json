@@ -2,6 +2,81 @@
   "Faults": [
     {
       "py/object": "Fault",
+      "loggedAt": "2022-01-11T07:00:00.000+0000",
+      "latitude": 51.12944358611119,
+      "estimatedRestoration": "2022-01-13T18:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '204829'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/204829",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.11454,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.98108
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.12944358611119,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.9710457760244223
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.14435,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.96101
+            }
+          ],
+          "subCodes": [
+            "GU34 2SW",
+            "GU34 3EE"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "204829",
+      "name": "GU34 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU34 2SW",
+        "GU34 3EE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.98108,
+              51.11454
+            ],
+            [
+              -0.9710457760244223,
+              51.12944358611119
+            ],
+            [
+              -0.96101,
+              51.14435
+            ],
+            [
+              -0.98108,
+              51.11454
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "361106bc-765e-4082-afc8-a4671c9c69ee",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9710457760244223,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-01-11T06:10:00.000+0000",
       "latitude": 58.5927803329009,
       "estimatedRestoration": "2022-01-11T10:00:00.000+0000",
