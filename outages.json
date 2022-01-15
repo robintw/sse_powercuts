@@ -3,10 +3,10 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-01-14T12:05:00.000+0000",
-      "latitude": 50.75847113795177,
+      "latitude": 50.75802005087043,
       "estimatedRestoration": "2022-01-15T17:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ3444'",
-      "type": "LV",
+      "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ3444",
       "Areas": [
         {
@@ -14,15 +14,21 @@
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 50.75826,
+              "latitude": 50.75744,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.6241
+              "longitude": -1.62487
             },
             {
               "py/object": "Point",
-              "latitude": 50.7576,
+              "latitude": 50.75784,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.62321
+              "longitude": -1.62463
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.75826,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.6241
             },
             {
               "py/object": "Point",
@@ -32,15 +38,41 @@
             },
             {
               "py/object": "Point",
-              "latitude": 50.75826,
+              "latitude": 50.75681,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.6241
+              "longitude": -1.61989
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.75641,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.6205
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.75628,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62389
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.75744,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62487
             }
           ],
           "subCodes": [
+            "SO41 0EP",
             "SO41 0GJ",
+            "SO41 0GL",
+            "SO41 0GN",
+            "SO41 0GP",
             "SO41 0GT",
-            "SO41 0GX"
+            "SO41 0GU",
+            "SO41 0GX",
+            "SO41 0GY",
+            "SO41 0UL",
+            "SO41 0YA"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
@@ -50,29 +82,53 @@
       "name": "SO41 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "SO41 0EP",
         "SO41 0GJ",
+        "SO41 0GL",
+        "SO41 0GN",
+        "SO41 0GP",
         "SO41 0GT",
-        "SO41 0GX"
+        "SO41 0GU",
+        "SO41 0GX",
+        "SO41 0GY",
+        "SO41 0UL",
+        "SO41 0YA"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -1.6241,
-              50.75826
+              -1.62487,
+              50.75744
             ],
             [
-              -1.62321,
-              50.7576
+              -1.62463,
+              50.75784
+            ],
+            [
+              -1.6241,
+              50.75826
             ],
             [
               -1.62233,
               50.75937
             ],
             [
-              -1.6241,
-              50.75826
+              -1.61989,
+              50.75681
+            ],
+            [
+              -1.6205,
+              50.75641
+            ],
+            [
+              -1.62389,
+              50.75628
+            ],
+            [
+              -1.62487,
+              50.75744
             ]
           ]
         ],
@@ -81,14 +137,14 @@
       "UUID": "5f6e5110-c803-4b15-a901-3451c0b56958",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.623200310475877,
+      "longitude": -1.6227502591009209,
       "resolved": false
     },
     {
       "py/object": "Fault",
       "loggedAt": "2022-01-15T06:41:00.000+0000",
       "latitude": 51.42210247536136,
-      "estimatedRestoration": "2022-01-15T17:00:00.000+0000",
+      "estimatedRestoration": "2022-01-15T18:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ3542'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ3542",
@@ -419,7 +475,7 @@
         }
       ],
       "reference": "JJ3587",
-      "name": "OX29 Area",
+      "name": "OX1 & OX29 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX1 2AU",
@@ -521,35 +577,1031 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-01-14T18:56:00.000+0000",
-      "latitude": 55.754148671465536,
-      "estimatedRestoration": "2022-01-15T13:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ3433'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ3433",
-      "reference": "JJ3433",
-      "engineerOnSiteTime": "2022-01-14T19:00:00.000+0000",
-      "name": "KA28 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-01-15T11:45:00.000+0000",
+      "latitude": 51.62266515359593,
+      "estimatedRestoration": "2022-01-15T16:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ3618'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ3618",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.67636,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69519
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.66171,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69167
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65245,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69164
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.64931,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.6872
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.64878,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.68611
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.66838,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.68783
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68437,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.68192
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68643,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.67431
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68511,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.66556
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68261,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.64869
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68218,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.63848
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65732,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65227
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65843,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65882
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65406,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.64792
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63288,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.64395
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62874,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65046
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62734,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65076
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62171,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.64146
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61984,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.63539
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60859,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62095
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60074,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.6156
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.5927,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.60618
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.59374,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.59465
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.59376,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.59456
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6043,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.61484
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61883,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.61943
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62053,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62046
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63472,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62891
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.64117,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62503
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.64571,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62382
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65307,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.6324
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69211,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.61604
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69215,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.60028
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68996,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.59163
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6901,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.58583
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69219,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57953
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69759,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.55283
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6396,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.50598
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62266515359593,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.4985515692730713
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62036,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.51416
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61521,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53073
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61226,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53298
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60146,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53785
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.59252,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.5512
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.58977,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.55216
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.57546,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57448
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.57571,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57665
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.5681,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.56328
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.57366,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54608
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.584,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54518
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.59993,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53829
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60234,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53619
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60775,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.53366
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61207,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.51822
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6103,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.50551
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.60887,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.49872
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61141,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.48329
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61164,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.4819
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.61702,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.47449
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.62335,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.46828
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63186,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45885
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63226,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45852
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63527,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.46106
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.64709,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.47007
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65861,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.46027
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.66086,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.4524
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.67066,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45082
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68506,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.44646
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68799,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.44766
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68934,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.44828
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69946,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.4565
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.7028,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.47347
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69926,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45772
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69342,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.4536
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.67904,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45885
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.66666,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.45338
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65855,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.46105
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.65442,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.47014
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69383,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.49426
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69719,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.49761
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.7078,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.50152
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.70374,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.52377
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69885,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54198
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69874,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54229
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69861,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.557
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.7107,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57005
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.71016,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57204
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.70819,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.57588
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.70082,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.58351
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69305,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.60277
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.69388,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.62183
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68279,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.63774
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68532,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65218
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68748,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.65718
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.68663,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.67248
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.6861,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69012
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.67636,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.69519
+            }
+          ],
+          "subCodes": [
+            "SN7",
+            "SN7 8AW",
+            "SN7 8LQ",
+            "SN7 8NR",
+            "SN7 8NS",
+            "SN7 8NT",
+            "SN7 8NU",
+            "SN7 8NZ",
+            "SN7 8PA",
+            "SN7 8PE"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JJ3618",
+      "name": "SN7 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "KA28 0BE",
-        "KA28 0DH",
-        "KA28 0DJ",
-        "KA28 0DL",
-        "KA28 0HE"
+        "OX12 0DQ",
+        "OX12 9RA",
+        "SN7",
+        "SN7 8AW",
+        "SN7 8LQ",
+        "SN7 8NR",
+        "SN7 8NS",
+        "SN7 8NT",
+        "SN7 8NU",
+        "SN7 8NZ",
+        "SN7 8PA",
+        "SN7 8PE"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -4.924441601033623,
-          55.754148671465536
+          [
+            [
+              -1.69519,
+              51.67636
+            ],
+            [
+              -1.69167,
+              51.66171
+            ],
+            [
+              -1.69164,
+              51.65245
+            ],
+            [
+              -1.6872,
+              51.64931
+            ],
+            [
+              -1.68611,
+              51.64878
+            ],
+            [
+              -1.68783,
+              51.66838
+            ],
+            [
+              -1.68192,
+              51.68437
+            ],
+            [
+              -1.67431,
+              51.68643
+            ],
+            [
+              -1.66556,
+              51.68511
+            ],
+            [
+              -1.64869,
+              51.68261
+            ],
+            [
+              -1.63848,
+              51.68218
+            ],
+            [
+              -1.65227,
+              51.65732
+            ],
+            [
+              -1.65882,
+              51.65843
+            ],
+            [
+              -1.64792,
+              51.65406
+            ],
+            [
+              -1.64395,
+              51.63288
+            ],
+            [
+              -1.65046,
+              51.62874
+            ],
+            [
+              -1.65076,
+              51.62734
+            ],
+            [
+              -1.64146,
+              51.62171
+            ],
+            [
+              -1.63539,
+              51.61984
+            ],
+            [
+              -1.62095,
+              51.60859
+            ],
+            [
+              -1.6156,
+              51.60074
+            ],
+            [
+              -1.60618,
+              51.5927
+            ],
+            [
+              -1.59465,
+              51.59374
+            ],
+            [
+              -1.59456,
+              51.59376
+            ],
+            [
+              -1.61484,
+              51.6043
+            ],
+            [
+              -1.61943,
+              51.61883
+            ],
+            [
+              -1.62046,
+              51.62053
+            ],
+            [
+              -1.62891,
+              51.63472
+            ],
+            [
+              -1.62503,
+              51.64117
+            ],
+            [
+              -1.62382,
+              51.64571
+            ],
+            [
+              -1.6324,
+              51.65307
+            ],
+            [
+              -1.61604,
+              51.69211
+            ],
+            [
+              -1.60028,
+              51.69215
+            ],
+            [
+              -1.59163,
+              51.68996
+            ],
+            [
+              -1.58583,
+              51.6901
+            ],
+            [
+              -1.57953,
+              51.69219
+            ],
+            [
+              -1.55283,
+              51.69759
+            ],
+            [
+              -1.50598,
+              51.6396
+            ],
+            [
+              -1.4985515692730713,
+              51.62266515359593
+            ],
+            [
+              -1.51416,
+              51.62036
+            ],
+            [
+              -1.53073,
+              51.61521
+            ],
+            [
+              -1.53298,
+              51.61226
+            ],
+            [
+              -1.53785,
+              51.60146
+            ],
+            [
+              -1.5512,
+              51.59252
+            ],
+            [
+              -1.55216,
+              51.58977
+            ],
+            [
+              -1.57448,
+              51.57546
+            ],
+            [
+              -1.57665,
+              51.57571
+            ],
+            [
+              -1.56328,
+              51.5681
+            ],
+            [
+              -1.54608,
+              51.57366
+            ],
+            [
+              -1.54518,
+              51.584
+            ],
+            [
+              -1.53829,
+              51.59993
+            ],
+            [
+              -1.53619,
+              51.60234
+            ],
+            [
+              -1.53366,
+              51.60775
+            ],
+            [
+              -1.51822,
+              51.61207
+            ],
+            [
+              -1.50551,
+              51.6103
+            ],
+            [
+              -1.49872,
+              51.60887
+            ],
+            [
+              -1.48329,
+              51.61141
+            ],
+            [
+              -1.4819,
+              51.61164
+            ],
+            [
+              -1.47449,
+              51.61702
+            ],
+            [
+              -1.46828,
+              51.62335
+            ],
+            [
+              -1.45885,
+              51.63186
+            ],
+            [
+              -1.45852,
+              51.63226
+            ],
+            [
+              -1.46106,
+              51.63527
+            ],
+            [
+              -1.47007,
+              51.64709
+            ],
+            [
+              -1.46027,
+              51.65861
+            ],
+            [
+              -1.4524,
+              51.66086
+            ],
+            [
+              -1.45082,
+              51.67066
+            ],
+            [
+              -1.44646,
+              51.68506
+            ],
+            [
+              -1.44766,
+              51.68799
+            ],
+            [
+              -1.44828,
+              51.68934
+            ],
+            [
+              -1.4565,
+              51.69946
+            ],
+            [
+              -1.47347,
+              51.7028
+            ],
+            [
+              -1.45772,
+              51.69926
+            ],
+            [
+              -1.4536,
+              51.69342
+            ],
+            [
+              -1.45885,
+              51.67904
+            ],
+            [
+              -1.45338,
+              51.66666
+            ],
+            [
+              -1.46105,
+              51.65855
+            ],
+            [
+              -1.47014,
+              51.65442
+            ],
+            [
+              -1.49426,
+              51.69383
+            ],
+            [
+              -1.49761,
+              51.69719
+            ],
+            [
+              -1.50152,
+              51.7078
+            ],
+            [
+              -1.52377,
+              51.70374
+            ],
+            [
+              -1.54198,
+              51.69885
+            ],
+            [
+              -1.54229,
+              51.69874
+            ],
+            [
+              -1.557,
+              51.69861
+            ],
+            [
+              -1.57005,
+              51.7107
+            ],
+            [
+              -1.57204,
+              51.71016
+            ],
+            [
+              -1.57588,
+              51.70819
+            ],
+            [
+              -1.58351,
+              51.70082
+            ],
+            [
+              -1.60277,
+              51.69305
+            ],
+            [
+              -1.62183,
+              51.69388
+            ],
+            [
+              -1.63774,
+              51.68279
+            ],
+            [
+              -1.65218,
+              51.68532
+            ],
+            [
+              -1.65718,
+              51.68748
+            ],
+            [
+              -1.67248,
+              51.68663
+            ],
+            [
+              -1.69012,
+              51.6861
+            ],
+            [
+              -1.69519,
+              51.67636
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "3845d76f-090c-4a55-9885-ece696822fc2",
+      "UUID": "54a2a394-06ef-47c6-9c3d-99d563d0d4e7",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.924441601033623,
+      "longitude": -1.4985515692730713,
       "resolved": false
     },
     {
