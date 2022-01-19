@@ -329,30 +329,100 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-01-19T10:41:00.000+0000",
-      "latitude": 59.03062128499827,
-      "estimatedRestoration": "2022-01-19T19:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ5335'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ5335",
-      "reference": "JJ5335",
-      "name": "KW16 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-01-19T18:28:00.000+0000",
+      "latitude": 51.93846610518786,
+      "estimatedRestoration": "2022-01-19T21:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ5637'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ5637",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.93722,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54786
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.93881,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.5473
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.94035,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54558
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.93718,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54578
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.93722,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.54786
+            }
+          ],
+          "subCodes": [
+            "OX7 5AA",
+            "OX7 5DH",
+            "OX7 5ER",
+            "OX7 5EU",
+            "OX7 5EX"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JJ5637",
+      "name": "OX7 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "KW16 3LP"
+        "OX7 5AA",
+        "OX7 5DH",
+        "OX7 5ER",
+        "OX7 5EU",
+        "OX7 5EX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.315278405490085,
-          59.03062128499827
+          [
+            [
+              -1.54786,
+              51.93722
+            ],
+            [
+              -1.5473,
+              51.93881
+            ],
+            [
+              -1.54558,
+              51.94035
+            ],
+            [
+              -1.54578,
+              51.93718
+            ],
+            [
+              -1.54786,
+              51.93722
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "80c9601a-d9b3-4992-a046-5617be7d70fb",
+      "estimatedArrivalOnSiteTime": "2022-01-19T19:30:00.000+0000",
+      "UUID": "b1127c54-ddc5-4e34-beb1-2e9b9c609e5a",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.315278405490085,
+      "longitude": -1.5466359945556756,
       "resolved": false
     },
     {
@@ -402,7 +472,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ5600",
       "reference": "JJ5600",
-      "name": "AB12 & AB43 Areas",
+      "name": "AB43 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB12 5XJ",
