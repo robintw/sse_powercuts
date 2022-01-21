@@ -848,6 +848,105 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-01-21T10:28:00.000+0000",
+      "latitude": 50.91402502865497,
+      "estimatedRestoration": "2022-01-21T14:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ6418'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ6418",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.91641,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2115
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.91708,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2093
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.91581,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.20391
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.90602,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.21081
+            },
+            {
+              "py/object": "Point",
+              "latitude": 50.91641,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.2115
+            }
+          ],
+          "subCodes": [
+            "SO32 2HN",
+            "SO32 2HP",
+            "SO32 2HW",
+            "SO32 2HY",
+            "SO32 2JG",
+            "SO32 2JZ"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JJ6418",
+      "name": "SO32 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SO32 2HN",
+        "SO32 2HP",
+        "SO32 2HW",
+        "SO32 2HY",
+        "SO32 2JG",
+        "SO32 2JZ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -1.2115,
+              50.91641
+            ],
+            [
+              -1.2093,
+              50.91708
+            ],
+            [
+              -1.20391,
+              50.91581
+            ],
+            [
+              -1.21081,
+              50.90602
+            ],
+            [
+              -1.2115,
+              50.91641
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "6f78515f-e32a-4952-a84f-8e1119943641",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.2082508616738827,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-01-20T17:04:00.000+0000",
       "latitude": 55.68295616439748,
       "estimatedRestoration": "2022-01-21T12:30:00.000+0000",
@@ -947,7 +1046,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205239",
       "reference": "205239",
-      "name": "IV8 & IV7 Areas",
+      "name": "IV7 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "IV7 8JJ",
