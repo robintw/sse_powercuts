@@ -825,7 +825,7 @@
         }
       ],
       "reference": "204700",
-      "name": "BH16 Area",
+      "name": "BH20 & BH16 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH16 6AF",
@@ -1086,7 +1086,7 @@
         }
       ],
       "reference": "205063",
-      "name": "DT2 & DT8 Areas",
+      "name": "DT8 & DT2 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "DT2 0PB",
@@ -1348,6 +1348,106 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-01-24T10:36:00.000+0000",
+      "latitude": 51.51392050128934,
+      "estimatedRestoration": "2022-01-24T14:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JJ7362'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JJ7362",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.51525,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.32072
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.51234,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.31926
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.51342,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.3167
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.51472,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.31927
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.51525,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.32072
+            }
+          ],
+          "subCodes": [
+            "W13 8AA",
+            "W13 8PH",
+            "W13 8QH",
+            "W13 8RY"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JJ7362",
+      "name": "W13 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "W13 8AA",
+        "W13 8PH",
+        "W13 8QH",
+        "W13 8RY"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.32072,
+              51.51525
+            ],
+            [
+              -0.31926,
+              51.51234
+            ],
+            [
+              -0.3167,
+              51.51342
+            ],
+            [
+              -0.31927,
+              51.51472
+            ],
+            [
+              -0.32072,
+              51.51525
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "9a66eeb5-8c7a-4a8e-82a8-88ed20748713",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "09e2892d-7cfb-4132-9ed4-57bc492fccb2",
+        "7fcb829a-1f0a-4b7a-a124-2362e437470a",
+        "1fa1c5ca-2967-4289-ab1d-9d65905fb063"
+      ],
+      "longitude": -0.31903708552514115,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-01-24T09:00:00.000+0000",
       "latitude": 57.42315059155714,
       "estimatedRestoration": "2022-01-24T15:30:00.000+0000",
@@ -1355,7 +1455,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/204991",
       "reference": "204991",
-      "name": "AB41 & AB42 Areas",
+      "name": "AB42 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8HQ",
