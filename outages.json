@@ -125,6 +125,146 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-01-30T06:51:00.000+0000",
+      "latitude": 51.423169754680416,
+      "estimatedRestoration": "2022-01-30T09:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK1723'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1723",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.42265,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95455
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42193,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95435
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42186,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95385
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42178,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95283
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42403,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95046
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.4262,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.94814
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42438,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95366
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.42265,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.95455
+            }
+          ],
+          "subCodes": [
+            "RG2 8BE",
+            "RG2 8HH",
+            "RG2 8HJ",
+            "RG2 8HL",
+            "RG2 8HX",
+            "RG2 8HY",
+            "RG2 8HZ",
+            "RG2 8JF",
+            "RG2 8JG",
+            "RG2 8JH",
+            "RG2 8JQ"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JK1723",
+      "name": "RG2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG2 8BE",
+        "RG2 8HH",
+        "RG2 8HJ",
+        "RG2 8HL",
+        "RG2 8HX",
+        "RG2 8HY",
+        "RG2 8HZ",
+        "RG2 8JF",
+        "RG2 8JG",
+        "RG2 8JH",
+        "RG2 8JQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.95455,
+              51.42265
+            ],
+            [
+              -0.95435,
+              51.42193
+            ],
+            [
+              -0.95385,
+              51.42186
+            ],
+            [
+              -0.95283,
+              51.42178
+            ],
+            [
+              -0.95046,
+              51.42403
+            ],
+            [
+              -0.94814,
+              51.4262
+            ],
+            [
+              -0.95366,
+              51.42438
+            ],
+            [
+              -0.95455,
+              51.42265
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-01-30T07:40:00.000+0000",
+      "UUID": "346b8fee-ad48-4dc4-bc3f-0daaa90527a7",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9525989380879349,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-01-29T02:26:00.000+0000",
       "latitude": 57.60454203398982,
       "estimatedRestoration": "2022-02-01T23:59:00.000+0000",
@@ -268,7 +408,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0285",
       "reference": "JK0285",
-      "name": "AB33 Area",
+      "name": "AB31 & AB33 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 4QR",
@@ -703,7 +843,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0303",
       "reference": "JK0303",
-      "name": "PH21 & PH23 Areas",
+      "name": "PH21 & PH26 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH21 1NR",
@@ -1401,7 +1541,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0350",
       "reference": "JK0350",
-      "name": "AB53 & AB54 Areas",
+      "name": "AB53 & AB45 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB45 3DD",
@@ -1476,7 +1616,7 @@
         ],
         "type": "Point"
       },
-      "estimatedArrivalOnSiteTime": "2022-01-29T09:00:00.000+0000",
+      "estimatedArrivalOnSiteTime": "2022-01-30T09:00:00.000+0000",
       "UUID": "7e9a316b-0baf-4b2c-816b-e5e8869722b9",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -1492,7 +1632,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0353",
       "reference": "JK0353",
-      "name": "AB55 & AB54 Areas",
+      "name": "AB54 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB54 4TY",
@@ -1637,7 +1777,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0364",
       "reference": "JK0364",
-      "name": "AB54 Area",
+      "name": "AB51 & AB54 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB51 8XU",
@@ -1820,7 +1960,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0388",
       "reference": "JK0388",
-      "name": "AB51 Area",
+      "name": "AB53 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB51",
@@ -2216,7 +2356,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0424",
       "reference": "JK0424",
-      "name": "AB53 Area",
+      "name": "AB51 & AB53 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB51 8XU",
@@ -3069,7 +3209,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0492",
       "reference": "JK0492",
-      "name": "AB51 Area",
+      "name": "AB41 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 7EB",
@@ -3272,7 +3412,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0528",
       "reference": "JK0528",
-      "name": "AB39 & AB31 Areas",
+      "name": "AB31 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 6AE",
@@ -3787,7 +3927,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0513",
       "reference": "JK0513",
-      "name": "AB53 & AB42 Areas",
+      "name": "AB42 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8LY",
@@ -4461,7 +4601,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0704",
       "reference": "JK0704",
-      "name": "AB41 & AB51 Areas",
+      "name": "AB51 & AB41 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 7DX",
@@ -5500,7 +5640,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0905",
       "reference": "JK0905",
-      "name": "AB41 Area",
+      "name": "AB42 & AB41 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8DA",
@@ -5583,7 +5723,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0933",
       "reference": "JK0933",
-      "name": "AB41 & AB42 Areas",
+      "name": "AB42 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB41 8HS",
@@ -5944,7 +6084,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0975",
       "reference": "JK0975",
-      "name": "PH36 Area",
+      "name": "PH33 & PH36 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "PH33 7AF",
@@ -5977,7 +6117,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0983",
       "reference": "JK0983",
-      "name": "AB12 Area",
+      "name": "AB39 & AB12 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB12 4RR",
@@ -6144,7 +6284,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1028",
       "reference": "JK1028",
-      "name": "AB34 Area",
+      "name": "AB31 & AB34 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB31 4BN",
@@ -7844,7 +7984,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1156",
       "reference": "JK1156",
-      "name": "AB23 & AB41 Areas",
+      "name": "AB41 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB23 8XX",
@@ -8110,7 +8250,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1185",
       "reference": "JK1185",
-      "name": "AB55 & AB38 Areas",
+      "name": "AB38 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB38 9QR",
@@ -9877,7 +10017,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK1520",
       "reference": "JK1520",
-      "name": "AB41 & AB51 Areas",
+      "name": "AB21 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21 0LU",
