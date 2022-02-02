@@ -89,111 +89,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-02T17:30:00.000+0000",
-      "latitude": 50.96151104128498,
-      "estimatedRestoration": "2022-02-02T23:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK5633'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK5633",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 50.96126,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.35544
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.96395,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.35465
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.95876,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.34643
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.96069,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.35529
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.96126,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.35544
-            }
-          ],
-          "subCodes": [
-            "SO50 5AE",
-            "SO50 5AF",
-            "SO50 5LX",
-            "SO50 5NA",
-            "SO50 5NB",
-            "SO50 5ND",
-            "SO50 5NE"
-          ],
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JK5633",
-      "name": "SO50 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "SO50 5AE",
-        "SO50 5AF",
-        "SO50 5LX",
-        "SO50 5NA",
-        "SO50 5NB",
-        "SO50 5ND",
-        "SO50 5NE"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          [
-            [
-              -1.35544,
-              50.96126
-            ],
-            [
-              -1.35465,
-              50.96395
-            ],
-            [
-              -1.34643,
-              50.95876
-            ],
-            [
-              -1.35529,
-              50.96069
-            ],
-            [
-              -1.35544,
-              50.96126
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "84a7cd3a-6523-4a71-95f8-ca3b3c0d18ae",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "evChargersAffected": [
-        "cd28fc94-dd7b-430a-8d87-22df75e8e5f6",
-        "115d87bd-e497-49fc-b955-5e49facc31df"
-      ],
-      "longitude": -1.3537950562480716,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-02-02T18:33:00.000+0000",
       "latitude": 50.86064095653829,
       "estimatedRestoration": "2022-02-03T01:00:00.000+0000",
@@ -711,7 +606,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK0298",
       "reference": "JK0298",
-      "name": "AB51 Area",
+      "name": "AB52 & AB51 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB51 5HE",
@@ -1579,7 +1474,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3675",
       "reference": "JK3675",
-      "name": "DD10 Area",
+      "name": "AB30 & DD10 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30 1HL",
@@ -1765,7 +1660,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK4810",
       "reference": "JK4810",
-      "name": "AB21 Area",
+      "name": "AB51 & AB21 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB21",
@@ -2645,37 +2540,6 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-01-31T09:48:00.000+0000",
-      "latitude": 56.80239989013618,
-      "estimatedRestoration": "2022-02-02T22:00:00.000+0000",
-      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK6479",
-      "reference": "JK6479",
-      "name": "DD10 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "AB30 1HQ",
-        "DD10 0DJ",
-        "DD10 0DT"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -2.4152020550618674,
-          56.80239989013618
-        ],
-        "type": "Point"
-      },
-      "UUID": "f674e6af-2644-463c-85dc-3ba508e0410d",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.4152020550618674,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
       "loggedAt": "2022-02-01T15:24:00.000+0000",
       "latitude": 56.76751705625493,
       "estimatedRestoration": "2022-02-02T23:30:00.000+0000",
@@ -2780,6 +2644,36 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.9212979329940048,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-01-31T07:50:00.000+0000",
+      "latitude": 57.261956551775256,
+      "estimatedRestoration": "2022-02-03T01:45:00.000+0000",
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions which have impacted our network, it’s taking longer than normal to restore supplies. You can continue to track the progress of your power cut here.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our teams will be on hand to help.<br/><br/>For information on welfare provisions and latest updates on our response to the weather, please <a href=\"http://news.ssen.co.uk/news/all-articles/2022/january/storm-malik-update/\" target=\"_blank\">click here</a>.<br/><br/>Thank you for your ongoing patience.",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK3066",
+      "reference": "JK3066",
+      "name": "PH25 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH25 3DG",
+        "PH25 3DJ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.6443480815681686,
+          57.261956551775256
+        ],
+        "type": "Point"
+      },
+      "UUID": "1b1a7b29-ee38-4698-856c-71b0761a5b14",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.6443480815681686,
       "resolved": false
     }
   ]
