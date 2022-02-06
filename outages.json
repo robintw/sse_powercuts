@@ -1241,6 +1241,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-06T14:15:00.000+0000",
       "UUID": "dad3dee8-a519-440e-bc88-44e7148bcb52",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -1653,129 +1654,129 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-06T09:23:00.000+0000",
-      "latitude": 51.360515645728675,
-      "estimatedRestoration": "2022-02-06T16:10:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8829'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8829",
+      "loggedAt": "2022-02-06T14:00:00.000+0000",
+      "latitude": 50.88578463240939,
+      "estimatedRestoration": "2022-02-06T18:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '205034'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205034",
       "Areas": [
         {
           "py/object": "Area",
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 51.36129,
+              "latitude": 50.88557,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.15087
+              "longitude": -1.04247
+            }
+          ],
+          "name": "PO7 7YH",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "205034",
+      "name": "PO7 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "PO7 7YH"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.0421436559184458,
+          50.88578463240939
+        ],
+        "type": "Point"
+      },
+      "UUID": "b3b82235-4d13-4fb4-af61-60c387945293",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0421436559184458,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-06T14:00:00.000+0000",
+      "latitude": 51.42809833869804,
+      "estimatedRestoration": "2022-02-06T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9026'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9026",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.4282,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.47044
             },
             {
               "py/object": "Point",
-              "latitude": 51.36044,
+              "latitude": 51.42859,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.14936
+              "longitude": -0.47016
             },
             {
               "py/object": "Point",
-              "latitude": 51.35949,
+              "latitude": 51.4275,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.14651
+              "longitude": -0.46969
             },
             {
               "py/object": "Point",
-              "latitude": 51.3606,
+              "latitude": 51.4282,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.14483
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.36129,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -2.15087
+              "longitude": -0.47044
             }
           ],
           "subCodes": [
-            "SN12 6ED",
-            "SN12 6EE",
-            "SN12 6EF",
-            "SN12 6EH",
-            "SN12 6EQ"
+            "TW15 3QX",
+            "TW15 3RY",
+            "TW15 3SD"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
       ],
-      "reference": "JK8829",
-      "engineerOnSiteTime": "2022-02-06T13:00:00.000+0000",
-      "name": "SN12 Area",
+      "reference": "JK9026",
+      "name": "TW15 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "SN12 6ED",
-        "SN12 6EE",
-        "SN12 6EF",
-        "SN12 6EH",
-        "SN12 6EQ"
+        "TW15 3QX",
+        "TW15 3RY",
+        "TW15 3SD"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -2.15087,
-              51.36129
+              -0.47044,
+              51.4282
             ],
             [
-              -2.14936,
-              51.36044
+              -0.47016,
+              51.42859
             ],
             [
-              -2.14651,
-              51.35949
+              -0.46969,
+              51.4275
             ],
             [
-              -2.14483,
-              51.3606
-            ],
-            [
-              -2.15087,
-              51.36129
+              -0.47044,
+              51.4282
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "337afb52-3f41-47ba-a025-ffa22cee3c09",
+      "estimatedArrivalOnSiteTime": "2022-02-06T14:45:00.000+0000",
+      "UUID": "6f3bb039-8fe4-434a-a5ee-3c6dbaca2c7e",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.147868992767249,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-02-06T07:12:00.000+0000",
-      "latitude": 59.252729495143555,
-      "estimatedRestoration": "2022-02-06T14:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK8810'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK8810",
-      "reference": "JK8810",
-      "name": "KW17 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "KW17 2DE"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -2.8702557819936336,
-          59.252729495143555
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-06T12:00:00.000+0000",
-      "UUID": "0e578354-c625-4a68-8d63-9aa09b5a6ac0",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.8702557819936336,
+      "longitude": -0.4701071177596396,
       "resolved": false
     },
     {
@@ -1875,31 +1876,78 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-06T13:15:00.000+0000",
-      "latitude": 57.35328166884706,
-      "estimatedRestoration": "2022-02-06T14:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9014'",
+      "loggedAt": "2022-02-06T14:14:00.000+0000",
+      "latitude": 57.40903496870576,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9034'",
       "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9014",
-      "reference": "JK9014",
-      "name": "HS8 Area",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JK9034",
+      "reference": "JK9034",
+      "name": "AB41 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "HS8 5RP",
-        "HS8 5RW"
+        "AB41",
+        "AB41 7TE",
+        "AB41 8DE",
+        "AB41 8DF",
+        "AB41 8DG",
+        "AB41 8DH",
+        "AB41 8DQ",
+        "AB41 8DR",
+        "AB41 8DS",
+        "AB41 8DT",
+        "AB41 8DX",
+        "AB41 8EA",
+        "AB41 8EB",
+        "AB41 8ED",
+        "AB41 8EE",
+        "AB41 8EF",
+        "AB41 8ER",
+        "AB41 8ES",
+        "AB41 8PP",
+        "AB41 8PS",
+        "AB41 8PT",
+        "AB41 8PU",
+        "AB41 8PX",
+        "AB41 8PY",
+        "AB41 8PZ",
+        "AB41 8QE",
+        "AB41 8QH",
+        "AB41 8QJ",
+        "AB41 8QL",
+        "AB41 8QS",
+        "AB41 8QX",
+        "AB41 8QY",
+        "AB41 8RA",
+        "AB41 8SX",
+        "AB41 8SY",
+        "AB41 8UU",
+        "AB41 8UW",
+        "AB41 8UX",
+        "AB41 8UY",
+        "AB41 8XT",
+        "AB41 8XU",
+        "AB41 8XX",
+        "AB41 8YB",
+        "AB41 8YN",
+        "AB41 8YP",
+        "AB41 8YU",
+        "AB41 8YX",
+        "AB41 8YY",
+        "AB41 9BR",
+        "AB41 9DH"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -7.361840291030454,
-          57.35328166884706
+          -2.094672732726776,
+          57.40903496870576
         ],
         "type": "Point"
       },
-      "UUID": "7c0febb2-1944-4159-a479-b2865cb5c376",
+      "UUID": "47e4aa06-92d1-45b9-ac6f-3387c996e68f",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -7.361840291030454,
+      "longitude": -2.094672732726776,
       "resolved": false
     }
   ]
