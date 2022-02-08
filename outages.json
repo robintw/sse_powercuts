@@ -9,7 +9,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205646",
       "reference": "205646",
-      "name": "DT11 & BH21 Areas",
+      "name": "BH21 & DT11 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -147,7 +147,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-02-08T01:11:00.000+0000",
-      "latitude": 51.44709064569029,
+      "latitude": 51.446549798086224,
       "estimatedRestoration": "2022-02-08T13:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JK9929'",
       "type": "LV",
@@ -170,9 +170,15 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.4467,
+              "latitude": 51.44657,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.89427
+              "longitude": -0.8928
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.44569,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.89264
             },
             {
               "py/object": "Point",
@@ -182,8 +188,12 @@
             }
           ],
           "subCodes": [
+            "RG5 4DA",
+            "RG5 4EN",
             "RG5 4EP",
             "RG5 4ER",
+            "RG5 4ES",
+            "RG5 4ET",
             "RG5 4EW"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
@@ -194,8 +204,12 @@
       "name": "RG5 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "RG5 4DA",
+        "RG5 4EN",
         "RG5 4EP",
         "RG5 4ER",
+        "RG5 4ES",
+        "RG5 4ET",
         "RG5 4EW"
       ],
       "location": {
@@ -211,8 +225,12 @@
               51.44766
             ],
             [
-              -0.89427,
-              51.4467
+              -0.8928,
+              51.44657
+            ],
+            [
+              -0.89264,
+              51.44569
             ],
             [
               -0.89556,
@@ -226,7 +244,7 @@
       "UUID": "61fd4bbd-4064-4138-9280-bf65635d7476",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.8950671828054358,
+      "longitude": -0.893972210170675,
       "resolved": false
     },
     {
@@ -1694,6 +1712,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-08T12:00:00.000+0000",
       "UUID": "6ea450d6-5de3-415f-80f1-4a9cc9b1d7bd",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -1815,6 +1834,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-08T12:00:00.000+0000",
       "UUID": "2cb4cd45-b41d-4b0a-8bf0-69bc7a14f5ea",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
