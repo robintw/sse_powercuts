@@ -1312,6 +1312,86 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-02-09T13:28:00.000+0000",
+      "latitude": 51.63405816877392,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM0859'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM0859",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.63805,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35774
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63405816877392,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.3566982157974428
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63063,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35537
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.63805,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.35774
+            }
+          ],
+          "subCodes": [
+            "OX13 6AP",
+            "OX13 6BE"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM0859",
+      "name": "OX13 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "OX13 6AP",
+        "OX13 6BE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -1.35774,
+              51.63805
+            ],
+            [
+              -1.3566982157974428,
+              51.63405816877392
+            ],
+            [
+              -1.35537,
+              51.63063
+            ],
+            [
+              -1.35774,
+              51.63805
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "aa501538-92b3-48ca-b72b-552d0f6b51e0",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3566982157974428,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-02-08T21:26:00.000+0000",
       "latitude": 55.66522249220647,
       "estimatedRestoration": "2022-02-09T17:00:00.000+0000",
@@ -1514,7 +1594,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM0826",
       "reference": "JM0826",
-      "name": "ZE1 & ZE2 Areas",
+      "name": "ZE2 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "ZE1 0XL",
