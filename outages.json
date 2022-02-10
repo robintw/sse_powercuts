@@ -699,7 +699,7 @@
         }
       ],
       "reference": "205634",
-      "name": "OX49 Area",
+      "name": "OX10 & OX49 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "OX10 6AB",
@@ -823,7 +823,7 @@
         }
       ],
       "reference": "204824",
-      "name": "BH22 & BH23 Areas",
+      "name": "BH23 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH22 8UB",
@@ -1677,91 +1677,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-10T07:35:00.000+0000",
-      "latitude": 50.744150394982526,
-      "estimatedRestoration": "2022-02-10T10:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1200'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1200",
-      "Areas": [
-        {
-          "py/object": "Area",
-          "Points": [
-            {
-              "py/object": "Point",
-              "latitude": 50.74499,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.65151
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.74347,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.65043
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.74406,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.65008
-            },
-            {
-              "py/object": "Point",
-              "latitude": 50.74499,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.65151
-            }
-          ],
-          "subCodes": [
-            "BH25 7AA",
-            "BH25 7AT",
-            "BH25 7AU"
-          ],
-          "py/class": "http://opengrid.com/givr/1.0#//Area"
-        }
-      ],
-      "reference": "JM1200",
-      "engineerOnSiteTime": "2022-02-10T08:10:00.000+0000",
-      "name": "BH25 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "BH25 7AA",
-        "BH25 7AT",
-        "BH25 7AU"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          [
-            [
-              -1.65151,
-              50.74499
-            ],
-            [
-              -1.65043,
-              50.74347
-            ],
-            [
-              -1.65008,
-              50.74406
-            ],
-            [
-              -1.65151,
-              50.74499
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-10T08:30:00.000+0000",
-      "UUID": "e66aa317-08d1-4051-a1f6-3ce1ffb3d326",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.6506691142413703,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-02-09T16:15:00.000+0000",
       "latitude": 59.35110172714256,
       "estimatedRestoration": "2022-02-10T13:00:00.000+0000",
@@ -1914,7 +1829,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205540",
       "reference": "205540",
-      "name": "DD5 Area",
+      "name": "DD7 & DD5 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "DD5",
@@ -2006,6 +1921,115 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.671200191808356,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-10T08:17:00.000+0000",
+      "latitude": 57.239936818836405,
+      "estimatedRestoration": "2022-02-10T12:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1214'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1214",
+      "reference": "JM1214",
+      "name": "AB51 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB51 5FW",
+        "AB51 5GB",
+        "AB51 5GF"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.44748093761596,
+          57.239936818836405
+        ],
+        "type": "Point"
+      },
+      "UUID": "6e73781e-be5a-4fd3-bec8-6d302dded482",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.44748093761596,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-10T09:44:00.000+0000",
+      "latitude": 57.2329620358284,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1275'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1275",
+      "reference": "JM1275",
+      "name": "IV56 & PA24 Areas",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV47",
+        "IV47 8SD",
+        "IV47 8SE",
+        "IV47 8SF",
+        "IV47 8SG",
+        "IV47 8SH",
+        "IV47 8SJ",
+        "IV47 8SL",
+        "IV47 8SN",
+        "IV47 8SQ",
+        "IV47 8SR",
+        "IV47 8SS",
+        "IV47 8ST",
+        "IV47 8SU",
+        "IV47 8SY",
+        "IV47 8SZ",
+        "IV47 8TA",
+        "IV49 9AB",
+        "IV56 8FG",
+        "PA24 8AB"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -6.259151950694923,
+          57.2329620358284
+        ],
+        "type": "Point"
+      },
+      "UUID": "89b91a58-16d2-4c61-93cb-6abae57cf911",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.259151950694923,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-10T09:40:00.000+0000",
+      "latitude": 57.651480277903126,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1270'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1270",
+      "reference": "JM1270",
+      "name": "AB43 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB43 7DG",
+        "AB43 7DL",
+        "AB43 7DN",
+        "AB43 7DP",
+        "AB43 7DQ",
+        "AB43 7DX",
+        "AB43 7EA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.1346788415828577,
+          57.651480277903126
+        ],
+        "type": "Point"
+      },
+      "UUID": "c31a3800-eb96-4f3d-a141-96ff6d724d00",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.1346788415828577,
       "resolved": false
     }
   ]
