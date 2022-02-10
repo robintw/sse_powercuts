@@ -614,7 +614,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-02-09T22:05:00.000+0000",
-      "latitude": 50.99022542200772,
+      "latitude": 50.99039813097084,
       "estimatedRestoration": "2022-02-10T07:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1085'",
       "type": "LV",
@@ -623,6 +623,12 @@
         {
           "py/object": "Area",
           "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.99198,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.49409
+            },
             {
               "py/object": "Point",
               "latitude": 50.99049,
@@ -643,15 +649,19 @@
             },
             {
               "py/object": "Point",
-              "latitude": 50.99049,
+              "latitude": 50.99198,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -1.49321
+              "longitude": -1.49409
             }
           ],
           "subCodes": [
+            "SO51 8AA",
             "SO51 8AB",
             "SO51 8EB",
-            "SO51 8JF"
+            "SO51 8JA",
+            "SO51 8JB",
+            "SO51 8JF",
+            "SO51 8WH"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
@@ -661,14 +671,22 @@
       "name": "SO51 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
+        "SO51 8AA",
         "SO51 8AB",
         "SO51 8EB",
-        "SO51 8JF"
+        "SO51 8JA",
+        "SO51 8JB",
+        "SO51 8JF",
+        "SO51 8WH"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
+            [
+              -1.49409,
+              50.99198
+            ],
             [
               -1.49321,
               50.99049
@@ -682,8 +700,8 @@
               50.99073
             ],
             [
-              -1.49321,
-              50.99049
+              -1.49409,
+              50.99198
             ]
           ]
         ],
@@ -693,7 +711,7 @@
       "UUID": "ccc654a2-3b6e-418d-8cb7-8bb0ea614620",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.4905043776634226,
+      "longitude": -1.4909299261666897,
       "resolved": false
     },
     {
@@ -720,6 +738,7 @@
         }
       ],
       "reference": "JM1140",
+      "engineerOnSiteTime": "2022-02-10T03:27:00.000+0000",
       "name": "W13 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
