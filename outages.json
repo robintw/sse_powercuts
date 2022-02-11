@@ -9,7 +9,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205646",
       "reference": "205646",
-      "name": "BH21 & DT11 Areas",
+      "name": "DT11 & BH21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -810,30 +810,46 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-11T00:01:00.000+0000",
-      "latitude": 56.45713436595949,
-      "estimatedRestoration": "2022-02-11T03:01:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '205633'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/205633",
-      "reference": "205633",
-      "name": "DD1 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-02-11T02:31:00.000+0000",
+      "latitude": 51.420056830881926,
+      "estimatedRestoration": "2022-02-11T06:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1754'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1754",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.41992,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.75816
+            }
+          ],
+          "name": "RG42 1PX",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM1754",
+      "name": "RG42 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "DD1 4HT"
+        "RG42 1PX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.9828558500186966,
-          56.45713436595949
+          -0.7581295484321285,
+          51.420056830881926
         ],
         "type": "Point"
       },
-      "UUID": "55a64704-6bb7-4aa1-8627-6c8089946f5c",
+      "estimatedArrivalOnSiteTime": "2022-02-11T03:30:00.000+0000",
+      "UUID": "c8c4378e-6505-43de-8411-4ea73f598b7f",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.9828558500186966,
+      "longitude": -0.7581295484321285,
       "resolved": false
     }
   ]
