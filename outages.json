@@ -3765,7 +3765,7 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-12T11:02:00.000+0000",
+      "loggedAt": "2022-02-12T12:20:00.000+0000",
       "latitude": 51.426237894400465,
       "estimatedRestoration": "2022-02-12T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM2533'",
@@ -3962,33 +3962,46 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-02-12T10:25:00.000+0000",
-      "latitude": 57.18953929244028,
-      "estimatedRestoration": "2022-02-12T13:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM2511'",
+      "loggedAt": "2022-02-12T11:30:00.000+0000",
+      "latitude": 50.89524757520123,
+      "estimatedRestoration": "2022-02-12T15:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JM1643'",
       "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM2511",
-      "reference": "JM2511",
-      "name": "AB22 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM1643",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 50.89524,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -1.02186
+            }
+          ],
+          "name": "PO8 8UX",
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM1643",
+      "engineerOnSiteTime": "2022-02-10T21:00:00.000+0000",
+      "name": "PO8 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "AB22 8NA",
-        "AB22 8NE",
-        "AB22 8NW",
-        "AB22 8NY"
+        "PO8 8UX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.1172392576912165,
-          57.18953929244028
+          -1.021857879798823,
+          50.89524757520123
         ],
         "type": "Point"
       },
-      "UUID": "f15488fe-c320-4d6d-a674-498a8b13e0e7",
+      "UUID": "625dda45-e0de-40ca-93e9-797e29b8e8a3",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.1172392576912165,
+      "longitude": -1.021857879798823,
       "resolved": false
     },
     {
@@ -4000,7 +4013,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM2557",
       "reference": "JM2557",
-      "name": "DD10 & DD9 Areas",
+      "name": "AB30 & DD9 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB30 1QJ",
