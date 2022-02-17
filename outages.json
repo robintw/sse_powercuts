@@ -246,8 +246,9 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-17T07:22:00.000+0000",
-      "latitude": 51.54213791932354,
+      "loggedAt": "2022-02-17T07:31:00.000+0000",
+      "latitude": 51.61359735577742,
+      "estimatedRestoration": "2022-02-17T10:30:00.000+0000",
       "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM6090",
@@ -257,9 +258,15 @@
           "Points": [
             {
               "py/object": "Point",
-              "latitude": 51.54213791932354,
+              "latitude": 51.61359735577742,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.4172701734775808
+              "longitude": -0.485355835730222
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.50258,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.40696
             },
             {
               "py/object": "Point",
@@ -383,9 +390,9 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.49855,
+              "latitude": 51.49587,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.41265
+              "longitude": -0.41084
             },
             {
               "py/object": "Point",
@@ -395,90 +402,20 @@
             },
             {
               "py/object": "Point",
-              "latitude": 51.50258,
+              "latitude": 51.61359735577742,
               "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.40696
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.50259,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.40694
-            },
-            {
-              "py/object": "Point",
-              "latitude": 51.54213791932354,
-              "py/class": "http://opengrid.com/givr/1.0#//Point",
-              "longitude": -0.4172701734775808
+              "longitude": -0.485355835730222
             }
           ],
           "subCodes": [
             "UB1 1DA",
             "UB2",
-            "UB2 4AJ",
-            "UB2 4AL",
-            "UB2 4AR",
-            "UB2 4AU",
-            "UB2 4AX",
             "UB2 4BD",
-            "UB2 4BE",
-            "UB2 4BG",
-            "UB2 4BJ",
-            "UB2 4BL",
-            "UB2 4BN",
-            "UB2 4BP",
-            "UB2 4BQ",
-            "UB2 4BS",
-            "UB2 4BT",
-            "UB2 4BU",
-            "UB2 4BW",
-            "UB2 4BX",
-            "UB2 4DA",
-            "UB2 4DF",
-            "UB2 4DG",
-            "UB2 4DH",
-            "UB2 4EB",
             "UB2 4EF",
-            "UB2 4EX",
-            "UB2 4JB",
-            "UB2 4JD",
-            "UB2 4JE",
-            "UB2 4JL",
-            "UB2 4JN",
-            "UB2 4JP",
-            "UB2 4JR",
-            "UB2 4JS",
-            "UB2 4JY",
-            "UB2 4JZ",
-            "UB2 4NS",
-            "UB2 4NU",
-            "UB2 4NX",
-            "UB2 4QE",
-            "UB2 4RP",
             "UB2 5",
-            "UB2 5AA",
-            "UB2 5AB",
-            "UB2 5AD",
-            "UB2 5AH",
-            "UB2 5AJ",
-            "UB2 5AL",
-            "UB2 5AP",
-            "UB2 5AQ",
-            "UB2 5AR",
-            "UB2 5AS",
-            "UB2 5AT",
-            "UB2 5AU",
-            "UB2 5AW",
-            "UB2 5AX",
             "UB2 5AY",
-            "UB2 5AZ",
-            "UB2 5BA",
-            "UB2 5BB",
             "UB2 5BD",
-            "UB2 5BH",
-            "UB2 5BJ",
             "UB2 5BS",
-            "UB2 5BW",
             "UB2 5BX",
             "UB2 5BY",
             "UB2 5BZ",
@@ -488,11 +425,9 @@
             "UB2 5DG",
             "UB2 5DL",
             "UB2 5DN",
-            "UB2 5DP",
             "UB2 5DQ",
             "UB2 5DT",
             "UB2 5DW",
-            "UB2 5EG",
             "UB2 5EL",
             "UB2 5EN",
             "UB2 5EP",
@@ -500,8 +435,6 @@
             "UB2 5EW",
             "UB2 5FB",
             "UB2 5FD",
-            "UB2 5HX",
-            "UB2 5JB",
             "UB2 5JX",
             "UB2 5JY",
             "UB2 5LA",
@@ -514,10 +447,8 @@
             "UB2 5LR",
             "UB2 5LS",
             "UB2 5LW",
-            "UB2 5NR",
             "UB2 5XJ",
-            "UB2 5XX",
-            "UB3 4QR"
+            "UB2 5XX"
           ],
           "py/class": "http://opengrid.com/givr/1.0#//Area"
         }
@@ -527,76 +458,14 @@
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "G46 8JG",
-        "TW5 9JG",
         "UB1 1DA",
         "UB2",
-        "UB2 4AJ",
-        "UB2 4AL",
-        "UB2 4AR",
-        "UB2 4AU",
-        "UB2 4AX",
         "UB2 4BD",
-        "UB2 4BE",
-        "UB2 4BG",
-        "UB2 4BJ",
-        "UB2 4BL",
-        "UB2 4BN",
-        "UB2 4BP",
-        "UB2 4BQ",
-        "UB2 4BS",
-        "UB2 4BT",
-        "UB2 4BU",
-        "UB2 4BW",
-        "UB2 4BX",
-        "UB2 4DA",
-        "UB2 4DF",
-        "UB2 4DG",
-        "UB2 4DH",
-        "UB2 4EB",
         "UB2 4EF",
-        "UB2 4EX",
-        "UB2 4HA",
-        "UB2 4JB",
-        "UB2 4JD",
-        "UB2 4JE",
-        "UB2 4JL",
-        "UB2 4JN",
-        "UB2 4JP",
-        "UB2 4JR",
-        "UB2 4JS",
-        "UB2 4JY",
-        "UB2 4JZ",
-        "UB2 4NS",
-        "UB2 4NU",
-        "UB2 4NX",
-        "UB2 4QE",
-        "UB2 4QH",
-        "UB2 4RP",
         "UB2 5",
-        "UB2 5AA",
-        "UB2 5AB",
-        "UB2 5AD",
-        "UB2 5AE",
-        "UB2 5AH",
-        "UB2 5AJ",
-        "UB2 5AL",
-        "UB2 5AP",
-        "UB2 5AQ",
-        "UB2 5AR",
-        "UB2 5AS",
-        "UB2 5AT",
-        "UB2 5AU",
-        "UB2 5AW",
-        "UB2 5AX",
         "UB2 5AY",
-        "UB2 5AZ",
-        "UB2 5BA",
-        "UB2 5BB",
         "UB2 5BD",
-        "UB2 5BH",
-        "UB2 5BJ",
         "UB2 5BS",
-        "UB2 5BW",
         "UB2 5BX",
         "UB2 5BY",
         "UB2 5BZ",
@@ -607,11 +476,9 @@
         "UB2 5DG",
         "UB2 5DL",
         "UB2 5DN",
-        "UB2 5DP",
         "UB2 5DQ",
         "UB2 5DT",
         "UB2 5DW",
-        "UB2 5EG",
         "UB2 5EL",
         "UB2 5EN",
         "UB2 5EP",
@@ -619,8 +486,6 @@
         "UB2 5EW",
         "UB2 5FB",
         "UB2 5FD",
-        "UB2 5HX",
-        "UB2 5JB",
         "UB2 5JX",
         "UB2 5JY",
         "UB2 5LA",
@@ -633,19 +498,20 @@
         "UB2 5LR",
         "UB2 5LS",
         "UB2 5LW",
-        "UB2 5NR",
         "UB2 5XJ",
-        "UB2 5XX",
-        "UB3 4QR",
-        "W9 2BW"
+        "UB2 5XX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
           [
             [
-              -0.4172701734775808,
-              51.54213791932354
+              -0.485355835730222,
+              51.61359735577742
+            ],
+            [
+              -0.40696,
+              51.50258
             ],
             [
               -0.402,
@@ -728,36 +594,28 @@
               51.49391
             ],
             [
-              -0.41265,
-              51.49855
+              -0.41084,
+              51.49587
             ],
             [
               -0.41049,
               51.49983
             ],
             [
-              -0.40696,
-              51.50258
-            ],
-            [
-              -0.40694,
-              51.50259
-            ],
-            [
-              -0.4172701734775808,
-              51.54213791932354
+              -0.485355835730222,
+              51.61359735577742
             ]
           ]
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-17T07:55:00.000+0000",
       "UUID": "69bab50b-7262-4868-b62f-ae7c44581f2f",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "evChargersAffected": [
         "bdd18aa9-b2dd-4a61-a93f-965d6eff6f94",
         "a7543a80-5060-4307-aacb-5493c710b7aa",
-        "200a8b2b-c553-4776-94e9-32a2f11f2d59",
         "63b4cb2d-1060-45c2-bea4-a5ad82377d25",
         "58c96620-5d7b-4bb8-b00b-7462676e9b22",
         "1c489d67-7d36-4d93-8d54-8b5b9744865a",
@@ -771,7 +629,104 @@
         "5b37696d-b2b3-4a06-ac1a-e0c823ccc950",
         "457ca856-3a97-4af5-b4e7-34c4358a9bfd"
       ],
-      "longitude": -0.4172701734775808,
+      "longitude": -0.485355835730222,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-02-17T07:19:00.000+0000",
+      "latitude": 51.31376722209966,
+      "estimatedRestoration": "2022-02-17T10:30:00.000+0000",
+      "message": "We’re very sorry for the power cut. Our teams are working hard to restore your power, however, due to weather conditions that have impacted our network, and will continue to do so through to Friday, it may take longer than normal to restore power. We’re experiencing a busier than usual period and the conditions mean that even with additional teams we have mobilised, it’s much harder to repair faults due to the safety implications of working on our network in such conditions.<br/><br/>We will continue to update you with the latest information here on Power Track, so we’d recommend you register for updates on this fault or check back in later.<br/><br/>If you are in need of extra support, such as requiring electricity for medical equipment, you can call us on 105 where our team is on hand to help.<br/><br/>For updates on how we’re dealing with the weather, along with helpful advice, please <a href=\"https://www.ssen.co.uk/\" target=\"_blank\">click here<a/>.",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM6092",
+      "Areas": [
+        {
+          "py/object": "Area",
+          "Points": [
+            {
+              "py/object": "Point",
+              "latitude": 51.31434,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74795
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.31377,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74761
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.31325,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74599
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.31379,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74609
+            },
+            {
+              "py/object": "Point",
+              "latitude": 51.31434,
+              "py/class": "http://opengrid.com/givr/1.0#//Point",
+              "longitude": -0.74795
+            }
+          ],
+          "subCodes": [
+            "GU16 7HE",
+            "GU16 7HF",
+            "GU16 7HQ",
+            "GU16 7JA"
+          ],
+          "py/class": "http://opengrid.com/givr/1.0#//Area"
+        }
+      ],
+      "reference": "JM6092",
+      "name": "GU16 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU16 7HE",
+        "GU16 7HF",
+        "GU16 7HQ",
+        "GU16 7JA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          [
+            [
+              -0.74795,
+              51.31434
+            ],
+            [
+              -0.74761,
+              51.31377
+            ],
+            [
+              -0.74599,
+              51.31325
+            ],
+            [
+              -0.74609,
+              51.31379
+            ],
+            [
+              -0.74795,
+              51.31434
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-02-17T08:30:00.000+0000",
+      "UUID": "0560578d-dff7-43df-ab52-ab8bbd09c297",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7469107672291211,
       "resolved": false
     },
     {
