@@ -1761,7 +1761,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM8971",
       "reference": "JM8971",
-      "name": "SO20 & SP11 Areas",
+      "name": "SP11 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO20 6AA",
@@ -1950,7 +1950,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM9013",
       "reference": "JM9013",
-      "name": "GU8 Area",
+      "name": "GU27 & GU8 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU27 2EL",
@@ -2989,7 +2989,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN0349",
       "reference": "JN0349",
-      "name": "SO42 Area",
+      "name": "SO41 & SO42 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO41 8PJ",
@@ -4403,6 +4403,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-22T11:00:00.000+0000",
       "UUID": "66f88027-6467-480b-a5cb-f8a2a2d2a21f",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -4731,6 +4732,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-22T11:00:00.000+0000",
       "UUID": "27c74733-db41-48e1-ba8c-4a82e19fbf1d",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -5019,6 +5021,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-22T10:40:00.000+0000",
       "UUID": "915097eb-1ccb-482f-a438-09eac2f01861",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -7597,7 +7600,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN3537",
       "reference": "JN3537",
-      "name": "RG41 & RG40 Areas",
+      "name": "RG40 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG40 3AA",
@@ -7912,7 +7915,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN1305",
       "reference": "JN1305",
-      "name": "OX13 & NN13 Areas",
+      "name": "OX27 & MK18 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "MK18 4AD",
@@ -8782,7 +8785,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN3410",
       "reference": "JN3410",
-      "name": "SO40 Area",
+      "name": "SO30 & SO40 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO18 1LU",
@@ -9288,7 +9291,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM9841",
       "reference": "JM9841",
-      "name": "SO24 & SO32 Areas",
+      "name": "SO32 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO24 0PF",
@@ -9559,7 +9562,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM7263",
       "reference": "JM7263",
-      "name": "SO51 & SP5 Areas",
+      "name": "SP5 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO51 6EE",
@@ -9592,7 +9595,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN4232",
       "reference": "JN4232",
-      "name": "SO32 & PO17 Areas",
+      "name": "PO17 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO15 6DY",
@@ -10589,73 +10592,43 @@
       "customIncludeDefault": false,
       "py/object": "Fault",
       "loggedAt": "2022-02-20T17:05:00.000+0000",
-      "latitude": 51.69924626764778,
+      "latitude": 51.681870681140495,
       "estimatedRestoration": "2022-02-22T23:00:00.000+0000",
       "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN4791",
       "reference": "JN4791",
-      "name": "OX49 & OX9 Areas",
+      "name": "OX9 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "OX44 7BG",
-        "OX44 7PR",
         "OX49 5AT",
         "OX49 5AU",
         "OX49 5AX",
         "OX49 5AY",
         "OX49 5AZ",
-        "OX9 7AA",
-        "OX9 7AB",
-        "OX9 7AD",
-        "OX9 7AE",
-        "OX9 7AF",
-        "OX9 7AG",
-        "OX9 7AH",
-        "OX9 7AJ",
-        "OX9 7AL",
-        "OX9 7AN",
-        "OX9 7AP",
-        "OX9 7AQ",
-        "OX9 7AR",
-        "OX9 7AS",
-        "OX9 7AW",
-        "OX9 7AY",
-        "OX9 7AZ",
-        "OX9 7BF",
-        "OX9 7BH",
-        "OX9 7BP",
-        "OX9 7BS",
-        "OX9 7BT",
-        "OX9 7BU",
-        "OX9 7BX",
-        "OX9 7BY",
-        "OX9 7BZ",
         "OX9 7EN",
         "OX9 7ES",
         "OX9 7ET",
         "OX9 7EU",
         "OX9 7EX",
         "OX9 7EY",
-        "OX9 7FA",
         "OX9 7HE",
         "OX9 7HF",
         "OX9 7HG",
-        "OX9 7HQ",
-        "OX9 7JA"
+        "OX9 7HQ"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -1.0165330411006854,
-          51.69924626764778
+          -1.0235919446463444,
+          51.681870681140495
         ],
         "type": "Point"
       },
       "UUID": "fd057254-0520-45df-b753-6e6e6da384b3",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0165330411006854,
+      "longitude": -1.0235919446463444,
       "resolved": false
     },
     {
@@ -12121,7 +12094,7 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-21T15:39:00.000+0000",
+      "loggedAt": "2022-02-18T10:36:00.000+0000",
       "latitude": 51.14909594863433,
       "estimatedRestoration": "2022-02-23T23:00:00.000+0000",
       "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
@@ -12273,39 +12246,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.6731048543660714,
-      "resolved": false
-    },
-    {
-      "customIncludeDefault": false,
-      "py/object": "Fault",
-      "loggedAt": "2022-02-21T19:10:00.000+0000",
-      "latitude": 51.02500324691625,
-      "estimatedRestoration": "2022-02-22T23:00:00.000+0000",
-      "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5490",
-      "reference": "JN5490",
-      "name": "SO21 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "SO21 2JA",
-        "SO21 2JB",
-        "SO21 2JW",
-        "SO21 2JY"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.3917962932724177,
-          51.02500324691625
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-02-22T08:30:00.000+0000",
-      "UUID": "297f01f7-5855-48d9-950c-492a5ef79811",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3917962932724177,
       "resolved": false
     },
     {
@@ -12582,7 +12522,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM8217",
       "reference": "JM8217",
-      "name": "GU32 Area",
+      "name": "GU31 & GU32 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU31 4LR",
@@ -13126,7 +13066,7 @@
     {
       "customIncludeDefault": false,
       "py/object": "Fault",
-      "loggedAt": "2022-02-21T17:18:00.000+0000",
+      "loggedAt": "2022-02-21T12:36:00.000+0000",
       "latitude": 50.91606945662063,
       "estimatedRestoration": "2022-02-22T23:00:00.000+0000",
       "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
@@ -13312,7 +13252,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5686",
       "reference": "JN5686",
-      "name": "SP3 & SP7 Areas",
+      "name": "SP7 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SP3 6NA",
@@ -13416,7 +13356,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5717",
       "reference": "JN5717",
-      "name": "RG14 & RG20 Areas",
+      "name": "RG20 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG14 7HQ",
@@ -13781,6 +13721,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-02-22T11:00:00.000+0000",
       "UUID": "e8e450d7-6c3c-4d3d-8c23-6b8ed5e32e22",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -13847,6 +13788,116 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.999338505231579,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-02-22T09:51:00.000+0000",
+      "latitude": 51.48727487957175,
+      "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5876",
+      "reference": "JN5876",
+      "name": "RG4 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG4 8UE",
+        "RG4 9PP",
+        "RG4 9PR",
+        "RG4 9PS",
+        "RG4 9PU",
+        "RG4 9PX",
+        "RG4 9PY",
+        "RG4 9QA",
+        "RG4 9QD",
+        "RG4 9QE",
+        "RG4 9QG",
+        "RG4 9QH",
+        "RG4 9QJ",
+        "RG4 9QL",
+        "RG4 9QN",
+        "RG4 9QT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.9408187474140725,
+          51.48727487957175
+        ],
+        "type": "Point"
+      },
+      "UUID": "4c599eb7-6ff2-42db-ae9a-cd89f4503a03",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9408187474140725,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-02-22T08:04:00.000+0000",
+      "latitude": 51.48438257566319,
+      "estimatedRestoration": "2022-02-22T22:00:00.000+0000",
+      "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5745",
+      "reference": "JN5745",
+      "engineerOnSiteTime": "2022-02-22T09:10:00.000+0000",
+      "name": "RG8 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG8 8LN",
+        "RG8 8LT",
+        "RG8 8NG",
+        "RG8 8NH",
+        "RG8 8NJ",
+        "RG8 8NY",
+        "RG8 8PA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.145044028053679,
+          51.48438257566319
+        ],
+        "type": "Point"
+      },
+      "UUID": "a2f4e820-8a7e-41c1-ba52-1a61a407117a",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.145044028053679,
+      "resolved": false
+    },
+    {
+      "customIncludeDefault": false,
+      "py/object": "Fault",
+      "loggedAt": "2022-02-18T09:47:00.000+0000",
+      "latitude": 51.366216315131915,
+      "estimatedRestoration": "2022-02-22T23:00:00.000+0000",
+      "message": "We’re very sorry for the power cut. As may have seen in the media, Storm Eunice delivered some of the most adverse conditions we've seen in many years, with wind speeds in parts of our region hitting record levels. The worst of the weather has passed and it's now safe for our teams to begin work on repairing and altering our network to get your power back on.<br/><br/>Our teams will be working day and night to try and get as many power supplies restored as possible, however, depending on the severity of the damage, this may take longer. If your power is not restored today, we'll be updating our website this evening with an expected time of restoration. We will do all we can to restore your power throughout the day, but some of these repairs are very complex and require significant effort to restore.<br/\\><br/\\>Once again, we’re very sorry about this, but we will continue to update you on progress here. We do have welfare units set up to provide hot food and drink to the worst affected customers, you can find the locations of these by <a href=\"http://news.ssen.co.uk/news/all-articles/2022/february/storm-eunice-ssen-moves-to-red-alert/\">clicking here</a>.",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JM7108",
+      "reference": "JM7108",
+      "engineerOnSiteTime": "2022-02-18T17:15:00.000+0000",
+      "name": "RG20 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG20 9AQ",
+        "RG20 9DH"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.334098020549027,
+          51.366216315131915
+        ],
+        "type": "Point"
+      },
+      "UUID": "d7640cd5-130c-40da-9a0c-96c1d50316d7",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.334098020549027,
       "resolved": false
     },
     {
@@ -13965,6 +14016,58 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.197854289171881,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-02-22T09:27:00.000+0000",
+      "latitude": 57.3274063842624,
+      "estimatedRestoration": "2022-02-22T16:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JN5883'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JN5883",
+      "reference": "JN5883",
+      "name": "IV52 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV40 8AE",
+        "IV40 8BB",
+        "IV40 8BD",
+        "IV40 8BE",
+        "IV40 8DA",
+        "IV40 8DB",
+        "IV52 8TD",
+        "IV52 8TE",
+        "IV52 8TF",
+        "IV52 8TG",
+        "IV52 8TH",
+        "IV52 8TJ",
+        "IV52 8TL",
+        "IV52 8TN",
+        "IV52 8TP",
+        "IV52 8TQ",
+        "IV52 8TR",
+        "IV52 8TS",
+        "IV52 8TT",
+        "IV52 8TU",
+        "IV52 8TW",
+        "IV52 8TX",
+        "IV52 8TY",
+        "IV52 8TZ",
+        "IV52 8UB"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -5.666250085788268,
+          57.3274063842624
+        ],
+        "type": "Point"
+      },
+      "UUID": "08b5ac18-d455-4b47-917c-6c4232104ecf",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.666250085788268,
       "resolved": false
     }
   ]
