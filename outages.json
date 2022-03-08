@@ -470,7 +470,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP6820",
       "reference": "JP6820",
-      "name": "SO24 Area",
+      "name": "SO32 & SO24 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO24 0FE",
@@ -1064,6 +1064,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-08T14:30:00.000+0000",
       "UUID": "6b4daa75-3422-46dd-9ee8-8abe32b1cab7",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -1098,10 +1099,39 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-08T14:00:00.000+0000",
       "UUID": "0d95014c-cd12-42d9-b095-4f518ac28acf",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.2105312784686135,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-08T12:58:00.000+0000",
+      "latitude": 56.67824998936101,
+      "estimatedRestoration": "2022-03-08T16:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP6831'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP6831",
+      "reference": "JP6831",
+      "name": "PH36 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH36 4JP"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -5.898078738165312,
+          56.67824998936101
+        ],
+        "type": "Point"
+      },
+      "UUID": "8f108f22-6c7b-4da7-96d8-d6b58eaabac2",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.898078738165312,
       "resolved": false
     }
   ]
