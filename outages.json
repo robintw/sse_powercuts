@@ -9,7 +9,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206079",
       "reference": "206079",
-      "name": "SN6 & SN26 Areas",
+      "name": "SN26 & SN6 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SN26 8DD",
@@ -162,6 +162,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP7569",
       "reference": "JP7569",
+      "engineerOnSiteTime": "2022-03-09T16:45:00.000+0000",
       "name": "SL7 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -310,6 +311,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-09T18:30:00.000+0000",
       "UUID": "e62ecbbf-26d4-4a75-84fc-cf123e2bba3c",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -468,31 +470,34 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-09T15:42:00.000+0000",
-      "latitude": 56.59318153750372,
-      "estimatedRestoration": "2022-03-09T18:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP7642'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP7642",
-      "reference": "JP7642",
-      "name": "PH10 Area",
+      "loggedAt": "2022-03-09T17:58:00.000+0000",
+      "latitude": 56.63679411179678,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP7712'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP7712",
+      "reference": "JP7712",
+      "name": "PH15 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "PH10 6EZ"
+        "PH15 2JD",
+        "PH15 2JF",
+        "PH15 2JG",
+        "PH15 2LG",
+        "PH16 5NL",
+        "PH16 5NN"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -3.34188840289985,
-          56.59318153750372
+          -3.9715632559152243,
+          56.63679411179678
         ],
         "type": "Point"
       },
-      "estimatedArrivalOnSiteTime": "2022-03-09T17:00:00.000+0000",
-      "UUID": "eeba5e34-ca55-4b5f-a32a-6906a003253d",
+      "UUID": "3e1083ca-0415-406a-b9d6-750d18308bfd",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.34188840289985,
+      "longitude": -3.9715632559152243,
       "resolved": false
     }
   ]
