@@ -136,11 +136,12 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-12T12:15:00.000+0000",
       "latitude": 51.323119841377626,
-      "estimatedRestoration": "2022-03-12T15:30:00.000+0000",
+      "estimatedRestoration": "2022-03-12T20:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9397'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9397",
       "reference": "JP9397",
+      "engineerOnSiteTime": "2022-03-12T14:13:00.000+0000",
       "name": "SN10 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -165,30 +166,45 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-12T09:00:00.000+0000",
-      "latitude": 57.48602624950701,
-      "estimatedRestoration": "2022-03-12T16:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '206528'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/206528",
-      "reference": "206528",
-      "name": "AB41 Area",
-      "networkId": "com.sse.ssepd.shepd",
+      "loggedAt": "2022-03-12T14:30:00.000+0000",
+      "latitude": 51.62961821701207,
+      "estimatedRestoration": "2022-03-12T17:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9402'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9402",
+      "reference": "JP9402",
+      "engineerOnSiteTime": "2022-03-12T13:00:00.000+0000",
+      "name": "HP13 Area",
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "AB41 8TZ"
+        "HP11 1NJ",
+        "HP11 1NP",
+        "HP11 1NT",
+        "HP13 6LF",
+        "HP13 6LW",
+        "HP13 6NN",
+        "HP13 6NQ",
+        "HP13 6NR",
+        "HP13 6NU",
+        "HP13 6NZ",
+        "HP13 6RN"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.1327671759343745,
-          57.48602624950701
+          -0.7467671131465677,
+          51.62961821701207
         ],
         "type": "Point"
       },
-      "UUID": "46222ca2-8ae5-4d36-8472-8d8c1db70b66",
+      "estimatedArrivalOnSiteTime": "2022-03-12T13:00:00.000+0000",
+      "UUID": "e171fa3f-54d1-4e60-a232-174684151d85",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.1327671759343745,
+      "evChargersAffected": [
+        "c3dc9dce-4e9b-4c1b-80fe-583430459205"
+      ],
+      "longitude": -0.7467671131465677,
       "resolved": false
     },
     {
@@ -227,40 +243,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-12T12:07:00.000+0000",
-      "latitude": 60.4943202582368,
-      "estimatedRestoration": "2022-03-12T16:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9390'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JP9390",
-      "reference": "JP9390",
-      "name": "ZE2 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "ZE2 9RH",
-        "ZE2 9RL",
-        "ZE2 9RP",
-        "ZE2 9RS",
-        "ZE2 9RW",
-        "ZE2 9RX",
-        "ZE2 9XP"
-      ],
-      "location": {
-        "__json": true,
-        "coordinates": [
-          -1.4738966821854553,
-          60.4943202582368
-        ],
-        "type": "Point"
-      },
-      "UUID": "a7337f0a-e264-4dd9-8a91-14d7fb1ae79c",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.4738966821854553,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-03-12T11:10:00.000+0000",
       "latitude": 56.12196110775497,
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9362'",
@@ -291,7 +273,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-03-12T13:34:00.000+0000",
-      "latitude": 57.46998470666719,
+      "latitude": 57.46808628589779,
       "estimatedRestoration": "2022-03-12T17:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JP9431'",
       "type": "HV",
@@ -315,12 +297,9 @@
         "IV2 5BG",
         "IV2 5BN",
         "IV2 5BP",
-        "IV2 5BS",
         "IV2 5BT",
         "IV2 5BU",
         "IV2 5BX",
-        "IV2 5EA",
-        "IV2 5EB",
         "IV2 5ED",
         "IV2 5EE",
         "IV2 5EF",
@@ -329,7 +308,6 @@
         "IV2 5EL",
         "IV2 5EN",
         "IV2 5EP",
-        "IV2 5EQ",
         "IV2 5ER",
         "IV2 5ES",
         "IV2 5ET",
@@ -338,7 +316,6 @@
         "IV2 5FS",
         "IV2 5GL",
         "IV2 5GX",
-        "IV2 5JQ",
         "IV2 5XQ",
         "IV2 6AA",
         "IV2 6FS",
@@ -347,8 +324,8 @@
       "location": {
         "__json": true,
         "coordinates": [
-          -4.115662867139189,
-          57.46998470666719
+          -4.11742079011249,
+          57.46808628589779
         ],
         "type": "Point"
       },
@@ -358,7 +335,7 @@
       "evChargersAffected": [
         "c2a645b8-48fd-4c20-943b-5397cb87f670"
       ],
-      "longitude": -4.115662867139189,
+      "longitude": -4.11742079011249,
       "resolved": false
     }
   ]
