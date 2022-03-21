@@ -99,7 +99,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ4502",
       "reference": "JQ4502",
-      "name": "HP10 Area",
+      "name": "SL8 & HP10 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP10 0DQ",
@@ -283,7 +283,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-21T19:36:00.000+0000",
       "latitude": 56.52180937872839,
-      "estimatedRestoration": "2022-03-21T23:00:00.000+0000",
+      "estimatedRestoration": "2022-03-21T23:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ4636'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ4636",
@@ -302,10 +302,42 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-21T20:30:00.000+0000",
       "UUID": "7cfd995b-e5f0-4d59-8c19-8d23a675d853",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -5.410685528031701,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-21T22:02:00.000+0000",
+      "latitude": 56.55743147907834,
+      "estimatedRestoration": "2022-03-22T02:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ4655'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ4655",
+      "reference": "JQ4655",
+      "name": "DD11 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "DD11 1AN",
+        "DD11 1AW",
+        "DD11 1BD"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.5808454508084813,
+          56.55743147907834
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-21T23:00:00.000+0000",
+      "UUID": "a44daf02-0fad-4130-9f51-f711b4d7d905",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.5808454508084813,
       "resolved": false
     }
   ]
