@@ -68,6 +68,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ3978",
       "reference": "JQ3978",
+      "engineerOnSiteTime": "2022-03-20T21:55:00.000+0000",
       "name": "SO14 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -102,7 +103,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ3988",
       "reference": "JQ3988",
       "engineerOnSiteTime": "2022-03-20T22:45:00.000+0000",
-      "name": "RG24 Area",
+      "name": "RG26 & RG24 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG24 8SB",
@@ -162,6 +163,37 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.158119079023501,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-20T23:23:00.000+0000",
+      "latitude": 51.079044404026185,
+      "estimatedRestoration": "2022-03-21T02:55:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ4014'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ4014",
+      "reference": "JQ4014",
+      "name": "SP2 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SP2 7DP",
+        "SP2 7HG",
+        "SP2 7HQ",
+        "SP2 7ND"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.8156303368583886,
+          51.079044404026185
+        ],
+        "type": "Point"
+      },
+      "UUID": "b151722e-68b0-451f-b5f0-b9d1ef94f9f4",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.8156303368583886,
       "resolved": false
     },
     {
