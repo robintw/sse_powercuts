@@ -98,6 +98,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-03-25T20:00:00.000+0000",
       "UUID": "97252873-9e13-48a0-95d8-61d013e01280",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -136,6 +137,36 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-03-25T20:25:00.000+0000",
+      "latitude": 51.412130100587916,
+      "estimatedRestoration": "2022-03-25T23:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ6887'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ6887",
+      "reference": "JQ6887",
+      "engineerOnSiteTime": "2022-03-25T17:20:00.000+0000",
+      "name": "RG40 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG40 1PA",
+        "RG40 1PD"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.7973408140847673,
+          51.412130100587916
+        ],
+        "type": "Point"
+      },
+      "UUID": "6f399388-45b3-4346-b633-c0983a52a9ec",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7973408140847673,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-03-25T17:01:00.000+0000",
       "latitude": 57.65877742030993,
       "estimatedRestoration": "2022-03-25T21:00:00.000+0000",
@@ -143,7 +174,7 @@
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ6986",
       "reference": "JQ6986",
-      "name": "AB45 Area",
+      "name": "AB44 & AB45 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB44 1XP",
