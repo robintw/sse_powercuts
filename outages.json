@@ -215,9 +215,10 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-03-28T20:02:00.000+0000",
+      "loggedAt": "2022-03-28T18:41:00.000+0000",
       "latitude": 51.86024622505745,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8229'",
+      "estimatedRestoration": "2022-03-28T22:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8229'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ8229",
       "reference": "JQ8229",
@@ -245,7 +246,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-03-28T16:31:00.000+0000",
-      "latitude": 56.938404184240866,
+      "latitude": 56.945257587599436,
       "estimatedRestoration": "2022-03-28T22:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8176'",
       "type": "HV",
@@ -254,16 +255,20 @@
       "name": "AB39 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
+        "AB39 2TJ",
         "AB39 2TL",
         "AB39 2TN",
         "AB39 2TT",
-        "AB39 2XP"
+        "AB39 2XN",
+        "AB39 2XP",
+        "AB39 3XQ",
+        "AB39 3XX"
       ],
       "location": {
         "__json": true,
         "coordinates": [
-          -2.2192588826110664,
-          56.938404184240866
+          -2.2197593827937454,
+          56.945257587599436
         ],
         "type": "Point"
       },
@@ -271,7 +276,7 @@
       "UUID": "8e0ff193-0296-4099-8504-88a7cf5a130a",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.2192588826110664,
+      "longitude": -2.2197593827937454,
       "resolved": false
     },
     {
@@ -304,6 +309,39 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.0235544330201205,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-28T20:12:00.000+0000",
+      "latitude": 56.18793883977396,
+      "estimatedRestoration": "2022-03-28T23:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ8232'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ8232",
+      "reference": "JQ8232",
+      "name": "FK15 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "FK15 9AJ",
+        "FK15 9AN",
+        "FK15 9BE",
+        "FK15 9BG",
+        "FK15 9BQ"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.9697330538838815,
+          56.18793883977396
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-03-28T21:30:00.000+0000",
+      "UUID": "587194fc-d36a-4fc8-8a69-2b46f905cfde",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.9697330538838815,
       "resolved": false
     }
   ]
