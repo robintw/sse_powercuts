@@ -98,7 +98,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ7710",
       "reference": "JQ7710",
       "engineerOnSiteTime": "2022-03-28T01:45:00.000+0000",
-      "name": "RG1 & RG2 Areas",
+      "name": "RG2 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RG1 2SJ",
@@ -660,7 +660,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ7286",
       "reference": "JQ7286",
-      "name": "SL3 & SL0 Areas",
+      "name": "SL0 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SL0 0NP",
@@ -720,7 +720,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-03-28T09:18:00.000+0000",
       "latitude": 51.819443792304895,
-      "estimatedRestoration": "2022-03-28T14:05:00.000+0000",
+      "estimatedRestoration": "2022-03-28T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ7874'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ7874",
@@ -834,6 +834,33 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.9773401307119465,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-03-28T11:24:00.000+0000",
+      "latitude": 57.09722290708662,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JQ7977'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JQ7977",
+      "reference": "JQ7977",
+      "name": "PH35 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH35 4HN"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -4.734354533657742,
+          57.09722290708662
+        ],
+        "type": "Point"
+      },
+      "UUID": "fe290b90-6083-43b4-bd54-4c642e086541",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.734354533657742,
       "resolved": false
     }
   ]
