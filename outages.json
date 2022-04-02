@@ -37,7 +37,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207142",
       "reference": "207142",
-      "name": "DT11 Area",
+      "name": "BH21 & DT11 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -247,7 +247,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0741",
       "reference": "JR0741",
       "engineerOnSiteTime": "2022-04-02T09:10:00.000+0000",
-      "name": "SO31 Area",
+      "name": "SO21 & SO31 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO21 1PN",
@@ -296,6 +296,57 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.4575212369794777,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-02T15:37:00.000+0000",
+      "latitude": 51.407064396190755,
+      "estimatedRestoration": "2022-04-02T18:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0896'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0896",
+      "reference": "JR0896",
+      "name": "RG7 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "RG7",
+        "RG7 5NN",
+        "RG7 5NR",
+        "RG7 5PJ",
+        "RG7 5PL",
+        "RG7 5PP",
+        "RG7 5PR",
+        "RG7 5PT",
+        "RG7 5PU",
+        "RG7 5PX",
+        "RG7 5PY",
+        "RG7 5QE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.1477946275135376,
+          51.407064396190755
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-04-02T16:20:00.000+0000",
+      "UUID": "b6e5fd65-9aa6-49f6-96bb-a630dd5aee33",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "dce94a42-3d0a-4ad6-aa3d-17d81deb7249",
+        "c6bf12b6-71c0-4105-a63b-f7ebb7cb134f",
+        "e6f12866-f5d3-4745-a59d-cb0563df5437",
+        "7c369ffd-f96a-42e5-8998-58621ed1d36f",
+        "aa0c108c-cd28-416e-b984-5a0a5b6558dd",
+        "97df9e46-0ae7-4058-8e02-791960bacbc6",
+        "a7eb25c8-17e1-4b72-985d-587cc22fd41b",
+        "8b8a77aa-1b04-4e63-9bc3-53247e94e304",
+        "e7cef8e6-dc14-4702-8468-08c90a7a4d38"
+      ],
+      "longitude": -1.1477946275135376,
       "resolved": false
     },
     {
