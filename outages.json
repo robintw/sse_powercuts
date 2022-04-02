@@ -37,7 +37,7 @@
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/207142",
       "reference": "207142",
-      "name": "DT11 Area",
+      "name": "BH21 & DT11 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH21 3QZ",
@@ -56,6 +56,54 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.101088918562556,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-02T05:36:00.000+0000",
+      "latitude": 51.48221045368291,
+      "estimatedRestoration": "2022-04-02T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR0712'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR0712",
+      "reference": "JR0712",
+      "name": "SL6 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SL3 9HR",
+        "SL6 2HL",
+        "SL6 2NN",
+        "SL6 2NP",
+        "SL6 2NR",
+        "SL6 2NS",
+        "SL6 2PF"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -0.6864084998332046,
+          51.48221045368291
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-04-02T07:00:00.000+0000",
+      "UUID": "0c573bb2-3a1e-4520-92f5-139701611e68",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "a490e105-8b52-4c43-8988-db7e03c872a6",
+        "5c6b3459-0671-4318-a716-d1ef9e91fbe1",
+        "ba4dffca-13bf-4a7a-8e25-d3358b5f331d",
+        "c580161b-82d4-4fb4-ad0b-2f986877da22",
+        "61f8161c-6b94-48a1-bb06-f4bf628a6900",
+        "e385aacd-6279-4e08-9a42-720a6063f5b4",
+        "73920321-ce1d-4766-8b33-0ed3e7bc4f47",
+        "3d0d8d95-0659-4eca-98cc-1fb52b0c1b8e",
+        "7ea419a6-9734-4932-9bbd-7ed28aec9e4b",
+        "4b1d4986-8527-4f39-ac77-bb03d804d572",
+        "c292e6cd-9fc2-4487-9d55-0af658a194c6"
+      ],
+      "longitude": -0.6864084998332046,
       "resolved": false
     }
   ]
