@@ -308,12 +308,12 @@
       "py/object": "Fault",
       "loggedAt": "2022-04-14T14:23:00.000+0000",
       "latitude": 51.095719795996004,
-      "estimatedRestoration": "2022-04-14T17:30:00.000+0000",
+      "estimatedRestoration": "2022-04-14T22:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR7708'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR7708",
       "reference": "JR7708",
-      "name": "SO21 Area",
+      "name": "SO24 & SO21 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO21 1BL",
@@ -607,10 +607,56 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-04-14T18:00:00.000+0000",
       "UUID": "a50ff8d2-b1f9-405f-b9fd-6737e665ace8",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.958142885889864,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-04-14T17:47:00.000+0000",
+      "latitude": 57.332944126158544,
+      "estimatedRestoration": "2022-04-14T21:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JR7820'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JR7820",
+      "reference": "JR7820",
+      "name": "PH26 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH26 3DA",
+        "PH26 3HG",
+        "PH26 3HR",
+        "PH26 3HS",
+        "PH26 3JE",
+        "PH26 3JF",
+        "PH26 3JG",
+        "PH26 3JQ",
+        "PH26 3LE",
+        "PH26 3NG",
+        "PH26 3NT",
+        "PH26 3NW",
+        "PH26 3PR",
+        "PH26 3PS",
+        "PH26 3PT"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -3.607317371341407,
+          57.332944126158544
+        ],
+        "type": "Point"
+      },
+      "UUID": "f05fea61-9039-4b17-86f3-c259ccf5bfbc",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "evChargersAffected": [
+        "e2de873c-9717-4129-9941-2bbbfee080fd"
+      ],
+      "longitude": -3.607317371341407,
       "resolved": false
     }
   ]
