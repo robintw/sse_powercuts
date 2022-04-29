@@ -207,11 +207,12 @@
       "py/object": "Fault",
       "loggedAt": "2022-04-29T18:52:00.000+0000",
       "latitude": 50.75326930795599,
-      "estimatedRestoration": "2022-04-29T22:59:00.000+0000",
+      "estimatedRestoration": "2022-04-30T00:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS4585'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS4585",
       "reference": "JS4585",
+      "engineerOnSiteTime": "2022-04-29T20:55:00.000+0000",
       "name": "BH25 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
@@ -342,6 +343,59 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.581257774218325,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 01:00.",
+          "UUID": "474fe3ab-83f0-44d4-92c0-ada6ffeac513",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2022-04-29T21:20:28.956+0000"
+        }
+      ],
+      "loggedAt": "2022-04-29T21:16:00.000+0000",
+      "latitude": 56.184885958288554,
+      "estimatedRestoration": "2022-04-30T00:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JS4638'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JS4638",
+      "reference": "JS4638",
+      "name": "FK8 & FK16 Areas",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "FK16 6AD",
+        "FK16 6AS",
+        "FK16 6AU",
+        "FK16 6AX",
+        "FK16 6HH",
+        "FK16 6HJ",
+        "FK17 8JJ",
+        "FK17 8JL",
+        "FK8 3QD",
+        "FK8 3QG",
+        "FK8 3QH",
+        "FK9 4UZ",
+        "FK9 4XD",
+        "FK9 4XE"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -4.114798933035518,
+          56.184885958288554
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-04-29T22:00:00.000+0000",
+      "UUID": "15823325-c40e-4738-9f6a-e0787b5cbb74",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.114798933035518,
       "resolved": false
     }
   ]
