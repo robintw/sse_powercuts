@@ -517,7 +517,7 @@
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7519",
       "reference": "JT7519",
-      "name": "HP13 & DT2 Areas",
+      "name": "DT2 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "DT2 0EL",
@@ -574,7 +574,8 @@
       "py/object": "Fault",
       "loggedAt": "2022-05-26T08:24:00.000+0000",
       "latitude": 51.4151656350885,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT8051'",
+      "estimatedRestoration": "2022-05-26T11:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT8051'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT8051",
       "reference": "JT8051",
@@ -605,10 +606,43 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-05-26T09:00:00.000+0000",
       "UUID": "f758c2d0-1bb2-4516-81fc-1c4df8273eb2",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.960532654408725,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-05-26T08:35:00.000+0000",
+      "latitude": 50.59935449291992,
+      "estimatedRestoration": "2022-05-26T13:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JT7997'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JT7997",
+      "reference": "JT7997",
+      "engineerOnSiteTime": "2022-05-26T07:30:00.000+0000",
+      "name": "DT4 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "DT4 9PA",
+        "DT4 9PL",
+        "DT4 9PW",
+        "DT4 9PX"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -2.465767813931087,
+          50.59935449291992
+        ],
+        "type": "Point"
+      },
+      "UUID": "d9be8515-17ce-4957-b13b-cfd0a5f8c7e0",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.465767813931087,
       "resolved": false
     },
     {
