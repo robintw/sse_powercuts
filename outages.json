@@ -37,6 +37,47 @@
     },
     {
       "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 16:00.",
+          "UUID": "e96a358c-25f9-48be-b160-b969d3329931",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2022-06-01T06:28:49.268+0000"
+        }
+      ],
+      "loggedAt": "2022-06-01T04:15:00.000+0000",
+      "latitude": 51.638347110105954,
+      "estimatedRestoration": "2022-06-01T15:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU0734'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU0734",
+      "reference": "JU0734",
+      "engineerOnSiteTime": "2022-06-01T05:00:00.000+0000",
+      "name": "SN7 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN7 8NA"
+      ],
+      "location": {
+        "__json": true,
+        "coordinates": [
+          -1.5094474792085564,
+          51.638347110105954
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-06-01T05:10:00.000+0000",
+      "UUID": "514555a3-c5ae-4de4-9015-6dbe5b2a7a74",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.5094474792085564,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-06-01T05:10:00.000+0000",
       "latitude": 51.742010157454274,
       "estimatedRestoration": "2022-06-01T08:30:00.000+0000",
@@ -116,6 +157,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2022-06-01T06:30:00.000+0000",
       "UUID": "d82c441c-931a-48cb-beb8-8d9183a94a84",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
