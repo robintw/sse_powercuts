@@ -627,6 +627,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU4458",
       "reference": "JU4458",
       "maxLongitude": -0.7137,
+      "engineerOnSiteTime": "2022-06-08T21:00:00.000+0000",
       "minLatitude": 51.6172,
       "name": "HP11 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -671,7 +672,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-06-08T10:44:00.000+0000",
-      "latitude": 50.830003226639036,
+      "latitude": 50.830598878146674,
       "estimatedRestoration": "2022-06-09T01:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU4166'",
       "type": "LV",
@@ -682,25 +683,137 @@
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "BH24 2LP",
-        "BH24 2LR",
-        "BH24 2NA",
-        "BH24 2NB",
-        "BH24 2PH",
-        "BH24 2PQ",
-        "BH24 2QJ",
-        "BH24 2QQ"
+        "BH24 2NG",
+        "BH24 2NJ",
+        "BH24 2NP",
+        "BH24 2NS",
+        "BH24 2PU"
       ],
       "location": {
         "coordinates": [
-          -1.8407783055862947,
-          50.830003226639036
+          -1.8358349815006685,
+          50.830598878146674
         ],
         "type": "Point"
       },
       "UUID": "2f9436d4-cd8f-4b45-9288-444f3c2d065f",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.8407783055862947,
+      "longitude": -1.8358349815006685,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-06-08T22:00:00.000+0000",
+      "latitude": 51.3976299763094,
+      "estimatedRestoration": "2022-06-09T01:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU4434'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU4434",
+      "reference": "JU4434",
+      "maxLongitude": -0.6991,
+      "engineerOnSiteTime": "2022-06-08T21:10:00.000+0000",
+      "minLatitude": 51.3905,
+      "name": "SL5 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SL5 8AS",
+        "SL5 8AZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7177,
+              51.4045
+            ],
+            [
+              -0.6991,
+              51.4045
+            ],
+            [
+              -0.6991,
+              51.3905
+            ],
+            [
+              -0.7177,
+              51.3905
+            ],
+            [
+              -0.7177,
+              51.4045
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "f3384a9a-d627-4b33-a07f-68fe655ffae3",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.7177,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.4045,
+      "longitude": -0.7049034326564331,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-06-08T21:29:00.000+0000",
+      "latitude": 51.49240300804856,
+      "estimatedRestoration": "2022-06-09T00:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JU4490'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JU4490",
+      "reference": "JU4490",
+      "maxLongitude": -0.3684,
+      "minLatitude": 51.4899,
+      "name": "UB1 & TW5 Areas",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "TW5 0HH",
+        "UB1 3LW",
+        "UB2 4FG",
+        "UB2 4JB",
+        "UB2 4JH",
+        "UB2 4JJ",
+        "UB2 5QT",
+        "UB2 5QU",
+        "UB2 5QX",
+        "UB2 5QY",
+        "UB2 5RB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.3779,
+              51.4975
+            ],
+            [
+              -0.3684,
+              51.4975
+            ],
+            [
+              -0.3684,
+              51.4899
+            ],
+            [
+              -0.3779,
+              51.4899
+            ],
+            [
+              -0.3779,
+              51.4975
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "4c69ca72-6811-48db-a88a-f4f8991e0d27",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.3779,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.4975,
+      "longitude": -0.37266657579838286,
       "resolved": false
     }
   ]
