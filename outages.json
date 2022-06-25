@@ -235,40 +235,6 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-06-25T03:28:00.000+0000",
-      "latitude": 51.70783673849032,
-      "estimatedRestoration": "2022-06-25T15:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV3575'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV3575",
-      "reference": "JV3575",
-      "engineerOnSiteTime": "2022-06-25T04:20:00.000+0000",
-      "name": "GL7 Area",
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "GL7 4AP",
-        "GL7 4AR",
-        "GL7 4AU",
-        "GL7 4BH",
-        "GL7 4BQ",
-        "GL7 4LH"
-      ],
-      "location": {
-        "coordinates": [
-          -1.7733777003220847,
-          51.70783673849032
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2022-06-25T04:30:00.000+0000",
-      "UUID": "447717b0-6ca1-475b-8166-ca88804176bd",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.7733777003220847,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
       "loggedAt": "2022-06-25T08:00:00.000+0000",
       "latitude": 51.43046892360375,
       "estimatedRestoration": "2022-06-25T15:00:00.000+0000",
@@ -365,6 +331,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-06-25T13:00:00.000+0000",
       "UUID": "1011ad1f-9e00-4122-be2c-9d6528e4262b",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -2.204,
@@ -387,6 +354,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JV3645",
       "reference": "JV3645",
       "maxLongitude": -0.9409,
+      "engineerOnSiteTime": "2022-06-25T10:00:00.000+0000",
       "minLatitude": 51.4251,
       "name": "RG2 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -550,7 +518,7 @@
       "reference": "JV3638",
       "maxLongitude": -1.9402,
       "minLatitude": 57.5064,
-      "name": "AB42 & AB53 Areas",
+      "name": "AB53 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
         "AB42 4XQ",
@@ -608,7 +576,7 @@
     {
       "py/object": "Fault",
       "loggedAt": "2022-06-25T09:55:00.000+0000",
-      "latitude": 57.60871999921945,
+      "latitude": 57.60548571462844,
       "estimatedRestoration": "2022-06-25T13:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JV3677'",
       "type": "HV",
@@ -616,58 +584,32 @@
       "reference": "JV3677",
       "maxLongitude": -2.4008,
       "minLatitude": 57.4895,
-      "name": "AB53 & AB45 Areas",
+      "name": "AB45 Area",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "AB44 1QQ",
-        "AB45 3LN",
-        "AB45 3LP",
-        "AB45 3LS",
-        "AB45 3LT",
-        "AB45 3LX",
-        "AB45 3NA",
-        "AB45 3NB",
         "AB45 3ND",
-        "AB45 3NJ",
-        "AB45 3NL",
         "AB45 3NN",
         "AB45 3NP",
         "AB45 3NQ",
         "AB45 3NR",
-        "AB45 3NS",
-        "AB45 3NT",
-        "AB45 3NX",
-        "AB45 3PA",
-        "AB45 3PB",
-        "AB45 3PD",
-        "AB45 3PN",
         "AB45 3PP",
         "AB45 3PQ",
         "AB45 3PX",
         "AB45 3QA",
         "AB45 3QB",
-        "AB45 3QD",
-        "AB45 3QS",
         "AB45 3SR",
-        "AB53 4HL",
-        "AB53 4JN",
-        "AB53 4NJ",
-        "AB53 4NL",
-        "AB53 4NN",
-        "AB53 4NP",
-        "AB53 4NQ",
-        "AB53 4NR"
+        "AB53 4HL"
       ],
       "location": {
         "coordinates": [
           [
             [
               -2.5533,
-              57.6716
+              57.6405
             ],
             [
               -2.4008,
-              57.6716
+              57.6405
             ],
             [
               -2.4008,
@@ -679,7 +621,7 @@
             ],
             [
               -2.5533,
-              57.6716
+              57.6405
             ]
           ]
         ],
@@ -690,8 +632,8 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -2.5533,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 57.6716,
-      "longitude": -2.477644134493255,
+      "maxLatitude": 57.6405,
+      "longitude": -2.455914518625057,
       "resolved": false
     }
   ]
