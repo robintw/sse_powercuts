@@ -96,7 +96,7 @@
       "reference": "208856",
       "maxLongitude": -0.7438,
       "minLatitude": 51.214,
-      "name": "GU9 & GU10 Areas",
+      "name": "GU10 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "GU10 1PB",
@@ -402,6 +402,61 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-07-16T09:19:00.000+0000",
+      "latitude": 51.63703348360918,
+      "estimatedRestoration": "2022-07-16T15:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JW5008'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JW5008",
+      "reference": "JW5008",
+      "maxLongitude": -0.7623,
+      "engineerOnSiteTime": "2022-07-16T10:25:00.000+0000",
+      "minLatitude": 51.635,
+      "name": "HP13 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "HP13 5RR",
+        "HP13 5TE",
+        "HP13 5TF",
+        "HP13 5TH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7678,
+              51.6403
+            ],
+            [
+              -0.7623,
+              51.6403
+            ],
+            [
+              -0.7623,
+              51.635
+            ],
+            [
+              -0.7678,
+              51.635
+            ],
+            [
+              -0.7678,
+              51.6403
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "879d24bf-5a84-4919-b09d-4d649248f914",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.7678,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.6403,
+      "longitude": -0.7643077359785487,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-07-16T08:14:00.000+0000",
       "latitude": 56.43689503341307,
       "estimatedRestoration": "2022-07-16T14:30:00.000+0000",
@@ -506,59 +561,6 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 56.4826,
       "longitude": -2.8474853393218083,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-07-16T12:23:00.000+0000",
-      "latitude": 57.0758005148394,
-      "estimatedRestoration": "2022-07-16T16:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JW5075'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JW5075",
-      "reference": "JW5075",
-      "maxLongitude": -3.9081,
-      "minLatitude": 56.8741,
-      "name": "PH21 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "PH21 1NA",
-        "PH21 1NY",
-        "PH21 1NZ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.1473,
-              57.1906
-            ],
-            [
-              -3.9081,
-              57.1906
-            ],
-            [
-              -3.9081,
-              56.8741
-            ],
-            [
-              -4.1473,
-              56.8741
-            ],
-            [
-              -4.1473,
-              57.1906
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "UUID": "fc98b549-1782-480b-85fd-92298b5d2ac7",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -4.1473,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 57.1906,
-      "longitude": -3.984174633219776,
       "resolved": false
     }
   ]
