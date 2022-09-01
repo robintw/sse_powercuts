@@ -114,7 +114,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-09-01T03:08:00.000+0000",
       "latitude": 51.6074608660487,
-      "estimatedRestoration": "2022-09-01T06:00:00.000+0000",
+      "estimatedRestoration": "2022-09-01T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3724'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3724",
@@ -122,7 +122,7 @@
       "maxLongitude": -0.8348,
       "engineerOnSiteTime": "2022-09-01T04:15:00.000+0000",
       "minLatitude": 51.5889,
-      "name": "HP14 & RG9 Areas",
+      "name": "RG9 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "HP14 3EZ",
@@ -301,6 +301,65 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 56.7392,
       "longitude": -3.4577955922268,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-09-01T05:56:00.000+0000",
+      "latitude": 56.396370660449286,
+      "estimatedRestoration": "2022-09-01T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JZ3750'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JZ3750",
+      "reference": "JZ3750",
+      "maxLongitude": -3.4318,
+      "minLatitude": 56.3924,
+      "name": "PH1 & PH2 Areas",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PH1 3QH",
+        "PH2 8HS",
+        "PH2 8HX",
+        "PH2 8JA",
+        "PH2 8JR",
+        "PH2 8JS",
+        "PH2 8LY",
+        "PH2 8LZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.5881,
+              56.4147
+            ],
+            [
+              -3.4318,
+              56.4147
+            ],
+            [
+              -3.4318,
+              56.3924
+            ],
+            [
+              -3.5881,
+              56.3924
+            ],
+            [
+              -3.5881,
+              56.4147
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-09-01T07:00:00.000+0000",
+      "UUID": "3d7fcf11-6cac-4637-b94c-e481752b68b2",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -3.5881,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 56.4147,
+      "longitude": -3.452416122758805,
       "resolved": false
     }
   ]
