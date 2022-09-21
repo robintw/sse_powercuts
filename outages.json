@@ -1355,9 +1355,9 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-08-05T10:03:00.000+0000",
+      "loggedAt": "2022-08-05T10:34:00.000+0000",
       "latitude": 50.80377388924416,
-      "estimatedRestoration": "2022-09-21T10:30:00.000+0000",
+      "estimatedRestoration": "2022-09-21T10:50:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'JX7156'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/JX7156",
@@ -2199,6 +2199,57 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 58.5737,
       "longitude": -3.7754300274969146,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-09-21T11:00:00.000+0000",
+      "latitude": 58.49944047172473,
+      "estimatedRestoration": "2022-09-21T14:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '210759'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "type": "PSI",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/210759",
+      "reference": "210759",
+      "maxLongitude": -4.3824,
+      "minLatitude": 58.4855,
+      "name": "IV27 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "IV27 4XW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.4157,
+              58.514
+            ],
+            [
+              -4.3824,
+              58.514
+            ],
+            [
+              -4.3824,
+              58.4855
+            ],
+            [
+              -4.4157,
+              58.4855
+            ],
+            [
+              -4.4157,
+              58.514
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "5aa5e389-087e-4029-8b7a-bce090a041cd",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -4.4157,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 58.514,
+      "longitude": -4.402704279313543,
       "resolved": false
     }
   ]
