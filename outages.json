@@ -88,7 +88,7 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-10-10T23:25:00.000+0000",
+      "loggedAt": "2022-10-10T23:41:00.000+0000",
       "latitude": 51.05107290222944,
       "estimatedRestoration": "2022-10-11T02:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB6366'",
@@ -97,7 +97,7 @@
       "reference": "KB6366",
       "maxLongitude": -1.4658,
       "minLatitude": 51.0189,
-      "name": "SO51 & SP3 Areas",
+      "name": "SP3 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "SO51 0PP",
@@ -147,6 +147,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-10-11T00:15:00.000+0000",
       "UUID": "68ba2316-bd47-46c7-aab3-117d14c7fdd0",
       "region": "com.opengrid.geo.world.europe.gb",
       "minLongitude": -2.082,
@@ -208,37 +209,40 @@
     },
     {
       "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "lee.ingram@sse.com",
+          "senderUserId": "432fe7c6-0beb-4301-9513-36fede0be97c",
+          "text": "Thank you for your report. We are aware of a fault on our network and we are aiming to have power restored by 04:00.",
+          "UUID": "ef74d6b6-e71e-43a5-93e2-9025db1678bb",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2022-10-10T23:59:19.821+0000"
+        }
+      ],
       "loggedAt": "2022-10-10T23:40:00.000+0000",
-      "latitude": 57.374929729639,
+      "latitude": 57.38152320444492,
       "estimatedRestoration": "2022-10-11T03:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KB6367'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KB6367",
       "reference": "KB6367",
       "maxLongitude": -1.8748,
-      "minLatitude": 57.3564,
-      "name": "AB41 Area",
+      "minLatitude": 57.3644,
+      "name": "AB42 & AB41 Areas",
       "networkId": "com.sse.ssepd.shepd",
       "affectedAreas": [
-        "AB41 8LD",
-        "AB41 8LE",
-        "AB41 8RY",
-        "AB41 8SE",
-        "AB41 8SH",
-        "AB41 8SJ",
         "AB41 8SL",
-        "AB41 8SN",
         "AB41 8SP",
         "AB41 8SQ",
         "AB41 8SR",
-        "AB41 8ST",
         "AB42 0SU"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -1.9635,
+              -1.9394,
               57.4005
             ],
             [
@@ -247,26 +251,27 @@
             ],
             [
               -1.8748,
-              57.3564
+              57.3644
             ],
             [
-              -1.9635,
-              57.3564
+              -1.9394,
+              57.3644
             ],
             [
-              -1.9635,
+              -1.9394,
               57.4005
             ]
           ]
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-10-11T00:00:00.000+0000",
       "UUID": "3f0dedca-c460-47a2-bdd9-f88445e45877",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -1.9635,
+      "minLongitude": -1.9394,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 57.4005,
-      "longitude": -1.9210154999019216,
+      "longitude": -1.908045380061251,
       "resolved": false
     }
   ]
