@@ -304,7 +304,7 @@
       "reference": "KC1476",
       "maxLongitude": -0.4115,
       "minLatitude": 51.0508,
-      "name": "RH13 & RH14 Areas",
+      "name": "RH14 Area",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "RH13 0RF",
@@ -351,7 +351,7 @@
     },
     {
       "py/object": "Fault",
-      "loggedAt": "2022-10-20T09:29:00.000+0000",
+      "loggedAt": "2022-10-20T22:30:00.000+0000",
       "latitude": 51.02336609089635,
       "estimatedRestoration": "2022-10-20T23:20:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC1094'",
@@ -400,6 +400,60 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.0246,
       "longitude": -1.389964153384691,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-20T20:27:00.000+0000",
+      "latitude": 55.42241693103885,
+      "estimatedRestoration": "2022-10-20T22:59:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC1483'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC1483",
+      "reference": "KC1483",
+      "maxLongitude": -5.7061,
+      "minLatitude": 55.3852,
+      "name": "PA28 Area",
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "PA28 6PT",
+        "PA28 6PX",
+        "PA28 6PZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.7947,
+              55.4315
+            ],
+            [
+              -5.7061,
+              55.4315
+            ],
+            [
+              -5.7061,
+              55.3852
+            ],
+            [
+              -5.7947,
+              55.3852
+            ],
+            [
+              -5.7947,
+              55.4315
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-10-20T21:00:00.000+0000",
+      "UUID": "4d214502-9cc2-455b-a3fc-a0979884c0cc",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -5.7947,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 55.4315,
+      "longitude": -5.73199620354178,
       "resolved": false
     }
   ]
