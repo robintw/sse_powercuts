@@ -2,14 +2,15 @@
   "Faults": [
     {
       "py/object": "Fault",
-      "loggedAt": "2022-10-21T03:13:00.000+0000",
+      "loggedAt": "2022-10-21T03:11:00.000+0000",
       "latitude": 51.3983642729758,
-      "estimatedRestoration": "2022-10-21T06:30:00.000+0000",
+      "estimatedRestoration": "2022-10-21T10:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC1532'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC1532",
       "reference": "KC1532",
       "maxLongitude": -0.7311,
+      "engineerOnSiteTime": "2022-10-21T04:00:00.000+0000",
       "minLatitude": 51.3962,
       "name": "RG12 Area",
       "networkId": "com.sse.ssepd.sepd",
@@ -53,6 +54,59 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.3999,
       "longitude": -0.7350845676185421,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
+      "loggedAt": "2022-10-21T04:03:00.000+0000",
+      "latitude": 51.001300350475276,
+      "estimatedRestoration": "2022-10-21T07:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC1543'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC1543",
+      "reference": "KC1543",
+      "maxLongitude": -0.9162,
+      "minLatitude": 51.0005,
+      "name": "GU31 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "GU31 4HL",
+        "GU31 4HY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.9184,
+              51.0025
+            ],
+            [
+              -0.9162,
+              51.0025
+            ],
+            [
+              -0.9162,
+              51.0005
+            ],
+            [
+              -0.9184,
+              51.0005
+            ],
+            [
+              -0.9184,
+              51.0025
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2022-10-21T05:30:00.000+0000",
+      "UUID": "49183b42-773f-46a3-8dd3-83e6dcb637ce",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -0.9184,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 51.0025,
+      "longitude": -0.91720344435878,
       "resolved": false
     }
   ]
