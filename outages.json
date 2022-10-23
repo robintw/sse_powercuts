@@ -56,7 +56,7 @@
       "py/object": "Fault",
       "loggedAt": "2022-10-23T05:10:00.000+0000",
       "latitude": 51.55620747912044,
-      "estimatedRestoration": "2022-10-23T08:00:00.000+0000",
+      "estimatedRestoration": "2022-10-23T11:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC2790'",
       "type": "HV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC2790",
@@ -122,7 +122,7 @@
       "reference": "KC2800",
       "maxLongitude": -1.2133,
       "minLatitude": 50.6928,
-      "name": "PO33 Area",
+      "name": "PO32 & PO33 Areas",
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
         "PO30 4JX",
@@ -690,6 +690,35 @@
     },
     {
       "py/object": "Fault",
+      "loggedAt": "2022-10-23T06:09:00.000+0000",
+      "latitude": 51.61985789135464,
+      "estimatedRestoration": "2022-10-23T10:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC2808'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC2808",
+      "reference": "KC2808",
+      "name": "HP8 Area",
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "HP8 4RF",
+        "HP8 4RQ"
+      ],
+      "location": {
+        "coordinates": [
+          -0.5686549087686198,
+          51.61985789135464
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2022-10-23T09:00:00.000+0000",
+      "UUID": "1088411b-01a3-4221-a812-ac07e4818c05",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.5686549087686198,
+      "resolved": false
+    },
+    {
+      "py/object": "Fault",
       "loggedAt": "2022-10-21T14:59:00.000+0000",
       "latitude": 58.05924029069011,
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC2016'",
@@ -736,59 +765,6 @@
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 58.1365,
       "longitude": -6.673118225469364,
-      "resolved": false
-    },
-    {
-      "py/object": "Fault",
-      "loggedAt": "2022-10-23T05:42:00.000+0000",
-      "latitude": 56.28915383944368,
-      "estimatedRestoration": "2022-10-23T10:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KC2872'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KC2872",
-      "reference": "KC2872",
-      "maxLongitude": -5.5884,
-      "minLatitude": 56.2691,
-      "name": "PA34 Area",
-      "networkId": "com.sse.ssepd.shepd",
-      "affectedAreas": [
-        "PA34 4RA",
-        "PA34 4TE"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.6385,
-              56.2996
-            ],
-            [
-              -5.5884,
-              56.2996
-            ],
-            [
-              -5.5884,
-              56.2691
-            ],
-            [
-              -5.6385,
-              56.2691
-            ],
-            [
-              -5.6385,
-              56.2996
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2022-10-23T08:00:00.000+0000",
-      "UUID": "fd06ec78-eb0f-4124-bb16-7a3a301e3f20",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -5.6385,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 56.2996,
-      "longitude": -5.606748756478318,
       "resolved": false
     }
   ]
