@@ -511,7 +511,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE8522",
       "maxLongitude": -0.909,
       "minLatitude": 50.8155,
-      "name": "GL7 & PO10 Areas",
+      "name": "PO10 Area",
       "otherUpdate": false,
       "affectedAreas": [
         "GL7 2H",
@@ -964,63 +964,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 50.903902998367315,
-      "type": "LV",
-      "reference": "KE8691",
-      "etaUpdate": true,
-      "affectedCustomerCount": 4,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "4c294724-d63c-4e5c-b306-5be7ff98d838",
-      "minLongitude": -1.0194,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0181068806305842,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2022-11-14T12:55:00.000+0000",
-      "estimatedRestoration": "2022-11-14T16:25:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KE8691'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KE8691",
-      "maxLongitude": -1.0158,
-      "minLatitude": 50.9025,
-      "name": "PO8 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PO8 8HJ",
-        "PO8 8HP"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.0194,
-              50.9046
-            ],
-            [
-              -1.0158,
-              50.9046
-            ],
-            [
-              -1.0158,
-              50.9025
-            ],
-            [
-              -1.0194,
-              50.9025
-            ],
-            [
-              -1.0194,
-              50.9046
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 50.9046,
-      "etrUpdate": true
-    },
-    {
       "latitude": 56.56793918007332,
       "type": "PSI",
       "reference": "211543",
@@ -1426,6 +1369,70 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 55.4649,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.711560317424706,
+      "type": "PSI",
+      "reference": "212068",
+      "etaUpdate": true,
+      "affectedCustomerCount": 166,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "7ac67a48-7bb9-462c-9329-474e7a8960c6",
+      "minLongitude": -6.1693,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.972438997264395,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-11-14T13:30:00.000+0000",
+      "estimatedRestoration": "2022-11-14T14:30:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '212068'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/212068",
+      "maxLongitude": -5.7481,
+      "minLatitude": 56.6645,
+      "name": "PH36 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PH36 4JG",
+        "PH36 4JN",
+        "PH36 4JP",
+        "PH36 4JW",
+        "PH36 4LG",
+        "PH36 4LH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.1693,
+              56.7849
+            ],
+            [
+              -5.7481,
+              56.7849
+            ],
+            [
+              -5.7481,
+              56.6645
+            ],
+            [
+              -6.1693,
+              56.6645
+            ],
+            [
+              -6.1693,
+              56.7849
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "c51a4175-20ef-4b3f-b9d3-d213aab3893c"
+      ],
+      "maxLatitude": 56.7849,
       "etrUpdate": true
     }
   ]
