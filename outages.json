@@ -165,7 +165,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-11-23T16:38:00.000+0000",
-      "estimatedRestoration": "2022-11-23T23:59:00.000+0000",
+      "estimatedRestoration": "2022-11-24T04:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6419'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6419",
       "maxLongitude": -1.0752,
@@ -283,7 +283,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-11-23T16:09:00.000+0000",
-      "estimatedRestoration": "2022-11-24T02:00:00.000+0000",
+      "estimatedRestoration": "2022-11-24T04:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6389'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6389",
       "maxLongitude": -0.3185,
@@ -403,7 +403,7 @@
       "srtUpdate": true,
       "loggedAt": "2022-11-23T19:44:00.000+0000",
       "estimatedRestoration": "2022-11-23T23:59:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6555'",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6555'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6555",
       "maxLongitude": -1.2572,
       "minLatitude": 51.2398,
@@ -512,55 +512,57 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.54505109749652,
+      "latitude": 51.54533512884865,
       "type": "LV",
       "reference": "KF6613",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2022-11-23T22:15:00.000+0000",
       "affectedCustomerCount": 10,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "8f9acad1-dc63-475d-a800-ec504a785361",
       "minLongitude": -0.4798,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.47634081126839745,
+      "longitude": -0.47882626382241633,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-11-23T21:28:00.000+0000",
-      "estimatedRestoration": "2022-11-24T01:30:00.000+0000",
+      "estimatedRestoration": "2022-11-24T05:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6613'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6613",
-      "maxLongitude": -0.4739,
-      "minLatitude": 51.5439,
+      "maxLongitude": -0.4768,
+      "minLatitude": 51.5448,
       "name": "UB8 Area",
       "otherUpdate": true,
       "affectedAreas": [
+        "UB8 1BX",
+        "UB8 1EZ",
+        "UB8 1JD",
         "UB8 1JN",
-        "UB8 1LA",
-        "UB8 1LD",
-        "UB8 1XD"
+        "UB8 1TX"
       ],
       "location": {
         "coordinates": [
           [
             [
               -0.4798,
-              51.5461
+              51.5474
             ],
             [
-              -0.4739,
-              51.5461
+              -0.4768,
+              51.5474
             ],
             [
-              -0.4739,
-              51.5439
-            ],
-            [
-              -0.4798,
-              51.5439
+              -0.4768,
+              51.5448
             ],
             [
               -0.4798,
-              51.5461
+              51.5448
+            ],
+            [
+              -0.4798,
+              51.5474
             ]
           ]
         ],
@@ -568,10 +570,7 @@
       },
       "estimatedArrivalOnSiteTime": "2022-11-23T22:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "21220de0-8351-420c-afd9-dbd1a44fcd7d"
-      ],
-      "maxLatitude": 51.5461,
+      "maxLatitude": 51.5474,
       "etrUpdate": true
     },
     {
@@ -759,6 +758,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2022-11-24T00:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7905,
       "etrUpdate": true
@@ -798,76 +798,38 @@
       "resolved": false
     },
     {
-      "latitude": 57.66786133404047,
-      "type": "HV",
-      "reference": "KF6461",
-      "etaUpdate": true,
-      "affectedCustomerCount": 199,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "5bb1413c-0fc1-4bbe-96ca-07a39c465cd8",
-      "minLongitude": -2.5403,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.5314589028365795,
-      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2022-11-23T16:50:00.000+0000",
-      "estimatedRestoration": "2022-11-24T01:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6461'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6461",
-      "maxLongitude": -2.5258,
-      "minLatitude": 57.6643,
-      "name": "AB45 Area",
+      "loggedAt": "2022-11-23T13:05:00.000+0000",
+      "latitude": 50.83565578130733,
+      "estimatedRestoration": "2022-11-24T03:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF6178'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF6178",
+      "reference": "KF6178",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2022-11-23T15:00:00.000+0000",
+      "affectedCustomerCount": 2,
+      "name": "BH24 Area",
       "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "AB45 1EJ",
-        "AB45 1EL",
-        "AB45 1EN",
-        "AB45 1EP",
-        "AB45 1EQ",
-        "AB45 1ER",
-        "AB45 1FA",
-        "AB45 1FN",
-        "AB45 1JH",
-        "AB45 1JQ",
-        "AB45 1JR",
-        "AB45 1JS",
-        "AB45 1JT",
-        "AB45 1JU",
-        "AB45 1JX",
-        "AB45 1LA"
+        "BH24 3DB",
+        "BH24 3FB"
       ],
       "location": {
         "coordinates": [
-          [
-            [
-              -2.5403,
-              57.6708
-            ],
-            [
-              -2.5258,
-              57.6708
-            ],
-            [
-              -2.5258,
-              57.6643
-            ],
-            [
-              -2.5403,
-              57.6643
-            ],
-            [
-              -2.5403,
-              57.6708
-            ]
-          ]
+          -1.7428737952994946,
+          50.83565578130733
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
-      "estimatedArrivalOnSiteTime": "2022-11-23T18:00:00.000+0000",
+      "UUID": "73705527-6be9-4706-b677-39e53b336f3c",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.6708,
-      "etrUpdate": true
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.7428737952994946,
+      "resolved": false
     }
   ]
 }
