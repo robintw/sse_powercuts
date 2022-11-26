@@ -362,7 +362,7 @@
       "type": "HV",
       "reference": "KF8084",
       "etaUpdate": true,
-      "affectedCustomerCount": 10,
+      "affectedCustomerCount": 12,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "445014c7-1724-4ac4-b606-7b015e604436",
       "minLongitude": -1.4725,
@@ -377,7 +377,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF8084",
       "maxLongitude": -1.3634,
       "minLatitude": 50.9477,
-      "name": "SO52 Area",
+      "name": "S052 & SO16 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "S052 9",
@@ -697,6 +697,64 @@
       "estimatedArrivalOnSiteTime": "2022-11-26T08:45:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.9652,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.36079062862363,
+      "type": "LV",
+      "reference": "KF8051",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2022-11-26T08:45:00.000+0000",
+      "affectedCustomerCount": 18,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "b1d709d9-028a-440e-8bb8-74d5d183ada4",
+      "minLongitude": -2.0969,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.092536855504815,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-11-26T08:50:00.000+0000",
+      "estimatedRestoration": "2022-11-26T12:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KF8051'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KF8051",
+      "maxLongitude": -2.0897,
+      "minLatitude": 57.358,
+      "name": "AB41 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB41 9EU",
+        "AB41 9EX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.0969,
+              57.3631
+            ],
+            [
+              -2.0897,
+              57.3631
+            ],
+            [
+              -2.0897,
+              57.358
+            ],
+            [
+              -2.0969,
+              57.358
+            ],
+            [
+              -2.0969,
+              57.3631
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.3631,
       "etrUpdate": true
     }
   ]
