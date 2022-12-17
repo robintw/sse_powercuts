@@ -140,7 +140,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-17T14:06:00.000+0000",
-      "estimatedRestoration": "2022-12-17T23:00:00.000+0000",
+      "estimatedRestoration": "2022-12-18T02:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3225'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH3225",
       "maxLongitude": -0.7515,
@@ -382,7 +382,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-17T19:33:00.000+0000",
-      "estimatedRestoration": "2022-12-18T02:00:00.000+0000",
+      "estimatedRestoration": "2022-12-18T03:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3499'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH3499",
       "maxLongitude": -1.2685,
@@ -553,6 +553,68 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.565063608607595,
+      "type": "LV",
+      "reference": "KH3585",
+      "etaUpdate": true,
+      "affectedCustomerCount": 51,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "a4d8977a-f2ae-42a3-8c22-f7160446ac52",
+      "minLongitude": -2.4436,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.44055136224939,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2022-12-17T23:00:00.000+0000",
+      "estimatedRestoration": "2022-12-18T02:05:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3585'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH3585",
+      "maxLongitude": -2.435,
+      "minLatitude": 50.5628,
+      "name": "DT5 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DT5 1ER",
+        "DT5 1ES",
+        "DT5 1ET",
+        "DT5 1EX",
+        "DT5 1HB",
+        "DT5 1HD",
+        "DT5 1HE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.4436,
+              50.5684
+            ],
+            [
+              -2.435,
+              50.5684
+            ],
+            [
+              -2.435,
+              50.5628
+            ],
+            [
+              -2.4436,
+              50.5628
+            ],
+            [
+              -2.4436,
+              50.5684
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.5684,
+      "etrUpdate": true
+    },
+    {
       "customIncludeDefault": false,
       "latitude": 60.4016593302503,
       "type": "HV",
@@ -625,7 +687,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2022-12-12T16:19:00.000+0000",
-      "estimatedRestoration": "2022-12-17T22:00:00.000+0000",
+      "estimatedRestoration": "2022-12-18T10:00:00.000+0000",
       "message": "UPDATE - Subject to no unforeseen challenges, we expect sustained progress over the next 48 hours and are targeting the restoration of the large majority of supplies by Sunday. <br> <a href=\"https://www.ssen.co.uk/news-views/2022/shetland-severe-weather-10.45pm-2-update/\">Read more</a>",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH0958",
       "maxLongitude": -1.1489,
@@ -1066,16 +1128,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 60.220433296905334,
+      "latitude": 60.21537337540849,
       "type": "HV",
       "reference": "KH3473",
       "etaUpdate": true,
-      "affectedCustomerCount": 704,
+      "affectedCustomerCount": 601,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "c3067f4f-81fb-4859-b22e-8fa874ff7ca9",
-      "minLongitude": -1.3776,
+      "minLongitude": -1.3515,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.2690335617768322,
+      "longitude": -1.2488985481690706,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -1090,7 +1152,6 @@
       "affectedAreas": [
         "ZE1 0NA",
         "ZE1 0QW",
-        "ZE2",
         "ZE2 9FH",
         "ZE2 9FJ",
         "ZE2 9GJ",
@@ -1102,8 +1163,6 @@
         "ZE2 9LP",
         "ZE2 9LQ",
         "ZE2 9LR",
-        "ZE2 9LT",
-        "ZE2 9LU",
         "ZE2 9LW",
         "ZE2 9NX",
         "ZE2 9PP",
@@ -1128,7 +1187,7 @@
         "coordinates": [
           [
             [
-              -1.3776,
+              -1.3515,
               60.4062
             ],
             [
@@ -1140,11 +1199,11 @@
               60.0399
             ],
             [
-              -1.3776,
+              -1.3515,
               60.0399
             ],
             [
-              -1.3776,
+              -1.3515,
               60.4062
             ]
           ]
@@ -1171,7 +1230,7 @@
       "srtUpdate": true,
       "loggedAt": "2022-12-17T18:31:00.000+0000",
       "estimatedRestoration": "2022-12-17T23:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3476'",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3476'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH3476",
       "maxLongitude": -4.4314,
       "minLatitude": 57.5585,
@@ -1230,7 +1289,7 @@
       "srtUpdate": true,
       "loggedAt": "2022-12-17T20:49:00.000+0000",
       "estimatedRestoration": "2022-12-18T00:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3528'",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KH3528'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KH3528",
       "maxLongitude": -4.9014,
       "minLatitude": 56.7148,
