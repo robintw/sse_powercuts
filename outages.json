@@ -330,7 +330,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ5087",
       "maxLongitude": -1.8616,
       "minLatitude": 50.7419,
-      "name": "BH9 Area",
+      "name": "BH8 & BH9 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "BH8 9QS",
@@ -563,39 +563,66 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.73065570813844,
+      "type": "LV",
+      "reference": "KJ4985",
+      "etaUpdate": true,
+      "affectedCustomerCount": 10,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "efb8b3ea-45c8-4ec6-b8d0-aa891ff67da1",
+      "minLongitude": -1.9281,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.9233935627989442,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-01-02T07:28:00.000+0000",
-      "latitude": 50.81997795031699,
+      "loggedAt": "2022-01-02T13:30:00.000+0000",
       "estimatedRestoration": "2023-01-02T15:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ5145'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ5145",
-      "reference": "KJ5145",
-      "etaUpdate": true,
-      "affectedCustomerCount": 5,
-      "name": "BH24 Area",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KJ4985'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KJ4985",
+      "maxLongitude": -1.9197,
+      "minLatitude": 50.7288,
+      "name": "BH12 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "BH24 2QE",
-        "BH24 2SE",
-        "BH24 2SF",
-        "BH24 2SQ"
+        "BH12 1NR",
+        "BH12 1NX",
+        "BH12 2AB",
+        "BH12 2AE",
+        "BH12 2AR",
+        "BH12 2AS"
       ],
       "location": {
         "coordinates": [
-          -1.841791861340815,
-          50.81997795031699
+          [
+            [
+              -1.9281,
+              50.7323
+            ],
+            [
+              -1.9197,
+              50.7323
+            ],
+            [
+              -1.9197,
+              50.7288
+            ],
+            [
+              -1.9281,
+              50.7288
+            ],
+            [
+              -1.9281,
+              50.7323
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "2d27af71-ddee-4f31-83b8-8582f0abb1c9",
+      "estimatedArrivalOnSiteTime": "2023-01-02T09:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.841791861340815,
-      "resolved": false
+      "maxLatitude": 50.7323,
+      "etrUpdate": true
     }
   ]
 }
