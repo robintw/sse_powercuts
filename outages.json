@@ -85,7 +85,7 @@
       ],
       "srtUpdate": true,
       "loggedAt": "2023-01-20T20:30:00.000+0000",
-      "estimatedRestoration": "2023-01-20T22:00:00.000+0000",
+      "estimatedRestoration": "2023-01-20T23:59:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM0275'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM0275",
       "maxLongitude": -1.3142,
@@ -324,39 +324,6 @@
       "etrUpdate": true
     },
     {
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-01-20T20:50:00.000+0000",
-      "latitude": 51.67379782931121,
-      "estimatedRestoration": "2023-01-21T04:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM0414'",
-      "type": "LV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM0414",
-      "reference": "KM0414",
-      "etaUpdate": true,
-      "affectedCustomerCount": 12,
-      "name": "GL7 Area",
-      "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "GL7 6DA"
-      ],
-      "location": {
-        "coordinates": [
-          -1.9515941736266307,
-          51.67379782931121
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2023-01-20T21:30:00.000+0000",
-      "UUID": "337e1ce1-ecae-4a1e-a565-f31e96e57f3e",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.9515941736266307,
-      "resolved": false
-    },
-    {
       "latitude": 51.48252680346113,
       "type": "HV",
       "reference": "KM0428",
@@ -543,6 +510,7 @@
       "type": "LV",
       "reference": "KM0404",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-01-20T21:20:00.000+0000",
       "affectedCustomerCount": 7,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "0a3c3656-7161-49f5-828d-108db9d29a2e",
@@ -595,90 +563,6 @@
       "estimatedArrivalOnSiteTime": "2023-01-20T21:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.4915,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 56.4164198150585,
-      "type": "HV",
-      "reference": "KM0425",
-      "etaUpdate": true,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "f4bd3885-2d0a-4306-b2aa-d3800d59d636",
-      "minLongitude": -3.5331,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.5034319288810676,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-01-20T21:11:00.000+0000",
-      "estimatedRestoration": "2023-01-20T22:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM0425'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM0425",
-      "maxLongitude": -3.4589,
-      "minLatitude": 56.4018,
-      "name": "PH1 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PH1",
-        "PH1 2SQ",
-        "PH1 3EE",
-        "PH1 3EQ",
-        "PH1 3FA",
-        "PH1 3FB",
-        "PH1 3GZ",
-        "PH1 3JL",
-        "PH1 3JN",
-        "PH1 3JP",
-        "PH1 3JR",
-        "PH1 3JT",
-        "PH1 3JW",
-        "PH1 3JX",
-        "PH1 3JY",
-        "PH1 3LA",
-        "PH1 3LD",
-        "PH1 3LE",
-        "PH1 3LG",
-        "PH1 3LQ",
-        "PH1 3LZ",
-        "PH1 3NA",
-        "PH1 3NH",
-        "PH1 3NJ",
-        "PH1 3NQ",
-        "PH1 3NY",
-        "PH1 3SP",
-        "PH1 3UA",
-        "PH1 3UB",
-        "PH1 3US"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.5331,
-              56.4402
-            ],
-            [
-              -3.4589,
-              56.4402
-            ],
-            [
-              -3.4589,
-              56.4018
-            ],
-            [
-              -3.5331,
-              56.4018
-            ],
-            [
-              -3.5331,
-              56.4402
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.4402,
       "etrUpdate": true
     }
   ]
