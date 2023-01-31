@@ -133,7 +133,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM7737",
       "maxLongitude": -0.318,
       "minLatitude": 51.511,
-      "name": "UB8 & W13 Areas",
+      "name": "W13 & UB8 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "UB8 3HA",
@@ -230,16 +230,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.05720775408962,
+      "latitude": 51.05511509750447,
       "type": "HV",
       "reference": "KM7829",
       "etaUpdate": true,
-      "affectedCustomerCount": 543,
+      "affectedCustomerCount": 151,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "91a86c2d-e389-421b-9896-de50526b2b62",
-      "minLongitude": -1.3381,
+      "minLongitude": -1.3403,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3298773902957879,
+      "longitude": -1.3303213522234065,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -247,13 +247,29 @@
       "estimatedRestoration": "2023-01-31T18:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM7829'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM7829",
-      "maxLongitude": -1.3233,
-      "minLatitude": 51.0555,
+      "maxLongitude": -1.3205,
+      "minLatitude": 51.0377,
       "name": "SO22 Area",
       "otherUpdate": true,
       "affectedAreas": [
+        "SO22 4AA",
+        "SO22 4AB",
+        "SO22 4AD",
+        "SO22 4AE",
+        "SO22 4AF",
+        "SO22 4AG",
+        "SO22 4AQ",
+        "SO22 4BX",
+        "SO22 4DG",
+        "SO22 4DP",
+        "SO22 4FA",
         "SO22 4FD",
         "SO22 4FE",
+        "SO22 4FQ",
+        "SO22 4FR",
+        "SO22 4FS",
+        "SO22 4FT",
+        "SO22 4FW",
         "SO22 4HZ",
         "SO22 4NA",
         "SO22 4NB",
@@ -263,29 +279,36 @@
         "SO22 4NH",
         "SO22 4NQ",
         "SO22 4PE",
-        "SO22 4WB"
+        "SO22 4QE",
+        "SO22 4QT",
+        "SO22 4QU",
+        "SO22 4QW",
+        "SO22 4WB",
+        "SO23 9RX",
+        "SO23 9TG",
+        "SO23 9TJ"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -1.3381,
+              -1.3403,
               51.0605
             ],
             [
-              -1.3233,
+              -1.3205,
               51.0605
             ],
             [
-              -1.3233,
-              51.0555
+              -1.3205,
+              51.0377
             ],
             [
-              -1.3381,
-              51.0555
+              -1.3403,
+              51.0377
             ],
             [
-              -1.3381,
+              -1.3403,
               51.0605
             ]
           ]
@@ -586,6 +609,69 @@
       "estimatedArrivalOnSiteTime": "2023-01-31T16:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.9234,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 58.49499871884441,
+      "type": "HV",
+      "reference": "KM7876",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ad667ed6-d6dc-477b-87db-4a906aebd041",
+      "minLongitude": -6.3113,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.247018929301695,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-01-31T16:39:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KM7876'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KM7876",
+      "maxLongitude": -5.8104,
+      "minLatitude": 58.4547,
+      "name": "HS2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "HS2 0SW",
+        "HS2 0TQ",
+        "HS2 0XA",
+        "HS2 0XB",
+        "HS2 0XF",
+        "HS2 0XG",
+        "HS2 0XH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.3113,
+              59.1347
+            ],
+            [
+              -5.8104,
+              59.1347
+            ],
+            [
+              -5.8104,
+              58.4547
+            ],
+            [
+              -6.3113,
+              58.4547
+            ],
+            [
+              -6.3113,
+              59.1347
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "8780e335-e019-42f7-98c8-f8a107e5aa5b"
+      ],
+      "maxLatitude": 59.1347,
       "etrUpdate": true
     }
   ]
