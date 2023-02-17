@@ -259,6 +259,77 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.80763580346728,
+      "type": "LV",
+      "reference": "KN7570",
+      "etaUpdate": true,
+      "affectedCustomerCount": 23,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "2657d420-9129-49d4-aadc-aa5f93c1fac8",
+      "minLongitude": -1.9483,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.945620843952759,
+      "resolved": false,
+      "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "tobias.sell@sse.com",
+          "senderUserId": "44833855-d575-41a0-92f7-7cd8a3b8dabd",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 09:30.",
+          "UUID": "29031eaa-fa8a-4a95-8151-7667ffbfb67c",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2023-02-17T06:26:11.419+0000"
+        }
+      ],
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T05:51:00.000+0000",
+      "estimatedRestoration": "2023-02-17T09:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN7570'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7570",
+      "maxLongitude": -1.942,
+      "minLatitude": 50.8057,
+      "name": "BH21 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH21 2UE",
+        "BH21 2UL",
+        "BH21 2UP",
+        "BH21 2UW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.9483,
+              50.8107
+            ],
+            [
+              -1.942,
+              50.8107
+            ],
+            [
+              -1.942,
+              50.8057
+            ],
+            [
+              -1.9483,
+              50.8057
+            ],
+            [
+              -1.9483,
+              50.8107
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-02-17T07:00:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8107,
+      "etrUpdate": true
+    },
+    {
       "customIncludeDefault": false,
       "latitude": 57.0013368237671,
       "type": "LV",
@@ -481,7 +552,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7516",
       "maxLongitude": -4.8862,
       "minLatitude": 56.8512,
-      "name": "PH34 Area",
+      "name": "PH33 & PH34 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PH33 7PD",
@@ -921,7 +992,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7530",
       "maxLongitude": -4.4502,
       "minLatitude": 56.3224,
-      "name": "FK20 & PA33 Areas",
+      "name": "PH17 & FK20 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "FK20 8SA",
@@ -1488,7 +1559,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7561",
       "maxLongitude": -2.4815,
       "minLatitude": 57.058,
-      "name": "AB31 Area",
+      "name": "AB34 & AB31 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "AB31 4BN",
@@ -1759,7 +1830,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7567",
       "maxLongitude": -3.2097,
       "minLatitude": 57.5225,
-      "name": "IV36 & IV30 Areas",
+      "name": "IV30 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "IV30 1TZ",
@@ -1977,256 +2048,58 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 57.15486317272924,
+      "latitude": 57.15358349028345,
       "type": "HV",
       "reference": "KN7571",
       "etaUpdate": true,
-      "affectedCustomerCount": 1656,
+      "affectedCustomerCount": 1,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "ab979696-c420-499d-99e5-4c5aadb00189",
-      "minLongitude": -2.7628,
+      "minLongitude": -2.6414,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.5683447516737,
+      "longitude": -2.625831300294008,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-02-17T05:53:00.000+0000",
       "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7571",
-      "maxLongitude": -2.3426,
-      "minLatitude": 57.0542,
-      "name": "AB31 & AB51 Areas",
+      "maxLongitude": -2.6045,
+      "minLatitude": 57.1463,
+      "name": "AB31 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "AB31 4AG",
-        "AB31 4AN",
-        "AB31 4FL",
-        "AB31 4HU",
-        "AB31 4JE",
-        "AB31 4JJ",
-        "AB31 4JL",
-        "AB31 4JN",
-        "AB31 4JU",
-        "AB31 4JX",
-        "AB31 4JY",
-        "AB31 4LA",
-        "AB31 4LB",
-        "AB31 4LD",
-        "AB31 4LH",
-        "AB31 4LJ",
-        "AB31 4LL",
-        "AB31 4LN",
-        "AB31 4LP",
-        "AB31 4LT",
-        "AB31 4LU",
-        "AB31 4LX",
-        "AB31 4LY",
-        "AB31 4NA",
-        "AB31 4NB",
-        "AB31 4NT",
-        "AB31 4NU",
-        "AB31 4NX",
-        "AB31 4NY",
-        "AB31 4PA",
-        "AB31 4PD",
-        "AB31 4PE",
-        "AB31 4PH",
-        "AB31 4PJ",
-        "AB31 4PL",
-        "AB31 4PN",
-        "AB31 4PP",
-        "AB31 4PQ",
-        "AB31 4PR",
-        "AB31 4PS",
-        "AB31 4PT",
-        "AB31 4PU",
-        "AB31 4PW",
-        "AB31 4PX",
-        "AB31 4PY",
-        "AB31 4QA",
-        "AB31 4QB",
-        "AB31 4QD",
-        "AB31 4QE",
-        "AB31 4QF",
-        "AB31 4QG",
-        "AB31 4QH",
-        "AB31 4QJ",
-        "AB31 4QL",
-        "AB31 4QN",
-        "AB31 4QP",
-        "AB31 4QS",
-        "AB31 4QW",
-        "AB31 4QY",
-        "AB31 4RA",
-        "AB31 4RL",
-        "AB31 4RZ",
-        "AB31 4SE",
-        "AB31 4SF",
-        "AB31 4SG",
-        "AB31 4SH",
-        "AB31 4SJ",
-        "AB31 4SL",
-        "AB31 4SN",
-        "AB31 4SP",
-        "AB31 4SR",
-        "AB31 4SS",
-        "AB31 4SU",
-        "AB31 4TE",
-        "AB31 4TG",
-        "AB31 4TH",
-        "AB31 6DF",
-        "AB32 6HH",
-        "AB32 6HJ",
-        "AB32 6HN",
-        "AB32 6HP",
-        "AB32 6SD",
-        "AB32 6UL",
-        "AB32 6UN",
-        "AB32 6UP",
-        "AB32 6UQ",
-        "AB32 6UR",
-        "AB32 7AA",
-        "AB32 7AG",
-        "AB32 7AJ",
-        "AB32 7AL",
-        "AB32 7AN",
-        "AB32 7AP",
-        "AB32 7AQ",
-        "AB32 7AR",
-        "AB32 7AS",
-        "AB32 7AT",
-        "AB32 7DD",
-        "AB32 7DE",
-        "AB32 7DJ",
-        "AB32 7DL",
-        "AB32 7DN",
-        "AB32 7DS",
-        "AB32 7DT",
-        "AB32 7DX",
-        "AB32 7EA",
-        "AB32 7EB",
-        "AB32 7ED",
-        "AB34 4JA",
-        "AB34 4JD",
-        "AB34 4JH",
-        "AB34 5AR",
-        "AB51 5HE",
-        "AB51 5LN",
-        "AB51 5NL",
-        "AB51 7AA",
-        "AB51 7AB",
-        "AB51 7EX",
-        "AB51 7JF",
-        "AB51 7JG",
-        "AB51 7JH",
-        "AB51 7JP",
-        "AB51 7JQ",
-        "AB51 7JR",
-        "AB51 7JS",
-        "AB51 7JT",
-        "AB51 7JU",
-        "AB51 7JW",
-        "AB51 7JX",
-        "AB51 7JY",
-        "AB51 7LA",
-        "AB51 7LB",
-        "AB51 7LD",
-        "AB51 7LF",
-        "AB51 7LG",
-        "AB51 7LJ",
-        "AB51 7LL",
-        "AB51 7LN",
-        "AB51 7LP",
-        "AB51 7LQ",
-        "AB51 7LR",
-        "AB51 7LS",
-        "AB51 7LT",
-        "AB51 7LU",
-        "AB51 7LX",
-        "AB51 7NA",
-        "AB51 7NB",
-        "AB51 7ND",
-        "AB51 7NE",
-        "AB51 7NJ",
-        "AB51 7NL",
-        "AB51 7NN",
-        "AB51 7NP",
-        "AB51 7NQ",
-        "AB51 7NR",
-        "AB51 7NS",
-        "AB51 7NT",
-        "AB51 7NX",
-        "AB51 7PA",
-        "AB51 7PB",
-        "AB51 7PD",
-        "AB51 7PE",
-        "AB51 7PJ",
-        "AB51 7PL",
-        "AB51 7PN",
-        "AB51 7PP",
-        "AB51 7PQ",
-        "AB51 7PS",
-        "AB51 7PT",
-        "AB51 7PX",
-        "AB51 7QA",
-        "AB51 7QB",
-        "AB51 7QD",
-        "AB51 7QE",
-        "AB51 7QJ",
-        "AB51 7QL",
-        "AB51 7QN",
-        "AB51 7QP",
-        "AB51 7QQ",
-        "AB51 7QR",
-        "AB51 7QS",
-        "AB51 7QT",
-        "AB51 7QX",
-        "AB51 7RA",
-        "AB51 7RB",
-        "AB51 7RD",
-        "AB51 7RJ",
-        "AB51 7RL",
-        "AB51 7RN",
-        "AB51 7RP",
-        "AB51 7RQ",
-        "AB51 7RR",
-        "AB51 7RS",
-        "AB51 7RT",
-        "AB51 7RX",
-        "AB51 7SA",
-        "AB51 7SB",
-        "AB51 7SR",
-        "UM5"
+        "AB31 4PP"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.7628,
-              57.3122
+              -2.6414,
+              57.1641
             ],
             [
-              -2.3426,
-              57.3122
+              -2.6045,
+              57.1641
             ],
             [
-              -2.3426,
-              57.0542
+              -2.6045,
+              57.1463
             ],
             [
-              -2.7628,
-              57.0542
+              -2.6414,
+              57.1463
             ],
             [
-              -2.7628,
-              57.3122
+              -2.6414,
+              57.1641
             ]
           ]
         ],
         "type": "Polygon"
       },
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.3122,
+      "maxLatitude": 57.1641,
       "etrUpdate": true
     },
     {
@@ -2614,6 +2487,7 @@
       "etrUpdate": true
     },
     {
+      "customIncludeDefault": false,
       "latitude": 57.57191589059438,
       "type": "HV",
       "reference": "KN7594",
@@ -2628,7 +2502,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-02-17T06:07:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN7594'",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7594",
       "maxLongitude": -2.3608,
       "minLatitude": 57.5554,
@@ -2675,6 +2549,7 @@
       "etrUpdate": true
     },
     {
+      "customIncludeDefault": false,
       "latitude": 57.40186857871307,
       "type": "HV",
       "reference": "KN7593",
@@ -2689,11 +2564,11 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-02-17T06:06:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN7593'",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7593",
       "maxLongitude": -2.3001,
       "minLatitude": 57.3347,
-      "name": "AB51 Area",
+      "name": "AB53 & AB51 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "AB51",
@@ -2792,6 +2667,1552 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.435,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.69263546639728,
+      "type": "HV",
+      "reference": "KN7597",
+      "etaUpdate": true,
+      "affectedCustomerCount": 172,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "0831f08c-8feb-4819-bb7f-7ff74fe75f16",
+      "minLongitude": -4.2863,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.255430365668299,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:09:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7597",
+      "maxLongitude": -4.2371,
+      "minLatitude": 57.6731,
+      "name": "IV17 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV17 0AB",
+        "IV17 0PF",
+        "IV17 0PS",
+        "IV17 0PY",
+        "IV17 0QQ",
+        "IV17 0SE",
+        "IV17 0SG",
+        "IV17 0SH",
+        "IV17 0SJ",
+        "IV17 0SL",
+        "IV17 0TF",
+        "IV17 0TY",
+        "IV17 0UD",
+        "IV17 0UE",
+        "IV17 0UP",
+        "IV17 0UY",
+        "IV17 0XB",
+        "IV17 0YJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.2863,
+              57.697
+            ],
+            [
+              -4.2371,
+              57.697
+            ],
+            [
+              -4.2371,
+              57.6731
+            ],
+            [
+              -4.2863,
+              57.6731
+            ],
+            [
+              -4.2863,
+              57.697
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.697,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.393647300393745,
+      "type": "HV",
+      "reference": "KN7598",
+      "etaUpdate": true,
+      "affectedCustomerCount": 39,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "435f96cc-bba9-4f75-8f97-a2eeff659975",
+      "minLongitude": -2.2723,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.233036835606975,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:09:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7598",
+      "maxLongitude": -2.1883,
+      "minLatitude": 57.3791,
+      "name": "AB41 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB41 7EQ",
+        "AB41 7HH",
+        "AB41 7HJ",
+        "AB41 7LD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.2723,
+              57.4173
+            ],
+            [
+              -2.1883,
+              57.4173
+            ],
+            [
+              -2.1883,
+              57.3791
+            ],
+            [
+              -2.2723,
+              57.3791
+            ],
+            [
+              -2.2723,
+              57.4173
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4173,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.44822793131304,
+      "type": "HV",
+      "reference": "KN7606",
+      "etaUpdate": true,
+      "affectedCustomerCount": 282,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "f6e7bfd2-0859-4087-96fb-b6b5febe6a1a",
+      "minLongitude": -3.1475,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.1229223124059673,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:11:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7606",
+      "maxLongitude": -3.0631,
+      "minLatitude": 57.4289,
+      "name": "AB55 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB55",
+        "AB55 4AA",
+        "AB55 4AF",
+        "AB55 4AN",
+        "AB55 4AP",
+        "AB55 4AQ",
+        "AB55 4AR",
+        "AB55 4AX",
+        "AB55 4BB",
+        "AB55 4BD",
+        "AB55 4BG",
+        "AB55 4BH",
+        "AB55 4BR",
+        "AB55 4DF",
+        "AB55 4DG",
+        "AB55 4DJ",
+        "AB55 4DL",
+        "AB55 4DN",
+        "AB55 4DP",
+        "AB55 4DW",
+        "AB55 4EH",
+        "AB55 4EJ",
+        "AB55 4EP",
+        "AB55 4ER",
+        "AB55 4EX",
+        "AB55 4FH",
+        "AB55 4GH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.1475,
+              57.4793
+            ],
+            [
+              -3.0631,
+              57.4793
+            ],
+            [
+              -3.0631,
+              57.4289
+            ],
+            [
+              -3.1475,
+              57.4289
+            ],
+            [
+              -3.1475,
+              57.4793
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4793,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.33066326343303,
+      "type": "HV",
+      "reference": "KN7600",
+      "etaUpdate": true,
+      "affectedCustomerCount": 60,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "c42b067e-bfeb-4786-a31b-9577ecf8831e",
+      "minLongitude": -2.5313,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.4979784944874517,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:10:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7600",
+      "maxLongitude": -2.463,
+      "minLatitude": 57.3164,
+      "name": "AB51 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB51 5EB",
+        "AB51 5ED",
+        "AB51 5EE",
+        "AB51 5EH",
+        "AB51 5EJ",
+        "AB51 5EL",
+        "AB52 6SU",
+        "AB52 6SW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.5313,
+              57.3529
+            ],
+            [
+              -2.463,
+              57.3529
+            ],
+            [
+              -2.463,
+              57.3164
+            ],
+            [
+              -2.5313,
+              57.3164
+            ],
+            [
+              -2.5313,
+              57.3529
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.3529,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 56.992684880752506,
+      "type": "HV",
+      "reference": "KN7608",
+      "etaUpdate": true,
+      "affectedCustomerCount": 80,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "54bae603-240f-423e-b447-62db7accf0dd",
+      "minLongitude": -4.6621,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.385568412988813,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:14:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7608",
+      "maxLongitude": -4.2828,
+      "minLatitude": 56.8413,
+      "name": "PH20 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PH20",
+        "PH20 1AJ",
+        "PH20 1BU",
+        "PH20 1BX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.6621,
+              57.1339
+            ],
+            [
+              -4.2828,
+              57.1339
+            ],
+            [
+              -4.2828,
+              56.8413
+            ],
+            [
+              -4.6621,
+              56.8413
+            ],
+            [
+              -4.6621,
+              57.1339
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "00ca739d-5606-402f-8d30-adff961188d1"
+      ],
+      "maxLatitude": 57.1339,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.03483089933331,
+      "type": "HV",
+      "reference": "KN7609",
+      "etaUpdate": true,
+      "affectedCustomerCount": 65,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "8086438b-cb1d-4c4b-9dd3-2d4e72bed8b9",
+      "minLongitude": -3.2927,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.216158454966536,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:14:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7609",
+      "maxLongitude": -3.1193,
+      "minLatitude": 56.992,
+      "name": "AB35 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB35 5TB",
+        "AB35 5TE",
+        "AB35 5TX",
+        "AB35 5UL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.2927,
+              57.0546
+            ],
+            [
+              -3.1193,
+              57.0546
+            ],
+            [
+              -3.1193,
+              56.992
+            ],
+            [
+              -3.2927,
+              56.992
+            ],
+            [
+              -3.2927,
+              57.0546
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.0546,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.45274946288928,
+      "type": "HV",
+      "reference": "KN7612",
+      "etaUpdate": true,
+      "affectedCustomerCount": 41,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "af70d870-4929-44ce-8cab-0ff570078e8c",
+      "minLongitude": -2.2446,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.2095169591303647,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:16:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7612",
+      "maxLongitude": -2.1726,
+      "minLatitude": 57.4382,
+      "name": "AB41 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB41 7BA",
+        "AB41 7BU",
+        "AB41 7JG",
+        "AB41 7JQ",
+        "AB41 7JS",
+        "AB41 7JT",
+        "AB41 8TP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.2446,
+              57.4634
+            ],
+            [
+              -2.1726,
+              57.4634
+            ],
+            [
+              -2.1726,
+              57.4382
+            ],
+            [
+              -2.2446,
+              57.4382
+            ],
+            [
+              -2.2446,
+              57.4634
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4634,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.64152007941741,
+      "type": "HV",
+      "reference": "KN7626",
+      "etaUpdate": true,
+      "affectedCustomerCount": 64,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ec968865-d5cb-4ded-932b-c176727d6b90",
+      "minLongitude": -2.5365,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.41784026117055,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:22:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7626",
+      "maxLongitude": -2.3279,
+      "minLatitude": 57.6226,
+      "name": "AB45 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB45 3LJ",
+        "AB45 3QR",
+        "AB45 3QT",
+        "AB45 3QX",
+        "AB45 3RA",
+        "AB45 3RB",
+        "AB45 3RR",
+        "AB45 3RS",
+        "AB45 3SA",
+        "AB45 3SD",
+        "AB45 3SJ",
+        "AB45 3SN",
+        "AB45 3SP",
+        "AB45 3SQ",
+        "AB45 3SR",
+        "AB45 3SS",
+        "AB45 3ST",
+        "AB45 3YJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.5365,
+              57.6714
+            ],
+            [
+              -2.3279,
+              57.6714
+            ],
+            [
+              -2.3279,
+              57.6226
+            ],
+            [
+              -2.5365,
+              57.6226
+            ],
+            [
+              -2.5365,
+              57.6714
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.6714,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.3846403386872,
+      "type": "HV",
+      "reference": "KN7624",
+      "etaUpdate": true,
+      "affectedCustomerCount": 238,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ef7d8fe7-8827-4959-bcc3-9a0cff34c1a3",
+      "minLongitude": -3.7119,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.4781590943535403,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:21:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7624",
+      "maxLongitude": -3.2883,
+      "minLatitude": 57.2766,
+      "name": "PH26 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB37 9AA",
+        "AB37 9AB",
+        "AB37 9AD",
+        "AB37 9AJ",
+        "AB37 9AS",
+        "AB37 9AX",
+        "AB37 9BQ",
+        "AB37 9EA",
+        "PH26 3LP",
+        "PH26 3LR",
+        "PH26 3LW",
+        "PH26 3NH",
+        "PH26 3PL",
+        "PH26 3PN",
+        "PH26 3PR",
+        "PH26 3PT",
+        "PH26 3PW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.7119,
+              57.4558
+            ],
+            [
+              -3.2883,
+              57.4558
+            ],
+            [
+              -3.2883,
+              57.2766
+            ],
+            [
+              -3.7119,
+              57.2766
+            ],
+            [
+              -3.7119,
+              57.4558
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4558,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.55423650949564,
+      "type": "HV",
+      "reference": "KN7625",
+      "etaUpdate": true,
+      "affectedCustomerCount": 151,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "3bd185c1-6f65-4185-b1df-177bfe1686f2",
+      "minLongitude": -3.7645,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.6698687480338275,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:21:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7625",
+      "maxLongitude": -3.5873,
+      "minLatitude": 57.4655,
+      "name": "IV36 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV12 5LB",
+        "IV36 0SU",
+        "IV36 0TX",
+        "IV36 2QG",
+        "IV36 2QL",
+        "IV36 2QN",
+        "IV36 2QQ",
+        "IV36 2ST",
+        "IV36 2SU",
+        "IV36 2SW",
+        "IV36 2TU",
+        "IV36 2TW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.7645,
+              57.6006
+            ],
+            [
+              -3.5873,
+              57.6006
+            ],
+            [
+              -3.5873,
+              57.4655
+            ],
+            [
+              -3.7645,
+              57.4655
+            ],
+            [
+              -3.7645,
+              57.6006
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.6006,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.585031130390426,
+      "type": "HV",
+      "reference": "KN7634",
+      "etaUpdate": true,
+      "affectedCustomerCount": 101,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "d5d269fc-e078-4367-81a4-72680172a492",
+      "minLongitude": -2.5602,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.2848181788751147,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:23:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7634",
+      "maxLongitude": -1.9402,
+      "minLatitude": 57.0146,
+      "name": "AB53 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB39 3RU",
+        "AB42 4XQ",
+        "AB43 6PJ",
+        "AB43 6PL",
+        "AB43 6PP",
+        "AB43 6PQ",
+        "AB43 6PR",
+        "AB43 6PS",
+        "AB43 6PW",
+        "AB43 6QH",
+        "AB43 6QJ",
+        "AB43 6QL",
+        "AB43 6QN",
+        "AB43 6QP",
+        "AB43 6QQ",
+        "AB53 4EF",
+        "AB53 4HJ",
+        "AB53 5QA",
+        "AB53 5QR",
+        "AB53 5TY",
+        "AB53 5UA",
+        "AB53 5UB",
+        "AB53 5UD",
+        "AB53 5XL",
+        "AB53 5XN",
+        "AB53 5XP",
+        "AB53 5XQ",
+        "AB53 5XR",
+        "AB53 5XS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.5602,
+              57.6216
+            ],
+            [
+              -1.9402,
+              57.6216
+            ],
+            [
+              -1.9402,
+              57.0146
+            ],
+            [
+              -2.5602,
+              57.0146
+            ],
+            [
+              -2.5602,
+              57.6216
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.6216,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.71707077399059,
+      "type": "HV",
+      "reference": "KN7633",
+      "etaUpdate": true,
+      "affectedCustomerCount": 8,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "953fd48a-feca-4cef-a889-a4d92fb27160",
+      "minLongitude": -4.0662,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.018312011593589,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:23:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7633",
+      "maxLongitude": -3.9675,
+      "minLatitude": 57.7042,
+      "name": "IV19 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV19 1QF",
+        "IV19 1QP",
+        "IV19 1QX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.0662,
+              57.7396
+            ],
+            [
+              -3.9675,
+              57.7396
+            ],
+            [
+              -3.9675,
+              57.7042
+            ],
+            [
+              -4.0662,
+              57.7042
+            ],
+            [
+              -4.0662,
+              57.7396
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.7396,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.05782512993158,
+      "type": "HV",
+      "reference": "KN7628",
+      "etaUpdate": true,
+      "affectedCustomerCount": 470,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "51d2f7ee-14cc-4388-afef-90b5999bed5e",
+      "minLongitude": -2.651,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.5338539092589882,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:22:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7628",
+      "maxLongitude": -2.3194,
+      "minLatitude": 57.041,
+      "name": "AB31 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB31",
+        "AB31 4AA",
+        "AB31 4AB",
+        "AB31 4AD",
+        "AB31 4AE",
+        "AB31 4AF",
+        "AB31 4AH",
+        "AB31 4AJ",
+        "AB31 4AL",
+        "AB31 4AN",
+        "AB31 4AP",
+        "AB31 4AQ",
+        "AB31 4AR",
+        "AB31 4AS",
+        "AB31 4AT",
+        "AB31 4AW",
+        "AB31 4AZ",
+        "AB31 4BA",
+        "AB31 4BB",
+        "AB31 4BF",
+        "AB31 4BQ",
+        "AB31 4BS",
+        "AB31 4BT",
+        "AB31 4DX",
+        "AB31 4DY",
+        "AB31 4FA",
+        "AB31 4FD",
+        "AB31 4FE",
+        "AB31 4FN",
+        "AB31 4FX",
+        "AB31 4GA",
+        "AB31 4GB",
+        "AB31 4GD",
+        "AB31 5RE",
+        "AB31 5RF",
+        "AB31 5RG",
+        "AB31 5RR",
+        "AB31 5RS",
+        "AB31 5RT",
+        "AB31 5ST",
+        "AB31 6BD",
+        "AB31 6PS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.651,
+              57.0791
+            ],
+            [
+              -2.3194,
+              57.0791
+            ],
+            [
+              -2.3194,
+              57.041
+            ],
+            [
+              -2.651,
+              57.041
+            ],
+            [
+              -2.651,
+              57.0791
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.0791,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.806475247612404,
+      "type": "HV",
+      "reference": "KN7629",
+      "etaUpdate": true,
+      "affectedCustomerCount": 82,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "7f580e6e-3dbc-4224-826d-df2728fd6523",
+      "minLongitude": -4.0871,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.004757154111772,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:22:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7629",
+      "maxLongitude": -3.92,
+      "minLatitude": 57.7778,
+      "name": "IV19 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV19 1FG",
+        "IV19 1GZ",
+        "IV19 1LZ",
+        "IV19 1PD",
+        "IV19 1PE",
+        "IV19 1PZ",
+        "IV20 1RS",
+        "IV20 1RT"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.0871,
+              57.8562
+            ],
+            [
+              -3.92,
+              57.8562
+            ],
+            [
+              -3.92,
+              57.7778
+            ],
+            [
+              -4.0871,
+              57.7778
+            ],
+            [
+              -4.0871,
+              57.8562
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.8562,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.520283134046345,
+      "type": "HV",
+      "reference": "KN7627",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "bb30cfbb-b710-4aa9-a3e4-d32517d55918",
+      "minLongitude": -2.7568,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.631783846990861,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:10:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7627",
+      "maxLongitude": -2.4648,
+      "minLatitude": 57.3469,
+      "name": "AB54 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB53 4BD",
+        "AB53 4GL",
+        "AB53 4GN",
+        "AB53 4GP",
+        "AB53 4GQ",
+        "AB53 4GR",
+        "AB53 4GS",
+        "AB53 4GT",
+        "AB53 4GW",
+        "AB53 4GX",
+        "AB53 4GY",
+        "AB53 4GZ",
+        "AB53 4HJ",
+        "AB53 4LA",
+        "AB53 4LB",
+        "AB53 4LD",
+        "AB53 4LE",
+        "AB53 4LH",
+        "AB53 4LJ",
+        "AB53 4LL",
+        "AB53 4LN",
+        "AB53 4LP",
+        "AB53 4LQ",
+        "AB53 4LR",
+        "AB54",
+        "AB54 4NH",
+        "AB54 6BF",
+        "AB54 6BG",
+        "AB54 6BN",
+        "AB54 6BP",
+        "AB54 6BQ",
+        "AB54 6BR",
+        "AB54 6BS",
+        "AB54 6BT",
+        "AB54 6BU",
+        "AB54 6BW",
+        "AB54 6BX",
+        "AB54 6BY",
+        "AB54 6BZ",
+        "AB54 6DA",
+        "AB54 6DB",
+        "AB54 6DD",
+        "AB54 6DE",
+        "AB54 6DG",
+        "AB54 6DH",
+        "AB54 6DL",
+        "AB54 6DN",
+        "AB54 6DP",
+        "AB54 6DQ",
+        "AB54 6DU",
+        "AB54 6DW",
+        "AB54 6EE",
+        "AB54 6EF",
+        "AB54 6HG",
+        "AB54 6HH",
+        "AB54 6HP",
+        "AB54 6HS",
+        "AB54 7NS",
+        "AB54 7PJ",
+        "AB54 7PL",
+        "AB54 7QU",
+        "AB54 7QX",
+        "AB54 7RE",
+        "AB54 7RH",
+        "AB54 7RJ",
+        "AB54 7RL",
+        "AB54 7RN",
+        "AB54 7RP",
+        "AB54 7RQ",
+        "AB54 7RR",
+        "AB54 7RS",
+        "AB54 7RT",
+        "AB54 7RU",
+        "AB54 7RW",
+        "AB54 7RX",
+        "AB54 7RY",
+        "AB54 7RZ",
+        "AB54 7SA",
+        "AB54 7SB",
+        "AB54 7TT",
+        "AB54 7UB",
+        "AB54 7UD",
+        "AB54 7UE",
+        "AB54 7UH",
+        "AB54 7UJ",
+        "AB54 7UL",
+        "AB54 7UN",
+        "AB54 7UP",
+        "AB54 7UQ",
+        "AB54 7UR",
+        "AB54 7US",
+        "AB54 7UT",
+        "AB54 7UU",
+        "AB54 7UX",
+        "AB54 7UY",
+        "AB54 7UZ",
+        "AB54 7XA",
+        "AB54 7XB",
+        "AB54 7XD",
+        "AB54 7XE",
+        "AB54 7XH",
+        "AB54 7XJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.7568,
+              57.573
+            ],
+            [
+              -2.4648,
+              57.573
+            ],
+            [
+              -2.4648,
+              57.3469
+            ],
+            [
+              -2.7568,
+              57.3469
+            ],
+            [
+              -2.7568,
+              57.573
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.573,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.574358591939394,
+      "type": "HV",
+      "reference": "KN7632",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "77b01711-ad9b-4557-9198-f7bc747b212c",
+      "minLongitude": -2.6469,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.5634674119131726,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T06:00:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7632",
+      "maxLongitude": -2.4981,
+      "minLatitude": 57.5275,
+      "name": "AB45 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB45 3DD",
+        "AB45 3DJ",
+        "AB45 3DN",
+        "AB45 3DR",
+        "AB45 3DS",
+        "AB45 3DT",
+        "AB45 3DX",
+        "AB45 3EA",
+        "AB45 3EB",
+        "AB45 3ED",
+        "AB45 3UB",
+        "AB45 3UL",
+        "AB45 3UN",
+        "AB45 3UP",
+        "AB45 3UQ",
+        "AB45 3UX",
+        "AB45 3XA",
+        "AB45 3XB",
+        "AB45 3XD",
+        "AB45 3XJ",
+        "AB45 3XL",
+        "AB45 3XN",
+        "AB45 3XP",
+        "AB45 3XQ",
+        "AB45 3XR",
+        "AB45 3XS",
+        "AB45 3XT",
+        "AB45 3XU",
+        "AB45 3XX",
+        "AB45 3YA",
+        "AB45 3YD",
+        "AB53 4JE",
+        "AB53 4JJ",
+        "AB53 4JL",
+        "AB53 4JS",
+        "AB53 4JT",
+        "AB53 4JU",
+        "AB53 4JX",
+        "AB53 4JY",
+        "AB53 4JZ",
+        "AB53 4LA",
+        "AB53 4LB",
+        "AB53 4LR",
+        "AB53 4LS",
+        "AB53 4LT",
+        "AB53 4LU",
+        "AB53 4LX",
+        "AB54 7PX",
+        "AB54 7PY",
+        "AB54 7SJ",
+        "AB54 7SL",
+        "AB54 7SS",
+        "AB54 7TF",
+        "AB54 7TJ",
+        "AB54 7TS",
+        "AB54 7TT",
+        "AB54 7TU",
+        "AB54 7TX",
+        "AB54 7TY",
+        "AB54 7UA",
+        "AB54 7UF",
+        "AB54 7UG",
+        "AB54 7UW",
+        "AB54 7WA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.6469,
+              57.624
+            ],
+            [
+              -2.4981,
+              57.624
+            ],
+            [
+              -2.4981,
+              57.5275
+            ],
+            [
+              -2.6469,
+              57.5275
+            ],
+            [
+              -2.6469,
+              57.624
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.624,
+      "etrUpdate": true
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 56.5223638619347,
+      "type": "HV",
+      "reference": "KN7630",
+      "etaUpdate": true,
+      "affectedCustomerCount": 73,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "e018eb06-70b6-4114-8c18-a89fc6d766d0",
+      "minLongitude": -4.0453,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.820489656794738,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T05:52:00.000+0000",
+      "message": "We're sorry for the power cut affecting your area. Due to Storm Otto bringing high wind speeds across our network, it means we're experiencing a higher number of faults than normal. It also means it's not safe for us to complete repairs at this time and we also need to assess the extent of damage caused to then be able to restore your power. At this stage, we're unable to provide an estimated time of restoration, however, our teams are working as hard as they can to assess the situation and provide you with a realistic timescale. We're expecting an update to be available by midday, so please register for updates on this fault and we'll let you know if anything changesi.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7630",
+      "maxLongitude": -3.708,
+      "minLatitude": 56.4042,
+      "name": "PH18 & PH8 Areas",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PH18 5UA",
+        "PH8 0BY",
+        "PH8 0BZ",
+        "PH8 0DA",
+        "PH8 0DB",
+        "PH8 0DE",
+        "PH8 0E",
+        "PH8 0EB",
+        "PH8 0EE",
+        "PH8 0EF",
+        "PH8 0EG",
+        "PH8 0EH"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.0453,
+              56.8259
+            ],
+            [
+              -3.708,
+              56.8259
+            ],
+            [
+              -3.708,
+              56.4042
+            ],
+            [
+              -4.0453,
+              56.4042
+            ],
+            [
+              -4.0453,
+              56.8259
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.8259,
+      "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T05:57:00.000+0000",
+      "latitude": 57.60614782007737,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN7639'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7639",
+      "reference": "KN7639",
+      "maxLongitude": -2.4718,
+      "etaUpdate": true,
+      "minLatitude": 57.556,
+      "name": "AB54 & AB45 Areas",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "AB45 2AA",
+        "AB45 2AB",
+        "AB45 2AE",
+        "AB45 2AH",
+        "AB45 2AJ",
+        "AB45 2AL",
+        "AB45 2AN",
+        "AB45 2AP",
+        "AB45 2AQ",
+        "AB45 2AR",
+        "AB45 2AS",
+        "AB45 2AT",
+        "AB45 2AU",
+        "AB45 2AX",
+        "AB45 2AY",
+        "AB45 2BA",
+        "AB45 2DT",
+        "AB45 2DX",
+        "AB45 2EA",
+        "AB45 2EB",
+        "AB45 2ED",
+        "AB45 2EH",
+        "AB45 2EJ",
+        "AB45 2EN",
+        "AB45 2EP",
+        "AB45 2EQ",
+        "AB45 2ER",
+        "AB45 2ES",
+        "AB45 2EU",
+        "AB45 2HQ",
+        "AB45 2HS",
+        "AB45 2HT",
+        "AB45 2HX",
+        "AB45 2JA",
+        "AB45 2JB",
+        "AB45 2JR",
+        "AB45 3AB",
+        "AB45 3AJ",
+        "AB45 3AL",
+        "AB45 3AN",
+        "AB45 3AP",
+        "AB45 3AQ",
+        "AB45 3AR",
+        "AB45 3AS",
+        "AB45 3AT",
+        "AB45 3AX",
+        "AB45 3BA",
+        "AB45 3BB",
+        "AB45 3BD",
+        "AB45 3BJ",
+        "AB45 3BL",
+        "AB45 3BN",
+        "AB45 3BP",
+        "AB45 3BQ",
+        "AB45 3BR",
+        "AB45 3BS",
+        "AB45 3BT",
+        "AB45 3BX",
+        "AB45 3DA",
+        "AB45 3DB",
+        "AB45 3DD",
+        "AB45 3DP",
+        "AB45 3DQ",
+        "AB45 3TQ",
+        "AB53 4NH",
+        "AB54",
+        "AB54 3DB",
+        "AB54 7PN",
+        "AB54 7PP",
+        "AB54 7PQ",
+        "AB54 7PR",
+        "AB54 7PS",
+        "AB54 7PT",
+        "AB54 7PU",
+        "AB54 7PX",
+        "AB54 7QA",
+        "AB54 7QB",
+        "AB54 7QD",
+        "AB54 7QE",
+        "AB54 7QF",
+        "AB54 7QH",
+        "AB54 7QJ",
+        "AB54 7QL",
+        "AB54 7QN",
+        "AB54 7QP",
+        "AB54 7QQ",
+        "AB54 7QR",
+        "AB54 7QS",
+        "AB54 7QT",
+        "AB54 7QU",
+        "AB54 7QY",
+        "AB54 7RB",
+        "AB54 7RD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.7286,
+              57.6703
+            ],
+            [
+              -2.4718,
+              57.6703
+            ],
+            [
+              -2.4718,
+              57.556
+            ],
+            [
+              -2.7286,
+              57.556
+            ],
+            [
+              -2.7286,
+              57.6703
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "1751caa3-68c6-4f77-8b9a-6fb1c52a014f",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -2.7286,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 57.6703,
+      "etrUpdate": true,
+      "longitude": -2.647832168292121,
+      "resolved": false
+    },
+    {
+      "latitude": 57.749932007805555,
+      "type": "HV",
+      "reference": "KN7640",
+      "etaUpdate": true,
+      "affectedCustomerCount": 465,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "04fc7ae0-0544-4863-b9a8-e1f0f5cca5ec",
+      "minLongitude": -4.2216,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.078574802303944,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-02-17T05:52:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KN7640'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KN7640",
+      "maxLongitude": -4.0282,
+      "minLatitude": 57.6911,
+      "name": "IV18 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV18 0BP",
+        "IV18 0GF",
+        "IV18 0HN",
+        "IV18 0NF",
+        "IV18 0NG",
+        "IV18 0NH",
+        "IV18 0NJ",
+        "IV18 0NL",
+        "IV18 0NN",
+        "IV18 0NQ",
+        "IV18 0NU",
+        "IV18 0NW",
+        "IV18 0NX",
+        "IV18 0NY",
+        "IV18 0NZ",
+        "IV18 0PA",
+        "IV18 0PB",
+        "IV18 0PD",
+        "IV18 0PE",
+        "IV18 0PH",
+        "IV18 0PS",
+        "IV18 0PT",
+        "IV18 0PU",
+        "IV18 0PX",
+        "IV18 0PY",
+        "IV18 0QB",
+        "IV18 0QN",
+        "IV18 0RB",
+        "IV18 0SF",
+        "IV19 1NE",
+        "IV19 1NQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.2216,
+              57.7938
+            ],
+            [
+              -4.0282,
+              57.7938
+            ],
+            [
+              -4.0282,
+              57.6911
+            ],
+            [
+              -4.2216,
+              57.6911
+            ],
+            [
+              -4.2216,
+              57.7938
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.7938,
       "etrUpdate": true
     }
   ]
