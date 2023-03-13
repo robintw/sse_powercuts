@@ -270,7 +270,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-03-13T12:40:00.000+0000",
-      "estimatedRestoration": "2023-03-13T19:00:00.000+0000",
+      "estimatedRestoration": "2023-03-13T22:00:00.000+0000",
       "message": "We're sorry for the power cut affecting your area. Due to high wind speeds across central southern England, we're dealing with a higher number of faults than usual and this means it may take us a little longer to get your power back on than we'd usually expect. The likely cause of your power cut is a tree branch or debris hitting our power line. Our teams are working hard to get your power restored and at this stage, we believe they will have your power restored by the time provided above. We know this is a long time and if we can restore power sooner, we will – this is typically done in stages. Thank you for your ongoing patience and understanding. If you need extra help or support, please call us on 105.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KR1276",
       "maxLongitude": -1.8627,
@@ -625,6 +625,7 @@
       "etrUpdate": true
     },
     {
+      "customIncludeDefault": false,
       "latitude": 51.64078259277884,
       "type": "LV",
       "reference": "KR1935",
@@ -640,7 +641,7 @@
       "srtUpdate": true,
       "loggedAt": "2023-03-13T18:26:00.000+0000",
       "estimatedRestoration": "2023-03-13T21:25:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KR1935'",
+      "message": "We're sorry for the power cut affecting your area. Due to high wind speeds across central southern England, we're dealing with a higher number of faults than usual and this means it may take us a little longer to get your power back on than we'd usually expect. The likely cause of your power cut is a tree branch or debris hitting our power line. Our teams are working hard to get your power restored and at this stage, we believe they will have your power restored by the time provided above. We know this is a long time and if we can restore power sooner, we will – this is typically done in stages. Thank you for your ongoing patience and understanding. If you need extra help or support, please call us on 105.",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KR1935",
       "maxLongitude": -2.1476,
       "minLatitude": 51.6367,
@@ -858,6 +859,61 @@
       "estimatedArrivalOnSiteTime": "2023-03-13T18:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 57.6856,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 60.52384648240757,
+      "type": "HV",
+      "reference": "KR1955",
+      "etaUpdate": true,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "192867fd-11a9-40b3-a19e-cf34d606033e",
+      "minLongitude": -1.4924,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.376958949278275,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-13T18:43:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KR1955'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KR1955",
+      "maxLongitude": -1.3144,
+      "minLatitude": 60.4862,
+      "name": "ZE2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "ZE2 9RX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.4924,
+              60.572
+            ],
+            [
+              -1.3144,
+              60.572
+            ],
+            [
+              -1.3144,
+              60.4862
+            ],
+            [
+              -1.4924,
+              60.4862
+            ],
+            [
+              -1.4924,
+              60.572
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 60.572,
       "etrUpdate": true
     }
   ]
