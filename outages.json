@@ -248,6 +248,7 @@
       "type": "LV",
       "reference": "KS3261",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-03-25T11:00:00.000+0000",
       "affectedCustomerCount": 20,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "083c8ed0-0605-4baa-bc93-d62e901087c9",
@@ -318,13 +319,13 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-03-25T06:11:00.000+0000",
+      "loggedAt": "2023-03-25T04:20:00.000+0000",
       "estimatedRestoration": "2023-03-25T14:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS3294'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS3294",
       "maxLongitude": -1.974,
       "minLatitude": 51.6272,
-      "name": "GL7 Area",
+      "name": "GL56 & GL7 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "GL56 0RU",
@@ -768,6 +769,67 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.52653052162934,
+      "type": "PSI",
+      "reference": "215278",
+      "etaUpdate": true,
+      "affectedCustomerCount": 45,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "fe3066b7-8468-4b85-8db6-43c1f8ad47a3",
+      "minLongitude": -0.2686,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.2648876758082276,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-25T13:00:00.000+0000",
+      "estimatedRestoration": "2023-03-25T16:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '215278'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/215278",
+      "maxLongitude": -0.26,
+      "minLatitude": 51.5252,
+      "name": "NW10 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "NW10 6LA",
+        "NW10 6LD",
+        "NW10 6LE",
+        "NW10 6LS",
+        "NW10 7JH",
+        "NW10 7LQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.2686,
+              51.5289
+            ],
+            [
+              -0.26,
+              51.5289
+            ],
+            [
+              -0.26,
+              51.5252
+            ],
+            [
+              -0.2686,
+              51.5252
+            ],
+            [
+              -0.2686,
+              51.5289
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.5289,
+      "etrUpdate": true
+    },
+    {
       "latitude": 58.825988058339576,
       "type": "HV",
       "reference": "KS3284",
@@ -843,7 +905,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/214687",
       "maxLongitude": -5.4288,
       "minLatitude": 56.0173,
-      "name": "PA30 & PA31 Areas",
+      "name": "PA31 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "PA30 8EU",
