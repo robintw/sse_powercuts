@@ -94,6 +94,7 @@
       "type": "LV",
       "reference": "KS5252",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-03-28T03:45:00.000+0000",
       "affectedCustomerCount": 21,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "83957ae6-9c5c-4cad-9f19-b73829b28ae0",
@@ -181,16 +182,16 @@
       "resolved": false
     },
     {
-      "latitude": 51.372565882818996,
+      "latitude": 51.37275467291909,
       "type": "HV",
       "reference": "KS5258",
       "etaUpdate": true,
-      "affectedCustomerCount": 181,
+      "affectedCustomerCount": 111,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "86d6993d-6c94-461f-b28e-ab934ae80fb1",
       "minLongitude": -2.1462,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.1394031222925225,
+      "longitude": -2.1394324291034983,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -361,6 +362,41 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.9049,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-03-28T04:21:00.000+0000",
+      "latitude": 50.75195979446999,
+      "estimatedRestoration": "2023-03-28T07:35:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KS5275'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KS5275",
+      "reference": "KS5275",
+      "etaUpdate": true,
+      "affectedCustomerCount": 9,
+      "name": "BH23 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH23 7HD",
+        "BH23 7LD",
+        "BH23 7NR"
+      ],
+      "location": {
+        "coordinates": [
+          -1.7721505958757053,
+          50.75195979446999
+        ],
+        "type": "Point"
+      },
+      "estimatedArrivalOnSiteTime": "2023-03-28T05:30:00.000+0000",
+      "UUID": "b6d87482-7799-4cfb-9fc2-b152b703c9f5",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.7721505958757053,
+      "resolved": false
     }
   ]
 }
