@@ -403,6 +403,7 @@
       "type": "LV",
       "reference": "KT2550",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-04T18:15:00.000+0000",
       "affectedCustomerCount": 13,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "ce25c41e-0941-4e54-8fc0-6ad0eebfff8e",
@@ -496,6 +497,84 @@
       "etrUpdate": true,
       "longitude": -1.7660777417023041,
       "resolved": false
+    },
+    {
+      "latitude": 51.51656638163003,
+      "type": "HV",
+      "reference": "KT2579",
+      "etaUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "4ca77735-f9f9-4ef8-95fb-cee2d379da25",
+      "minLongitude": -0.5775,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.5737828064605546,
+      "resolved": false,
+      "py/object": "Fault",
+      "Messages": [
+        {
+          "py/object": "Message",
+          "senderName": "james.secker@sse.com",
+          "senderUserId": "502b84f7-adfc-4d7c-b7ee-84662532950c",
+          "text": "Engineers are responding to a main network fault in the area. We aim to restore power by 23:00.",
+          "UUID": "58f7032d-5365-4ea4-872e-06ed68ccac56",
+          "py/class": "http://opengrid.com/givr/1.0#//Message",
+          "sentDateTime": "2023-04-04T19:03:18.182+0000"
+        }
+      ],
+      "srtUpdate": true,
+      "loggedAt": "2023-04-04T18:46:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT2579'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT2579",
+      "maxLongitude": -0.5705,
+      "minLatitude": 51.5142,
+      "name": "SL2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SL2 5JY",
+        "SL2 5LB",
+        "SL2 5LE",
+        "SL2 5LG",
+        "SL2 5LH",
+        "SL2 5LJ",
+        "SL2 5LL",
+        "SL2 5LN",
+        "SL2 5LP",
+        "SL2 5LQ",
+        "SL2 5LR",
+        "SL2 5LW",
+        "SL2 5PA",
+        "SL2 5RD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.5775,
+              51.5181
+            ],
+            [
+              -0.5705,
+              51.5181
+            ],
+            [
+              -0.5705,
+              51.5142
+            ],
+            [
+              -0.5775,
+              51.5142
+            ],
+            [
+              -0.5775,
+              51.5181
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.5181,
+      "etrUpdate": true
     }
   ]
 }
