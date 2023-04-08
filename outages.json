@@ -229,6 +229,7 @@
       "type": "HV",
       "reference": "KT5318",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-08T11:30:00.000+0000",
       "affectedCustomerCount": 1,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "a4ba0e6c-eca7-4c92-8c7c-00b798f44370",
@@ -609,16 +610,79 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.41351954476778,
+      "latitude": 51.52958025958635,
+      "type": "LV",
+      "reference": "KT5480",
+      "etaUpdate": true,
+      "affectedCustomerCount": 20,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "9f3073a3-4101-4846-9040-8787a2aa138b",
+      "minLongitude": -0.7223,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7197602891373343,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-08T16:42:00.000+0000",
+      "estimatedRestoration": "2023-04-08T19:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KT5480'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT5480",
+      "maxLongitude": -0.7167,
+      "minLatitude": 51.5282,
+      "name": "SL6 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SL6 7GN",
+        "SL6 7JE",
+        "SL6 7JF",
+        "SL6 7JG",
+        "SL6 7TN",
+        "SL6 8SA",
+        "SL6 8SB",
+        "SL6 8SE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.7223,
+              51.5315
+            ],
+            [
+              -0.7167,
+              51.5315
+            ],
+            [
+              -0.7167,
+              51.5282
+            ],
+            [
+              -0.7223,
+              51.5282
+            ],
+            [
+              -0.7223,
+              51.5315
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.5315,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.413382002202276,
       "type": "HV",
       "reference": "KT5341",
       "etaUpdate": true,
-      "affectedCustomerCount": 16,
+      "affectedCustomerCount": 12,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "3dd42107-c89c-4506-8f62-a229c33c5d25",
       "minLongitude": -4.1727,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.1333844831848054,
+      "longitude": -4.130362680469801,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -628,10 +692,9 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KT5341",
       "maxLongitude": -4.0156,
       "minLatitude": 57.366,
-      "name": "IV2 Area",
+      "name": "IV13 & IV2 Areas",
       "otherUpdate": true,
       "affectedAreas": [
-        "IV1 2XQ",
         "IV13 7YF",
         "IV2 5XL",
         "IV2 5XQ",
