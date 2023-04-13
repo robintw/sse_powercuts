@@ -144,7 +144,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-04-13T19:04:00.000+0000",
+      "loggedAt": "2023-04-13T19:01:00.000+0000",
       "estimatedRestoration": "2023-04-13T22:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU0505'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU0505",
@@ -199,6 +199,7 @@
       "type": "LV",
       "reference": "KU0544",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-13T21:15:00.000+0000",
       "affectedCustomerCount": 10,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "ef633774-a423-41e3-896c-da53065fe56c",
@@ -208,7 +209,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-04-13T20:12:00.000+0000",
+      "loggedAt": "2023-04-13T20:11:00.000+0000",
       "estimatedRestoration": "2023-04-14T03:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU0544'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU0544",
@@ -446,8 +447,8 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-04-13T21:24:00.000+0000",
-      "estimatedRestoration": "2023-04-14T00:25:00.000+0000",
+      "loggedAt": "2023-04-13T21:21:00.000+0000",
+      "estimatedRestoration": "2023-04-14T03:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU0571'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU0571",
       "maxLongitude": -1.3982,
@@ -506,8 +507,65 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-04-13T22:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.9247,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.54939108372462,
+      "type": "HV",
+      "reference": "KU0324",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-04-13T17:45:00.000+0000",
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "70ef6c3e-87e1-4986-b266-46d1fad99c25",
+      "minLongitude": -2.4503,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.4446960419865302,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-04-13T15:17:00.000+0000",
+      "estimatedRestoration": "2023-04-14T15:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KU0324'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KU0324",
+      "maxLongitude": -2.4401,
+      "minLatitude": 50.5447,
+      "name": "DT5 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DT5 2JP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.4503,
+              50.5501
+            ],
+            [
+              -2.4401,
+              50.5501
+            ],
+            [
+              -2.4401,
+              50.5447
+            ],
+            [
+              -2.4503,
+              50.5447
+            ],
+            [
+              -2.4503,
+              50.5501
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.5501,
       "etrUpdate": true
     },
     {
@@ -571,6 +629,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-04-13T22:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.4724,
       "etrUpdate": true
