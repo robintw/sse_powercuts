@@ -731,6 +731,7 @@
       "type": "LV",
       "reference": "KW2598",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-05-10T21:30:00.000+0000",
       "affectedCustomerCount": 2,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "a8bc568e-ac66-492e-80be-a6cedac43153",
@@ -740,7 +741,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-10T20:01:00.000+0000",
+      "loggedAt": "2023-05-10T21:38:00.000+0000",
       "estimatedRestoration": "2023-05-11T01:20:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KW2598'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KW2598",
@@ -781,6 +782,71 @@
       "estimatedArrivalOnSiteTime": "2023-05-10T21:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.2379,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.92227153688264,
+      "type": "HV",
+      "reference": "KW2651",
+      "etaUpdate": true,
+      "affectedCustomerCount": 221,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "95006c0b-80b7-423b-92b9-d76f148bf56a",
+      "minLongitude": -1.4801,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.462749574091926,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-10T22:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KW2651'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KW2651",
+      "maxLongitude": -1.4554,
+      "minLatitude": 50.9184,
+      "name": "SO16 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO16 4QF",
+        "SO16 9AF",
+        "SO16 9AG",
+        "SO16 9AH",
+        "SO16 9AJ",
+        "SO16 9AL",
+        "SO16 9AN",
+        "SO16 9AP",
+        "SO16 9AR",
+        "SO16 9JX",
+        "SO16 9SB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.4801,
+              50.9339
+            ],
+            [
+              -1.4554,
+              50.9339
+            ],
+            [
+              -1.4554,
+              50.9184
+            ],
+            [
+              -1.4801,
+              50.9184
+            ],
+            [
+              -1.4801,
+              50.9339
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.9339,
       "etrUpdate": true
     }
   ]
