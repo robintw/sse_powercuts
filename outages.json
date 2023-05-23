@@ -260,7 +260,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-05-23T14:54:00.000+0000",
+      "loggedAt": "2023-05-23T14:56:00.000+0000",
       "estimatedRestoration": "2023-05-23T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX4394'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4394",
@@ -370,6 +370,7 @@
       "type": "LV",
       "reference": "KX4421",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-05-23T16:44:00.000+0000",
       "affectedCustomerCount": 25,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "13a83af9-d8a5-495c-b03d-a5ddf484b8a7",
@@ -485,6 +486,62 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.77710905174705,
+      "type": "PSI",
+      "reference": "216177",
+      "etaUpdate": true,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "67842196-f429-47e2-aceb-c298732c7f6b",
+      "minLongitude": -2.4017,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.394135053427672,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-22T09:00:00.000+0000",
+      "estimatedRestoration": "2023-05-26T15:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '216177'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/216177",
+      "maxLongitude": -2.3871,
+      "minLatitude": 50.7721,
+      "name": "DT2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DT2 7TU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.4017,
+              50.7805
+            ],
+            [
+              -2.3871,
+              50.7805
+            ],
+            [
+              -2.3871,
+              50.7721
+            ],
+            [
+              -2.4017,
+              50.7721
+            ],
+            [
+              -2.4017,
+              50.7805
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7805,
+      "etrUpdate": true
+    },
+    {
       "latitude": 58.92538042387733,
       "type": "PSI",
       "reference": "216282",
@@ -539,243 +596,6 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.9733,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.89094039538854,
-      "type": "PSI",
-      "reference": "216548",
-      "etaUpdate": true,
-      "affectedCustomerCount": 112,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "1dd8de3a-1f25-43f9-b54d-f073e206a09f",
-      "minLongitude": -5.1554,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.136463466482707,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-23T07:00:00.000+0000",
-      "estimatedRestoration": "2023-05-23T17:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '216548'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/216548",
-      "maxLongitude": -5.0766,
-      "minLatitude": 57.8781,
-      "name": "IV26 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV26 2SW",
-        "IV26 2SX",
-        "IV26 2SZ",
-        "IV26 2TB"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.1554,
-              57.9041
-            ],
-            [
-              -5.0766,
-              57.9041
-            ],
-            [
-              -5.0766,
-              57.8781
-            ],
-            [
-              -5.1554,
-              57.8781
-            ],
-            [
-              -5.1554,
-              57.9041
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.9041,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.845793226917166,
-      "type": "PSI",
-      "reference": "215835",
-      "etaUpdate": true,
-      "affectedCustomerCount": 46,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "979a0d82-2da1-446d-9338-90cfd3fdc6fb",
-      "minLongitude": -5.3364,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.212617962332077,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-23T07:30:00.000+0000",
-      "estimatedRestoration": "2023-05-23T17:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '215835'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/215835",
-      "maxLongitude": -5.0493,
-      "minLatitude": 57.6899,
-      "name": "IV23 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV23 2QN",
-        "IV23 2QP",
-        "IV23 2QR",
-        "IV23 2QT",
-        "IV23 2QW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.3364,
-              57.9155
-            ],
-            [
-              -5.0493,
-              57.9155
-            ],
-            [
-              -5.0493,
-              57.6899
-            ],
-            [
-              -5.3364,
-              57.6899
-            ],
-            [
-              -5.3364,
-              57.9155
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.9155,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.70478490336151,
-      "type": "LV",
-      "reference": "KX4448",
-      "etaUpdate": true,
-      "affectedCustomerCount": 1,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "89c7725e-1289-4396-a076-c53c9c0182a5",
-      "minLongitude": -4.1737,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.162694549207729,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-23T15:35:00.000+0000",
-      "estimatedRestoration": "2023-05-23T17:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX4448'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4448",
-      "maxLongitude": -4.1502,
-      "minLatitude": 57.7003,
-      "name": "IV18 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV18 0LE",
-        "IV18 0LT"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.1737,
-              57.7106
-            ],
-            [
-              -4.1502,
-              57.7106
-            ],
-            [
-              -4.1502,
-              57.7003
-            ],
-            [
-              -4.1737,
-              57.7003
-            ],
-            [
-              -4.1737,
-              57.7106
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-05-23T17:00:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.7106,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 56.80849986499261,
-      "type": "LV",
-      "reference": "KX4419",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2023-05-23T15:30:00.000+0000",
-      "affectedCustomerCount": 1,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "30cc30e1-acc1-4401-9954-b301286c8ad6",
-      "minLongitude": -5.1222,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.112463684144171,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-05-23T14:57:00.000+0000",
-      "estimatedRestoration": "2023-05-23T19:40:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KX4419'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KX4419",
-      "maxLongitude": -5.0982,
-      "minLatitude": 56.7992,
-      "name": "PH33 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PH33",
-        "PH33 6HT",
-        "PH33 6UJ",
-        "PH33 6UQ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.1222,
-              56.8154
-            ],
-            [
-              -5.0982,
-              56.8154
-            ],
-            [
-              -5.0982,
-              56.7992
-            ],
-            [
-              -5.1222,
-              56.7992
-            ],
-            [
-              -5.1222,
-              56.8154
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.8154,
       "etrUpdate": true
     }
   ]
