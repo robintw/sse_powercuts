@@ -259,7 +259,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY1470",
       "maxLongitude": -0.3602,
       "minLatitude": 51.4779,
-      "name": "TW3 & TW5 Areas",
+      "name": "TW5 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "TW3 4AZ",
@@ -601,16 +601,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.38084658226669,
+      "latitude": 57.387810312015354,
       "type": "HV",
       "reference": "KY1928",
       "etaUpdate": true,
-      "affectedCustomerCount": 110,
+      "affectedCustomerCount": 18,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "5274dcc9-2e25-4680-834a-6aadce00fbcb",
-      "minLongitude": -7.4323,
+      "minLongitude": -7.4043,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -7.383919428226192,
+      "longitude": -7.369877766056541,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -618,42 +618,37 @@
       "estimatedRestoration": "2023-05-31T20:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY1928'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY1928",
-      "maxLongitude": -7.3307,
-      "minLatitude": 57.3412,
+      "maxLongitude": -7.334,
+      "minLatitude": 57.3693,
       "name": "HS8 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "HS8 5RA",
-        "HS8 5RB",
         "HS8 5RD",
-        "HS8 5RE",
-        "HS8 5RF",
-        "HS8 5RG",
-        "HS8 5RP",
-        "HS8 5RW"
+        "HS8 5RG"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -7.4323,
-              57.4071
+              -7.4043,
+              57.3964
             ],
             [
-              -7.3307,
-              57.4071
+              -7.334,
+              57.3964
             ],
             [
-              -7.3307,
-              57.3412
+              -7.334,
+              57.3693
             ],
             [
-              -7.4323,
-              57.3412
+              -7.4043,
+              57.3693
             ],
             [
-              -7.4323,
-              57.4071
+              -7.4043,
+              57.3964
             ]
           ]
         ],
@@ -661,7 +656,65 @@
       },
       "estimatedArrivalOnSiteTime": "2023-05-31T16:45:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.4071,
+      "maxLatitude": 57.3964,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.4612768057019,
+      "type": "LV",
+      "reference": "KY1819",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-05-31T07:45:00.000+0000",
+      "affectedCustomerCount": 2,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "d484acc0-05be-43c4-adf5-32dbc842ec3d",
+      "minLongitude": -3.1019,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.088333076124705,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-05-31T05:46:00.000+0000",
+      "estimatedRestoration": "2023-05-31T20:10:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'KY1819'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/KY1819",
+      "maxLongitude": -3.0763,
+      "minLatitude": 56.456,
+      "name": "DD2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD2 5EH",
+        "DD2 5EJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.1019,
+              56.4664
+            ],
+            [
+              -3.0763,
+              56.4664
+            ],
+            [
+              -3.0763,
+              56.456
+            ],
+            [
+              -3.1019,
+              56.456
+            ],
+            [
+              -3.1019,
+              56.4664
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.4664,
       "etrUpdate": true
     }
   ]
