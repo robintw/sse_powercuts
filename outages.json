@@ -892,24 +892,26 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-07-17T08:00:00.000+0000",
-      "latitude": 51.04950816448466,
+      "latitude": 51.04891574627635,
       "estimatedRestoration": "2023-07-17T16:00:00.000+0000",
       "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '217749'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
       "type": "PSI",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/217749",
       "reference": "217749",
       "etaUpdate": true,
-      "affectedCustomerCount": 15,
+      "affectedCustomerCount": 22,
       "name": "SP5 Area",
       "otherUpdate": true,
       "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "SP5 3RT"
+        "SP5 3RS",
+        "SP5 3RT",
+        "SP5 3RU"
       ],
       "location": {
         "coordinates": [
-          -1.6795500700018209,
-          51.04950816448466
+          -1.679939331749222,
+          51.04891574627635
         ],
         "type": "Point"
       },
@@ -917,7 +919,7 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "etrUpdate": true,
-      "longitude": -1.6795500700018209,
+      "longitude": -1.679939331749222,
       "resolved": false
     },
     {
@@ -1158,161 +1160,129 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.068317364886454,
+      "type": "LV",
+      "reference": "ME3989",
+      "etaUpdate": true,
+      "affectedCustomerCount": 37,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "b98e2b0b-c2b0-42a2-b1f5-17c448e6a91c",
+      "minLongitude": -1.3267,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3243507864489998,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-07-17T09:14:00.000+0000",
-      "latitude": 51.80380368950323,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'ME3999'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/ME3999",
-      "reference": "ME3999",
-      "maxLongitude": -0.9602,
-      "etaUpdate": true,
-      "minLatitude": 51.6442,
-      "name": "OX29 Area",
+      "loggedAt": "2023-07-17T09:13:00.000+0000",
+      "estimatedRestoration": "2023-07-17T12:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'ME3989'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/ME3989",
+      "maxLongitude": -1.32,
+      "minLatitude": 51.0669,
+      "name": "SO22 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "OX28 1HS",
-        "OX28 1HT",
-        "OX28 1HU",
-        "OX28 1HX",
-        "OX28 1JD",
-        "OX28 1JE",
-        "OX28 1JF",
-        "OX28 1JN",
-        "OX28 1JR",
-        "OX28 1JS",
-        "OX28 1JT",
-        "OX28 1JW",
-        "OX28 1JY",
-        "OX28 1YA",
-        "OX28 1YB",
-        "OX28 4BA",
-        "OX28 6AQ",
-        "OX28 6AW",
-        "OX28 6BN",
-        "OX28 6BP",
-        "OX28 6BQ",
-        "OX28 6DE",
-        "OX28 6DF",
-        "OX28 6DH",
-        "OX28 6DN",
-        "OX28 6DQ",
-        "OX28 6FJ",
-        "OX28 6FP",
-        "OX28 6FR",
-        "OX28 6FS",
-        "OX28 6GP",
-        "OX28 6JZ",
-        "OX28 9SF",
-        "OX29 0NA",
-        "OX29 4JU",
-        "OX29 5RZ",
-        "OX29 6PR",
-        "OX29 6QF",
-        "OX29 6QG",
-        "OX29 6QH",
-        "OX29 6QN",
-        "OX29 6QQ",
-        "OX29 6TE",
-        "OX29 6TF",
-        "OX29 6TW",
-        "OX29 6TX",
-        "OX29 7QS",
-        "OX29 9QL",
-        "OX29 9QU",
-        "OX29 9ST",
-        "OX29 9SU",
-        "OX29 9SX",
-        "OX29 9TA",
-        "OX29 9TB",
-        "OX29 9TD",
-        "OX29 9TE",
-        "OX29 9TF",
-        "OX29 9TG",
-        "OX29 9TH",
-        "OX29 9TJ",
-        "OX29 9TL",
-        "OX29 9TN",
-        "OX29 9TP",
-        "OX29 9TQ",
-        "OX29 9TR",
-        "OX29 9TS",
-        "OX29 9TT",
-        "OX29 9TU",
-        "OX29 9TW",
-        "OX29 9TX",
-        "OX29 9TY",
-        "OX29 9TZ",
-        "OX29 9UA",
-        "OX29 9UB",
-        "OX29 9UD",
-        "OX29 9UE",
-        "OX29 9UF",
-        "OX29 9UG",
-        "OX29 9UH",
-        "OX29 9UJ",
-        "OX29 9UL",
-        "OX29 9UN",
-        "OX29 9UP",
-        "OX29 9UR",
-        "OX29 9US",
-        "OX29 9UT",
-        "OX29 9UW",
-        "OX29 9UX",
-        "OX29 9UY",
-        "OX29 9UZ",
-        "OX29 9XA",
-        "OX29 9XB",
-        "OX29 9XD",
-        "OX29 9XG",
-        "OX29 9XH",
-        "OX29 9XJ",
-        "OX29 9XL",
-        "OX29 9XP",
-        "OX29 9XQ",
-        "OX29 9XR",
-        "OX29 9XS",
-        "OX49 5RR",
-        "OX7 3AY",
-        "OX7 3DZ"
+        "SO22 6RN",
+        "SO22 6RR",
+        "SO22 6RS",
+        "SO22 6RT",
+        "SO22 6RW",
+        "SO22 6SJ"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -1.5266,
-              51.8451
+              -1.3267,
+              51.0703
             ],
             [
-              -0.9602,
-              51.8451
+              -1.32,
+              51.0703
             ],
             [
-              -0.9602,
-              51.6442
+              -1.32,
+              51.0669
             ],
             [
-              -1.5266,
-              51.6442
+              -1.3267,
+              51.0669
             ],
             [
-              -1.5266,
-              51.8451
+              -1.3267,
+              51.0703
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "4d1054aa-0e18-4916-9318-03aff07a5d25",
+      "estimatedArrivalOnSiteTime": "2023-07-17T10:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -1.5266,
+      "maxLatitude": 51.0703,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.838440691070296,
+      "type": "LV",
+      "reference": "ME4024",
+      "etaUpdate": true,
+      "affectedCustomerCount": 16,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "2416f9a3-37e9-4326-b3a7-1ec5b3bf08ad",
+      "minLongitude": -0.817,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "maxLatitude": 51.8451,
-      "etrUpdate": true,
-      "longitude": -1.4823035915114473,
-      "resolved": false
+      "longitude": -0.8134096596673365,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-07-17T09:40:00.000+0000",
+      "estimatedRestoration": "2023-07-17T12:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'ME4024'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/ME4024",
+      "maxLongitude": -0.8067,
+      "minLatitude": 50.8356,
+      "name": "PO19 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO19 3PS",
+        "PO19 3QH",
+        "PO19 3QL",
+        "PO19 3QP",
+        "PO19 3QR",
+        "PO19 3QU",
+        "PO19 3QX",
+        "PO19 3UZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.817,
+              50.8476
+            ],
+            [
+              -0.8067,
+              50.8476
+            ],
+            [
+              -0.8067,
+              50.8356
+            ],
+            [
+              -0.817,
+              50.8356
+            ],
+            [
+              -0.817,
+              50.8476
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8476,
+      "etrUpdate": true
     },
     {
       "latitude": 55.75540173874611,
@@ -1804,7 +1774,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/217362",
       "maxLongitude": -4.7108,
       "minLatitude": 56.4056,
-      "name": "PA33 & PA36 Areas",
+      "name": "PA36 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "PA33 1BD",
