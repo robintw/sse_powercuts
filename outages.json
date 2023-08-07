@@ -144,7 +144,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MG6749",
       "maxLongitude": -0.9664,
       "minLatitude": 51.4439,
-      "name": "RG30 Area",
+      "name": "RG31 & RG30 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "RG2 0EJ",
@@ -549,6 +549,7 @@
       "type": "LV",
       "reference": "MG6791",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-08-07T09:00:00.000+0000",
       "affectedCustomerCount": 5,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "c0313c55-9456-44a7-b758-409ef96a4ad1",
@@ -718,59 +719,71 @@
       "etrUpdate": true
     },
     {
-      "latitude": 56.1259275228188,
-      "type": "PSI",
-      "reference": "218049",
+      "latitude": 51.493879898438294,
+      "type": "LV",
+      "reference": "MG6809",
       "etaUpdate": true,
-      "affectedCustomerCount": 1,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "b5b4c617-5d0f-4f19-ab29-049d68254a7d",
-      "minLongitude": -4.0782,
+      "engineerOnSiteTime": "2023-08-07T09:45:00.000+0000",
+      "affectedCustomerCount": 36,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "1ae03174-16fa-43fe-abfd-7779b6f0e005",
+      "minLongitude": -0.2696,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.06787716519123,
+      "longitude": -0.2673665782910246,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-08-07T08:00:00.000+0000",
-      "estimatedRestoration": "2023-08-07T14:00:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '218049'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/218049",
-      "maxLongitude": -4.0414,
-      "minLatitude": 56.1165,
-      "name": "FK8 Area",
+      "loggedAt": "2023-08-07T07:58:00.000+0000",
+      "estimatedRestoration": "2023-08-07T13:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MG6809'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MG6809",
+      "maxLongitude": -0.2631,
+      "minLatitude": 51.4929,
+      "name": "W4 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "FK8 3AZ"
+        "W4 5DX",
+        "W4 5EA",
+        "W4 5EF",
+        "W4 5JQ",
+        "W4 5LY",
+        "W4 5RA",
+        "W4 5RE",
+        "W4 5RF"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -4.0782,
-              56.1409
+              -0.2696,
+              51.4959
             ],
             [
-              -4.0414,
-              56.1409
+              -0.2631,
+              51.4959
             ],
             [
-              -4.0414,
-              56.1165
+              -0.2631,
+              51.4929
             ],
             [
-              -4.0782,
-              56.1165
+              -0.2696,
+              51.4929
             ],
             [
-              -4.0782,
-              56.1409
+              -0.2696,
+              51.4959
             ]
           ]
         ],
         "type": "Polygon"
       },
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.1409,
+      "evChargersAffected": [
+        "a2f1b0f9-d03b-4063-89e4-074d1a0f8dc0",
+        "2ed05189-0de8-44ed-95bc-d9ac759c7b8b"
+      ],
+      "maxLatitude": 51.4959,
       "etrUpdate": true
     },
     {
@@ -1067,71 +1080,6 @@
       "estimatedArrivalOnSiteTime": "2023-08-07T10:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.6249,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 55.816953737579794,
-      "type": "HV",
-      "reference": "MG7008",
-      "etaUpdate": true,
-      "affectedCustomerCount": 58,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "8defbe5a-a44d-48bf-a501-291d49c5b24b",
-      "minLongitude": -6.4828,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -6.340113053254658,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-08-07T09:58:00.000+0000",
-      "estimatedRestoration": "2023-08-07T13:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MG7008'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MG7008",
-      "maxLongitude": -6.1201,
-      "minLatitude": 55.6722,
-      "name": "PA44 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "PA44",
-        "PA44 7PL",
-        "PA44 7PN",
-        "PA44 7PP",
-        "PA44 7PR",
-        "PA44 7PS",
-        "PA44 7PW",
-        "PA44 7PX",
-        "PA48 7UE"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -6.4828,
-              55.9388
-            ],
-            [
-              -6.1201,
-              55.9388
-            ],
-            [
-              -6.1201,
-              55.6722
-            ],
-            [
-              -6.4828,
-              55.6722
-            ],
-            [
-              -6.4828,
-              55.9388
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-08-07T10:15:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 55.9388,
       "etrUpdate": true
     }
   ]
