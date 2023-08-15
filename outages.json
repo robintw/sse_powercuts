@@ -196,7 +196,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-08-15T00:21:00.000+0000",
-      "estimatedRestoration": "2023-08-15T09:00:00.000+0000",
+      "estimatedRestoration": "2023-08-15T10:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MH4407'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MH4407",
       "maxLongitude": -1.2985,
@@ -383,7 +383,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-08-15T05:27:00.000+0000",
-      "estimatedRestoration": "2023-08-15T10:30:00.000+0000",
+      "estimatedRestoration": "2023-08-15T15:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MH4440'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MH4440",
       "maxLongitude": -2.0352,
@@ -541,7 +541,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/218024",
       "maxLongitude": -0.7101,
       "minLatitude": 51.6621,
-      "name": "HP14 & HP16 Areas",
+      "name": "HP27 & HP14 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "HP14",
@@ -1174,35 +1174,63 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.59287393934214,
+      "type": "LV",
+      "reference": "MH4437",
+      "etaUpdate": true,
+      "affectedCustomerCount": 5,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "0d044214-4002-4afc-bf4f-114f609e1437",
+      "minLongitude": -0.9756,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.9589074879524652,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-08-15T08:08:00.000+0000",
-      "latitude": 51.42276365234421,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MH4530'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MH4530",
-      "reference": "MH4530",
-      "etaUpdate": true,
-      "affectedCustomerCount": 1,
-      "name": "RG17 Area",
+      "loggedAt": "2023-08-15T05:08:00.000+0000",
+      "estimatedRestoration": "2023-08-15T11:20:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MH4437'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MH4437",
+      "maxLongitude": -0.9471,
+      "minLatitude": 51.588,
+      "name": "RG9 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "RG17 0SL"
+        "RG9 6EZ",
+        "RG9 6HA",
+        "RG9 6HN"
       ],
       "location": {
         "coordinates": [
-          -1.5396300230961306,
-          51.42276365234421
+          [
+            [
+              -0.9756,
+              51.5991
+            ],
+            [
+              -0.9471,
+              51.5991
+            ],
+            [
+              -0.9471,
+              51.588
+            ],
+            [
+              -0.9756,
+              51.588
+            ],
+            [
+              -0.9756,
+              51.5991
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
-      "UUID": "68834155-e2b6-4963-a236-a0b4c22092b4",
+      "estimatedArrivalOnSiteTime": "2023-08-15T07:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.5396300230961306,
-      "resolved": false
+      "maxLatitude": 51.5991,
+      "etrUpdate": true
     },
     {
       "latitude": 57.3476692140057,
@@ -1611,6 +1639,65 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.7206,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.06003065447338,
+      "type": "HV",
+      "reference": "MH4549",
+      "etaUpdate": true,
+      "affectedCustomerCount": 70,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "20e92427-d066-460f-9818-c8c0077e574e",
+      "minLongitude": -5.3946,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.337657737961425,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-08-15T08:16:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MH4549'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MH4549",
+      "maxLongitude": -5.2959,
+      "minLatitude": 56.0387,
+      "name": "PA31 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PA31 8RZ",
+        "PA31 8SA",
+        "PA31 8SB",
+        "PA31 8SD",
+        "PA31 8UJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.3946,
+              56.094
+            ],
+            [
+              -5.2959,
+              56.094
+            ],
+            [
+              -5.2959,
+              56.0387
+            ],
+            [
+              -5.3946,
+              56.0387
+            ],
+            [
+              -5.3946,
+              56.094
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 56.094,
       "etrUpdate": true
     }
   ]
