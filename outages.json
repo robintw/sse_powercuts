@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK2733",
       "maxLongitude": -2.0024,
       "minLatitude": 51.6364,
-      "name": "SN16 Area",
+      "name": "GL7 & SN16 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "GL7 6EH",
@@ -71,6 +71,7 @@
       "type": "LV",
       "reference": "MK2740",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-03T17:45:00.000+0000",
       "affectedCustomerCount": 16,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "0b76cd5e-321d-448f-a6fa-0178a27b75e5",
@@ -198,16 +199,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.3098656240483,
+      "latitude": 51.317163104237295,
       "type": "HV",
       "reference": "MK2790",
       "etaUpdate": true,
-      "affectedCustomerCount": 1031,
+      "affectedCustomerCount": 374,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "613f8158-82a2-48fd-8cf8-322bbfd41598",
-      "minLongitude": -2.0697,
+      "minLongitude": -2.0441,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9465816589561427,
+      "longitude": -1.923457279210867,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -216,13 +217,10 @@
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK2790'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK2790",
       "maxLongitude": -1.8687,
-      "minLatitude": 51.2241,
+      "minLatitude": 51.2691,
       "name": "SN10 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "SN10",
-        "SN10 3NE",
-        "SN10 3NN",
         "SN10 3PR",
         "SN10 3PS",
         "SN10 3PU",
@@ -247,114 +245,53 @@
         "SN10 3RF",
         "SN10 3RG",
         "SN10 3RR",
-        "SN10 4BA",
-        "SN10 4BB",
-        "SN10 4BT",
-        "SN10 4BU",
-        "SN10 4DB",
-        "SN10 4DD",
         "SN10 4EH",
-        "SN10 4ES",
-        "SN10 4HL",
-        "SN10 4ND",
-        "SN10 4NX",
-        "SN10 4NY",
-        "SN10 4NZ",
-        "SN10 4PA",
-        "SN10 4PB",
-        "SN10 4PD",
-        "SN10 4PE",
-        "SN10 4PF",
-        "SN10 4PG",
-        "SN10 4PH",
-        "SN10 4PJ",
-        "SN10 4PL",
-        "SN10 4PN",
-        "SN10 4PP",
-        "SN10 4PQ",
-        "SN10 4PR",
-        "SN10 4PS",
-        "SN10 4PT",
-        "SN10 4PU",
         "SN10 4QH",
         "SN10 4QJ",
-        "SN10 4QL",
-        "SN10 4QN",
-        "SN10 4QP",
-        "SN10 4QR",
-        "SN10 4QS",
-        "SN10 4QT",
-        "SN10 4QU",
         "SN10 4QW",
-        "SN10 4QX",
-        "SN10 4QY",
-        "SN10 4RA",
-        "SN10 4RB",
-        "SN10 4RD",
-        "SN10 4RE",
-        "SN10 4RF",
-        "SN10 4RG",
-        "SN10 4RH",
-        "SN10 4RJ",
-        "SN10 4RL",
-        "SN10 4RN",
-        "SN10 4RP",
-        "SN10 4RQ",
         "SN10 4RR",
-        "SN10 4RS",
         "SN10 4RT",
         "SN10 4RU",
-        "SN10 4RW",
         "SN10 4RX",
         "SN10 4RY",
         "SN10 4RZ",
         "SN10 4SA",
         "SN10 4SB",
         "SN10 4SD",
-        "SN10 4SE",
         "SN10 4SF",
-        "SN10 4SG",
-        "SN10 4SH",
-        "SN10 4SJ",
-        "SN10 4SL",
         "SN10 4SN",
-        "SN10 4SQ",
         "SN10 4SW",
-        "SN10 5NA",
-        "SN10 5QS",
-        "SN10 5RU",
-        "SN10 5SH",
-        "SN10 5UA"
+        "SN10 5SH"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.0697,
-              51.3765
+              -2.0441,
+              51.3311
             ],
             [
               -1.8687,
-              51.3765
+              51.3311
             ],
             [
               -1.8687,
-              51.2241
+              51.2691
             ],
             [
-              -2.0697,
-              51.2241
+              -2.0441,
+              51.2691
             ],
             [
-              -2.0697,
-              51.3765
+              -2.0441,
+              51.3311
             ]
           ]
         ],
         "type": "Polygon"
       },
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 51.3765,
+      "maxLatitude": 51.3311,
       "etrUpdate": true
     },
     {
@@ -417,67 +354,6 @@
       "estimatedArrivalOnSiteTime": "2023-09-03T09:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 55.7387,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.58883976011564,
-      "type": "LV",
-      "reference": "MK2769",
-      "etaUpdate": true,
-      "affectedCustomerCount": 5,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "db12aa20-ae79-4665-8542-2017bc5543a9",
-      "minLongitude": -4.5396,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.537112403462075,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-09-03T16:52:00.000+0000",
-      "estimatedRestoration": "2023-09-03T20:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK2769'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK2769",
-      "maxLongitude": -4.5336,
-      "minLatitude": 57.5875,
-      "name": "IV14 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV14 9BE",
-        "IV14 9DF",
-        "IV14 9DG",
-        "IV14 9DN",
-        "IV14 9DW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.5396,
-              57.5896
-            ],
-            [
-              -4.5336,
-              57.5896
-            ],
-            [
-              -4.5336,
-              57.5875
-            ],
-            [
-              -4.5396,
-              57.5875
-            ],
-            [
-              -4.5396,
-              57.5896
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-09-03T17:45:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.5896,
       "etrUpdate": true
     },
     {
