@@ -1,40 +1,6 @@
 {
   "Faults": [
     {
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-09-02T07:30:00.000+0000",
-      "latitude": 51.15262733622051,
-      "estimatedRestoration": "2023-09-05T15:30:00.000+0000",
-      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '219123'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "type": "PSI",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/219123",
-      "reference": "219123",
-      "etaUpdate": true,
-      "affectedCustomerCount": 22,
-      "name": "SP4 Area",
-      "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "SP4 6AZ",
-        "SP4 7LE",
-        "SP4 7LN"
-      ],
-      "location": {
-        "coordinates": [
-          -1.7749894455932909,
-          51.15262733622051
-        ],
-        "type": "Point"
-      },
-      "UUID": "9ce60133-14ac-44ce-a98f-e8c8a2d17ad6",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.7749894455932909,
-      "resolved": false
-    },
-    {
       "latitude": 50.98201887825692,
       "type": "HV",
       "reference": "MK2567",
@@ -337,6 +303,62 @@
       "estimatedArrivalOnSiteTime": "2023-09-03T09:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 55.7387,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.538135069566096,
+      "type": "LV",
+      "reference": "MK2571",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-03T08:40:00.000+0000",
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "047149a4-557d-4053-8c65-8f42ec3104ae",
+      "minLongitude": -2.7481,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.737206855552761,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-03T07:58:00.000+0000",
+      "estimatedRestoration": "2023-09-03T12:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK2571'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK2571",
+      "maxLongitude": -2.7209,
+      "minLatitude": 57.5292,
+      "name": "AB54 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB54 7NU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.7481,
+              57.5488
+            ],
+            [
+              -2.7209,
+              57.5488
+            ],
+            [
+              -2.7209,
+              57.5292
+            ],
+            [
+              -2.7481,
+              57.5292
+            ],
+            [
+              -2.7481,
+              57.5488
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.5488,
       "etrUpdate": true
     }
   ]
