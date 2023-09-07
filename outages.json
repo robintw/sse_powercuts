@@ -320,12 +320,13 @@
       "srtUpdate": true,
       "loggedAt": "2023-09-07T06:50:00.000+0000",
       "latitude": 51.600558617954086,
-      "estimatedRestoration": "2023-09-07T10:00:00.000+0000",
+      "estimatedRestoration": "2023-09-07T18:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK6045'",
       "type": "LV",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK6045",
       "reference": "MK6045",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-07T09:15:00.000+0000",
       "affectedCustomerCount": 24,
       "name": "UB9 Area",
       "otherUpdate": true,
@@ -1426,6 +1427,7 @@
       "type": "HV",
       "reference": "MK6364",
       "etaUpdate": true,
+      "affectedCustomerCount": 3,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "3badfd17-83da-427f-9705-f3621574ad2b",
       "minLongitude": -0.6124,
@@ -1435,7 +1437,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-09-07T10:01:00.000+0000",
-      "estimatedRestoration": "2023-09-07T13:05:00.000+0000",
+      "estimatedRestoration": "2023-09-07T12:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK6364'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK6364",
       "maxLongitude": -0.6028,
@@ -2268,62 +2270,65 @@
       "etrUpdate": true
     },
     {
-      "latitude": 56.47798886843035,
+      "latitude": 57.02234456930197,
       "type": "LV",
-      "reference": "MK6322",
+      "reference": "MK6142",
       "etaUpdate": true,
-      "affectedCustomerCount": 12,
+      "affectedCustomerCount": 24,
       "networkId": "com.sse.ssepd.shepd",
-      "UUID": "f0e41519-3416-47d1-ace4-432510dddca6",
-      "minLongitude": -2.8497,
+      "UUID": "db0256d2-880e-4e74-b589-da373cf78fbe",
+      "minLongitude": -2.2085,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.844697750455317,
+      "longitude": -2.166338160412132,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-09-07T09:39:00.000+0000",
-      "estimatedRestoration": "2023-09-07T11:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK6322'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK6322",
-      "maxLongitude": -2.8421,
-      "minLatitude": 56.476,
-      "name": "DD5 Area",
+      "loggedAt": "2023-09-07T08:01:00.000+0000",
+      "estimatedRestoration": "2023-09-07T13:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MK6142'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MK6142",
+      "maxLongitude": -2.1574,
+      "minLatitude": 57.0199,
+      "name": "AB39 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "DD5 2LS",
-        "DD5 2TU",
-        "DD5 4QL",
-        "DD5 4QN"
+        "AB39 3PL",
+        "AB39 3RP",
+        "AB39 3XP",
+        "AB39 3XR",
+        "AB39 3XT",
+        "AB39 3XU"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -2.8497,
-              56.4803
+              -2.2085,
+              57.0327
             ],
             [
-              -2.8421,
-              56.4803
+              -2.1574,
+              57.0327
             ],
             [
-              -2.8421,
-              56.476
+              -2.1574,
+              57.0199
             ],
             [
-              -2.8497,
-              56.476
+              -2.2085,
+              57.0199
             ],
             [
-              -2.8497,
-              56.4803
+              -2.2085,
+              57.0327
             ]
           ]
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-09-07T10:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 56.4803,
+      "maxLatitude": 57.0327,
       "etrUpdate": true
     }
   ]
