@@ -277,7 +277,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM2758",
       "maxLongitude": -1.1797,
       "minLatitude": 51.4413,
-      "name": "RG8 & RG20 Areas",
+      "name": "RG20 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "RG14",
@@ -562,10 +562,73 @@
       "etrUpdate": true
     },
     {
+      "latitude": 50.72256812845374,
+      "type": "LV",
+      "reference": "MM2777",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-13T22:50:00.000+0000",
+      "affectedCustomerCount": 7,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "8342beb4-cdd8-4ae6-901f-e15fda9d9d43",
+      "minLongitude": -1.1923,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1908539164630414,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-09-14T00:35:00.000+0000",
+      "estimatedRestoration": "2023-09-14T04:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MM2777'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM2777",
+      "maxLongitude": -1.1885,
+      "minLatitude": 50.7213,
+      "name": "PO33 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO33 3SD",
+        "PO33 3SG",
+        "PO33 3SH",
+        "PO33 3SJ",
+        "PO33 3SL"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.1923,
+              50.7246
+            ],
+            [
+              -1.1885,
+              50.7246
+            ],
+            [
+              -1.1885,
+              50.7213
+            ],
+            [
+              -1.1923,
+              50.7213
+            ],
+            [
+              -1.1923,
+              50.7246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-09-13T22:45:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7246,
+      "etrUpdate": true
+    },
+    {
       "latitude": 50.902006455185536,
       "type": "HV",
       "reference": "MM2824",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-09-14T00:00:00.000+0000",
       "affectedCustomerCount": 609,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "7fd89393-3973-4a51-ad2e-bc24a0911389",
@@ -656,74 +719,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 50.871132067180056,
-      "type": "HV",
-      "reference": "MM2894",
-      "etaUpdate": true,
-      "affectedCustomerCount": 43,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "ca51eeaf-caed-4aee-87c4-ecd8c30f0132",
-      "minLongitude": -1.4784,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.4590170640240658,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-09-13T22:57:00.000+0000",
-      "estimatedRestoration": "2023-09-14T01:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MM2894'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM2894",
-      "maxLongitude": -1.4462,
-      "minLatitude": 50.8551,
-      "name": "SO40 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SO40 4UN",
-        "SO40 4UQ",
-        "SO40 4UR"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.4784,
-              50.8896
-            ],
-            [
-              -1.4462,
-              50.8896
-            ],
-            [
-              -1.4462,
-              50.8551
-            ],
-            [
-              -1.4784,
-              50.8551
-            ],
-            [
-              -1.4784,
-              50.8896
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 50.8896,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.367195323718896,
+      "latitude": 57.369492621838276,
       "type": "HV",
       "reference": "MM2877",
       "etaUpdate": true,
-      "affectedCustomerCount": 299,
+      "affectedCustomerCount": 269,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "b26c5881-d30a-4d90-bdcb-8ec505c0b60c",
-      "minLongitude": -2.1578,
+      "minLongitude": -2.0348,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9577236206336681,
+      "longitude": -1.9514196953868477,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -732,11 +737,10 @@
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MM2877'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MM2877",
       "maxLongitude": -1.8748,
-      "minLatitude": 57.3217,
+      "minLatitude": 57.3288,
       "name": "AB41 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "AB41 6AB",
         "AB41 8JH",
         "AB41 8JJ",
         "AB41 8JL",
@@ -745,15 +749,9 @@
         "AB41 8LE",
         "AB41 8LJ",
         "AB41 8LP",
-        "AB41 8PT",
         "AB41 8RB",
         "AB41 8RD",
         "AB41 8RE",
-        "AB41 8RG",
-        "AB41 8RH",
-        "AB41 8RJ",
-        "AB41 8RL",
-        "AB41 8RN",
         "AB41 8RP",
         "AB41 8RQ",
         "AB41 8RR",
@@ -785,7 +783,7 @@
         "coordinates": [
           [
             [
-              -2.1578,
+              -2.0348,
               57.5345
             ],
             [
@@ -794,14 +792,14 @@
             ],
             [
               -1.8748,
-              57.3217
+              57.3288
             ],
             [
-              -2.1578,
-              57.3217
+              -2.0348,
+              57.3288
             ],
             [
-              -2.1578,
+              -2.0348,
               57.5345
             ]
           ]
