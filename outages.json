@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/220126",
       "maxLongitude": -1.7362,
       "minLatitude": 50.6309,
-      "name": "BH23 & BH20 Areas",
+      "name": "BH20 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "BH20 5AJ",
@@ -369,6 +369,69 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.17630321938452,
+      "type": "LV",
+      "reference": "MS7124",
+      "etaUpdate": true,
+      "affectedCustomerCount": 42,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "0b94129a-6aec-4719-ad77-d073076f86c7",
+      "minLongitude": -0.6257,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.621530048519565,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-10-27T04:25:00.000+0000",
+      "estimatedRestoration": "2023-10-27T09:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7124'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7124",
+      "maxLongitude": -0.6166,
+      "minLatitude": 51.1724,
+      "name": "GU7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "GU7 1XY",
+        "GU7 1YB",
+        "GU7 1YE",
+        "GU7 1YF",
+        "GU7 1YG",
+        "GU7 1YJ",
+        "GU7 1YQ",
+        "GU7 1YR"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.6257,
+              51.1784
+            ],
+            [
+              -0.6166,
+              51.1784
+            ],
+            [
+              -0.6166,
+              51.1724
+            ],
+            [
+              -0.6257,
+              51.1724
+            ],
+            [
+              -0.6257,
+              51.1784
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.1784,
+      "etrUpdate": true
+    },
+    {
       "latitude": 55.66692779404795,
       "type": "HV",
       "reference": "MS7037",
@@ -426,86 +489,64 @@
       "etrUpdate": true
     },
     {
-      "latitude": 58.46463035873774,
+      "latitude": 58.53502095971718,
       "type": "HV",
       "reference": "MS7121",
       "etaUpdate": true,
-      "affectedCustomerCount": 508,
+      "affectedCustomerCount": 99,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "b8c44a16-c499-40d2-a60c-67b8da0b2a0b",
-      "minLongitude": -4.8075,
+      "minLongitude": -4.252,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.267220484221051,
+      "longitude": -4.1885956544784895,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-10-27T04:13:00.000+0000",
-      "estimatedRestoration": "2023-10-27T05:30:00.000+0000",
+      "estimatedRestoration": "2023-10-27T11:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7121'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7121",
-      "maxLongitude": -3.9496,
-      "minLatitude": 58.0253,
-      "name": "IV27 & KW14 Areas",
+      "maxLongitude": -3.9809,
+      "minLatitude": 58.4405,
+      "name": "KW14 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "IV27 4EH",
-        "IV27 4UE",
-        "IV27 4UF",
-        "IV27 4UG",
-        "IV27 4UH",
-        "IV27 4UJ",
-        "IV27 4UN",
-        "IV27 4UQ",
-        "IV27 4XT",
-        "KW11 6UA",
-        "KW11 6UG",
-        "KW14 7RZ",
         "KW14 7SA",
-        "KW14 7SG",
-        "KW14 7SP",
-        "KW14 7SQ",
         "KW14 7SR",
         "KW14 7SS",
-        "KW14 7ST",
-        "KW14 7SU",
-        "KW14 7SX",
-        "KW14 7SY",
         "KW14 7SZ",
         "KW14 7TA",
-        "KW14 7TB",
-        "KW14 7TD",
-        "KW14 7TH",
-        "KW14 7TJ"
+        "KW14 7TB"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -4.8075,
-              58.5746
+              -4.252,
+              58.5703
             ],
             [
-              -3.9496,
-              58.5746
+              -3.9809,
+              58.5703
             ],
             [
-              -3.9496,
-              58.0253
+              -3.9809,
+              58.4405
             ],
             [
-              -4.8075,
-              58.0253
+              -4.252,
+              58.4405
             ],
             [
-              -4.8075,
-              58.5746
+              -4.252,
+              58.5703
             ]
           ]
         ],
         "type": "Polygon"
       },
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 58.5746,
+      "maxLatitude": 58.5703,
       "etrUpdate": true
     }
   ]
