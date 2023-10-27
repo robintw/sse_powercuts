@@ -383,7 +383,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-10-26T21:24:00.000+0000",
+      "loggedAt": "2023-10-26T22:29:00.000+0000",
       "estimatedRestoration": "2023-10-27T09:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7032'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7032",
@@ -430,71 +430,11 @@
       "etrUpdate": true
     },
     {
-      "latitude": 50.910159643291415,
-      "type": "LV",
-      "reference": "MS7176",
-      "etaUpdate": true,
-      "affectedCustomerCount": 17,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "fb540aab-c4dc-4c23-84ce-a0b76350ec7d",
-      "minLongitude": -1.3554,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.352984146211558,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-10-20T18:28:00.000+0000",
-      "estimatedRestoration": "2023-10-27T09:30:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7176'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7176",
-      "maxLongitude": -1.3498,
-      "minLatitude": 50.9084,
-      "name": "SO19 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SO19 7LZ",
-        "SO19 7PS",
-        "SO19 7PT",
-        "SO19 8NU",
-        "SO19 8NW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.3554,
-              50.9123
-            ],
-            [
-              -1.3498,
-              50.9123
-            ],
-            [
-              -1.3498,
-              50.9084
-            ],
-            [
-              -1.3554,
-              50.9084
-            ],
-            [
-              -1.3554,
-              50.9123
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-10-27T07:30:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 50.9123,
-      "etrUpdate": true
-    },
-    {
       "latitude": 50.69173920885443,
       "type": "LV",
       "reference": "MS7146",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-10-27T05:50:00.000+0000",
       "affectedCustomerCount": 5,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "7ada6b5e-a042-4b7d-8459-7ba7fc0def09",
@@ -803,65 +743,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.15444344717732,
-      "type": "LV",
-      "reference": "MS7144",
-      "etaUpdate": true,
-      "affectedCustomerCount": 8,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "c0c7ec6f-a2c1-4c3b-8d4a-5e36b1da749e",
-      "minLongitude": -2.3336,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.3220782587971653,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-10-27T04:58:00.000+0000",
-      "estimatedRestoration": "2023-10-27T08:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7144'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7144",
-      "maxLongitude": -2.3132,
-      "minLatitude": 57.1495,
-      "name": "AB32 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB32 6BS",
-        "AB32 6XS",
-        "AB32 6XT"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.3336,
-              57.1597
-            ],
-            [
-              -2.3132,
-              57.1597
-            ],
-            [
-              -2.3132,
-              57.1495
-            ],
-            [
-              -2.3336,
-              57.1495
-            ],
-            [
-              -2.3336,
-              57.1597
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-10-27T05:50:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.1597,
-      "etrUpdate": true
-    },
-    {
       "latitude": 56.69648689520069,
       "type": "HV",
       "reference": "MS7154",
@@ -1003,7 +884,8 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-10-27T01:34:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7189'",
+      "estimatedRestoration": "2023-10-27T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS7189'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS7189",
       "maxLongitude": -2.8964,
       "minLatitude": 58.8226,
@@ -1087,6 +969,7 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-10-27T07:10:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "evChargersAffected": [
         "c770745e-ba17-4753-90ac-5ba1ff6ff7a8",
