@@ -1225,7 +1225,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT1404",
       "maxLongitude": -2.6379,
       "minLatitude": 50.7068,
-      "name": "DT2 Area",
+      "name": "DT6 & DT2 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "DT2 9AN",
@@ -1321,6 +1321,43 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.1504,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-10-27T11:24:00.000+0000",
+      "latitude": 50.75167660181095,
+      "estimatedRestoration": "2023-10-30T18:25:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MS5577'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MS5577",
+      "reference": "MS5577",
+      "etaUpdate": true,
+      "affectedCustomerCount": 33,
+      "name": "BH23 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "BH23 7HQ",
+        "BH23 7LD",
+        "BH23 7NR",
+        "BH23 7NS",
+        "BH23 7NT",
+        "BH23 7NY"
+      ],
+      "location": {
+        "coordinates": [
+          -1.7698981021578457,
+          50.75167660181095
+        ],
+        "type": "Point"
+      },
+      "UUID": "521ce7d4-f693-4a1f-a0b6-a904e8a52cd8",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.7698981021578457,
+      "resolved": false
     },
     {
       "latitude": 57.34272584819003,
@@ -1810,6 +1847,78 @@
       "estimatedArrivalOnSiteTime": "2023-10-30T14:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.6249,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 56.46139330544345,
+      "type": "LV",
+      "reference": "MT1444",
+      "etaUpdate": true,
+      "affectedCustomerCount": 2,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "465b4372-7222-4d2d-b042-8f6cd5182dc1",
+      "minLongitude": -2.968,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.9668025820233352,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-10-30T15:02:00.000+0000",
+      "estimatedRestoration": "2023-10-30T17:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MT1444'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MT1444",
+      "maxLongitude": -2.9645,
+      "minLatitude": 56.4604,
+      "name": "DD1 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD1 2EG",
+        "DD1 3DR",
+        "DD1 3DY"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.968,
+              56.4623
+            ],
+            [
+              -2.9645,
+              56.4623
+            ],
+            [
+              -2.9645,
+              56.4604
+            ],
+            [
+              -2.968,
+              56.4604
+            ],
+            [
+              -2.968,
+              56.4623
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-10-30T15:30:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "52b8b20f-4f7b-4fec-b958-52660ab0c5be",
+        "3cf094cc-0029-4633-9510-0a07da9211b9",
+        "d1144cdf-5c5a-4efc-8a11-8e751fded5ad",
+        "d1d025fe-2911-4284-9b55-1f04c1c21108",
+        "45d4c189-2280-4807-adc9-0de11b30f5f5",
+        "13bdf82b-73c7-46e8-b9f3-a3f1ac4df4aa",
+        "da9666a3-5722-4e86-8fa9-de783321dffe",
+        "5a4f41fa-3500-4ee0-9511-17a848c76199",
+        "fccf024e-b71c-4d97-9383-3494a7796756",
+        "3b25b615-0862-4bd4-aa6d-6ce8edb84ed9",
+        "f56e42d4-bca8-42e9-a64d-4c9a1ed1064b"
+      ],
+      "maxLatitude": 56.4623,
       "etrUpdate": true
     }
   ]
