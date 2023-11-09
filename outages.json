@@ -731,7 +731,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/220207",
       "maxLongitude": -0.9885,
       "minLatitude": 51.4546,
-      "name": "RG1 & RG30 Areas",
+      "name": "RG30 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "RG1 7PY",
@@ -779,6 +779,7 @@
       "type": "LV",
       "reference": "MU7814",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-11-09T23:25:00.000+0000",
       "affectedCustomerCount": 17,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "01a1f2ee-cc23-4600-ada4-2978de409fb4",
@@ -889,6 +890,65 @@
       "estimatedArrivalOnSiteTime": "2023-11-09T21:20:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.7403,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 57.345996529656105,
+      "type": "LV",
+      "reference": "MU7832",
+      "etaUpdate": true,
+      "affectedCustomerCount": 17,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "cf855da3-531b-4c33-8c8e-9b96975fdef9",
+      "minLongitude": -6.0752,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.06561116627975,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-09T23:44:00.000+0000",
+      "estimatedRestoration": "2023-11-10T02:45:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MU7832'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MU7832",
+      "maxLongitude": -6.0116,
+      "minLatitude": 57.3358,
+      "name": "IV40 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV40 8NS",
+        "IV40 8NT",
+        "IV40 8NU",
+        "IV40 8NX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.0752,
+              57.4869
+            ],
+            [
+              -6.0116,
+              57.4869
+            ],
+            [
+              -6.0116,
+              57.3358
+            ],
+            [
+              -6.0752,
+              57.3358
+            ],
+            [
+              -6.0752,
+              57.4869
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.4869,
       "etrUpdate": true
     }
   ]
