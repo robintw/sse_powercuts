@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/220944",
       "maxLongitude": -2.4815,
       "minLatitude": 50.6729,
-      "name": "DT2 Area",
+      "name": "DT3 & DT2 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "DT2 9HD",
@@ -278,7 +278,7 @@
     {
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2023-11-20T06:28:00.000+0000",
+      "loggedAt": "2023-11-20T06:48:00.000+0000",
       "latitude": 51.54594741660193,
       "estimatedRestoration": "2023-11-20T10:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW0195'",
@@ -303,6 +303,7 @@
         ],
         "type": "Point"
       },
+      "estimatedArrivalOnSiteTime": "2023-11-20T08:15:00.000+0000",
       "UUID": "948ee0a0-458b-4f1d-8295-3549a85004e8",
       "region": "com.opengrid.geo.world.europe.gb",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
@@ -344,6 +345,66 @@
       "etrUpdate": true,
       "longitude": -1.9186261564160836,
       "resolved": false
+    },
+    {
+      "latitude": 50.75546292992067,
+      "type": "LV",
+      "reference": "MW0216",
+      "etaUpdate": true,
+      "affectedCustomerCount": 12,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "4cb0b237-e76b-48b7-bfb7-6f76d7a531bb",
+      "minLongitude": -1.5542,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.5507685726426987,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-20T06:50:00.000+0000",
+      "estimatedRestoration": "2023-11-20T12:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW0216'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW0216",
+      "maxLongitude": -1.5474,
+      "minLatitude": 50.7542,
+      "name": "SO41 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO41 3NT",
+        "SO41 3NU",
+        "SO41 9GD",
+        "SO41 9GE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.5542,
+              50.7565
+            ],
+            [
+              -1.5474,
+              50.7565
+            ],
+            [
+              -1.5474,
+              50.7542
+            ],
+            [
+              -1.5542,
+              50.7542
+            ],
+            [
+              -1.5542,
+              50.7565
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-11-20T08:00:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7565,
+      "etrUpdate": true
     }
   ]
 }
