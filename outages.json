@@ -1,16 +1,16 @@
 {
   "Faults": [
     {
-      "latitude": 51.65719200889667,
+      "latitude": 51.65088652281536,
       "type": "HV",
       "reference": "MW4046",
       "etaUpdate": true,
-      "affectedCustomerCount": 12,
+      "affectedCustomerCount": 1,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "b3791f73-14d6-4a7b-bef6-1034db815562",
       "minLongitude": -0.763,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.7531628442186804,
+      "longitude": -0.7554895852386687,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -18,28 +18,26 @@
       "estimatedRestoration": "2023-11-23T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW4046'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW4046",
-      "maxLongitude": -0.744,
+      "maxLongitude": -0.7466,
       "minLatitude": 51.6422,
       "name": "HP14 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "HP14 4LA",
-        "HP14 4LB",
-        "HP14 4PP"
+        "HP14 4LA"
       ],
       "location": {
         "coordinates": [
           [
             [
               -0.763,
-              51.6661
+              51.6583
             ],
             [
-              -0.744,
-              51.6661
+              -0.7466,
+              51.6583
             ],
             [
-              -0.744,
+              -0.7466,
               51.6422
             ],
             [
@@ -48,7 +46,7 @@
             ],
             [
               -0.763,
-              51.6661
+              51.6583
             ]
           ]
         ],
@@ -56,7 +54,7 @@
       },
       "estimatedArrivalOnSiteTime": "2023-11-23T12:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 51.6661,
+      "maxLatitude": 51.6583,
       "etrUpdate": true
     },
     {
@@ -350,6 +348,61 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 58.5891,
       "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-11-23T21:20:00.000+0000",
+      "latitude": 57.76863347343097,
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MW4672'",
+      "type": "HV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MW4672",
+      "reference": "MW4672",
+      "maxLongitude": -6.9934,
+      "etaUpdate": true,
+      "minLatitude": 57.761,
+      "name": "HS5 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.shepd",
+      "affectedAreas": [
+        "HS5 3TS",
+        "HS5 3UB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -7.0345,
+              57.7876
+            ],
+            [
+              -6.9934,
+              57.7876
+            ],
+            [
+              -6.9934,
+              57.761
+            ],
+            [
+              -7.0345,
+              57.761
+            ],
+            [
+              -7.0345,
+              57.7876
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "UUID": "14a06636-5d9a-486e-9d43-e75c09ba46a8",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "minLongitude": -7.0345,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "maxLatitude": 57.7876,
+      "etrUpdate": true,
+      "longitude": -7.017233277864122,
+      "resolved": false
     }
   ]
 }
