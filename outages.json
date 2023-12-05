@@ -200,7 +200,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-12-04T23:30:00.000+0000",
-      "estimatedRestoration": "2023-12-05T01:30:00.000+0000",
+      "estimatedRestoration": "2023-12-05T03:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MX9097'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MX9097",
       "maxLongitude": -0.8255,
@@ -504,7 +504,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-12-04T23:10:00.000+0000",
-      "estimatedRestoration": "2023-12-05T03:30:00.000+0000",
+      "estimatedRestoration": "2023-12-05T05:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY0544'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY0544",
       "maxLongitude": -0.7759,
@@ -591,6 +591,7 @@
       "type": "LV",
       "reference": "MY0685",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-12-05T01:05:00.000+0000",
       "affectedCustomerCount": 21,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "d0a77993-48f0-40fd-804d-f4b0166348ec",
@@ -601,7 +602,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-12-05T00:36:00.000+0000",
-      "estimatedRestoration": "2023-12-05T03:45:00.000+0000",
+      "estimatedRestoration": "2023-12-05T07:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY0685'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY0685",
       "maxLongitude": -2.0085,
@@ -700,8 +701,70 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2023-12-05T01:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.8351,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.39237470241422,
+      "type": "LV",
+      "reference": "MY0703",
+      "etaUpdate": true,
+      "affectedCustomerCount": 12,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "7e6e38ec-250c-4664-a4d9-47f643e3883a",
+      "minLongitude": -1.3112,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3079341325130585,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-12-05T01:34:00.000+0000",
+      "estimatedRestoration": "2023-12-05T04:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY0703'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY0703",
+      "maxLongitude": -1.3043,
+      "minLatitude": 51.3889,
+      "name": "RG14 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "RG14 7RP",
+        "RG14 7RU",
+        "RG14 7RX",
+        "RG14 7SA",
+        "RG14 7WF"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3112,
+              51.3952
+            ],
+            [
+              -1.3043,
+              51.3952
+            ],
+            [
+              -1.3043,
+              51.3889
+            ],
+            [
+              -1.3112,
+              51.3889
+            ],
+            [
+              -1.3112,
+              51.3952
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2023-12-05T02:15:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.3952,
       "etrUpdate": true
     },
     {
@@ -942,16 +1005,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 57.65120939322255,
+      "latitude": 57.649618667625134,
       "type": "HV",
       "reference": "MY0531",
       "etaUpdate": true,
-      "affectedCustomerCount": 346,
+      "affectedCustomerCount": 361,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "01799e2a-bdf2-4503-983b-37e4ac32f43e",
       "minLongitude": -3.1006,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.0510361973388602,
+      "longitude": -3.0532856637525474,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -960,7 +1023,7 @@
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY0531'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY0531",
       "maxLongitude": -2.9809,
-      "minLatitude": 57.6279,
+      "minLatitude": 57.6124,
       "name": "AB56 & IV32 Areas",
       "otherUpdate": true,
       "affectedAreas": [
@@ -985,7 +1048,9 @@
         "IV32 7PL",
         "IV32 7PN",
         "IV32 7PP",
+        "IV32 7PQ",
         "IV32 7PS",
+        "IV32 7PT",
         "IV32 7PU",
         "IV32 7PW",
         "IV32 7PX",
@@ -1013,11 +1078,11 @@
             ],
             [
               -2.9809,
-              57.6279
+              57.6124
             ],
             [
               -3.1006,
-              57.6279
+              57.6124
             ],
             [
               -3.1006,
@@ -1033,16 +1098,16 @@
       "etrUpdate": true
     },
     {
-      "latitude": 55.96659172376667,
+      "latitude": 55.972513074954136,
       "type": "HV",
       "reference": "MY0623",
       "etaUpdate": true,
-      "affectedCustomerCount": 149,
+      "affectedCustomerCount": 45,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "927a32f6-96c7-44d7-bcf9-91f11a0df865",
       "minLongitude": -4.956,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.931964011231554,
+      "longitude": -4.936596059089688,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -1056,17 +1121,7 @@
       "otherUpdate": true,
       "affectedAreas": [
         "PA23 7RS",
-        "PA23 8GA",
-        "PA23 8GZ",
         "PA23 8HF",
-        "PA23 8HT",
-        "PA23 8HU",
-        "PA23 8HW",
-        "PA23 8HX",
-        "PA23 8HY",
-        "PA23 8HZ",
-        "PA23 8LT",
-        "PA23 8LX",
         "PA23 8PB",
         "PA23 8PH",
         "PA23 8PW",
