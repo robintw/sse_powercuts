@@ -52,7 +52,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-12-10T22:59:00.000+0000",
-      "estimatedRestoration": "2023-12-11T18:00:00.000+0000",
+      "estimatedRestoration": "2023-12-11T19:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MY9119'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MY9119",
       "maxLongitude": -0.805,
@@ -884,16 +884,17 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.02910689392417,
+      "latitude": 51.02961450303859,
       "type": "LV",
       "reference": "MZ1435",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2023-12-11T17:30:00.000+0000",
       "affectedCustomerCount": 1,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "dbbb9f98-2eec-4b0e-a143-e192f808e147",
       "minLongitude": -0.4046,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.3969880385261267,
+      "longitude": -0.3842211760529754,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -901,12 +902,15 @@
       "estimatedRestoration": "2023-12-11T22:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MZ1435'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MZ1435",
-      "maxLongitude": -0.3955,
+      "maxLongitude": -0.3468,
       "minLatitude": 51.0273,
       "name": "RH13 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "RH13 0PR"
+        "RH13 0PR",
+        "RH13 0PW",
+        "RH13 0UW",
+        "RH13 9UL"
       ],
       "location": {
         "coordinates": [
@@ -916,11 +920,11 @@
               51.0324
             ],
             [
-              -0.3955,
+              -0.3468,
               51.0324
             ],
             [
-              -0.3955,
+              -0.3468,
               51.0273
             ],
             [
@@ -938,66 +942,6 @@
       "estimatedArrivalOnSiteTime": "2023-12-11T17:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.0324,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 51.87512706253954,
-      "type": "LV",
-      "reference": "MZ1730",
-      "etaUpdate": true,
-      "affectedCustomerCount": 13,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "1efe642d-7126-4f35-bc82-1c15e97eab59",
-      "minLongitude": -1.8376,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.8165081130763339,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-11T16:54:00.000+0000",
-      "estimatedRestoration": "2023-12-11T19:55:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'MZ1730'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/MZ1730",
-      "maxLongitude": -1.7954,
-      "minLatitude": 51.8568,
-      "name": "GL54 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "GL54",
-        "GL54 3BJ",
-        "GL54 3BN",
-        "GL54 3BQ",
-        "GL54 3BW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.8376,
-              51.8826
-            ],
-            [
-              -1.7954,
-              51.8826
-            ],
-            [
-              -1.7954,
-              51.8568
-            ],
-            [
-              -1.8376,
-              51.8568
-            ],
-            [
-              -1.8376,
-              51.8826
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 51.8826,
       "etrUpdate": true
     },
     {
