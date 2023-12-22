@@ -232,39 +232,6 @@
       "etrUpdate": true
     },
     {
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-21T18:09:00.000+0000",
-      "latitude": 51.97789225835135,
-      "estimatedRestoration": "2023-12-22T20:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NA5060'",
-      "type": "HV",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NA5060",
-      "reference": "NA5060",
-      "etaUpdate": true,
-      "affectedCustomerCount": 4,
-      "name": "OX15 Area",
-      "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
-      "affectedAreas": [
-        "OX15 0PH"
-      ],
-      "location": {
-        "coordinates": [
-          -1.384457838984856,
-          51.97789225835135
-        ],
-        "type": "Point"
-      },
-      "estimatedArrivalOnSiteTime": "2023-12-22T14:30:00.000+0000",
-      "UUID": "9283fbb3-b285-4fd3-bdf0-e58c76d5b407",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "etrUpdate": true,
-      "longitude": -1.384457838984856,
-      "resolved": false
-    },
-    {
       "latitude": 51.29414060865876,
       "type": "LV",
       "reference": "NA5091",
@@ -321,6 +288,63 @@
       "estimatedArrivalOnSiteTime": "2023-12-22T16:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.2952,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.8768522275713,
+      "type": "LV",
+      "reference": "NA5163",
+      "etaUpdate": true,
+      "affectedCustomerCount": 10,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "9edd6d17-2b0e-4e88-95e6-e203819555c0",
+      "minLongitude": -1.0332,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.0320076759067764,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-12-22T16:32:00.000+0000",
+      "estimatedRestoration": "2023-12-22T23:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NA5163'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NA5163",
+      "maxLongitude": -1.0301,
+      "minLatitude": 50.8756,
+      "name": "PO7 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "PO7 7JD",
+        "PO7 7JE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.0332,
+              50.8781
+            ],
+            [
+              -1.0301,
+              50.8781
+            ],
+            [
+              -1.0301,
+              50.8756
+            ],
+            [
+              -1.0332,
+              50.8756
+            ],
+            [
+              -1.0332,
+              50.8781
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.8781,
       "etrUpdate": true
     },
     {
@@ -382,64 +406,6 @@
       "estimatedArrivalOnSiteTime": "2023-12-22T12:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 55.7749,
-      "etrUpdate": true
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 58.571163577589196,
-      "type": "LV",
-      "reference": "NA5103",
-      "etaUpdate": true,
-      "affectedCustomerCount": 1,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "c0aaae80-b580-4cc1-b8b1-1332f365b058",
-      "minLongitude": -3.6667,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.625058014734654,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-22T15:06:00.000+0000",
-      "estimatedRestoration": "2023-12-22T19:00:00.000+0000",
-      "message": "We're sorry for the power cut affecting your area. Our teams are working hard to get the power restored, however, due to the high wind speeds and bad weather conditions, this is making it harder than normal to get the power back on.<br/><br/>A mixture of difficulties including damage to our network and travel restrictions means that it may take longer than you'd expect to get the power back on, but we promise we're doing everything we can to get the lights back on sooner.<br/><br/>The restoration time above is based on our current progress, but this may change as the situation evolves - we will update that time here if anything changes. You can also register for updates too. If you require any additional support or advice, please call us on 105.",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NA5103",
-      "maxLongitude": -3.5987,
-      "minLatitude": 58.5542,
-      "name": "KW14 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "KW14 7QW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.6667,
-              58.5833
-            ],
-            [
-              -3.5987,
-              58.5833
-            ],
-            [
-              -3.5987,
-              58.5542
-            ],
-            [
-              -3.6667,
-              58.5542
-            ],
-            [
-              -3.6667,
-              58.5833
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2023-12-22T15:30:00.000+0000",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 58.5833,
       "etrUpdate": true
     },
     {
