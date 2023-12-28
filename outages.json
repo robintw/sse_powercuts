@@ -145,7 +145,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB2769",
       "maxLongitude": -1.0599,
       "minLatitude": 50.7875,
-      "name": "PO5 Area",
+      "name": "PO6 & PO5 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "PO5 1EN",
@@ -369,25 +369,30 @@
       "etrUpdate": true
     },
     {
+      "latitude": 51.4813910409906,
+      "type": "LV",
+      "reference": "NB3021",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2023-12-28T22:00:00.000+0000",
+      "affectedCustomerCount": 12,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "a2bad7ed-31f9-43f8-8551-b469c93fb1be",
+      "minLongitude": -0.6066,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.6053245355492198,
+      "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2023-12-28T21:32:00.000+0000",
-      "latitude": 51.481104596997675,
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB3021'",
-      "type": "HV",
+      "estimatedRestoration": "2023-12-29T09:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB3021'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB3021",
-      "reference": "NB3021",
       "maxLongitude": -0.596,
-      "etaUpdate": true,
       "minLatitude": 51.4788,
       "name": "SL4 Area",
       "otherUpdate": true,
-      "networkId": "com.sse.ssepd.sepd",
       "affectedAreas": [
-        "SL4 1BN",
-        "SL4 1LA",
         "SL4 1LB",
-        "SL4 1LD",
         "SL4 1LP",
         "SL4 1LU",
         "SL4 1NG",
@@ -399,7 +404,7 @@
         "coordinates": [
           [
             [
-              -0.6079,
+              -0.6066,
               51.4833
             ],
             [
@@ -411,25 +416,20 @@
               51.4788
             ],
             [
-              -0.6079,
+              -0.6066,
               51.4788
             ],
             [
-              -0.6079,
+              -0.6066,
               51.4833
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "UUID": "a2bad7ed-31f9-43f8-8551-b469c93fb1be",
       "region": "com.opengrid.geo.world.europe.gb",
-      "minLongitude": -0.6079,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "maxLatitude": 51.4833,
-      "etrUpdate": true,
-      "longitude": -0.6054340805501043,
-      "resolved": false
+      "etrUpdate": true
     },
     {
       "latitude": 50.64393169808752,
@@ -1456,7 +1456,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NA8964",
       "maxLongitude": -2.5814,
       "minLatitude": 57.1963,
-      "name": "AB51 & AB33 Areas",
+      "name": "AB33 & AB51 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "AB33 8DN",
@@ -2381,64 +2381,6 @@
       "etrUpdate": true
     },
     {
-      "latitude": 58.46325773630197,
-      "type": "LV",
-      "reference": "NB0363",
-      "etaUpdate": true,
-      "engineerOnSiteTime": "2023-12-27T23:00:00.000+0000",
-      "affectedCustomerCount": 4,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "ac39f85b-6d0e-4b6d-9e52-5f1d2f7910d9",
-      "minLongitude": -3.1227,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.1100302246617284,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-27T18:16:00.000+0000",
-      "estimatedRestoration": "2023-12-28T02:20:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB0363'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB0363",
-      "maxLongitude": -3.0824,
-      "minLatitude": 58.4577,
-      "name": "KW1 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "KW1 4RG",
-        "KW1 4RH"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.1227,
-              58.4796
-            ],
-            [
-              -3.0824,
-              58.4796
-            ],
-            [
-              -3.0824,
-              58.4577
-            ],
-            [
-              -3.1227,
-              58.4577
-            ],
-            [
-              -3.1227,
-              58.4796
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 58.4796,
-      "etrUpdate": true
-    },
-    {
       "latitude": 57.12998217238851,
       "type": "LV",
       "reference": "NB0741",
@@ -2975,7 +2917,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB2679",
       "maxLongitude": -2.1932,
       "minLatitude": 57.2842,
-      "name": "AB21 Area",
+      "name": "AB41 & AB21 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "AB21 0QN",
@@ -3643,69 +3585,6 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 56.467,
-      "etrUpdate": true
-    },
-    {
-      "latitude": 57.14462918156014,
-      "type": "LV",
-      "reference": "NB2986",
-      "etaUpdate": true,
-      "affectedCustomerCount": 29,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "77cc139d-1f6b-4d95-902a-08221b9e6f43",
-      "minLongitude": -2.1146,
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.111957570185802,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2023-12-28T20:54:00.000+0000",
-      "estimatedRestoration": "2023-12-29T12:00:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB2986'",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB2986",
-      "maxLongitude": -2.1096,
-      "minLatitude": 57.1432,
-      "name": "AB10 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB10 1SN",
-        "AB10 1SQ",
-        "AB10 1TX",
-        "AB10 1TY",
-        "AB10 1TZ",
-        "AB10 1UB",
-        "AB10 1UJ",
-        "AB10 1UY"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.1146,
-              57.1458
-            ],
-            [
-              -2.1096,
-              57.1458
-            ],
-            [
-              -2.1096,
-              57.1432
-            ],
-            [
-              -2.1146,
-              57.1432
-            ],
-            [
-              -2.1146,
-              57.1458
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 57.1458,
       "etrUpdate": true
     },
     {
