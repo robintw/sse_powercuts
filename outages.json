@@ -20,7 +20,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB6085",
       "maxLongitude": -1.3767,
       "minLatitude": 51.192,
-      "name": "SP11 Area",
+      "name": "RG20 & SP11 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "RG20 9TE",
@@ -372,6 +372,103 @@
       "estimatedArrivalOnSiteTime": "2023-12-31T22:15:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.4543,
+      "etrUpdate": true
+    },
+    {
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-12-31T23:00:00.000+0000",
+      "latitude": 51.30600513522054,
+      "estimatedRestoration": "2024-01-01T02:05:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB6226'",
+      "type": "LV",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB6226",
+      "reference": "NB6226",
+      "etaUpdate": true,
+      "affectedCustomerCount": 3,
+      "name": "SN8 Area",
+      "otherUpdate": true,
+      "networkId": "com.sse.ssepd.sepd",
+      "affectedAreas": [
+        "SN8 3SE"
+      ],
+      "location": {
+        "coordinates": [
+          -1.6513586193714573,
+          51.30600513522054
+        ],
+        "type": "Point"
+      },
+      "UUID": "6bca33f9-900e-4d17-9ce4-3bc4673b91d0",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "etrUpdate": true,
+      "longitude": -1.6513586193714573,
+      "resolved": false
+    },
+    {
+      "latitude": 57.718288175089256,
+      "type": "LV",
+      "reference": "NB6107",
+      "etaUpdate": true,
+      "affectedCustomerCount": 19,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "e4392c9f-8560-4ded-8d0a-ccc8f344f627",
+      "minLongitude": -3.2896,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.284425650123332,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2023-12-31T18:42:00.000+0000",
+      "estimatedRestoration": "2024-01-01T02:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NB6107'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NB6107",
+      "maxLongitude": -3.2785,
+      "minLatitude": 57.7163,
+      "name": "IV31 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV31 6DH",
+        "IV31 6DJ",
+        "IV31 6DL",
+        "IV31 6DN",
+        "IV31 6DR",
+        "IV31 6DW",
+        "IV31 6EN",
+        "IV31 6JL",
+        "IV31 6ND",
+        "IV31 6NQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.2896,
+              57.7204
+            ],
+            [
+              -3.2785,
+              57.7204
+            ],
+            [
+              -3.2785,
+              57.7163
+            ],
+            [
+              -3.2896,
+              57.7163
+            ],
+            [
+              -3.2896,
+              57.7204
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 57.7204,
       "etrUpdate": true
     }
   ]
