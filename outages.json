@@ -663,6 +663,7 @@
       "type": "HV",
       "reference": "NC1874",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-04T00:30:00.000+0000",
       "affectedCustomerCount": 33,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "6520cb2c-9038-4b83-b40e-006f131c6a42",
@@ -673,7 +674,8 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-03T23:01:00.000+0000",
-      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC1874'",
+      "estimatedRestoration": "2024-01-04T12:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC1874'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC1874",
       "maxLongitude": -0.8586,
       "minLatitude": 51.1168,
@@ -1275,6 +1277,65 @@
       "estimatedArrivalOnSiteTime": "2024-01-04T03:00:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.2532,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.75573163129682,
+      "type": "LV",
+      "reference": "NC1889",
+      "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-04T01:07:00.000+0000",
+      "affectedCustomerCount": 23,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "ece27aad-df78-40d9-9135-f6eb65f831c5",
+      "minLongitude": -1.2699,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.2481542202648215,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-04T00:07:00.000+0000",
+      "estimatedRestoration": "2024-01-04T06:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC1889'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC1889",
+      "maxLongitude": -1.2359,
+      "minLatitude": 51.7427,
+      "name": "OX4 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "OX2 7JD",
+        "OX4 1EP",
+        "OX4 1EW"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.2699,
+              51.7806
+            ],
+            [
+              -1.2359,
+              51.7806
+            ],
+            [
+              -1.2359,
+              51.7427
+            ],
+            [
+              -1.2699,
+              51.7427
+            ],
+            [
+              -1.2699,
+              51.7806
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.7806,
       "etrUpdate": true
     }
   ]
