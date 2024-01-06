@@ -888,7 +888,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC5359",
       "maxLongitude": -1.1781,
       "minLatitude": 51.7758,
-      "name": "OX2 & OX5 Areas",
+      "name": "OX3 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "OX2 8ER",
@@ -961,16 +961,17 @@
       "etrUpdate": true
     },
     {
-      "latitude": 51.556042978111755,
+      "latitude": 51.550847527322595,
       "type": "LV",
       "reference": "NC5341",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-06T21:30:00.000+0000",
       "affectedCustomerCount": 12,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "1bfe9ede-e8f6-4f48-9003-6b867a3d4a83",
-      "minLongitude": -0.669,
+      "minLongitude": -0.6185,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.6251414134385492,
+      "longitude": -0.6161249006983243,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -978,40 +979,41 @@
       "estimatedRestoration": "2024-01-07T00:30:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC5341'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC5341",
-      "maxLongitude": -0.6119,
-      "minLatitude": 51.5446,
+      "maxLongitude": -0.6124,
+      "minLatitude": 51.5483,
       "name": "SL2 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "HP9 1UE",
-        "SL2 3ED",
-        "SL2 3EF",
-        "SL2 3EG",
-        "SL2 3EZ",
-        "SL2 3LP"
+        "SL2 3EH",
+        "SL2 3EJ",
+        "SL2 3EN",
+        "SL2 3LR",
+        "SL2 3LZ",
+        "SL2 3NA",
+        "SL2 3NB"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -0.669,
-              51.6021
+              -0.6185,
+              51.5536
             ],
             [
-              -0.6119,
-              51.6021
+              -0.6124,
+              51.5536
             ],
             [
-              -0.6119,
-              51.5446
+              -0.6124,
+              51.5483
             ],
             [
-              -0.669,
-              51.5446
+              -0.6185,
+              51.5483
             ],
             [
-              -0.669,
-              51.6021
+              -0.6185,
+              51.5536
             ]
           ]
         ],
@@ -1019,7 +1021,65 @@
       },
       "estimatedArrivalOnSiteTime": "2024-01-06T21:30:00.000+0000",
       "region": "com.opengrid.geo.world.europe.gb",
-      "maxLatitude": 51.6021,
+      "maxLatitude": 51.5536,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.58176158306397,
+      "type": "LV",
+      "reference": "NC5383",
+      "etaUpdate": true,
+      "affectedCustomerCount": 21,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "fa346402-9d0b-4974-a88e-6c7bfe967a07",
+      "minLongitude": -1.8002,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.7981494005411376,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-06T22:18:00.000+0000",
+      "estimatedRestoration": "2024-01-07T05:30:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC5383'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC5383",
+      "maxLongitude": -1.7939,
+      "minLatitude": 51.5782,
+      "name": "SN2 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SN2 2PE",
+        "SN2 2PF",
+        "SN25 3BU"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.8002,
+              51.5835
+            ],
+            [
+              -1.7939,
+              51.5835
+            ],
+            [
+              -1.7939,
+              51.5782
+            ],
+            [
+              -1.8002,
+              51.5782
+            ],
+            [
+              -1.8002,
+              51.5835
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.5835,
       "etrUpdate": true
     }
   ]
