@@ -202,7 +202,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-08T16:08:00.000+0000",
-      "estimatedRestoration": "2024-01-09T04:00:00.000+0000",
+      "estimatedRestoration": "2024-01-09T08:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC7086'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC7086",
       "maxLongitude": -1.2485,
@@ -565,6 +565,7 @@
       "type": "LV",
       "reference": "NC7401",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-01-09T02:30:00.000+0000",
       "affectedCustomerCount": 15,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "d4d26fcf-b6da-43cd-b9d0-fc146446ce77",
@@ -807,6 +808,74 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 51.1151,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 51.1848079246763,
+      "type": "LV",
+      "reference": "NC7503",
+      "etaUpdate": true,
+      "affectedCustomerCount": 27,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "04aaf8eb-a890-4c48-b88b-053abf795078",
+      "minLongitude": -1.6243,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.6046854625121107,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-09T04:38:00.000+0000",
+      "estimatedRestoration": "2024-01-09T07:40:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NC7503'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NC7503",
+      "maxLongitude": -1.561,
+      "minLatitude": 51.1674,
+      "name": "SP11 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SP11 8HZ",
+        "SP11 8JR",
+        "SP11 8JS",
+        "SP11 8JT",
+        "SP11 8JX",
+        "SP11 8JY",
+        "SP11 8JZ",
+        "SP11 8LA",
+        "SP11 8LG",
+        "SP11 8QU",
+        "SP11 8TA",
+        "SP11 8TB",
+        "SP11 9PZ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.6243,
+              51.2175
+            ],
+            [
+              -1.561,
+              51.2175
+            ],
+            [
+              -1.561,
+              51.1674
+            ],
+            [
+              -1.6243,
+              51.1674
+            ],
+            [
+              -1.6243,
+              51.2175
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 51.2175,
       "etrUpdate": true
     }
   ]
