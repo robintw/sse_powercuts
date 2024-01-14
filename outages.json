@@ -393,7 +393,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/222540",
       "maxLongitude": -0.4625,
       "minLatitude": 51.5635,
-      "name": "UB9 Area",
+      "name": "UB10 & UB9 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "UB10 8AY",
@@ -434,10 +434,10 @@
     },
     {
       "latitude": 51.680720095024824,
-      "type": "HV",
+      "type": "LV",
       "reference": "NE4622",
       "etaUpdate": true,
-      "affectedCustomerCount": 262,
+      "affectedCustomerCount": 86,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "f8bdbacf-a4e2-4b8a-8b39-ed79c00958da",
       "minLongitude": -1.287,
@@ -756,7 +756,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/222631",
       "maxLongitude": -1.8414,
       "minLatitude": 50.7225,
-      "name": "BH8 Area",
+      "name": "BH5 & BH8 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "BH5 1AT",
@@ -795,6 +795,64 @@
       },
       "region": "com.opengrid.geo.world.europe.gb",
       "maxLatitude": 50.7487,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.714365276563534,
+      "type": "LV",
+      "reference": "NE4660",
+      "etaUpdate": true,
+      "affectedCustomerCount": 21,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "1a01b219-fe1f-414e-a319-31aedda8eb79",
+      "minLongitude": -1.9754,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.9741554237291683,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-14T09:10:00.000+0000",
+      "estimatedRestoration": "2024-01-14T12:10:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NE4660'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NE4660",
+      "maxLongitude": -1.9726,
+      "minLatitude": 50.7134,
+      "name": "BH15 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH15 1UP",
+        "BH15 1UW",
+        "BH15 1XS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.9754,
+              50.7155
+            ],
+            [
+              -1.9726,
+              50.7155
+            ],
+            [
+              -1.9726,
+              50.7134
+            ],
+            [
+              -1.9754,
+              50.7134
+            ],
+            [
+              -1.9754,
+              50.7155
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7155,
       "etrUpdate": true
     },
     {
