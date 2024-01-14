@@ -204,7 +204,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/222540",
       "maxLongitude": -0.4625,
       "minLatitude": 51.5635,
-      "name": "UB10 & UB9 Areas",
+      "name": "UB9 Area",
       "otherUpdate": true,
       "affectedAreas": [
         "UB10 8AY",
@@ -245,11 +245,11 @@
     },
     {
       "latitude": 51.68114574758514,
-      "type": "HV",
+      "type": "LV",
       "reference": "NE4622",
       "etaUpdate": true,
       "engineerOnSiteTime": "2024-01-14T09:00:00.000+0000",
-      "affectedCustomerCount": 319,
+      "affectedCustomerCount": 105,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "f8bdbacf-a4e2-4b8a-8b39-ed79c00958da",
       "minLongitude": -1.287,
@@ -449,7 +449,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/222631",
       "maxLongitude": -1.8414,
       "minLatitude": 50.7225,
-      "name": "BH8 Area",
+      "name": "BH5 & BH8 Areas",
       "otherUpdate": true,
       "affectedAreas": [
         "BH5 1AT",
@@ -670,55 +670,95 @@
       "etrUpdate": true
     },
     {
-      "latitude": 50.61305546025878,
+      "latitude": 50.769636713520406,
+      "type": "HV",
+      "reference": "NE4734",
+      "etaUpdate": true,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "59ef1f0e-f309-4260-9dbc-f220c0b30d13",
+      "minLongitude": -2.0092,
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.0059892564343205,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-14T10:54:00.000+0000",
+      "estimatedRestoration": "2024-01-14T21:00:00.000+0000",
+      "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NE4734'",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NE4734",
+      "maxLongitude": -2.0042,
+      "minLatitude": 50.7688,
+      "name": "BH18 Area",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "BH18 9BG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.0092,
+              50.7728
+            ],
+            [
+              -2.0042,
+              50.7728
+            ],
+            [
+              -2.0042,
+              50.7688
+            ],
+            [
+              -2.0092,
+              50.7688
+            ],
+            [
+              -2.0092,
+              50.7728
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2024-01-14T11:05:00.000+0000",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "maxLatitude": 50.7728,
+      "etrUpdate": true
+    },
+    {
+      "latitude": 50.6141697442595,
       "type": "HV",
       "reference": "NE4774",
       "etaUpdate": true,
-      "affectedCustomerCount": 514,
+      "affectedCustomerCount": 272,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "50041551-75eb-4616-b6fd-88c659bece82",
       "minLongitude": -2.0901,
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.0075090247268683,
+      "longitude": -2.0157492576285105,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-14T11:45:00.000+0000",
-      "estimatedRestoration": "2024-01-14T17:00:00.000+0000",
+      "estimatedRestoration": "2024-01-14T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NE4774'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NE4774",
-      "maxLongitude": -1.9563,
+      "maxLongitude": -1.9586,
       "minLatitude": 50.589,
       "name": "BH19 Area",
       "otherUpdate": true,
       "affectedAreas": [
-        "BH19 2LS",
-        "BH19 2LY",
-        "BH19 2NS",
         "BH19 3BE",
-        "BH19 3BJ",
-        "BH19 3DJ",
-        "BH19 3DL",
-        "BH19 3DN",
-        "BH19 3DP",
-        "BH19 3DR",
         "BH19 3DU",
-        "BH19 3DW",
-        "BH19 3DX",
         "BH19 3DY",
         "BH19 3EB",
         "BH19 3ED",
         "BH19 3EE",
-        "BH19 3EF",
-        "BH19 3ET",
-        "BH19 3EU",
-        "BH19 3EY",
-        "BH19 3EZ",
         "BH19 3HA",
         "BH19 3HB",
         "BH19 3HD",
         "BH19 3HE",
-        "BH19 3HF",
         "BH19 3HG",
         "BH19 3HH",
         "BH19 3HJ",
@@ -727,13 +767,9 @@
         "BH19 3HP",
         "BH19 3HQ",
         "BH19 3HT",
-        "BH19 3HU",
         "BH19 3HW",
-        "BH19 3HX",
         "BH19 3HY",
-        "BH19 3HZ",
         "BH19 3JA",
-        "BH19 3JB",
         "BH19 3JD",
         "BH19 3JN",
         "BH19 3JP",
@@ -751,11 +787,11 @@
               50.785
             ],
             [
-              -1.9563,
+              -1.9586,
               50.785
             ],
             [
-              -1.9563,
+              -1.9586,
               50.589
             ],
             [
@@ -857,7 +893,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-14T13:11:00.000+0000",
-      "estimatedRestoration": "2024-01-14T17:00:00.000+0000",
+      "estimatedRestoration": "2024-01-14T20:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NE4811'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NE4811",
       "maxLongitude": -0.9324,
@@ -981,7 +1017,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-14T14:49:00.000+0000",
-      "estimatedRestoration": "2024-01-14T18:05:00.000+0000",
+      "estimatedRestoration": "2024-01-14T21:00:00.000+0000",
       "message": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NE4845'",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NE4845",
       "maxLongitude": -1.32,
