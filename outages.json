@@ -92,7 +92,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "c14d4222-ad1d-4ab4-92d2-d0b83d562e12",
       "minLongitude": -1.9891,
-      "txNrn": 300,
+      "txNrn": 310,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.9780034476035964,
@@ -141,7 +141,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-01-31T11:08:22.502+0000",
+      "updated": "2024-01-31T11:22:22.474+0000",
       "maxLatitude": 51.4901,
       "etrUpdate": true,
       "hvFeederNrn": 2
@@ -157,8 +157,8 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "2308a8a4-3370-40d3-be0e-00f9f2c3013b",
       "minLongitude": -0.605,
-      "txNrn": 90,
-      "networkType": "overhead",
+      "txNrn": 105,
+      "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.5926706604038494,
       "resolved": false,
@@ -171,7 +171,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/222187",
       "maxLongitude": -0.576,
       "minLatitude": 51.5726,
-      "name": "SL2 Area",
+      "name": "SL9 & SL2 Areas",
       "jobSubTypeCode": "",
       "otherUpdate": true,
       "affectedAreas": [
@@ -211,7 +211,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-01-31T11:08:22.502+0000",
+      "updated": "2024-01-31T11:12:22.467+0000",
       "maxLatitude": 51.5928,
       "etrUpdate": true,
       "hvFeederNrn": 604
@@ -416,7 +416,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "bdef7a05-b3f7-4fe7-84b4-ab0f35b4bdc0",
       "minLongitude": -2.2666,
-      "txNrn": 395,
+      "txNrn": 400,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.2502229456949183,
@@ -484,7 +484,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-01-31T11:08:22.502+0000",
+      "updated": "2024-01-31T11:22:22.474+0000",
       "maxLatitude": 51.4247,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -1287,13 +1287,13 @@
       "type": "PSI",
       "reference": "223140",
       "etaUpdate": true,
-      "lvFeederNrn": 4,
+      "lvFeederNrn": 1,
       "affectedCustomerCount": 227,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "257773d5-3645-4a90-be83-4b6710d208e3",
       "minLongitude": -0.9249,
-      "txNrn": 560,
-      "networkType": "underground",
+      "txNrn": 640,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.895313419846997,
       "resolved": false,
@@ -1364,7 +1364,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-01-31T11:06:22.490+0000",
+      "updated": "2024-01-31T11:12:22.467+0000",
       "maxLatitude": 51.364,
       "etrUpdate": true,
       "hvFeederNrn": 10
@@ -1641,70 +1641,74 @@
       "hvFeederNrn": 6
     },
     {
-      "latitude": 50.7959196269086,
-      "primaryNrn": 5214,
+      "latitude": 50.8516901295336,
+      "primaryNrn": 5222,
       "type": "LV",
-      "reference": "NG6998",
+      "reference": "NF9979",
       "etaUpdate": true,
-      "lvFeederNrn": 5,
-      "affectedCustomerCount": 7,
+      "lvFeederNrn": 3,
+      "affectedCustomerCount": 16,
       "networkId": "com.sse.ssepd.sepd",
-      "UUID": "1ec9059d-8a09-4a76-b363-b44ba777ad5e",
-      "minLongitude": -1.0864,
-      "txNrn": 200,
+      "UUID": "27356598-2a6a-422e-a724-a5fb5fdee0ee",
+      "minLongitude": -1.1369,
+      "txNrn": 160,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.0857821105537517,
+      "longitude": -1.1350098149672312,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2024-01-31T09:22:00.000+0000",
-      "estimatedRestoration": "2024-01-31T13:55:00.000+0000",
-      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by 13:55 31/01/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NG6998'",
+      "loggedAt": "2024-01-31T10:00:00.000+0000",
+      "estimatedRestoration": "2024-01-31T14:00:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by 14:00 31/01/2024. If this changes, we will update this message.<br/><br/>",
       "mergedToFaultReference": "",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG6998",
-      "maxLongitude": -1.0853,
-      "minLatitude": 50.7952,
-      "name": "PO5 Area",
-      "jobSubTypeCode": "01",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NF9979",
+      "maxLongitude": -1.1313,
+      "minLatitude": 50.8503,
+      "name": "PO16 Area",
+      "jobSubTypeCode": "40",
       "otherUpdate": true,
       "affectedAreas": [
-        "PO5 4NA"
+        "PO16 8EF",
+        "PO16 8EH",
+        "PO16 8HE",
+        "PO16 8HF",
+        "PO16 8HH"
       ],
       "location": {
         "coordinates": [
           [
             [
-              -1.0864,
-              50.7964
+              -1.1369,
+              50.8533
             ],
             [
-              -1.0853,
-              50.7964
+              -1.1313,
+              50.8533
             ],
             [
-              -1.0853,
-              50.7952
+              -1.1313,
+              50.8503
             ],
             [
-              -1.0864,
-              50.7952
+              -1.1369,
+              50.8503
             ],
             [
-              -1.0864,
-              50.7964
+              -1.1369,
+              50.8533
             ]
           ]
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG6998'",
-      "updated": "2024-01-31T10:56:22.473+0000",
-      "maxLatitude": 50.7964,
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NF9979'",
+      "updated": "2024-01-31T11:16:22.473+0000",
+      "maxLatitude": 50.8533,
       "etrUpdate": true,
-      "hvFeederNrn": 6
+      "hvFeederNrn": 1
     },
     {
       "latitude": 57.5031257788833,
@@ -1769,7 +1773,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG6624'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:22:22.592+0000",
       "maxLatitude": 57.5402,
       "etrUpdate": true,
       "hvFeederNrn": 306
@@ -1854,7 +1858,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "1839d4dd-21ad-43ad-9ae0-ef5f4af4699e",
       "minLongitude": -4.3408,
-      "txNrn": 135,
+      "txNrn": 183,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.182316173940889,
@@ -1909,7 +1913,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG6910'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:22:22.592+0000",
       "maxLatitude": 57.6704,
       "etrUpdate": true,
       "hvFeederNrn": 49
@@ -2203,7 +2207,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "a6a8b745-d63f-4619-89ea-cde605f882a6",
       "minLongitude": -2.4769,
-      "txNrn": 328,
+      "txNrn": 325,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.417744107967403,
@@ -2266,85 +2270,10 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7028'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:22:22.592+0000",
       "maxLatitude": 57.1738,
       "etrUpdate": true,
       "hvFeederNrn": 5
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 57.53745690778422,
-      "primaryNrn": 459,
-      "type": "HV",
-      "reference": "NG7041",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 22,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "45fdd81a-6578-427c-b9f6-18f243cbd175",
-      "minLongitude": -3.0589,
-      "txNrn": 175,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.0248917922385923,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-01-31T08:44:00.000+0000",
-      "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
-      "mergedToFaultReference": "",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7041",
-      "maxLongitude": -2.9777,
-      "minLatitude": 57.5139,
-      "name": "AB55 Area",
-      "jobSubTypeCode": "23",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB55 5QE",
-        "AB55 6RR",
-        "AB55 6RT",
-        "AB55 6YL",
-        "AB55 6YN",
-        "AB55 6YR",
-        "AB55 6YS",
-        "AB55 6YT",
-        "AB55 6YU"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.0589,
-              57.5509
-            ],
-            [
-              -2.9777,
-              57.5509
-            ],
-            [
-              -2.9777,
-              57.5139
-            ],
-            [
-              -3.0589,
-              57.5139
-            ],
-            [
-              -3.0589,
-              57.5509
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2024-01-31T09:30:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7041'",
-      "updated": "2024-01-31T11:08:22.629+0000",
-      "maxLatitude": 57.5509,
-      "etrUpdate": true,
-      "hvFeederNrn": 16
     },
     {
       "customIncludeDefault": false,
@@ -2358,7 +2287,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "e2020a29-4110-4f10-8a17-aab920602241",
       "minLongitude": -3.4842,
-      "txNrn": 485,
+      "txNrn": 520,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.409956004948577,
@@ -2414,7 +2343,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7054'",
-      "updated": "2024-01-31T11:06:22.627+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 57.6355,
       "etrUpdate": true,
       "hvFeederNrn": 22
@@ -2494,7 +2423,7 @@
       "type": "PSI",
       "reference": "222970",
       "etaUpdate": true,
-      "lvFeederNrn": 6,
+      "lvFeederNrn": 3,
       "affectedCustomerCount": 4,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "31718942-205a-4be5-b7d5-631cb096cf76",
@@ -2548,7 +2477,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-01-31T10:00:22.604+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 55.7247,
       "etrUpdate": true,
       "hvFeederNrn": 1
@@ -2622,7 +2551,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7101'",
-      "updated": "2024-01-31T11:06:22.627+0000",
+      "updated": "2024-01-31T11:22:22.592+0000",
       "maxLatitude": 57.3886,
       "etrUpdate": true,
       "hvFeederNrn": 302
@@ -2647,6 +2576,7 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-31T08:13:00.000+0000",
+      "estimatedRestoration": "2024-01-31T15:00:00.000+0000",
       "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
       "mergedToFaultReference": "",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7107",
@@ -2688,8 +2618,8 @@
       "estimatedArrivalOnSiteTime": "2024-01-31T10:30:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7107'",
-      "updated": "2024-01-31T11:06:22.627+0000",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7107'",
+      "updated": "2024-01-31T11:22:22.592+0000",
       "maxLatitude": 57.8279,
       "etrUpdate": true,
       "hvFeederNrn": 34
@@ -2706,7 +2636,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "34af288d-2d1f-4d76-9f7a-89ba53100e0b",
       "minLongitude": -6.4313,
-      "txNrn": 195,
+      "txNrn": 175,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -6.216342462642006,
@@ -2765,77 +2695,10 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7132'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 58.326,
       "etrUpdate": true,
       "hvFeederNrn": 46
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 57.964101831381605,
-      "primaryNrn": 536,
-      "type": "HV",
-      "reference": "NG7131",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 5,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "151c6989-67dd-48ec-8471-4c9d0f19f88b",
-      "minLongitude": -4.5852,
-      "txNrn": 350,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.512149705220697,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-01-31T08:30:00.000+0000",
-      "estimatedRestoration": "2024-01-31T16:00:00.000+0000",
-      "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
-      "mergedToFaultReference": "",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7131",
-      "maxLongitude": -4.4072,
-      "minLatitude": 57.9438,
-      "name": "IV27 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV27 4EU"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -4.5852,
-              57.9866
-            ],
-            [
-              -4.4072,
-              57.9866
-            ],
-            [
-              -4.4072,
-              57.9438
-            ],
-            [
-              -4.5852,
-              57.9438
-            ],
-            [
-              -4.5852,
-              57.9866
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7131'",
-      "updated": "2024-01-31T10:24:22.560+0000",
-      "maxLatitude": 57.9866,
-      "etrUpdate": true,
-      "hvFeederNrn": 11
     },
     {
       "customIncludeDefault": false,
@@ -2849,8 +2712,8 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "cf2ba33e-a1ac-46c0-b1cd-a62833ce8046",
       "minLongitude": -4.7467,
-      "txNrn": 80,
-      "networkType": "overhead",
+      "txNrn": 30,
+      "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -4.563137586810878,
       "resolved": false,
@@ -2931,7 +2794,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7177'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 57.3961,
       "etrUpdate": true,
       "hvFeederNrn": 8
@@ -3019,7 +2882,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "4653a07f-16f2-41ce-9ee6-b37d01d135fb",
       "minLongitude": -3.4644,
-      "txNrn": 625,
+      "txNrn": 400,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -3.302892834588378,
@@ -3089,7 +2952,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7252'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 57.399,
       "etrUpdate": true,
       "hvFeederNrn": 15
@@ -3106,7 +2969,7 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "3e596c3f-b6f2-4b66-bf8a-271d1f8f8cad",
       "minLongitude": -1.1393,
-      "txNrn": 440,
+      "txNrn": 450,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.10463875120696,
@@ -3158,7 +3021,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7258'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:12:22.590+0000",
       "maxLatitude": 60.2083,
       "etrUpdate": true,
       "hvFeederNrn": 23
@@ -3240,13 +3103,14 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "P",
+      "estimatedArrivalOnSiteTime": "2024-01-31T11:45:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7259'",
       "evChargersAffected": [
         "c99ab20c-86f7-4016-8866-f3b7e925cffe"
       ],
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 57.6497,
       "etrUpdate": true,
       "hvFeederNrn": 23
@@ -3328,15 +3192,15 @@
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "868bf44c-7c2a-4b34-92a4-a40e26dfbbca",
       "minLongitude": -5.8739,
-      "txNrn": 87,
-      "networkType": "underground",
+      "txNrn": 26,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -5.680411182123577,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-01-30T18:34:00.000+0000",
-      "message": "We're very sorry for the power cut and are aware of a fault on our main network affecting  homes. This is affecting a large area and it's likely several streets in your area are affected by the same outage.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by . If this changes, we will update this message.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NG7137'",
+      "message": "We're very sorry for the power cut and are aware of a fault on our main network affecting  homes. This is affecting a large area and it's likely several streets in your area are affected by the same outage.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by . If this changes, we will update this message.<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NG7137'",
       "mergedToFaultReference": "",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7137",
       "maxLongitude": -5.6268,
@@ -3384,10 +3248,315 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7137'",
-      "updated": "2024-01-31T11:08:22.629+0000",
+      "updated": "2024-01-31T11:24:22.619+0000",
       "maxLatitude": 57.5705,
       "etrUpdate": true,
       "hvFeederNrn": 11
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 56.714064447676336,
+      "primaryNrn": 72,
+      "type": "HV",
+      "reference": "NG7328",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "9402b4d3-3c7d-4a8e-94e6-fb94206c3ad2",
+      "minLongitude": -2.6532,
+      "txNrn": 90,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.5515985243036434,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-31T11:20:00.000+0000",
+      "estimatedRestoration": "2024-01-31T14:20:00.000+0000",
+      "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7328",
+      "maxLongitude": -2.4737,
+      "minLatitude": 56.6687,
+      "name": "DD9 & DD10 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD10 9EF",
+        "DD10 9EG",
+        "DD10 9JS",
+        "DD10 9LE",
+        "DD10 9LF",
+        "DD10 9LG",
+        "DD10 9LH",
+        "DD10 9LJ",
+        "DD10 9LL",
+        "DD10 9LN",
+        "DD10 9LQ",
+        "DD10 9LS",
+        "DD10 9LT",
+        "DD10 9LW",
+        "DD10 9LX",
+        "DD10 9LY",
+        "DD10 9TJ",
+        "DD10 9TL",
+        "DD9 6TU",
+        "DD9 6TY",
+        "DD9 6TZ",
+        "DD9 6UA",
+        "DD9 6UB",
+        "DD9 6UD",
+        "DD9 6UE",
+        "DD9 6UF",
+        "DD9 6UH",
+        "DD9 6UJ",
+        "DD9 6UP",
+        "DD9 7AF",
+        "DD9 7PN"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.6532,
+              56.7532
+            ],
+            [
+              -2.4737,
+              56.7532
+            ],
+            [
+              -2.4737,
+              56.6687
+            ],
+            [
+              -2.6532,
+              56.6687
+            ],
+            [
+              -2.6532,
+              56.7532
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "A",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7328'",
+      "updated": "2024-01-31T11:24:22.619+0000",
+      "maxLatitude": 56.7532,
+      "etrUpdate": true,
+      "hvFeederNrn": 4
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.02692199513877,
+      "primaryNrn": 806,
+      "type": "HV",
+      "reference": "NG7340",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 82,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "2aba0a2c-a632-46a1-993e-5f915be99861",
+      "minLongitude": -3.398,
+      "txNrn": 213,
+      "networkType": "",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -3.091700698591928,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-31T11:18:00.000+0000",
+      "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7340",
+      "maxLongitude": -2.8974,
+      "minLatitude": 56.8869,
+      "name": "AB35 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "AB35 5SL",
+        "AB35 5SN",
+        "AB35 5SP",
+        "AB35 5SQ",
+        "AB35 5SR",
+        "AB35 5SS",
+        "AB35 5ST",
+        "AB35 5SU",
+        "AB35 5SY",
+        "AB35 5TB"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -3.398,
+              57.0585
+            ],
+            [
+              -2.8974,
+              57.0585
+            ],
+            [
+              -2.8974,
+              56.8869
+            ],
+            [
+              -3.398,
+              56.8869
+            ],
+            [
+              -3.398,
+              57.0585
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "A",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7340'",
+      "updated": "2024-01-31T11:24:22.619+0000",
+      "maxLatitude": 57.0585,
+      "etrUpdate": true,
+      "hvFeederNrn": 4
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 57.285482728598105,
+      "primaryNrn": 636,
+      "type": "LV",
+      "reference": "NG7324",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 4,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "696fecee-ddae-475d-922a-9ef2d65debe9",
+      "minLongitude": -5.6747,
+      "txNrn": 100,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -5.621051029272503,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-31T11:10:00.000+0000",
+      "estimatedRestoration": "2024-01-31T23:30:00.000+0000",
+      "message": "We're sorry for the power cut affecting your property. Adverse weather conditions including strong winds is impacting our network and is the likely cause of your power cut. We have teams on hand to respond to the weather and the moment it's safe to do so, our engineers will work around the clock to get your power back on and we will provide updates here with any new information. You can also register for text updates below too.<br/><br/>In the background, we'll also be switching our network to restore power to as many homes as possible. We do this by remotely moving the flow of electricity around our network so that we can get the lights back on for as many customers as possible. Customers who are located near the damaged part of our network are then the customers who remain off longer until a repair is completed.<br/><br/>Thank you for your ongoing patience and if you require any additional help or support, we're on hand 24 hours a day. Send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and one of the team will be happy to help.",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7324",
+      "maxLongitude": -5.5571,
+      "minLatitude": 57.274,
+      "name": "IV40 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "IV40 8DN",
+        "IV40 8EG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.6747,
+              57.3185
+            ],
+            [
+              -5.5571,
+              57.3185
+            ],
+            [
+              -5.5571,
+              57.274
+            ],
+            [
+              -5.6747,
+              57.274
+            ],
+            [
+              -5.6747,
+              57.3185
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7324'",
+      "updated": "2024-01-31T11:22:22.592+0000",
+      "maxLatitude": 57.3185,
+      "etrUpdate": true,
+      "hvFeederNrn": 12
+    },
+    {
+      "latitude": 58.30984730605501,
+      "primaryNrn": 670,
+      "type": "LV",
+      "reference": "NG7103",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 2,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "2ec3e6ae-600d-41c0-a372-73474a1952fc",
+      "minLongitude": -6.752,
+      "txNrn": 256,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -6.729490278879331,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-01-31T10:06:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 12:00 31/01/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by .<br/><br/>We have had reports of a overhead power line coming down. When this happens, the power will automatically turn off to keep everyone safe. Our engineers know exactly where the problem is and are working hard to make the situation safe, repair the wire and get your power back on. These type of faults often require extensive work and specialist teams which is why the restoration time seems so far away. If we can restore power sooner, we promise we will do so.<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NG7103'",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NG7103",
+      "maxLongitude": -6.718,
+      "minLatitude": 58.3047,
+      "name": "HS2 Area",
+      "jobSubTypeCode": "08",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "HS2 9AE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -6.752,
+              58.3206
+            ],
+            [
+              -6.718,
+              58.3206
+            ],
+            [
+              -6.718,
+              58.3047
+            ],
+            [
+              -6.752,
+              58.3047
+            ],
+            [
+              -6.752,
+              58.3206
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2024-01-31T12:00:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NG7103'",
+      "updated": "2024-01-31T11:24:22.619+0000",
+      "maxLatitude": 58.3206,
+      "etrUpdate": true,
+      "hvFeederNrn": 12
     }
   ]
 }
