@@ -12,7 +12,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "a5b402f2-7c2f-431a-9c2e-990057769208",
       "minLongitude": -1.4257,
-      "txNrn": 80,
+      "txNrn": 30,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.4038614842951511,
@@ -77,7 +77,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN1729'",
-      "updated": "2024-03-12T09:26:22.885+0000",
+      "updated": "2024-03-12T09:32:22.877+0000",
       "maxLatitude": 51.9103,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -235,8 +235,8 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "e9a657cb-bca6-4d33-9ef4-9bef02c551dd",
       "minLongitude": -1.1908,
-      "txNrn": 180,
-      "networkType": "underground",
+      "txNrn": 290,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.1586259364821079,
       "resolved": false,
@@ -385,7 +385,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN1803'",
-      "updated": "2024-03-12T09:26:22.885+0000",
+      "updated": "2024-03-12T09:32:22.877+0000",
       "maxLatitude": 51.749,
       "etrUpdate": true,
       "hvFeederNrn": 13
@@ -544,7 +544,7 @@
       "type": "PSI",
       "reference": "221730",
       "etaUpdate": true,
-      "lvFeederNrn": 4,
+      "lvFeederNrn": 2,
       "affectedCustomerCount": 86,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "d3391532-29e5-4668-88bb-cfe978a09779",
@@ -603,7 +603,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-03-12T09:26:22.885+0000",
+      "updated": "2024-03-12T09:34:22.888+0000",
       "maxLatitude": 51.0174,
       "etrUpdate": true,
       "hvFeederNrn": 5
@@ -1512,7 +1512,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "e9181371-ba1e-4d9d-b05d-9b2af1b491c6",
       "minLongitude": -1.5042,
-      "txNrn": 520,
+      "txNrn": 521,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.487962738601229,
@@ -1564,7 +1564,7 @@
       },
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-03-12T09:00:22.814+0000",
+      "updated": "2024-03-12T09:30:22.938+0000",
       "maxLatitude": 51.8864,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -2106,6 +2106,7 @@
       "type": "LV",
       "reference": "NN1856",
       "etaUpdate": true,
+      "engineerOnSiteTime": "2024-03-12T08:20:00.000+0000",
       "lvFeederNrn": 2,
       "affectedCustomerCount": 4,
       "networkId": "com.sse.ssepd.sepd",
@@ -2118,7 +2119,8 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-03-12T07:00:00.000+0000",
-      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NN1856'",
+      "estimatedRestoration": "2024-03-12T12:00:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>Due to a busier than usual day, all of our engineers are currently working on other faults. We have made the local teams aware of your power cut and they are working hard to find resources to attend and get your power back on. At this stage, we're aiming to have your power restored by 12:00 12/03/2024.<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NN1856'",
       "mergedToFaultReference": "",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NN1856",
       "name": "SO51 Area",
@@ -2135,81 +2137,10 @@
         ],
         "type": "Point"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN1856'",
-      "updated": "2024-03-12T09:24:22.876+0000",
-      "etrUpdate": true,
-      "hvFeederNrn": 8
-    },
-    {
-      "latitude": 51.192231615887735,
-      "primaryNrn": 1001,
-      "type": "LV",
-      "reference": "NN2015",
-      "etaUpdate": true,
-      "lvFeederNrn": 2,
-      "affectedCustomerCount": 22,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "45af4277-6239-4809-9440-9546cc9d4d77",
-      "minLongitude": -0.8108,
-      "txNrn": 85,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -0.807566901443809,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-03-12T09:22:00.000+0000",
-      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NN2015'",
-      "mergedToFaultReference": "",
-      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NN2015",
-      "maxLongitude": -0.8029,
-      "minLatitude": 51.1893,
-      "name": "GU10 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "GU10 4RE",
-        "GU10 4RF",
-        "GU10 4RG",
-        "GU10 4RJ",
-        "GU10 4RQ",
-        "GU10 4SA",
-        "GU10 4SZ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -0.8108,
-              51.1955
-            ],
-            [
-              -0.8029,
-              51.1955
-            ],
-            [
-              -0.8029,
-              51.1893
-            ],
-            [
-              -0.8108,
-              51.1893
-            ],
-            [
-              -0.8108,
-              51.1955
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "jobStatusCode": "R",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN2015'",
-      "updated": "2024-03-12T09:26:22.885+0000",
-      "maxLatitude": 51.1955,
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN1856'",
+      "updated": "2024-03-12T09:46:22.898+0000",
       "etrUpdate": true,
       "hvFeederNrn": 8
     },
@@ -2231,8 +2162,9 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2024-03-09T17:00:00.000+0000",
-      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 08:30 12/03/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by .<br/><br/>",
+      "loggedAt": "2024-03-12T09:22:00.000+0000",
+      "estimatedRestoration": "2024-03-12T13:00:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by 13:00 12/03/2024. If this changes, we will update this message.<br/><br/>",
       "mergedToFaultReference": "",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NN0728",
       "maxLongitude": -0.8042,
@@ -2274,11 +2206,143 @@
       "estimatedArrivalOnSiteTime": "2024-03-12T08:30:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on their way to site to get the power back on as quickly as they can. please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN0728'",
-      "updated": "2024-03-12T09:26:22.885+0000",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN0728'",
+      "updated": "2024-03-12T09:42:22.870+0000",
       "maxLatitude": 51.1971,
       "etrUpdate": true,
       "hvFeederNrn": 8
+    },
+    {
+      "latitude": 51.63207638543114,
+      "primaryNrn": 3121,
+      "type": "PSI",
+      "reference": "224161",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "f88cbcf3-02cb-4646-9e52-19b70d710843",
+      "minLongitude": -2.186,
+      "txNrn": 210,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.167794279876677,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-03-12T09:30:00.000+0000",
+      "estimatedRestoration": "2024-03-12T15:00:00.000+0000",
+      "message": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '224161'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/224161",
+      "maxLongitude": -2.1642,
+      "minLatitude": 51.6214,
+      "name": "GL8 Area",
+      "jobSubTypeCode": "",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "GL8 8TJ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.186,
+              51.6346
+            ],
+            [
+              -2.1642,
+              51.6346
+            ],
+            [
+              -2.1642,
+              51.6214
+            ],
+            [
+              -2.186,
+              51.6214
+            ],
+            [
+              -2.186,
+              51.6346
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-03-12T09:30:22.938+0000",
+      "maxLatitude": 51.6346,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
+    },
+    {
+      "latitude": 50.91477665689078,
+      "primaryNrn": 6412,
+      "type": "LV",
+      "reference": "NN1889",
+      "etaUpdate": true,
+      "lvFeederNrn": 2,
+      "affectedCustomerCount": 2,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "8751a79c-04dc-4c34-bcaf-ec0e64e4a599",
+      "minLongitude": -1.3931,
+      "txNrn": 40,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.3904738972575863,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-03-12T07:58:00.000+0000",
+      "estimatedRestoration": "2024-03-12T13:00:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 10:00 12/03/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 13:00 12/03/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NN1889'",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NN1889",
+      "maxLongitude": -1.3881,
+      "minLatitude": 50.9136,
+      "name": "SO14 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO14 0SP"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.3931,
+              50.9182
+            ],
+            [
+              -1.3881,
+              50.9182
+            ],
+            [
+              -1.3881,
+              50.9136
+            ],
+            [
+              -1.3931,
+              50.9136
+            ],
+            [
+              -1.3931,
+              50.9182
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2024-03-12T10:00:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NN1889'",
+      "updated": "2024-03-12T09:34:22.888+0000",
+      "maxLatitude": 50.9182,
+      "etrUpdate": true,
+      "hvFeederNrn": 606
     },
     {
       "latitude": 57.24868917136319,
