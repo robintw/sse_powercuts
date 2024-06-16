@@ -424,13 +424,13 @@
       "type": "PSI",
       "reference": "227354",
       "etaUpdate": true,
-      "lvFeederNrn": 2,
+      "lvFeederNrn": 1,
       "affectedCustomerCount": 152,
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "6066370d-4f25-43e0-8b20-a4296acbb30b",
       "minLongitude": -1.627592628169674,
-      "txNrn": 430,
-      "networkType": "underground",
+      "txNrn": 410,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.6051986678443757,
       "resolved": false,
@@ -488,7 +488,7 @@
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '227354'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "updated": "2024-06-16T08:00:31.709+0000",
+      "updated": "2024-06-16T08:28:21.757+0000",
       "maxLatitude": 50.776430793498825,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -562,6 +562,78 @@
       "hvFeederNrn": 3
     },
     {
+      "latitude": 51.57152934285228,
+      "primaryNrn": 4003,
+      "type": "LV",
+      "reference": "NY1450",
+      "etaUpdate": true,
+      "lvFeederNrn": 4,
+      "affectedCustomerCount": 21,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "73aa40cc-e5bf-4d00-b146-aceea50516a0",
+      "minLongitude": -1.154021922399647,
+      "txNrn": 360,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.151202397092751,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-06-16T08:24:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We have notified an engineer of your power cut and are working with them to provide a more accurate update. Once we have this information, we will update this message. You can register for updates on this outage on this page too. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NY1450'",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NY1450",
+      "maxLongitude": -1.142686721052665,
+      "minLatitude": 51.569620655204595,
+      "name": "OX10 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "OX10 9FU",
+        "OX10 9NH",
+        "OX10 9NJ",
+        "OX10 9NL",
+        "OX10 9QP",
+        "OX10 9QR",
+        "OX10 9QZ",
+        "OX10 9RS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.154021922399647,
+              51.574526987328156
+            ],
+            [
+              -1.142686721052665,
+              51.574526987328156
+            ],
+            [
+              -1.142686721052665,
+              51.569620655204595
+            ],
+            [
+              -1.154021922399647,
+              51.569620655204595
+            ],
+            [
+              -1.154021922399647,
+              51.574526987328156
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "P",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NY1450'",
+      "updated": "2024-06-16T08:28:21.757+0000",
+      "maxLatitude": 51.574526987328156,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
+    },
+    {
       "latitude": 57.178041839660736,
       "primaryNrn": 814,
       "type": "LV",
@@ -627,7 +699,7 @@
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NY1397'",
-      "updated": "2024-06-16T08:08:41.745+0000",
+      "updated": "2024-06-16T08:22:21.731+0000",
       "maxLatitude": 57.17921495836318,
       "etrUpdate": true,
       "hvFeederNrn": 9
