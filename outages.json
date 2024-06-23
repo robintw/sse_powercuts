@@ -294,7 +294,7 @@
       "networkId": "com.sse.ssepd.sepd",
       "UUID": "76843e7b-d884-4311-8ee4-a7d3bace7836",
       "minLongitude": -0.967137432664839,
-      "txNrn": 100,
+      "txNrn": 60,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -0.8655047593982165,
@@ -308,7 +308,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NY8783",
       "maxLongitude": -0.805020515476793,
       "minLatitude": 51.450348739970636,
-      "name": "RG10 Area",
+      "name": "RG1 & RG10 Areas",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
@@ -435,7 +435,7 @@
         "4d62b4bc-eb2c-4afb-9c86-ae791298140b",
         "5136efb9-25fb-4feb-a3c7-152ce007ae07"
       ],
-      "updated": "2024-06-23T18:33:15.707+0000",
+      "updated": "2024-06-23T19:08:25.723+0000",
       "maxLatitude": 51.493999703886956,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -509,6 +509,77 @@
       "maxLatitude": 51.53685622281382,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 50.94470964184691,
+      "primaryNrn": 6415,
+      "type": "LV",
+      "reference": "NY8799",
+      "etaUpdate": true,
+      "lvFeederNrn": 2,
+      "affectedCustomerCount": 27,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "b26dfc1e-9dc9-46ed-85a2-9a465a9da3c7",
+      "minLongitude": -1.454152396149353,
+      "txNrn": 40,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.451573651451855,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-06-23T19:04:00.000+0000",
+      "message": "We're very sorry for the power cut and are aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. It's not uncommon to see 1 in 3 homes affected.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to restore power by simply replacing a fuse at the local substation, however, if the fault is severe, this may result in us needing to make full repairs which can take longer. If this does happen, we will let you know<br/><br/>If you need more information, please send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and quote reference 'NY8799'",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/NY8799",
+      "maxLongitude": -1.449115053407671,
+      "minLatitude": 50.94341863542945,
+      "name": "SO16 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO16 8GA",
+        "SO16 8GH",
+        "SO16 8JA",
+        "SO16 8JB",
+        "SO16 8JD",
+        "SO16 8JE",
+        "SO16 8JF"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.454152396149353,
+              50.94586467943639
+            ],
+            [
+              -1.449115053407671,
+              50.94586467943639
+            ],
+            [
+              -1.449115053407671,
+              50.94341863542945
+            ],
+            [
+              -1.454152396149353,
+              50.94341863542945
+            ],
+            [
+              -1.454152396149353,
+              50.94586467943639
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. We are working hard to get the power back on as quickly as we can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'NY8799'",
+      "updated": "2024-06-23T19:08:25.723+0000",
+      "maxLatitude": 50.94586467943639,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
     }
   ]
 }
