@@ -319,7 +319,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/PC0452",
       "maxLongitude": -1.300117779488306,
       "minLatitude": 50.85027561172807,
-      "name": "SO14 & SO31 Areas",
+      "name": "SO31 Area",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
@@ -363,7 +363,7 @@
       "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'PC0452'",
-      "updated": "2024-07-23T02:34:29.236+0000",
+      "updated": "2024-07-23T02:44:29.237+0000",
       "maxLatitude": 50.854753190303214,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -686,7 +686,7 @@
       "srtUpdate": true,
       "loggedAt": "2024-07-23T02:31:00.000+0000",
       "estimatedRestoration": "2024-07-23T06:30:00.000+0000",
-      "message": "We're aware of a power cut in the area shown, affecting 274 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by 07:30 23/07/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PC0510'",
+      "message": "We're aware of a power cut in the area shown, affecting 274 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 04:15 23/07/2024. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 07:30 23/07/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PC0510'",
       "mergedToFaultReference": "",
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/PC0510",
       "maxLongitude": -0.572909555582758,
@@ -757,17 +757,18 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "estimatedArrivalOnSiteTime": "2024-07-23T03:15:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'PC0510'",
-      "updated": "2024-07-23T02:34:29.236+0000",
+      "updated": "2024-07-23T02:48:19.241+0000",
       "maxLatitude": 51.48541229356289,
       "etrUpdate": true,
       "hvFeederNrn": 9
     },
     {
       "latitude": 57.43572180077647,
-      "primaryNrn": 949,
+      "primaryNrn": 475,
       "type": "PSI",
       "reference": "228100",
       "etaUpdate": true,
@@ -777,8 +778,8 @@
       "suppressed": false,
       "UUID": "48581c97-72b1-435c-90e4-0357cc9f4302",
       "minLongitude": -2.113137712277521,
-      "txNrn": 100,
-      "networkType": "underground",
+      "txNrn": 50,
+      "networkType": "",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -1.9929061660759197,
       "resolved": false,
@@ -791,7 +792,7 @@
       "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/228100",
       "maxLongitude": -1.856360808680269,
       "minLatitude": 57.39074663736037,
-      "name": "AB41 Area",
+      "name": "AB42 & AB41 Areas",
       "jobSubTypeCode": "",
       "otherUpdate": true,
       "affectedAreas": [
@@ -831,10 +832,10 @@
       "jobStatusCode": "",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We're sorry for the loss of supply. The reason you're currently without power is a planned outage in the areas listed. We have turned off your electricity supply to allow us to safely carry out essential work to our electrical equipment. By doing this, it'll help us to improve the reliability of our service to you for the future. If you have any questions or require more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) with reference  '228100'. You will have received a letter from us confirming your power will be interrupted with specific information relating to your property. If you did not receive this letter, you can assume your power will not be interrupted.",
-      "updated": "2024-07-23T02:34:29.264+0000",
+      "updated": "2024-07-23T02:44:29.252+0000",
       "maxLatitude": 57.4883685588489,
       "etrUpdate": true,
-      "hvFeederNrn": 303
+      "hvFeederNrn": 1
     }
   ]
 }
