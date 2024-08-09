@@ -513,8 +513,8 @@
       "suppressed": false,
       "UUID": "b4161a8c-a882-48ba-9bdc-74f26e42bfff",
       "minLongitude": -2.260600034758798,
-      "txNrn": 455,
-      "networkType": "",
+      "txNrn": 485,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -2.221847112248813,
       "resolved": false,
@@ -576,7 +576,7 @@
       "jobStatusCode": "IN",
       "region": "com.opengrid.geo.world.europe.gb",
       "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on their way to site to get the power back on as quickly as they can. please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'PF1092'",
-      "updated": "2024-08-09T17:28:29.106+0000",
+      "updated": "2024-08-09T17:40:29.115+0000",
       "maxLatitude": 57.23340196819906,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -648,6 +648,74 @@
       "maxLatitude": 56.43436651917531,
       "etrUpdate": true,
       "hvFeederNrn": 2
+    },
+    {
+      "latitude": 60.357567018230135,
+      "primaryNrn": 687,
+      "type": "HV",
+      "reference": "PF1299",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 6,
+      "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
+      "UUID": "3568d904-3117-4f8b-bef6-015fdcb9ee42",
+      "minLongitude": -1.227797612672451,
+      "txNrn": 212,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1577814980492163,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-08-09T17:39:00.000+0000",
+      "estimatedRestoration": "2024-08-09T21:30:00.000+0000",
+      "message": "We're aware of a power cut in the area shown, affecting 6 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by 22:30 09/08/2024. If this changes, we will update this message.<br/><br/>We have had to isolate your power due to a safety concern on our network. Where possible, we will always try to keep the power on, however, there are situations like this where we need to isolate the power to keep people safe. There is no concern for safety at your property, however, there is an isolated issue elsewhere our teams need to make safe before they can turn your power back on.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PF1299'",
+      "mergedToFaultReference": "",
+      "uri": "http://api.sse.com/powerdistribution/network/v3/api/fault/PF1299",
+      "maxLongitude": -1.02054436352425,
+      "minLatitude": 60.342826711322,
+      "name": "ZE2 Area",
+      "jobSubTypeCode": "10",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "ZE2 9QB",
+        "ZE2 9QD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.227797612672451,
+              60.39405569705001
+            ],
+            [
+              -1.02054436352425,
+              60.39405569705001
+            ],
+            [
+              -1.02054436352425,
+              60.342826711322
+            ],
+            [
+              -1.227797612672451,
+              60.342826711322
+            ],
+            [
+              -1.227797612672451,
+              60.39405569705001
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "originalMessage": "We’re sorry for the loss of supply. We currently have a fault affecting the areas listed. Our engineers are on site working hard to get the power back on as quickly as they can. If you need more information, please call us on 105 or send us a message on <a href=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter (<a href=\"https://twitter.com/ssencommunity\">@ssencommunity</a>) and quote reference 'PF1299'",
+      "updated": "2024-08-09T17:44:29.112+0000",
+      "maxLatitude": 60.39405569705001,
+      "etrUpdate": true,
+      "hvFeederNrn": 47
     }
   ]
 }
