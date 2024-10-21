@@ -1459,7 +1459,7 @@
       "srtUpdate": true,
       "loggedAt": "2024-10-21T10:28:00.000+0000",
       "estimatedRestoration": "2024-10-21T15:00:00.000+0000",
-      "message": "We're aware of a power cut in the area shown, affecting 1004 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We have notified an engineer of your power cut and are working with them to provide a more accurate update. Once we have this information, we will update this message. You can register for updates on this outage on this page too. At this stage, we're aiming to have your power restored by 16:00 21/10/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR6213'",
+      "message": "We're aware of a power cut in the area shown, affecting 1004 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>Engineers are aware of the fault but are busy on another fault. Once they have restored power on the other fault, or if another team become available in the meantime, they will be sent straight to your area to get the power back on. At this stage, we're aiming to have your power restored by 16:00 21/10/2024.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR6213'",
       "maxLongitude": 0.047288514253993,
       "minLatitude": 51.497245680986715,
       "name": "E16 Area",
@@ -1523,7 +1523,7 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "P",
+      "jobStatusCode": "A",
       "region": "com.opengrid.geo.world.europe.gb",
       "evChargersAffected": [
         "f80f93c2-cef8-4ac9-8b50-7b8c079f9e37",
@@ -1538,10 +1538,77 @@
         "7ffd2fa5-9a62-40f4-a6c5-4e1a99446dd9",
         "10027cd3-c522-4934-9f14-a37e0be77998"
       ],
-      "updated": "2024-10-21T10:30:49.209+0000",
+      "updated": "2024-10-21T10:41:48.853+0000",
       "maxLatitude": 51.51480399672438,
       "etrUpdate": true,
       "hvFeederNrn": 4
+    },
+    {
+      "latitude": 51.900733700508766,
+      "primaryNrn": 4619,
+      "type": "LV",
+      "reference": "PR6036",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 22,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "8a127a37-7b41-4b06-a428-c91e61e97a53",
+      "minLongitude": -1.166824656759309,
+      "txNrn": 925,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.1144271779199777,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2024-10-21T09:22:00.000+0000",
+      "priorityCustomerCount": 22,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by . If this changes, we will update this message.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR6036'",
+      "maxLongitude": -1.10280081887637,
+      "minLatitude": 51.89563246040475,
+      "name": "OX26 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 4,
+      "affectedAreas": [
+        "OX26 5AE",
+        "OX26 5DX",
+        "OX26 5EA"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.166824656759309,
+              51.90548394229316
+            ],
+            [
+              -1.10280081887637,
+              51.90548394229316
+            ],
+            [
+              -1.10280081887637,
+              51.89563246040475
+            ],
+            [
+              -1.166824656759309,
+              51.89563246040475
+            ],
+            [
+              -1.166824656759309,
+              51.90548394229316
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2024-10-21T10:41:48.853+0000",
+      "maxLatitude": 51.90548394229316,
+      "etrUpdate": true,
+      "hvFeederNrn": 2
     },
     {
       "customIncludeDefault": false,
@@ -2239,75 +2306,6 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 57.56637898067854,
-      "primaryNrn": 703,
-      "type": "HV",
-      "reference": "PR5467",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 20,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "f5ece034-ccb4-4794-a9a2-d6ebb4d3b097",
-      "minLongitude": -3.816808547467781,
-      "txNrn": 35,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.7899447034329152,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-10-20T22:06:00.000+0000",
-      "estimatedRestoration": "2024-10-21T14:00:00.000+0000",
-      "priorityCustomerCount": 1,
-      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Ashley is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on WhatsApp.",
-      "maxLongitude": -3.756534480646012,
-      "minLatitude": 57.54929225639255,
-      "name": "IV12 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "IV12 5HZ",
-        "IV12 5JZ",
-        "IV12 5PP"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.816808547467781,
-              57.57621818171043
-            ],
-            [
-              -3.756534480646012,
-              57.57621818171043
-            ],
-            [
-              -3.756534480646012,
-              57.54929225639255
-            ],
-            [
-              -3.816808547467781,
-              57.54929225639255
-            ],
-            [
-              -3.816808547467781,
-              57.57621818171043
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2024-10-21T07:30:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-21T08:34:47.618+0000",
-      "maxLatitude": 57.57621818171043,
-      "etrUpdate": true,
-      "hvFeederNrn": 13
-    },
-    {
-      "customIncludeDefault": false,
       "latitude": 56.47666580429478,
       "primaryNrn": 314,
       "type": "HV",
@@ -2521,76 +2519,6 @@
       "maxLatitude": 58.204221033521016,
       "etrUpdate": true,
       "hvFeederNrn": 13
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 56.42100639336578,
-      "primaryNrn": 307,
-      "type": "LV",
-      "reference": "PR5630",
-      "etaUpdate": true,
-      "lvFeederNrn": 3,
-      "affectedCustomerCount": 11,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "e73088ac-5009-4db2-8626-685923c9b2b9",
-      "minLongitude": -5.46952247338048,
-      "txNrn": 50,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -5.466100620615421,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2024-10-21T03:36:00.000+0000",
-      "estimatedRestoration": "2024-10-21T14:00:00.000+0000",
-      "priorityCustomerCount": 16,
-      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Ashley is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on WhatsApp.",
-      "maxLongitude": -5.461071186414533,
-      "minLatitude": 56.42001207394252,
-      "name": "PA34 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "criticalCustomerCount": 2,
-      "affectedAreas": [
-        "PA34 5JJ",
-        "PA34 5JN",
-        "PA34 5JR"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -5.46952247338048,
-              56.42324825579794
-            ],
-            [
-              -5.461071186414533,
-              56.42324825579794
-            ],
-            [
-              -5.461071186414533,
-              56.42001207394252
-            ],
-            [
-              -5.46952247338048,
-              56.42001207394252
-            ],
-            [
-              -5.46952247338048,
-              56.42324825579794
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2024-10-21T08:00:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-21T07:28:45.686+0000",
-      "maxLatitude": 56.42324825579794,
-      "etrUpdate": true,
-      "hvFeederNrn": 10
     },
     {
       "latitude": 56.57186358142382,
@@ -2872,22 +2800,22 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 57.42970097017587,
+      "latitude": 57.44118792330119,
       "primaryNrn": 757,
       "type": "HV",
       "reference": "PR5767",
       "etaUpdate": true,
       "engineerOnSiteTime": "2024-10-21T08:15:00.000+0000",
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 83,
+      "affectedCustomerCount": 64,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "f366912c-1a84-4f7c-9538-978622519b52",
       "minLongitude": -4.222461433701201,
-      "txNrn": 420,
+      "txNrn": 460,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.145104520603572,
+      "longitude": -4.143928065750355,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -2895,20 +2823,17 @@
       "estimatedRestoration": "2024-10-21T14:00:00.000+0000",
       "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Ashley is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on WhatsApp.",
       "maxLongitude": -4.015590917441188,
-      "minLatitude": 57.36603217549037,
+      "minLatitude": 57.39579755789746,
       "name": "IV1 & IV2 Areas",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
-        "IV1 2XH",
         "IV1 2XQ",
         "IV2 3PP",
         "IV2 5ER",
         "IV2 5XG",
         "IV2 5XL",
-        "IV2 5XQ",
-        "IV2 6WG",
-        "IV2 6XN"
+        "IV2 5XQ"
       ],
       "location": {
         "coordinates": [
@@ -2923,11 +2848,11 @@
             ],
             [
               -4.015590917441188,
-              57.36603217549037
+              57.39579755789746
             ],
             [
               -4.222461433701201,
-              57.36603217549037
+              57.39579755789746
             ],
             [
               -4.222461433701201,
@@ -2939,7 +2864,7 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-21T09:53:47.158+0000",
+      "updated": "2024-10-21T10:33:49.279+0000",
       "maxLatitude": 57.48029625660009,
       "etrUpdate": true,
       "hvFeederNrn": 11
@@ -3579,6 +3504,7 @@
       "hvFeederNrn": 1
     },
     {
+      "customIncludeDefault": false,
       "latitude": 57.51306889589874,
       "primaryNrn": 459,
       "type": "HV",
@@ -3587,6 +3513,7 @@
       "lvFeederNrn": 0,
       "affectedCustomerCount": 11,
       "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
       "UUID": "16c59355-d448-4b17-9e4a-9b6b6de2549e",
       "minLongitude": -3.165457414130891,
       "txNrn": 70,
@@ -3596,11 +3523,12 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2024-10-21T10:31:00.000+0000",
-      "message": "We're aware of a power cut in the area shown, affecting 11 homes. This unplanned fault is affecting a large area, and it's likely several streets in your area are affected by the same power cut.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our  network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'PR6232'",
+      "estimatedRestoration": "2024-10-21T13:00:00.000+0000",
+      "message": "We're aware of a fault causing customers in the area to be without power. We expect the cause of this to be from the strong winds and heavy rain Storm Ashley is bringing across our network. We've been tracking this weather for several days and have additional teams on hand to respond. It's possible that either the wind or rain has caused damage to our network and our teams will need to repair this as and when it's safe to do so.<br/><br/>Our local engineers have been informed this area is without power and are working hard to get the lights back on. We will continue to issue updates to the restoration time here and suggest you register for updates on this page so we can notify you if anything changes.<br/><br/>Thank you for your patience and if you need any help or additional information in the meantime, please call us by dialling 105 or send us a message on WhatsApp.",
       "maxLongitude": -3.094382737792713,
       "minLatitude": 57.53893614666681,
       "name": "AB38 & IV32 Areas",
-      "jobSubTypeCode": "01",
+      "jobSubTypeCode": "24",
       "otherUpdate": true,
       "affectedAreas": [
         "AB38",
@@ -3634,9 +3562,9 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2024-10-21T10:32:49.067+0000",
+      "updated": "2024-10-21T10:36:49.142+0000",
       "maxLatitude": 57.61621541156165,
       "etrUpdate": true,
       "hvFeederNrn": 16
