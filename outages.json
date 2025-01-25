@@ -371,7 +371,7 @@
       "srtUpdate": true,
       "loggedAt": "2025-01-25T05:47:00.000+0000",
       "estimatedRestoration": "2025-01-25T11:00:00.000+0000",
-      "priorityCustomerCount": 12,
+      "priorityCustomerCount": 11,
       "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 09:30 25/01/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 11:00 25/01/2025.<br/><br/>",
       "maxLongitude": -0.900267836215977,
       "minLatitude": 51.658072399108484,
@@ -414,7 +414,7 @@
       "estimatedArrivalOnSiteTime": "2025-01-25T09:30:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T07:46:50.319+0000",
+      "updated": "2025-01-25T08:38:48.559+0000",
       "maxLatitude": 51.663226625738886,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -627,6 +627,7 @@
       "lvFeederNrn": 0,
       "affectedCustomerCount": 945,
       "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
       "UUID": "56f5fe18-355b-49cf-9273-baec93a02fe9",
       "minLongitude": -0.691614718848299,
       "txNrn": 160,
@@ -636,9 +637,10 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2025-01-25T08:23:00.000+0000",
+      "loggedAt": "2025-01-25T08:27:00.000+0000",
+      "estimatedRestoration": "2025-01-25T12:30:00.000+0000",
       "priorityCustomerCount": 45,
-      "message": "We're aware of a power cut in the area shown, affecting 945 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>We are in the process of arranging for engineers to get to your local area to investigate the issue and attempt to restore power. Once we have an engineer on the way, we will update this message. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QG3105'",
+      "message": "We're aware of a power cut in the area shown, affecting 945 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>Our engineers are in your local area and working hard to get your power restored as soon as possible. At this stage, based on initial investigations, we're aiming to restore your power by 12:30 25/01/2025. If this changes, we will update this message.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QG3105'",
       "maxLongitude": -0.620370635364934,
       "minLatitude": 51.39574028252803,
       "name": "SL5 Area",
@@ -770,7 +772,7 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "R",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
       "evChargersAffected": [
         "fd0d0635-b8e4-456f-9855-a32c4a9dbeb6",
@@ -782,10 +784,78 @@
         "00a290bc-bffc-485b-a422-76fe635849b8",
         "735b76b5-5f98-440c-94ed-2dee855ecf3a"
       ],
-      "updated": "2025-01-25T08:25:49.632+0000",
+      "updated": "2025-01-25T08:45:51.301+0000",
       "maxLatitude": 51.44084499995302,
       "etrUpdate": true,
       "hvFeederNrn": 6
+    },
+    {
+      "latitude": 51.420333644240046,
+      "primaryNrn": 2803,
+      "type": "LV",
+      "reference": "QG3109",
+      "etaUpdate": true,
+      "lvFeederNrn": 4,
+      "affectedCustomerCount": 18,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "1d63167c-7296-485b-99ab-4fce9c6c78fa",
+      "minLongitude": -0.429908441725468,
+      "txNrn": 60,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.4260755965650141,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-01-25T08:25:00.000+0000",
+      "priorityCustomerCount": 12,
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Due to a busier than usual day, all of our engineers are currently working on other faults. We have made the local teams aware of your power cut and they are working hard to find resources to attend and get your power back on. At this stage, we're aiming to have your power restored by .<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QG3109'",
+      "maxLongitude": -0.420767530163384,
+      "minLatitude": 51.41968667083119,
+      "name": "TW16 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 2,
+      "affectedAreas": [
+        "TW16 7AA",
+        "TW16 7BQ",
+        "TW16 7BX",
+        "TW16 7NF"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.429908441725468,
+              51.42117211926127
+            ],
+            [
+              -0.420767530163384,
+              51.42117211926127
+            ],
+            [
+              -0.420767530163384,
+              51.41968667083119
+            ],
+            [
+              -0.429908441725468,
+              51.41968667083119
+            ],
+            [
+              -0.429908441725468,
+              51.42117211926127
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2025-01-25T08:34:48.097+0000",
+      "maxLatitude": 51.42117211926127,
+      "etrUpdate": true,
+      "hvFeederNrn": 20
     },
     {
       "customIncludeDefault": false,
@@ -1330,7 +1400,7 @@
       "maxLongitude": -5.521172031559689,
       "minLatitude": 55.32033005406444,
       "name": "PA28 Area",
-      "jobSubTypeCode": "01",
+      "jobSubTypeCode": "08",
       "otherUpdate": true,
       "affectedAreas": [
         "PA28 6EN",
@@ -1382,7 +1452,7 @@
       "estimatedArrivalOnSiteTime": "2025-01-25T19:00:00.000+0000",
       "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T07:50:49.818+0000",
+      "updated": "2025-01-25T08:29:51.257+0000",
       "maxLatitude": 55.536280874404305,
       "etrUpdate": true,
       "hvFeederNrn": 2
@@ -7790,21 +7860,21 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 56.445895438392796,
+      "latitude": 56.455651268337036,
       "primaryNrn": 255,
       "type": "HV",
       "reference": "QG1526",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 523,
+      "affectedCustomerCount": 55,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "4d4e7e34-de53-49d2-aab0-00e331b34ecd",
       "minLongitude": -3.229722573848444,
-      "txNrn": 345,
+      "txNrn": 255,
       "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.1699544258139882,
+      "longitude": -3.191190329331246,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
@@ -7812,66 +7882,40 @@
       "estimatedRestoration": "2025-01-26T22:00:00.000+0000",
       "priorityCustomerCount": 12,
       "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn is bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. With extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
-      "maxLongitude": -3.150242398806365,
-      "minLatitude": 56.43342769747805,
+      "maxLongitude": -3.15332491163962,
+      "minLatitude": 56.445004315555096,
       "name": "PH14 Area",
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
-        "PH14 9AB",
-        "PH14 9QA",
-        "PH14 9QB",
-        "PH14 9QD",
-        "PH14 9QE",
-        "PH14 9QJ",
         "PH14 9QS",
-        "PH14 9QU",
         "PH14 9QZ",
-        "PH14 9RH",
-        "PH14 9RJ",
-        "PH14 9RN",
-        "PH14 9RP",
-        "PH14 9RQ",
-        "PH14 9RR",
-        "PH14 9RS",
-        "PH14 9RT",
-        "PH14 9RU",
-        "PH14 9RW",
-        "PH14 9RX",
-        "PH14 9RY",
-        "PH14 9RZ",
-        "PH14 9SA",
-        "PH14 9SB",
-        "PH14 9SD",
-        "PH14 9SE",
         "PH14 9SF",
         "PH14 9SG",
-        "PH14 9SH",
-        "PH14 9TG",
-        "PH14 9TQ"
+        "PH14 9SH"
       ],
       "location": {
         "coordinates": [
           [
             [
               -3.229722573848444,
-              56.49923134350033
+              56.467026385885184
             ],
             [
-              -3.150242398806365,
-              56.49923134350033
+              -3.15332491163962,
+              56.467026385885184
             ],
             [
-              -3.150242398806365,
-              56.43342769747805
-            ],
-            [
-              -3.229722573848444,
-              56.43342769747805
+              -3.15332491163962,
+              56.445004315555096
             ],
             [
               -3.229722573848444,
-              56.49923134350033
+              56.445004315555096
+            ],
+            [
+              -3.229722573848444,
+              56.467026385885184
             ]
           ]
         ],
@@ -7879,8 +7923,8 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T00:36:56.463+0000",
-      "maxLatitude": 56.49923134350033,
+      "updated": "2025-01-25T08:44:51.208+0000",
+      "maxLatitude": 56.467026385885184,
       "etrUpdate": true,
       "hvFeederNrn": 4
     },
@@ -10412,7 +10456,7 @@
       "maxLongitude": -2.678467205547331,
       "minLatitude": 57.23526803170857,
       "name": "AB33 Area",
-      "jobSubTypeCode": "01",
+      "jobSubTypeCode": "23",
       "otherUpdate": true,
       "affectedAreas": [
         "AB33 8AN",
@@ -10448,7 +10492,7 @@
       "estimatedArrivalOnSiteTime": "2025-01-24T20:00:00.000+0000",
       "jobStatusCode": "DA",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-24T21:18:07.435+0000",
+      "updated": "2025-01-25T08:28:51.264+0000",
       "maxLatitude": 57.24685023011419,
       "etrUpdate": true,
       "hvFeederNrn": 6
@@ -10877,95 +10921,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "updated": "2025-01-25T07:41:49.314+0000",
       "maxLatitude": 57.343180040013515,
-      "etrUpdate": true,
-      "hvFeederNrn": 2
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 56.23518827183849,
-      "primaryNrn": 209,
-      "type": "HV",
-      "reference": "QG2523",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 153,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "e3fa3e6f-42e6-4ffa-bf05-deb536579b6e",
-      "minLongitude": -3.959461427536095,
-      "txNrn": 215,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -3.894817967659558,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2025-01-24T13:26:00.000+0000",
-      "estimatedRestoration": "2025-01-26T22:00:00.000+0000",
-      "priorityCustomerCount": 3,
-      "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn has been bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. This is the worst weather of the winter so far and with extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message  on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
-      "maxLongitude": -3.838162960602812,
-      "minLatitude": 56.187603194061985,
-      "name": "FK15 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "FK15 0EZ",
-        "FK15 0JE",
-        "FK15 0JF",
-        "FK15 0JH",
-        "FK15 0JQ",
-        "FK15 0LD",
-        "FK15 0LE",
-        "FK15 0LH",
-        "FK15 0LR",
-        "FK15 0LS",
-        "FK15 0LW",
-        "FK15 0LX",
-        "FK15 0LY",
-        "FK15 0LZ",
-        "FK15 0NA",
-        "FK15 0NB",
-        "FK15 0ND"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -3.959461427536095,
-              56.25749811064306
-            ],
-            [
-              -3.838162960602812,
-              56.25749811064306
-            ],
-            [
-              -3.838162960602812,
-              56.187603194061985
-            ],
-            [
-              -3.959461427536095,
-              56.187603194061985
-            ],
-            [
-              -3.959461427536095,
-              56.25749811064306
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2025-01-25T08:00:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "19825704-dd86-451d-8cb1-edc3208c30ef",
-        "b32cee95-8f26-49b1-8cf9-f1ec39879d97",
-        "29fc5768-9654-42d7-a266-d288722d4049",
-        "a2e81be3-8049-408b-828f-31a025e49400"
-      ],
-      "updated": "2025-01-25T06:49:11.801+0000",
-      "maxLatitude": 56.25749811064306,
       "etrUpdate": true,
       "hvFeederNrn": 2
     },
@@ -11835,27 +11790,27 @@
     },
     {
       "customIncludeDefault": false,
-      "latitude": 55.73926611576398,
+      "latitude": 55.73576702976397,
       "primaryNrn": 365,
       "type": "HV",
       "reference": "QG2624",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 277,
+      "affectedCustomerCount": 42,
       "networkId": "com.sse.ssepd.shepd",
       "suppressed": false,
       "UUID": "c04ecda3-00b5-43a4-ac2a-a88626aa49ff",
       "minLongitude": -4.968352328302637,
-      "txNrn": 40,
+      "txNrn": 30,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -4.943688563305001,
+      "longitude": -4.94731294848505,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2025-01-24T22:35:00.000+0000",
+      "loggedAt": "2025-01-24T22:18:00.000+0000",
       "estimatedRestoration": "2025-01-27T17:00:00.000+0000",
-      "priorityCustomerCount": 71,
+      "priorityCustomerCount": 11,
       "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn has been bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. This is the worst weather of the winter so far and with extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message  on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
       "maxLongitude": -4.918031769346224,
       "minLatitude": 55.709516704266306,
@@ -11863,17 +11818,6 @@
       "jobSubTypeCode": "01",
       "otherUpdate": true,
       "affectedAreas": [
-        "KA28 0AP",
-        "KA28 0AS",
-        "KA28 0BD",
-        "KA28 0BE",
-        "KA28 0EP",
-        "KA28 0ER",
-        "KA28 0ES",
-        "KA28 0ET",
-        "KA28 0EU",
-        "KA28 0EX",
-        "KA28 0EY",
         "KA28 0EZ",
         "KA28 0HA",
         "KA28 0HF"
@@ -11907,10 +11851,7 @@
       },
       "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "evChargersAffected": [
-        "e4c04fff-deb0-4656-83ea-9a57057ae007"
-      ],
-      "updated": "2025-01-25T03:34:12.335+0000",
+      "updated": "2025-01-25T08:41:47.413+0000",
       "maxLatitude": 55.78266098713023,
       "etrUpdate": true,
       "hvFeederNrn": 3
@@ -12594,10 +12535,10 @@
         ],
         "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2025-01-24T22:30:00.000+0000",
+      "estimatedArrivalOnSiteTime": "2025-01-25T09:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-24T22:33:09.947+0000",
+      "updated": "2025-01-25T08:41:47.413+0000",
       "maxLatitude": 57.71635880415842,
       "etrUpdate": true,
       "hvFeederNrn": 21
@@ -14315,9 +14256,9 @@
         ],
         "type": "Polygon"
       },
-      "jobStatusCode": "OR",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T06:14:12.996+0000",
+      "updated": "2025-01-25T08:43:51.240+0000",
       "maxLatitude": 56.78798202988748,
       "etrUpdate": true,
       "hvFeederNrn": 12
@@ -14342,7 +14283,7 @@
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
-      "loggedAt": "2025-01-25T07:19:00.000+0000",
+      "loggedAt": "2025-01-24T16:21:00.000+0000",
       "priorityCustomerCount": 1,
       "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn has been bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. This is the worst weather of the winter so far and with extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message  on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
       "maxLongitude": -2.569977593200349,
@@ -14390,7 +14331,7 @@
       },
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T07:41:49.314+0000",
+      "updated": "2025-01-25T08:40:49.882+0000",
       "maxLatitude": 56.64768741478194,
       "etrUpdate": true,
       "hvFeederNrn": 4
@@ -14453,9 +14394,10 @@
         ],
         "type": "Polygon"
       },
+      "estimatedArrivalOnSiteTime": "2025-01-25T09:00:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-25T07:38:06.950+0000",
+      "updated": "2025-01-25T08:32:50.890+0000",
       "maxLatitude": 57.11020257779662,
       "etrUpdate": true,
       "hvFeederNrn": 10
@@ -14662,6 +14604,209 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "updated": "2025-01-25T08:18:46.991+0000",
       "maxLatitude": 56.84504318350863,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 55.748252520383915,
+      "primaryNrn": 365,
+      "type": "HV",
+      "reference": "QG3137",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 1310,
+      "networkId": "com.sse.ssepd.shepd",
+      "suppressed": false,
+      "UUID": "04c92d70-0cdf-40c6-b96c-1f6033d58501",
+      "minLongitude": -5.055841711341052,
+      "txNrn": 50,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.933342448862564,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-01-25T08:40:00.000+0000",
+      "priorityCustomerCount": 44,
+      "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn has been bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. This is the worst weather of the winter so far and with extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message  on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
+      "maxLongitude": -4.8998347894464,
+      "minLatitude": 55.709516704266306,
+      "name": "KA28 & PA20 Areas",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "KA28",
+        "KA28 0AB",
+        "KA28 0AD",
+        "KA28 0AE",
+        "KA28 0AG",
+        "KA28 0AH",
+        "KA28 0AJ",
+        "KA28 0AL",
+        "KA28 0AN",
+        "KA28 0AP",
+        "KA28 0AS",
+        "KA28 0AT",
+        "KA28 0AU",
+        "KA28 0AW",
+        "KA28 0AX",
+        "KA28 0AY",
+        "KA28 0AZ",
+        "KA28 0BA",
+        "KA28 0BB",
+        "KA28 0BD",
+        "KA28 0BE",
+        "KA28 0BH",
+        "KA28 0BJ",
+        "KA28 0BL",
+        "KA28 0BN",
+        "KA28 0BQ",
+        "KA28 0BT",
+        "KA28 0BU",
+        "KA28 0BY",
+        "KA28 0DE",
+        "KA28 0DG",
+        "KA28 0DH",
+        "KA28 0DJ",
+        "KA28 0DL",
+        "KA28 0DN",
+        "KA28 0DP",
+        "KA28 0DQ",
+        "KA28 0DR",
+        "KA28 0DS",
+        "KA28 0DT",
+        "KA28 0DU",
+        "KA28 0DW",
+        "KA28 0DX",
+        "KA28 0DY",
+        "KA28 0DZ",
+        "KA28 0EA",
+        "KA28 0EB",
+        "KA28 0ED",
+        "KA28 0EE",
+        "KA28 0EF",
+        "KA28 0EP",
+        "KA28 0ER",
+        "KA28 0ES",
+        "KA28 0ET",
+        "KA28 0EU",
+        "KA28 0EX",
+        "KA28 0EY",
+        "KA28 0EZ",
+        "KA28 0HA",
+        "KA28 0HB",
+        "KA28 0HE",
+        "KA28 0HF",
+        "KA28 0HJ",
+        "PA20 0BX"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -5.055841711341052,
+              55.83626417172704
+            ],
+            [
+              -4.8998347894464,
+              55.83626417172704
+            ],
+            [
+              -4.8998347894464,
+              55.709516704266306
+            ],
+            [
+              -5.055841711341052,
+              55.709516704266306
+            ],
+            [
+              -5.055841711341052,
+              55.83626417172704
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "OR",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "e4c04fff-deb0-4656-83ea-9a57057ae007"
+      ],
+      "updated": "2025-01-25T08:45:51.314+0000",
+      "maxLatitude": 55.83626417172704,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
+    },
+    {
+      "customIncludeDefault": false,
+      "latitude": 56.774665766019766,
+      "primaryNrn": 76,
+      "type": "HV",
+      "reference": "QG3139",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 38,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "ed6a5d4b-11fa-4501-9cfb-2e432fcb3051",
+      "minLongitude": -2.646660227803978,
+      "txNrn": 40,
+      "networkType": "overhead",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -2.621442438574009,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-01-25T08:43:00.000+0000",
+      "message": "We're aware of a power cut in this area. As you'll know, Storm &Eacute;owyn has been bringing harsh weather conditions across much of the country and this weather is causing damage to our power lines. This is the worst weather of the winter so far and with extreme wind speeds like this, trees and debris can hit our lines and then this causes your power to go off. Due to the weather, it's unsafe for us to assess damage or complete much repair work until it eases off, so this is why our restoration estimate seems a long time away. We will be remotely moving the network around to attempt to get your power back on sooner, with the aim of getting as many properties as possible back on power sooner. The moment it's safe to do so, our engineers will be on the ground fixing the problem. Our teams are working as hard as they can to safely get the lights back on, so thank you for bearing with us.<br><br>We'll be keeping this page updated with the latest information, and the estimated restoration time you can see is the latest information we have. You can also register for live updates on this page, so we'll text you the moment anything changes. We know this is a long time without power and promise we're doing everything in our control to get your power back on.<br><br>If you need any additional support, send us a message  on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> or call us on 105 and a member of the team will be happy to help.",
+      "maxLongitude": -2.592810214436376,
+      "minLatitude": 56.75906997100796,
+      "name": "DD9 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "DD9 7PX",
+        "DD9 7PY",
+        "DD9 7QA",
+        "DD9 7QB",
+        "DD9 7QE",
+        "DD9 7QF",
+        "DD9 7QG"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -2.646660227803978,
+              56.78793859703998
+            ],
+            [
+              -2.592810214436376,
+              56.78793859703998
+            ],
+            [
+              -2.592810214436376,
+              56.75906997100796
+            ],
+            [
+              -2.646660227803978,
+              56.75906997100796
+            ],
+            [
+              -2.646660227803978,
+              56.78793859703998
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "63968c46-988f-4870-bbfd-0c7aa5433c98"
+      ],
+      "updated": "2025-01-25T08:45:51.314+0000",
+      "maxLatitude": 56.78793859703998,
       "etrUpdate": true,
       "hvFeederNrn": 3
     }
