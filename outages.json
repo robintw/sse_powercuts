@@ -707,7 +707,7 @@
       "loggedAt": "2025-01-28T04:09:00.000+0000",
       "estimatedRestoration": "2025-01-28T09:30:00.000+0000",
       "priorityCustomerCount": 19,
-      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 05:15 28/01/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 09:30 28/01/2025.<br/><br/>",
+      "message": "We're aware of a fault on our local network affecting several homes. This means that you and some of your neighbours will be affected by the power cut, but not all - this is why you may notice some of your neighbours have power when you do not. Its not uncommon to see 1 in 3 homes affected.<br/><br/>Due to a busier than usual day, all of our engineers are currently working on other faults. We have made the local teams aware of your power cut and they are working hard to find resources to attend and get your power back on. At this stage, we're aiming to have your power restored by 09:30 28/01/2025.<br/><br/>",
       "maxLongitude": -1.380548468636721,
       "minLatitude": 50.93916079250743,
       "name": "SO16 Area",
@@ -748,12 +748,90 @@
         "type": "Polygon"
       },
       "estimatedArrivalOnSiteTime": "2025-01-28T05:15:00.000+0000",
-      "jobStatusCode": "I",
+      "jobStatusCode": "OR",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-28T04:29:43.284+0000",
+      "updated": "2025-01-28T04:42:43.691+0000",
       "maxLatitude": 50.95266096834929,
       "etrUpdate": true,
       "hvFeederNrn": 1
+    },
+    {
+      "latitude": 50.799573355050484,
+      "primaryNrn": 6113,
+      "type": "HV",
+      "reference": "QG7374",
+      "etaUpdate": true,
+      "lvFeederNrn": 0,
+      "affectedCustomerCount": 36,
+      "networkId": "com.sse.ssepd.sepd",
+      "suppressed": false,
+      "UUID": "11aea0d0-fac7-4655-a3a9-6fecc8489215",
+      "minLongitude": -1.511836476115666,
+      "txNrn": 480,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.4557490055314217,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2025-01-28T04:30:00.000+0000",
+      "estimatedRestoration": "2025-01-28T10:30:00.000+0000",
+      "message": "We're aware of a power cut in the area shown, affecting 36 homes. This unplanned fault is affecting the local area, and it's likely several streets in the area are affected by the same power cut.<br/><br/>We have engineers on the way and they are due to arrive in your local area at 04:50 28/01/2025. Once they arrive, they will get straight to work on investigating the fault and attempt to restore your power. We will continue to update this message with any new information. At this stage, we're aiming to have your power restored by 10:30 28/01/2025.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'QG7374'",
+      "maxLongitude": -1.433941811509269,
+      "minLatitude": 50.808850734763695,
+      "name": "SO42 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "SO42",
+        "SO42 7GZ",
+        "SO42 7YE",
+        "SO42 7YL",
+        "SO42 7YN",
+        "SO42 7YP",
+        "SO42 7YQ"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.511836476115666,
+              50.87004363105139
+            ],
+            [
+              -1.433941811509269,
+              50.87004363105139
+            ],
+            [
+              -1.433941811509269,
+              50.808850734763695
+            ],
+            [
+              -1.511836476115666,
+              50.808850734763695
+            ],
+            [
+              -1.511836476115666,
+              50.87004363105139
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2025-01-28T04:50:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "evChargersAffected": [
+        "5c024093-d62c-4adf-8b34-9821ca47e970",
+        "a135507a-8078-4c11-a8f3-72d5ff39f180",
+        "83920eaf-2e53-45e1-b616-f02f9277d01b",
+        "a7ec401b-54dd-41e0-9dad-8cf50dc80ccf",
+        "6fc077bd-8eb9-4646-9a44-1555887aa53a"
+      ],
+      "updated": "2025-01-28T04:41:43.064+0000",
+      "maxLatitude": 50.87004363105139,
+      "etrUpdate": true,
+      "hvFeederNrn": 5
     },
     {
       "customIncludeDefault": false,
@@ -2687,82 +2765,6 @@
       "maxLatitude": 55.322516439654024,
       "etrUpdate": true,
       "hvFeederNrn": 8
-    },
-    {
-      "customIncludeDefault": false,
-      "latitude": 57.65890730830333,
-      "primaryNrn": 821,
-      "type": "HV",
-      "reference": "QG7300",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 61,
-      "networkId": "com.sse.ssepd.shepd",
-      "suppressed": false,
-      "UUID": "a2adcda3-2c1d-45e4-9ce8-3ed7a7c9d569",
-      "minLongitude": -1.999397673422304,
-      "txNrn": 115,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.9577323280988292,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2025-01-28T00:00:00.000+0000",
-      "estimatedRestoration": "2025-01-28T04:30:00.000+0000",
-      "priorityCustomerCount": 1,
-      "message": "We're aware of an issue affecting the power for homes and businesses in this area.<br><br>Due to Storm &Eacute;owyn causing significant damage over the weekend, all our teams are very busy trying to get power back on for customers who have been off supply since Friday, Saturday or yesterday and this may mean it takes us a little longer to get a team of engineers to your area. The restoration time above is our current estimate based on the information we know, but if anything changes, we'll update this here and if you register for updates, we'll text you too.<br><br>The best place to keep track of live updates is right here on PowerTrack, and this will be the fastest way to get the latest information about your power cut - it's updated in real time, so if you register for updates here, you'll get notified the moment anything changes.<br><br>If you have any immediate medical concerns, rely on medical equipment that needs a power supply, or will struggle to manage during the power cut, please call us on 105 or send us a message on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://m.me/ssencommunity/\">Facebook</a> so one of the team can help.<br><br>Thank you so much for your patience and support while we work to get your power back on.",
-      "maxLongitude": -1.884758101225216,
-      "minLatitude": 57.59812353515849,
-      "name": "AB43 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB43 8QQ",
-        "AB43 8TN",
-        "AB43 8TP",
-        "AB43 8TQ",
-        "AB43 8TR",
-        "AB43 8TS",
-        "AB43 8UR",
-        "AB43 8UX",
-        "AB43 8UZ",
-        "AB43 8XA"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.999397673422304,
-              57.6780429242479
-            ],
-            [
-              -1.884758101225216,
-              57.6780429242479
-            ],
-            [
-              -1.884758101225216,
-              57.59812353515849
-            ],
-            [
-              -1.999397673422304,
-              57.59812353515849
-            ],
-            [
-              -1.999397673422304,
-              57.6780429242479
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2025-01-28T00:30:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2025-01-28T02:57:40.983+0000",
-      "maxLatitude": 57.6780429242479,
-      "etrUpdate": true,
-      "hvFeederNrn": 3
     },
     {
       "customIncludeDefault": false,
