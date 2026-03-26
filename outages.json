@@ -1,6 +1,71 @@
 {
   "Faults": [
     {
+      "districtCode": "43",
+      "latitude": 51.63585289228956,
+      "primaryNrn": 4904,
+      "type": "LV",
+      "reference": "SX1951",
+      "etaUpdate": true,
+      "lvFeederNrn": 1,
+      "affectedCustomerCount": 3,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "ae9d93d6-2d41-4f5e-81fc-71e0fdf5df8c",
+      "minLongitude": -1.29656098974038,
+      "txNrn": 90,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -1.2933976473036333,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-03-25T03:39:00.000+0000",
+      "estimatedRestoration": "2026-03-26T15:00:00.000+0000",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers have arrived in the area. They are working hard to fix the problem and will get your power back on as quickly as possible. At this stage, we're aiming to have your power back on by . If this changes, we'll let you know.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX1951'",
+      "maxLongitude": -1.287233959032377,
+      "minLatitude": 51.62996778377781,
+      "name": "OX14 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "affectedAreas": [
+        "OX14 4EF",
+        "OX14 4FD"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -1.29656098974038,
+              51.63978234479362
+            ],
+            [
+              -1.287233959032377,
+              51.63978234479362
+            ],
+            [
+              -1.287233959032377,
+              51.62996778377781
+            ],
+            [
+              -1.29656098974038,
+              51.62996778377781
+            ],
+            [
+              -1.29656098974038,
+              51.63978234479362
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-03-26T12:37:49.534+0000",
+      "maxLatitude": 51.63978234479362,
+      "etrUpdate": true,
+      "hvFeederNrn": 7
+    },
+    {
       "districtCode": "39",
       "latitude": 51.40374691239274,
       "primaryNrn": 3717,
@@ -22,7 +87,7 @@
       "loggedAt": "2026-03-26T03:42:00.000+0000",
       "estimatedRestoration": "2026-03-26T15:00:00.000+0000",
       "priorityCustomerCount": 1,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting 3 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>It's busier than usual just now, but we'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by15:00 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2079'",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting 3 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers are on the way and will arrive in the area at 13:00 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 15:00 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2079'",
       "maxLongitude": -1.353118158530527,
       "minLatitude": 51.394406961869436,
       "name": "RG20 Area",
@@ -59,10 +124,10 @@
         ],
         "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2026-03-26T04:25:00.000+0000",
-      "jobStatusCode": "OR",
+      "estimatedArrivalOnSiteTime": "2026-03-26T13:00:00.000+0000",
+      "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T11:58:51.019+0000",
+      "updated": "2026-03-26T12:33:50.590+0000",
       "maxLatitude": 51.41077668713054,
       "etrUpdate": true,
       "hvFeederNrn": 2
@@ -854,76 +919,6 @@
       "hvFeederNrn": 8
     },
     {
-      "districtCode": "38",
-      "latitude": 51.42957233475407,
-      "primaryNrn": 3105,
-      "type": "PSI",
-      "reference": "248899",
-      "etaUpdate": true,
-      "lvFeederNrn": 1,
-      "affectedCustomerCount": 57,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "5eb1d606-1b38-4e8b-bb83-43ff7864678e",
-      "minLongitude": -2.185478875702902,
-      "txNrn": 250,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.163312686821287,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-03-26T09:00:00.000+0000",
-      "estimatedRestoration": "2026-03-26T16:00:00.000+0000",
-      "message": "Planned power cut: There is a Planned Power Cut in the area today so we can carry out essential work. Our engineers will complete this work as quickly as possible, and well keep you updated here on Power Track. All affected customers received a letter and a text reminder about this. If you have a power cut but didn't get a letter, please call us on<a href=\"tel:105\">105</a> or send us a message on <ahref=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter<ahref=\"https://twitter.com/ssencommunity\">@ssencommunity</a>)with reference '248899'.<br/><br/>",
-      "maxLongitude": -2.141534014529761,
-      "minLatitude": 51.41755304747742,
-      "name": "SN13 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "SN13 9AX",
-        "SN13 9HS",
-        "SN13 9QD",
-        "SN13 9QE",
-        "SN13 9QF",
-        "SN13 9QG",
-        "SN13 9QJ",
-        "SN13 9QL",
-        "SN13 9QQ"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.185478875702902,
-              51.439749230357364
-            ],
-            [
-              -2.141534014529761,
-              51.439749230357364
-            ],
-            [
-              -2.141534014529761,
-              51.41755304747742
-            ],
-            [
-              -2.185478875702902,
-              51.41755304747742
-            ],
-            [
-              -2.185478875702902,
-              51.439749230357364
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T09:00:50.140+0000",
-      "maxLatitude": 51.439749230357364,
-      "etrUpdate": true,
-      "hvFeederNrn": 1
-    },
-    {
       "districtCode": "55",
       "latitude": 51.65613496572668,
       "primaryNrn": 3408,
@@ -1192,76 +1187,6 @@
       "hvFeederNrn": 6
     },
     {
-      "districtCode": "39",
-      "latitude": 51.385312247451736,
-      "primaryNrn": 3712,
-      "type": "HV",
-      "reference": "SX2459",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 25,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "617f735b-b4c4-40d8-9891-9ccb6f907165",
-      "minLongitude": -1.38894736975951,
-      "txNrn": 255,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3721527570879495,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-03-26T09:28:00.000+0000",
-      "estimatedRestoration": "2026-03-26T14:00:00.000+0000",
-      "priorityCustomerCount": 9,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting 25 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers are on the way and will arrive in the area at 10:30 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 14:00 26/03/2026.<br/><br/>We have had reports of damage to our network. When this happens, the power will automatically turn off to keep everyone safe. Our engineers know exactly where the problem is and are working hard to make the situation safe, repair the wire and get your power back on. These type of faults often require extensive work and specialist teams, such as tree cutters, which is why the restoration time seems so far away. If we can restore power sooner, we promise we will do so.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2459'",
-      "maxLongitude": -1.354079038684799,
-      "minLatitude": 51.370100358007576,
-      "name": "RG20 Area",
-      "jobSubTypeCode": "24",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "RG20 0HA",
-        "RG20 0HB",
-        "RG20 0HD",
-        "RG20 0JS",
-        "RG20 0JY"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -1.38894736975951,
-              51.39983983600933
-            ],
-            [
-              -1.354079038684799,
-              51.39983983600933
-            ],
-            [
-              -1.354079038684799,
-              51.370100358007576
-            ],
-            [
-              -1.38894736975951,
-              51.370100358007576
-            ],
-            [
-              -1.38894736975951,
-              51.39983983600933
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2026-03-26T10:30:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T11:23:49.894+0000",
-      "maxLatitude": 51.39983983600933,
-      "etrUpdate": true,
-      "hvFeederNrn": 3
-    },
-    {
       "districtCode": "42",
       "latitude": 51.94105384278873,
       "primaryNrn": 4606,
@@ -1338,69 +1263,6 @@
       "region": "com.opengrid.geo.world.europe.gb",
       "updated": "2026-03-26T09:30:49.388+0000",
       "maxLatitude": 51.99733681344764,
-      "etrUpdate": true,
-      "hvFeederNrn": 2
-    },
-    {
-      "districtCode": "45",
-      "latitude": 51.112715360445,
-      "primaryNrn": 7609,
-      "type": "PSI",
-      "reference": "249653",
-      "etaUpdate": true,
-      "lvFeederNrn": 1,
-      "affectedCustomerCount": 6,
-      "networkId": "com.sse.ssepd.sepd",
-      "UUID": "854b58b4-55a6-4ed9-b00b-d6e149c03de7",
-      "minLongitude": -2.4758228130525,
-      "txNrn": 210,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.4687208495108166,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-03-26T09:30:00.000+0000",
-      "estimatedRestoration": "2026-03-26T14:30:00.000+0000",
-      "priorityCustomerCount": 5,
-      "message": "Planned power cut: There is a Planned Power Cut in the area today so we can carry out essential work. Our engineers will complete this work as quickly as possible, and well keep you updated here on Power Track. All affected customers received a letter and a text reminder about this. If you have a power cut but didn't get a letter, please call us on<a href=\"tel:105\">105</a> or send us a message on <ahref=\"http://m.me/ssencommunity/\">Facebook</a> or Twitter<ahref=\"https://twitter.com/ssencommunity\">@ssencommunity</a>)with reference '249653'.<br/><br/>",
-      "maxLongitude": -2.46360257300901,
-      "minLatitude": 51.108156162806345,
-      "name": "BA10 Area",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "BA10 0BW"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.4758228130525,
-              51.117792399762145
-            ],
-            [
-              -2.46360257300901,
-              51.117792399762145
-            ],
-            [
-              -2.46360257300901,
-              51.108156162806345
-            ],
-            [
-              -2.4758228130525,
-              51.108156162806345
-            ],
-            [
-              -2.4758228130525,
-              51.117792399762145
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T09:30:49.388+0000",
-      "maxLatitude": 51.117792399762145,
       "etrUpdate": true,
       "hvFeederNrn": 2
     },
@@ -1631,7 +1493,8 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-03-26T10:50:00.000+0000",
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2641'",
+      "estimatedRestoration": "2026-03-26T15:30:00.000+0000",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by15:30 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2641'",
       "maxLongitude": -0.351532532897859,
       "minLatitude": 51.509038378587924,
       "name": "UB1 Area",
@@ -1669,7 +1532,7 @@
       },
       "jobStatusCode": "R",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T11:33:50.811+0000",
+      "updated": "2026-03-26T12:43:50.759+0000",
       "maxLatitude": 51.50993071839461,
       "etrUpdate": true,
       "hvFeederNrn": 9
@@ -1808,7 +1671,7 @@
     },
     {
       "districtCode": "43",
-      "latitude": 51.64383373774649,
+      "latitude": 51.64382288246056,
       "primaryNrn": 4920,
       "type": "LV",
       "reference": "SX2753",
@@ -1821,14 +1684,14 @@
       "txNrn": 155,
       "networkType": "underground",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -1.3128220274132496,
+      "longitude": -1.3128829357678733,
       "resolved": false,
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-03-26T11:36:00.000+0000",
       "estimatedRestoration": "2026-03-26T16:30:00.000+0000",
-      "priorityCustomerCount": 11,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers are on the way and will arrive in the area at 12:45 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 16:30 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2753'",
+      "priorityCustomerCount": 18,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers are on the way and will arrive in the area at 13:30 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 16:30 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2753'",
       "maxLongitude": -1.308399524076875,
       "minLatitude": 51.641614442748036,
       "name": "OX14 Area",
@@ -1836,6 +1699,7 @@
       "otherUpdate": true,
       "criticalCustomerCount": 2,
       "affectedAreas": [
+        "OX14 4FE",
         "OX14 4FF",
         "OX14 4HF",
         "OX14 4HY",
@@ -1874,13 +1738,80 @@
         ],
         "type": "Polygon"
       },
-      "estimatedArrivalOnSiteTime": "2026-03-26T12:45:00.000+0000",
+      "estimatedArrivalOnSiteTime": "2026-03-26T13:30:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T12:21:51.069+0000",
+      "updated": "2026-03-26T13:05:50.449+0000",
       "maxLatitude": 51.64540548529377,
       "etrUpdate": true,
       "hvFeederNrn": 6
+    },
+    {
+      "districtCode": "32",
+      "latitude": 51.4074708790958,
+      "primaryNrn": 2203,
+      "type": "LV",
+      "reference": "SX2893",
+      "etaUpdate": true,
+      "lvFeederNrn": 4,
+      "affectedCustomerCount": 13,
+      "networkId": "com.sse.ssepd.sepd",
+      "UUID": "d50388df-4f53-4a7f-bf65-9e38a75bad3c",
+      "minLongitude": -0.733307324257615,
+      "txNrn": 560,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -0.7314621450263665,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-03-26T12:38:00.000+0000",
+      "estimatedRestoration": "2026-03-26T18:30:00.000+0000",
+      "priorityCustomerCount": 13,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by18:30 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2893'",
+      "maxLongitude": -0.730189870813994,
+      "minLatitude": 51.40678358976874,
+      "name": "RG12 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 3,
+      "affectedAreas": [
+        "RG12 9HR",
+        "RG12 9HS"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -0.733307324257615,
+              51.408042726538184
+            ],
+            [
+              -0.730189870813994,
+              51.408042726538184
+            ],
+            [
+              -0.730189870813994,
+              51.40678358976874
+            ],
+            [
+              -0.733307324257615,
+              51.40678358976874
+            ],
+            [
+              -0.733307324257615,
+              51.408042726538184
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "jobStatusCode": "R",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-03-26T12:49:49.977+0000",
+      "maxLatitude": 51.408042726538184,
+      "etrUpdate": true,
+      "hvFeederNrn": 14
     },
     {
       "districtCode": "70",
@@ -2950,78 +2881,6 @@
     },
     {
       "districtCode": "41",
-      "latitude": 57.448218275787006,
-      "primaryNrn": 869,
-      "type": "LV",
-      "reference": "SX2615",
-      "etaUpdate": true,
-      "lvFeederNrn": 3,
-      "affectedCustomerCount": 5,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "4cf80498-2e1d-4a0a-a065-9766aab0ed7c",
-      "minLongitude": -2.79007586983123,
-      "txNrn": 40,
-      "networkType": "underground",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.788137246412465,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-03-26T10:41:00.000+0000",
-      "estimatedRestoration": "2026-03-26T15:00:00.000+0000",
-      "priorityCustomerCount": 3,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers are on the way and will arrive in the area at 12:15 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 15:00 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2615'",
-      "maxLongitude": -2.784551536592182,
-      "minLatitude": 57.44692272273819,
-      "name": "AB54 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "AB54 8BP",
-        "AB54 8BS",
-        "AB54 8BT",
-        "AB54 8BY",
-        "AB54 8BZ",
-        "AB54 8FP",
-        "AB54 8JA"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.79007586983123,
-              57.4495493738235
-            ],
-            [
-              -2.784551536592182,
-              57.4495493738235
-            ],
-            [
-              -2.784551536592182,
-              57.44692272273819
-            ],
-            [
-              -2.79007586983123,
-              57.44692272273819
-            ],
-            [
-              -2.79007586983123,
-              57.4495493738235
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2026-03-26T12:15:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T11:38:51.098+0000",
-      "maxLatitude": 57.4495493738235,
-      "etrUpdate": true,
-      "hvFeederNrn": 8
-    },
-    {
-      "districtCode": "41",
       "latitude": 58.58379335498224,
       "primaryNrn": 585,
       "type": "LV",
@@ -3040,8 +2899,9 @@
       "py/object": "Fault",
       "srtUpdate": true,
       "loggedAt": "2026-03-26T10:32:00.000+0000",
+      "estimatedRestoration": "2026-03-26T14:00:00.000+0000",
       "priorityCustomerCount": 21,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2584'",
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>We'll be sending our engineers to the area as soon as possible. When they're on their way, we'll let you know what time they'll be arriving. At this stage, we're aiming to have your power back on by14:00 26/03/2026.<br/><br/>The cause of this power cut is a fault on our underground network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2584'",
       "maxLongitude": -3.408226043853902,
       "minLatitude": 58.54136436250585,
       "name": "KW14 Area",
@@ -3084,75 +2944,10 @@
       },
       "jobStatusCode": "A",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T11:33:50.818+0000",
+      "updated": "2026-03-26T12:40:50.329+0000",
       "maxLatitude": 58.591950672437676,
       "etrUpdate": true,
       "hvFeederNrn": 1
-    },
-    {
-      "districtCode": "48",
-      "latitude": 58.89980109929506,
-      "primaryNrn": 679,
-      "type": "HV",
-      "reference": "SX2859",
-      "etaUpdate": true,
-      "lvFeederNrn": 0,
-      "affectedCustomerCount": 7,
-      "networkId": "com.sse.ssepd.shepd",
-      "UUID": "c4bc3959-10e8-4321-b79a-3d74bc7e1f7f",
-      "minLongitude": -2.921067796894774,
-      "txNrn": 80,
-      "networkType": "overhead",
-      "py/class": "http://opengrid.com/givr/1.0#//Fault",
-      "longitude": -2.8935354925698427,
-      "resolved": false,
-      "py/object": "Fault",
-      "srtUpdate": true,
-      "loggedAt": "2026-03-26T11:24:00.000+0000",
-      "priorityCustomerCount": 1,
-      "message": "We're sorry about the power cut in the area. The power cut is affecting 7 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Engineers are on the way and will arrive in the area at 13:00 26/03/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by .<br/><br/>The cause of this power cut is a fault on our overhead network. This is the most common type of fault we see, and our teams are very experienced in dealing with these issues. In most cases, our engineers are able to get your power back on by simply replacing a fuse at the local substation, however, if the fault is severe, this may take us longer to fix. If this does happen, we will let you know.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'SX2859'",
-      "maxLongitude": -2.883914093248071,
-      "minLatitude": 58.89633526451151,
-      "name": "KW17 Area",
-      "jobSubTypeCode": "01",
-      "otherUpdate": true,
-      "affectedAreas": [
-        "KW17 2RX"
-      ],
-      "location": {
-        "coordinates": [
-          [
-            [
-              -2.921067796894774,
-              58.91085781791935
-            ],
-            [
-              -2.883914093248071,
-              58.91085781791935
-            ],
-            [
-              -2.883914093248071,
-              58.89633526451151
-            ],
-            [
-              -2.921067796894774,
-              58.89633526451151
-            ],
-            [
-              -2.921067796894774,
-              58.91085781791935
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "estimatedArrivalOnSiteTime": "2026-03-26T13:00:00.000+0000",
-      "jobStatusCode": "I",
-      "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-03-26T12:28:50.362+0000",
-      "maxLatitude": 58.91085781791935,
-      "etrUpdate": true,
-      "hvFeederNrn": 15
     }
   ],
   "GlobalResilienceLinksEnabled": {
