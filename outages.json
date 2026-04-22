@@ -152,11 +152,12 @@
       "reference": "TA5686",
       "etaUpdate": true,
       "lvFeederNrn": 0,
-      "affectedCustomerCount": 2,
+      "affectedCustomerCount": 12,
       "networkId": "com.sse.ssepd.shepd",
       "UUID": "efcf7e6c-69ad-420d-9ec8-4f4329bc733d",
       "minLongitude": -6.628360601835643,
-      "txNrn": 70,
+      "txNrn": 50,
+      "networkType": "overhead",
       "py/class": "http://opengrid.com/givr/1.0#//Fault",
       "longitude": -6.512996004268037,
       "resolved": false,
@@ -164,6 +165,7 @@
       "srtUpdate": true,
       "loggedAt": "2026-04-22T09:46:00.000+0000",
       "estimatedRestoration": "2026-04-22T22:59:00.000+0000",
+      "priorityCustomerCount": 1,
       "message": "We're sorry about the power cut in the area. The power cut is affecting 2 properties in the area shown on the map. We are working with our engineers to fix the problem as quickly as possible, and will keep you updated here on Power Track.<br/><br/>Our team have found an issue with the fuses on our main network, and are working to get this resolved as soon as possible. At this stage, we're aiming to have your power back on by within 4 hours.<br/><br/>The power cut has been caused by a fault on our  network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TA5686'",
       "maxLongitude": -6.441198229076933,
       "minLatitude": 56.61660364380527,
@@ -203,7 +205,7 @@
       "estimatedArrivalOnSiteTime": "2026-04-22T11:15:00.000+0000",
       "jobStatusCode": "I",
       "region": "com.opengrid.geo.world.europe.gb",
-      "updated": "2026-04-22T17:05:27.253+0000",
+      "updated": "2026-04-22T20:10:26.891+0000",
       "maxLatitude": 56.70505368497439,
       "etrUpdate": true,
       "hvFeederNrn": 1
@@ -268,6 +270,76 @@
       "maxLatitude": 57.145932531005215,
       "etrUpdate": true,
       "hvFeederNrn": 4
+    },
+    {
+      "districtCode": "41",
+      "latitude": 57.470197922919176,
+      "primaryNrn": 726,
+      "type": "LV",
+      "reference": "TA6221",
+      "etaUpdate": true,
+      "lvFeederNrn": 2,
+      "affectedCustomerCount": 13,
+      "networkId": "com.sse.ssepd.shepd",
+      "UUID": "74939e08-fd2e-4d19-90e9-6e898ada51d1",
+      "minLongitude": -4.249796698541989,
+      "txNrn": 50,
+      "networkType": "underground",
+      "py/class": "http://opengrid.com/givr/1.0#//Fault",
+      "longitude": -4.246567781701666,
+      "resolved": false,
+      "py/object": "Fault",
+      "srtUpdate": true,
+      "loggedAt": "2026-04-22T20:28:00.000+0000",
+      "estimatedRestoration": "2026-04-23T04:30:00.000+0000",
+      "priorityCustomerCount": 16,
+      "message": "We're sorry about the power cut in the area. The power cut is affecting some properties in the area shown on the map, but not all. This is why you may notice some of your neighbours have power, but you don't. It is normal to see 1 in 3 homes affected. We are working with our engineers to fix the problem as quickly as possible, and well keep you updated here on PowerTrack.<br/><br/>Engineers are on the way and will arrive in the area at 22:05 22/04/2026. When they get there, they'll work hard to fix the problem as quickly as possible. We'll keep you updated with any new information. At this stage, we're aiming to have your power back on by 05:30 23/04/2026.<br/><br/>The power cut has been caused by a fault on our underground network. Issues like this do happen, and our engineers are very experienced at fixing them. Often, power can be restored quickly with a simple reset or by replacing a fuse at a nearby substation. If the problem is more complicated, repairs may take a little longer but our teams will keep working until everything is safely back up and running. Well keep you updated along the way.<br/><br/>If you need more information, please send us a message on <a href=\"https://wa.me/447342028546/\">Whatsapp</a> or call us on 105 and quote reference 'TA6221'",
+      "maxLongitude": -4.242689617018656,
+      "minLatitude": 57.46695151864325,
+      "name": "IV3 Area",
+      "jobSubTypeCode": "01",
+      "otherUpdate": true,
+      "criticalCustomerCount": 1,
+      "affectedAreas": [
+        "IV3 5AZ",
+        "IV3 5BB",
+        "IV3 5BD",
+        "IV3 5BE"
+      ],
+      "location": {
+        "coordinates": [
+          [
+            [
+              -4.249796698541989,
+              57.47137986736027
+            ],
+            [
+              -4.242689617018656,
+              57.47137986736027
+            ],
+            [
+              -4.242689617018656,
+              57.46695151864325
+            ],
+            [
+              -4.249796698541989,
+              57.46695151864325
+            ],
+            [
+              -4.249796698541989,
+              57.47137986736027
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "estimatedArrivalOnSiteTime": "2026-04-22T21:05:00.000+0000",
+      "jobStatusCode": "I",
+      "region": "com.opengrid.geo.world.europe.gb",
+      "updated": "2026-04-22T20:42:26.893+0000",
+      "maxLatitude": 57.47137986736027,
+      "etrUpdate": true,
+      "hvFeederNrn": 3
     }
   ],
   "GlobalResilienceLinksEnabled": {
